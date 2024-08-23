@@ -1,3 +1,6 @@
 data/raw/all_scraped
 data/raw/combined_organizations.json
 eda/uk_unique_org_embeddings.npy
+data/raw/uk_data.json
+data/ror/
+eda/tmp/
