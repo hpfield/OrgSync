@@ -136,8 +136,8 @@ def process_group_with_llm(unique_name, matched_names, generator):
     prompt = f"""Given the organization name: "{unique_name}"
 and the following list of similar names:
 {matched_names}
-Please select the names that belong to the same organization as "{unique_name}", and output them as a JSON array of selected names.
-Be strict, erring on the side of caution. Only include a name in your output if you're sure it belongs to the same research organization as {unique_name}. If it's ambiguous, leave it out! We want to preserve geographic separation for government institutions, but eliminate it for the private sector. 
+Please select the names that belong to the same research organization as "{unique_name}", and output them as a JSON array of selected names.
+Be strict, erring on the side of caution. Only include a name in your output if you're sure it belongs to the same research organization as {unique_name}. If it's ambiguous, leave it out! We want to preserve geographic separation for government institutions, but eliminate it for the private. 
 Ensure the output is only the JSON array, with no additional text.
 
 Do not include any keys or field names; only output the JSON array of names.
@@ -295,6 +295,7 @@ Please select the names that belong to the same organisation, and output them as
 "selected_names": an array of the names that belong to the same organisation,
 "representative_name": the name that best represents that organisation.
 If you believe there is more than one organisation in this group, prioritise the predominantly represented organisation.
+Be strict, erring on the side of caution. Only include a name in your output if you're sure it belongs to the same research organization. If it's ambiguous, leave it out! We want to preserve geographic separation for government institutions, but eliminate it for the private. 
 Ensure the output is only the JSON object, with no additional text.
 
 Example:
