@@ -1,4 +1,2 @@
-data/raw/all_scraped
-data/raw/combined_organizations.json
-data/geolocations*
-data/processed/*
+data/
+eda/wip/
