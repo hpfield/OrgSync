@@ -18,7 +18,7 @@ from tqdm import tqdm
 
 # Dynamically determine the repository root based on the script's location
 THIS_DIR = Path(__file__).parent.resolve()
-REPO_ROOT = Path("/home/rz20505/Documents/UKTIN/OrgSync/llama-models")  # Adjust this if your structure is different
+REPO_ROOT = Path("/home/ubuntu/OrgSync/llama-models")  # Adjust this if your structure is different
 
 # Add the repository root to sys.path for imports
 sys.path.append(str(REPO_ROOT))
@@ -27,7 +27,7 @@ sys.path.append(str(REPO_ROOT))
 TOKENIZER_PATH = str(REPO_ROOT / "models" / "llama3" / "api" / "tokenizer.model")
 
 # Absolute path to the checkpoint directory
-DEFAULT_CKPT_DIR = "/home/rz20505/.llama/checkpoints/Meta-Llama3.1-8B-Instruct"  # <-- Replace with your actual path
+DEFAULT_CKPT_DIR = "/home/ubuntu/OrgSync/.llama/checkpoints/Meta-Llama3.1-8B-Instruct"  # <-- Replace with your actual path
 
 # Set environment variables required by torch.distributed
 os.environ['RANK'] = '0'
@@ -70,7 +70,7 @@ generator = Llama.build(
 )
 
 # Load the UK names data
-with open('/home/rz20505/Documents/UKTIN/OrgSync/data/raw/uk_data.json', 'r') as file:
+with open('/home/ubuntu/OrgSync/data/raw/uk_data.json', 'r') as file:
     uk_data = json.load(file)
 
 # Function to preprocess the names
@@ -101,7 +101,7 @@ nbrs = NearestNeighbors(n_neighbors=10, metric='cosine', algorithm='brute').fit(
 distances, indices = nbrs.kneighbors(name_vectors)
 
 # Group similar names based on the specified threshold
-def group_similar_names(threshold=0.5):
+def group_similar_names(threshold=0.3):
     grouped_names = defaultdict(list)
     used_names = set()
 
