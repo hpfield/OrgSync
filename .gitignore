@@ -5,3 +5,4 @@ data/raw/uk_data.json
 data/ror/
 eda/tmp/
 llama-models/
+.llama/
