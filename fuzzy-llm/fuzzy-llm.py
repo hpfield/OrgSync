@@ -27,11 +27,12 @@ sys.path.append(str(REPO_ROOT))
 TOKENIZER_PATH = str(REPO_ROOT / "models" / "llama3" / "api" / "tokenizer.model")
 
 # Absolute path to the checkpoint directory
-DEFAULT_CKPT_DIR = "/home/ubuntu/OrgSync/.llama/checkpoints/Meta-Llama3.1-8B-Instruct"  # <-- Replace with your actual path
+# DEFAULT_CKPT_DIR = "/home/ubuntu/OrgSync/.llama/checkpoints/Meta-Llama3.1-8B-Instruct"  # <-- Replace with your actual path
+DEFAULT_CKPT_DIR = "/root/.llama/checkpoints/Llama3.1-70B-Instruct/"
 
 # Set environment variables required by torch.distributed
 os.environ['RANK'] = '0'
-os.environ['WORLD_SIZE'] = '1'
+os.environ['WORLD_SIZE'] = '3'
 os.environ['MASTER_ADDR'] = 'localhost'
 os.environ['MASTER_PORT'] = '12355'  # You can choose any free port
 
@@ -58,7 +59,7 @@ top_p = 0.9
 max_seq_len = 1024
 max_batch_size = 4
 max_gen_len = None
-model_parallel_size = None
+model_parallel_size = 3
 
 # Build the generator
 generator = Llama.build(
