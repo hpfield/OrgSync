@@ -110,7 +110,6 @@ def process_group_with_llm(unique_name, matched_names):
     and the following list of similar names:
     {matched_names}
     Please select the names that belong to the same research organization as "{unique_name}". 
-    Be strict, erring on the side of caution. Only include a name in your output if you're sure it belongs to the same research organization. 
     Output the result as a JSON array of selected names."""
 
     user_message = {"role": "user", "content": prompt}
