@@ -9,18 +9,19 @@ Here is the Mermaid code:
 flowchart TB
     %% Main Flow Subgraph on the left
     subgraph MainFlow [Main Flow]
-        direction TB
-        S1[Stage 1:<br>Load and Preprocess Data] --> S2[Stage 2:<br>Vectorize Names]
-        S2 --> S3[Stage 3:<br>Group Similar Names]
-        S3 --> S4[Stage 4:<br>Process Groups with LLM]
-        S4 --> S5[Stage 5:<br>Combine Overlapping Groups]
-        S5 --> S6[Stage 6:<br>Process Combined Groups with LLM]
-        S6 --> S7[Stage 7:<br>Process Unsure Groups with LLM Using Web Search]
+        direction LR
+        S1[Stage 1:<br>**Load and Preprocess Data**] 
+        --> S2[Stage 2:<br>**Vectorize Names**]
+        S2 --> S3[Stage 3:<br>**Group Similar Names**]
+        S3 --> S4[Stage 4:<br>**Process Groups with LLM**]
+        S4 --> S5[Stage 5:<br>**Combine Overlapping Groups**]
+        S5 --> S6[Stage 6:<br>**Process Combined Groups with LLM**]
+        S6 --> S7[Stage 7:<br>**Process Unsure Groups with LLM Using Web Search**]
     end
     
     %% Details Subgraph on the right
     subgraph Details [Details]
-        direction TB
+        direction LR
         D1["**Stage 1 Details**<br><br>**Input:** Raw organization names<br><br>**Process:**<br>- Load data from sources<br>- Clean and normalize names<br><br>**Output:** Cleaned organization names"]
         D2["**Stage 2 Details**<br><br>**Input:** Cleaned organization names<br><br>**Process:**<br>- Convert names to numerical vectors<br>- Use techniques like TF-IDF or embeddings<br><br>**Output:** Vector representations of names"]
         D3["**Stage 3 Details**<br><br>**Input:** Vector representations<br><br>**Process:**<br>- Compute similarities between vectors<br>- Cluster names into groups of similar organizations<br><br>**Output:** Groups of similar organization names"]
@@ -44,6 +45,8 @@ flowchart TB
     classDef details fill:#d9edf7,stroke:#333,stroke-width:1px,color:#000
     class S1,S2,S3,S4,S5,S6,S7 stage
     class D1,D2,D3,D4,D5,D6,D7 details
+
+    
 
 ```mermaid
 graph TD
