@@ -65,7 +65,7 @@ def initialize_generator():
     generator = Llama.build(
         ckpt_dir=DEFAULT_CKPT_DIR,
         tokenizer_path=TOKENIZER_PATH,
-        max_seq_len=1024,
+        max_seq_len=4096,
         max_batch_size=4,
         model_parallel_size=None,
     )
