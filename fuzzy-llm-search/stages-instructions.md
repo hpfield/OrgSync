@@ -6,48 +6,44 @@ You can run the script and specify the stage you want to start from using the --
 Here is the Mermaid code:
 
 ```mermaid
-flowchart TD
-    %% Main stages
-    S1[Stage 1:\nLoad and Preprocess Data]
-    S2[Stage 2:\nVectorize Names]
-    S3[Stage 3:\nGroup Similar Names]
-    S4[Stage 4:\nProcess Groups with LLM]
-    S5[Stage 5:\nCombine Overlapping Groups]
-    S6[Stage 6:\nProcess Combined Groups with LLM]
-    S7[Stage 7:\nProcess Unsure Groups with LLM Using Web Search]
-
-    %% Connections
-    S1 --> S2
-    S2 --> S3
-    S3 --> S4
-    S4 --> S5
-    S5 --> S6
-    S6 --> S7
-
-    %% Supplementary details for each stage
-    S1_details{{"**Stage 1 Details**\n\n**Input:** Raw organization names\n\n**Process:**\n- Load data from sources\n- Clean and normalize names\n\n**Output:** Cleaned organization names"}}
-    S2_details{{"**Stage 2 Details**\n\n**Input:** Cleaned organization names\n\n**Process:**\n- Convert names to numerical vectors\n- Use techniques like TF-IDF or embeddings\n\n**Output:** Vector representations of names"}}
-    S3_details{{"**Stage 3 Details**\n\n**Input:** Vector representations\n\n**Process:**\n- Compute similarities between vectors\n- Cluster names into groups of similar organizations\n\n**Output:** Groups of similar organization names"}}
-    S4_details{{"**Stage 4 Details**\n\n**Input:** Groups of similar names\n\n**Process:**\n- Use a Large Language Model (LLM)\n- Refine groups and confirm name similarities\n\n**Output:** Refined groups of organization names"}}
-    S5_details{{"**Stage 5 Details**\n\n**Input:** Refined groups\n\n**Process:**\n- Identify overlapping groups\n- Merge groups to consolidate variations\n\n**Output:** Merged groups of organization names"}}
-    S6_details{{"**Stage 6 Details**\n\n**Input:** Merged groups\n\n**Process:**\n- Re-evaluate merged groups with LLM\n- Further refine groupings\n\n**Output:** Final groups and unsure groups"}}
-    S7_details{{"**Stage 7 Details**\n\n**Input:** Unsure groups\n\n**Process:**\n- Perform web searches for additional context\n- Use LLM with web data to finalize decisions\n\n**Output:** Finalized organization groups"}}
-
-    %% Linking details to main stages
-    S1 -->|Details| S1_details
-    S2 -->|Details| S2_details
-    S3 -->|Details| S3_details
-    S4 -->|Details| S4_details
-    S5 -->|Details| S5_details
-    S6 -->|Details| S6_details
-    S7 -->|Details| S7_details
-
+flowchart TB
+    %% Main Flow Subgraph on the left
+    subgraph MainFlow [Main Flow]
+        direction TB
+        S1[Stage 1:<br>Load and Preprocess Data] --> S2[Stage 2:<br>Vectorize Names]
+        S2 --> S3[Stage 3:<br>Group Similar Names]
+        S3 --> S4[Stage 4:<br>Process Groups with LLM]
+        S4 --> S5[Stage 5:<br>Combine Overlapping Groups]
+        S5 --> S6[Stage 6:<br>Process Combined Groups with LLM]
+        S6 --> S7[Stage 7:<br>Process Unsure Groups with LLM Using Web Search]
+    end
+    
+    %% Details Subgraph on the right
+    subgraph Details [Details]
+        direction TB
+        D1["**Stage 1 Details**<br><br>**Input:** Raw organization names<br><br>**Process:**<br>- Load data from sources<br>- Clean and normalize names<br><br>**Output:** Cleaned organization names"]
+        D2["**Stage 2 Details**<br><br>**Input:** Cleaned organization names<br><br>**Process:**<br>- Convert names to numerical vectors<br>- Use techniques like TF-IDF or embeddings<br><br>**Output:** Vector representations of names"]
+        D3["**Stage 3 Details**<br><br>**Input:** Vector representations<br><br>**Process:**<br>- Compute similarities between vectors<br>- Cluster names into groups of similar organizations<br><br>**Output:** Groups of similar organization names"]
+        D4["**Stage 4 Details**<br><br>**Input:** Groups of similar names<br><br>**Process:**<br>- Use a Large Language Model (LLM)<br>- Refine groups and confirm name similarities<br><br>**Output:** Refined groups of organization names"]
+        D5["**Stage 5 Details**<br><br>**Input:** Refined groups<br><br>**Process:**<br>- Identify overlapping groups<br>- Merge groups to consolidate variations<br><br>**Output:** Merged groups of organization names"]
+        D6["**Stage 6 Details**<br><br>**Input:** Merged groups<br><br>**Process:**<br>- Re-evaluate merged groups with LLM<br>- Further refine groupings<br><br>**Output:** Final groups and unsure groups"]
+        D7["**Stage 7 Details**<br><br>**Input:** Unsure groups<br><br>**Process:**<br>- Perform web searches for additional context<br>- Use LLM with web data to finalize decisions<br><br>**Output:** Finalized organization groups"]
+    end
+    
+    %% Connect main stages to details
+    S1 --> D1
+    S2 --> D2
+    S3 --> D3
+    S4 --> D4
+    S5 --> D5
+    S6 --> D6
+    S7 --> D7
+    
     %% Styling
     classDef stage fill:#1f77b4,stroke:#333,stroke-width:2px,color:#fff
     classDef details fill:#d9edf7,stroke:#333,stroke-width:1px,color:#000
     class S1,S2,S3,S4,S5,S6,S7 stage
-    class S1_details,S2_details,S3_details,S4_details,S5_details,S6_details,S7_details details
-
+    class D1,D2,D3,D4,D5,D6,D7 details
 
 ```mermaid
 graph TD
