@@ -2,6 +2,7 @@ Usage Instructions:
 
 You can run the script and specify the stage you want to start from using the --stage argument. For stages beyond 1, you need to provide the required input files using the --input argument.
 
+```mermaid
 graph TD
     S1[Stage 1: Load and Preprocess Data] --> S2[Stage 2: Vectorize Names]
     S2 --> S3[Stage 3: Group Similar Names Using K-Nearest Neighbours]
@@ -9,7 +10,7 @@ graph TD
     S4 --> S5[Stage 5: Combine Groups With Overlapping Data]
     S5 --> S6[Stage 6: Process Combined Groups with LLM]
     S6 --> S7[Stage 7: Further Process Groups with LLM Using Web Search]
-
+```
 For example:
 
 To start from Stage 1:
