@@ -1,0 +1,28 @@
+// Organization Names Processing Pipeline
+digraph {
+	S1 [label="Stage 1:
+Load and Preprocess Data" fillcolor=lightblue shape=box style=filled]
+	S2 [label="Stage 2:
+Vectorize Names" fillcolor=lightgreen shape=ellipse style=filled]
+	S3 [label="Stage 3:
+Group Similar Names
+Using K-Nearest Neighbours" fillcolor=lightblue shape=box style=filled]
+	S4 [label="Stage 4:
+Filter Groups with LLM" fillcolor=lightgreen shape=diamond style=filled]
+	S5 [label="Stage 5:
+Combine Groups With Overlapping Data" fillcolor=lightblue shape=box style=filled]
+	S6 [label="Stage 6:
+Process Combined Groups with LLM" fillcolor=lightgreen shape=ellipse style=filled]
+	S7 [label="Stage 7:
+Further Process Groups with LLM
+(Using Web Search)" fillcolor=orange shape=doublecircle style=filled]
+	S1 -> S2 [label="Step 1-2" color=gray]
+	S2 -> S3 [label="Step 2-3" color=gray]
+	S3 -> S4 [label="Step 3-4" color=gray]
+	S4 -> S5 [label="Step 4-5" color=gray]
+	S5 -> S6 [label="Step 5-6" color=gray]
+	S6 -> S7 [label="Step 6-7" color=gray]
+	rankdir=TB
+	node [fontname=Helvetica fontsize=10]
+	edge [fontname=Helvetica fontsize=8]
+}
