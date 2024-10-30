@@ -16,6 +16,8 @@ from tqdm import tqdm
 # Configuration Section
 # -------------------------------
 
+print("Starting")
+
 # Dynamically determine the repository root based on the script's location
 THIS_DIR = Path(__file__).parent.resolve()
 REPO_ROOT = Path("/home/ubuntu/OrgSync/llama-models")  # Adjust this if your structure is different
@@ -27,14 +29,14 @@ sys.path.append(str(REPO_ROOT))
 TOKENIZER_PATH = str(REPO_ROOT / "models" / "llama3" / "api" / "tokenizer.model")
 
 # Absolute path to the checkpoint directory
-# DEFAULT_CKPT_DIR = "/home/ubuntu/OrgSync/.llama/checkpoints/Meta-Llama3.1-8B-Instruct"  # <-- Replace with your actual path
-DEFAULT_CKPT_DIR = "/root/.llama/checkpoints/Llama3.1-70B-Instruct/"
+DEFAULT_CKPT_DIR = "/home/ubuntu/OrgSync/.llama/checkpoints/Meta-Llama3.1-8B-Instruct"  # <-- Replace with your actual path
+# DEFAULT_CKPT_DIR = "/root/.llama/checkpoints/Llama3.1-70B-Instruct/"
 
 # Set environment variables required by torch.distributed
 os.environ['RANK'] = '0'
-os.environ['WORLD_SIZE'] = '3'
+os.environ['WORLD_SIZE'] = '1'
 os.environ['MASTER_ADDR'] = 'localhost'
-os.environ['MASTER_PORT'] = '12355'  # You can choose any free port
+os.environ['MASTER_PORT'] = '12356'  # You can choose any free port
 
 # -------------------------------
 # End of Configuration
@@ -53,13 +55,15 @@ except ModuleNotFoundError as e:
     print("Please ensure that the 'models' package is correctly added to sys.path and contains __init__.py files.")
     sys.exit(1)
 
+print("Loaded model libs")
+
 # Set parameters for LLM
 temperature = 0.0
 top_p = 0.9
 max_seq_len = 1024
 max_batch_size = 4
 max_gen_len = None
-model_parallel_size = 3
+model_parallel_size = 1
 
 # Build the generator
 generator = Llama.build(
@@ -69,6 +73,7 @@ generator = Llama.build(
     max_batch_size=max_batch_size,
     model_parallel_size=model_parallel_size,
 )
+print("Built generator")
 
 # Load the UK names data
 with open('/home/ubuntu/OrgSync/data/raw/uk_data.json', 'r') as file:
