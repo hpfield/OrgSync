@@ -14,7 +14,7 @@ flowchart TD
     S4[Stage 4:\nProcess Groups with LLM]
     S5[Stage 5:\nCombine Overlapping Groups]
     S6[Stage 6:\nProcess Combined Groups with LLM]
-    S7[Stage 7:\nProcess Unsure Groups with LLM\n(Using Web Search)]
+    S7[Stage 7:\nProcess Unsure Groups with LLM Using Web Search]
 
     %% Connections
     S1 --> S2
