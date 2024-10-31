@@ -1,0 +1,14 @@
+2024-10-31 10:02:09,185 - INFO - Loaded and preprocessed 36508 names.
+2024-10-31 10:02:09,201 - INFO - Stage 1 complete.
+2024-10-31 10:02:09,231 - INFO - Vectorized 5411 unique combined names.
+2024-10-31 10:02:09,232 - INFO - Stage 2 complete.
+2024-10-31 10:02:09,576 - INFO - Grouped names into 657 groups.
+2024-10-31 10:02:09,577 - INFO - Stage 3 complete.
+2024-10-31 10:02:09,577 - INFO - Initializing the Llama generator.
+2024-10-31 10:02:23,260 - INFO - Processing groups with LLM...
+2024-10-31 10:03:47,134 - INFO - Refined groups to 657 groups after LLM processing.
+2024-10-31 10:03:47,167 - INFO - Stage 4 complete.
+2024-10-31 10:03:47,167 - INFO - Combining overlapping groups...
+2024-10-31 10:03:47,193 - INFO - Number of combined groups: 559
+2024-10-31 10:03:47,193 - INFO - Stage 5 complete.
+2024-10-31 10:03:47,193 - INFO - Initializing the Llama generator.

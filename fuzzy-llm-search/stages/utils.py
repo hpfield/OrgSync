@@ -1,10 +1,12 @@
-# stages/utils.py
-
 import os
 import sys
 import time
 import random
+import logging
 from pathlib import Path
+
+# Initialize logger
+logger = logging.getLogger(__name__)
 
 # -------------------------------
 # Configuration Section
@@ -32,6 +34,17 @@ os.environ['WORLD_SIZE'] = '1'
 os.environ['MASTER_ADDR'] = 'localhost'
 os.environ['MASTER_PORT'] = '12355'  # You can choose any free port
 
+# Allow environemnt variables to be reset to persist through pipeline
+def configure_environment():
+    # Add the 'models' directory to sys.path
+    sys.path.append(str(MODELS_DIR.parent))
+
+    # Set environment variables required by torch.distributed
+    os.environ['RANK'] = '0'
+    os.environ['WORLD_SIZE'] = '1'
+    os.environ['MASTER_ADDR'] = 'localhost'
+    os.environ['MASTER_PORT'] = '12355'  # You can choose any free port
+
 # -------------------------------
 # End of Configuration
 # -------------------------------
@@ -41,6 +54,7 @@ try:
     from googlesearch import search as google_search
 except ImportError:
     google_search = None
+    logger.warning("Google search module not available. Install it to enable Google search functionality.")
 
 # Import necessary classes from the models package
 try:
@@ -52,7 +66,7 @@ try:
         StopReason
     )
 except ModuleNotFoundError as e:
-    print(f"Error importing modules: {e}")
+    logger.critical(f"Error importing Llama model modules: {e}")
     sys.exit(1)
 
 # Import DuckDuckGo search function
@@ -60,21 +74,25 @@ try:
     from duckduckgo_search import DDGS
 except ImportError:
     DDGS = None
+    logger.warning("DuckDuckGo search module not available. Install it to enable DuckDuckGo search functionality.")
 
-def initialize_generator():
-    generator = Llama.build(
-        ckpt_dir=DEFAULT_CKPT_DIR,
-        tokenizer_path=TOKENIZER_PATH,
-        max_seq_len=4096,
-        max_batch_size=4,
-        model_parallel_size=None,
-    )
+logger.info("Initializing the Llama generator.")
+generator = Llama.build(
+    ckpt_dir=DEFAULT_CKPT_DIR,
+    tokenizer_path=TOKENIZER_PATH,
+    max_seq_len=8192,
+    max_batch_size=4,
+    model_parallel_size=None,
+)
+
+def get_generator():
     return generator
 
 def perform_web_search(names, num_results=3, max_retries=5, search_method='duckduckgo', api_key=None):
     if search_method == 'duckduckgo' and DDGS is None:
-        print("DuckDuckGo search module not available. Please install 'duckduckgo-search' or choose another search method.")
+        logger.error("DuckDuckGo search module not available. Please install 'duckduckgo-search' or choose another search method.")
         sys.exit(1)
+    
     web_search_results = {}
     for name in names:
         retries = 0
@@ -84,9 +102,13 @@ def perform_web_search(names, num_results=3, max_retries=5, search_method='duckd
                 query = f'"{name}"'
                 search_results = []
                 if search_method == 'duckduckgo':
-                    print(f"Performing DuckDuckGo search for query: {query}")
+                    # logger.info(f"Performing DuckDuckGo search for query: {query}")
+                    # Alter logging level to silence unwanted logs during search
+                    original_level = logging.getLogger().level
+                    logging.getLogger().setLevel(logging.CRITICAL)
                     ddgs = DDGS()
                     results = ddgs.text(query, region='wt-wt', safesearch='Moderate', max_results=num_results)
+                    logging.getLogger().setLevel(original_level)
                     if results:
                         for res in results:
                             search_results.append({
@@ -94,21 +116,22 @@ def perform_web_search(names, num_results=3, max_retries=5, search_method='duckd
                                 'title': res.get('title', ''),
                                 'description': res.get('body', '')
                             })
-                    else:
-                        print(f"No results found for '{name}' using DuckDuckGo.")
+                    # else:
+                    #     logger.warning(f"No results found for '{name}' using DuckDuckGo.")
                 else:
-                    print(f"Unknown search method: {search_method}")
+                    logger.error(f"Unknown search method: {search_method}")
                     sys.exit(1)
+                
                 web_search_results[name] = search_results
-                print(f"Received {len(search_results)} results from {search_method.capitalize()} for '{name}'.")
+                # logger.info(f"Received {len(search_results)} results from {search_method.capitalize()} for '{name}'.")
                 time.sleep(random.uniform(1, 3))  # Adjust delay as needed
                 success = True
             except Exception as e:
                 retries += 1
-                print(f"Error during web search for '{name}': {e}. Retrying ({retries}/{max_retries})...")
+                # logger.error(f"Error during web search for '{name}': {e}. Retrying ({retries}/{max_retries})...")
                 time.sleep(2 ** retries)  # Exponential backoff
         if not success:
-            print(f"Failed to retrieve search results for '{name}' after {max_retries} retries.")
+            logger.error(f"Failed to retrieve search results for '{name}' after {max_retries} retries.")
             web_search_results[name] = []
     return web_search_results
 
@@ -117,7 +140,7 @@ def perform_web_search(names, num_results=3, max_retries=5, search_method='duckd
 #! Not currently using
 def duckduckgo_search(query, num_results):
     """Perform a search using the DuckDuckGo API."""
-    print(f"Performing DuckDuckGo search for query: {query}")
+    logger.info(f"Performing DuckDuckGo search for query: {query}")
     params = {
         'q': query,
         'format': 'json',
@@ -129,12 +152,9 @@ def duckduckgo_search(query, num_results):
         'User-Agent': 'Mozilla/5.0'
     }
     response = requests.get('https://api.duckduckgo.com/', params=params, headers=headers)
-    # response = requests.get(f'https://api.duckduckgo.com/?q=<{query}>&format=json')
     data = response.json()
 
     results = []
-    # The DuckDuckGo Instant Answer API provides abstract and related topics, but not direct links like a search engine.
-    # For demonstration purposes, we'll extract URLs from the related topics.
     related_topics = data.get('RelatedTopics', [])
     for topic in related_topics:
         if 'FirstURL' in topic:
@@ -145,5 +165,5 @@ def duckduckgo_search(query, num_results):
                     results.append(subtopic['FirstURL'])
         if len(results) >= num_results:
             break
-    print(f"Received URLs from DuckDuckGo: {data}")
+    logger.info(f"Received URLs from DuckDuckGo for query '{query}'.")
     return results[:num_results]

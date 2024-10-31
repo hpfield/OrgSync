@@ -1,7 +1,9 @@
-# stages/stage1.py
-
 import json
 import re
+import logging  # Import logging
+
+# Get the logger for this stage file
+logger = logging.getLogger(__name__)
 
 def stage1_load_and_preprocess_data():
     # Load the UK names data
@@ -16,9 +18,9 @@ def stage1_load_and_preprocess_data():
         return name.strip()
 
     def combine_names(entry):
-        combined_name = ' '.join(filter(None, [entry.get('name', ''), entry.get('short_name', ''), entry.get('standardized_name', '')]))
+        combined_name = ' '.join(filter(None, [entry.get('name', ''), entry.get('short_name', '')]))
         return preprocess_name(combined_name)
 
     preprocessed_data = [combine_names(entry) for entry in uk_data]
-    print(f"Loaded and preprocessed {len(preprocessed_data)} names.")
+    logger.info(f"Loaded and preprocessed {len(preprocessed_data)} names.")
     return preprocessed_data
