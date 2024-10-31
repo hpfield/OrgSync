@@ -47,6 +47,7 @@ def stage7_process_unsure_groups_with_llm(unsure_groups, final_groups, search_me
                 'selected_names': selected_names,
                 'representative_name': representative_name
             })
+    pbar.close()
     
     logger.info(f"Total number of final groups after processing unsure groups: {len(final_groups)}")
     return final_groups
