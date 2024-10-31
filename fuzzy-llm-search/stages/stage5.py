@@ -1,23 +1,25 @@
-# stages/stage5.py
+import logging  # Import logging
+
+# Initialize logger
+logger = logging.getLogger(__name__)
 
 def stage5_combine_overlapping_groups(refined_groups):
-    print("Combining overlapping groups...")
+    logger.info("Combining overlapping groups...")
     group_sets = []
     for names in refined_groups.values():
         if not isinstance(names, list):
-            print(f"Expected names to be a list, but got {type(names)}")
+            logger.warning(f"Expected names to be a list, but got {type(names)}. Setting names to an empty list.")
             names = []
         else:
             names = [str(name) for name in names if isinstance(name, str)]
         try:
             group_sets.append(set(names))
         except TypeError as e:
-            print(f"Error converting names to set: {e}")
-            print(f"Names: {names}")
+            logger.error(f"Error converting names to set: {e}. Names: {names}")
             continue
 
     merged_groups = merge_overlapping_groups(group_sets)
-    print(f"Number of combined groups: {len(merged_groups)}")
+    logger.info(f"Number of combined groups: {len(merged_groups)}")
     return merged_groups
 
 def merge_overlapping_groups(group_sets):

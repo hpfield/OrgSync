@@ -1,0 +1,114 @@
+2024-10-31 11:17:53,360 - INFO - Processing unsure groups with LLM using duckduckgo search...
+2024-10-31 11:17:53,362 - INFO - Performing DuckDuckGo search for query: "nokia solutions and networks uk limited"
+2024-10-31 11:17:53,492 - INFO - response: https://duckduckgo.com/?q=%22nokia+solutions+and+networks+uk+limited%22 200 18394
+2024-10-31 11:17:54,304 - INFO - response: https://links.duckduckgo.com/d.js?q=%22nokia+solutions+and+networks+uk+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-218990739926586313187863574946071227698&bing_market=wt-WT&ex=-1 200 46776
+2024-10-31 11:17:54,305 - INFO - Received 3 results from Duckduckgo for 'nokia solutions and networks uk limited'.
+2024-10-31 11:17:55,988 - INFO - Performing DuckDuckGo search for query: "nokia uk limited"
+2024-10-31 11:17:56,125 - INFO - response: https://duckduckgo.com/?q=%22nokia+uk+limited%22 200 17984
+2024-10-31 11:17:56,821 - INFO - response: https://links.duckduckgo.com/d.js?q=%22nokia+uk+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-77448368090612931129354754245529572517&bing_market=wt-WT&ex=-1 200 13446
+2024-10-31 11:17:56,822 - INFO - Received 3 results from Duckduckgo for 'nokia uk limited'.
+2024-10-31 11:17:59,101 - INFO - Performing DuckDuckGo search for query: "nokia rd uk limited"
+2024-10-31 11:17:59,229 - INFO - response: https://duckduckgo.com/?q=%22nokia+rd+uk+limited%22 200 18034
+2024-10-31 11:17:59,812 - INFO - response: https://links.duckduckgo.com/d.js?q=%22nokia+rd+uk+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-66571922261099060127555532947021140551&bing_market=wt-WT&ex=-1 200 10857
+2024-10-31 11:17:59,813 - WARNING - No results found for 'nokia rd uk limited' using DuckDuckGo.
+2024-10-31 11:17:59,813 - INFO - Received 0 results from Duckduckgo for 'nokia rd uk limited'.
+2024-10-31 11:18:02,607 - INFO - Performing DuckDuckGo search for query: "wind technologies limited"
+2024-10-31 11:18:02,726 - INFO - response: https://duckduckgo.com/?q=%22wind+technologies+limited%22 200 18184
+2024-10-31 11:18:03,491 - INFO - response: https://links.duckduckgo.com/d.js?q=%22wind+technologies+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-209427772322754037761579834348777631880&bing_market=wt-WT&ex=-1 200 42278
+2024-10-31 11:18:03,493 - INFO - Received 3 results from Duckduckgo for 'wind technologies limited'.
+2024-10-31 11:18:06,232 - INFO - Performing DuckDuckGo search for query: "smart wind limited"
+2024-10-31 11:18:06,370 - INFO - response: https://duckduckgo.com/?q=%22smart+wind+limited%22 202 13548
+2024-10-31 11:18:06,370 - ERROR - Error during web search for 'smart wind limited': https://duckduckgo.com/?q=%22smart+wind+limited%22 202 Ratelimit. Retrying (1/5)...
+2024-10-31 11:18:08,373 - INFO - Performing DuckDuckGo search for query: "smart wind limited"
+2024-10-31 11:18:08,495 - INFO - response: https://duckduckgo.com/?q=%22smart+wind+limited%22 200 18012
+2024-10-31 11:18:09,207 - INFO - response: https://links.duckduckgo.com/d.js?q=%22smart+wind+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-192624897898139174599160976735561961372&bing_market=wt-WT&ex=-1 200 40532
+2024-10-31 11:18:09,208 - INFO - Received 3 results from Duckduckgo for 'smart wind limited'.
+2024-10-31 11:18:11,349 - INFO - Performing DuckDuckGo search for query: "lm wind power uk limited"
+2024-10-31 11:18:11,475 - INFO - response: https://duckduckgo.com/?q=%22lm+wind+power+uk+limited%22 200 18212
+2024-10-31 11:18:12,160 - INFO - response: https://links.duckduckgo.com/d.js?q=%22lm+wind+power+uk+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-90741290420704060703934520863732354892&bing_market=wt-WT&ex=-1 200 38356
+2024-10-31 11:18:12,161 - INFO - Received 3 results from Duckduckgo for 'lm wind power uk limited'.
+2024-10-31 11:18:14,336 - INFO - Performing DuckDuckGo search for query: "gev wind power limited"
+2024-10-31 11:18:16,500 - INFO - response: https://duckduckgo.com/?q=%22gev+wind+power+limited%22 200 18074
+2024-10-31 11:18:17,241 - INFO - response: https://links.duckduckgo.com/d.js?q=%22gev+wind+power+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-175662910200048739948394537302361474428&bing_market=wt-WT&ex=-1 200 31676
+2024-10-31 11:18:17,242 - INFO - Received 3 results from Duckduckgo for 'gev wind power limited'.
+2024-10-31 11:18:20,116 - INFO - Performing DuckDuckGo search for query: "willow photonics ltd"
+2024-10-31 11:18:20,252 - INFO - response: https://duckduckgo.com/?q=%22willow+photonics+ltd%22 200 17924
+2024-10-31 11:18:20,890 - INFO - response: https://links.duckduckgo.com/d.js?q=%22willow+photonics+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-101024452822376638992977689971458085601&bing_market=wt-WT&ex=-1 200 20153
+2024-10-31 11:18:20,892 - INFO - Received 3 results from Duckduckgo for 'willow photonics ltd'.
+2024-10-31 11:18:22,482 - INFO - Performing DuckDuckGo search for query: "ayton willow ltd"
+2024-10-31 11:18:22,625 - INFO - response: https://duckduckgo.com/?q=%22ayton+willow+ltd%22 200 17988
+2024-10-31 11:18:23,339 - INFO - response: https://links.duckduckgo.com/d.js?q=%22ayton+willow+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-257026276532758229503092190506796111942&bing_market=wt-WT&ex=-1 200 22012
+2024-10-31 11:18:23,341 - INFO - Received 3 results from Duckduckgo for 'ayton willow ltd'.
+2024-10-31 11:18:26,277 - INFO - Performing DuckDuckGo search for query: "Goodrich Actuation Systems Limited"
+2024-10-31 11:18:26,406 - INFO - response: https://duckduckgo.com/?q=%22Goodrich+Actuation+Systems+Limited%22 200 18302
+2024-10-31 11:18:27,140 - INFO - response: https://links.duckduckgo.com/d.js?q=%22Goodrich+Actuation+Systems+Limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-52001910868678633969973638369948871250&bing_market=wt-WT&ex=-1 200 17970
+2024-10-31 11:18:27,141 - INFO - Received 3 results from Duckduckgo for 'Goodrich Actuation Systems Limited'.
+2024-10-31 11:18:29,304 - INFO - Performing DuckDuckGo search for query: "triumph actuation systems uk ltd"
+2024-10-31 11:18:29,433 - INFO - response: https://duckduckgo.com/?q=%22triumph+actuation+systems+uk+ltd%22 200 18297
+2024-10-31 11:18:30,089 - INFO - response: https://links.duckduckgo.com/d.js?q=%22triumph+actuation+systems+uk+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-255496527633772578506313503892694230481&bing_market=wt-WT&ex=-1 200 5334
+2024-10-31 11:18:30,090 - WARNING - No results found for 'triumph actuation systems uk ltd' using DuckDuckGo.
+2024-10-31 11:18:30,090 - INFO - Received 0 results from Duckduckgo for 'triumph actuation systems uk ltd'.
+2024-10-31 11:18:32,947 - INFO - Performing DuckDuckGo search for query: "iota pharmaceuticals ltd"
+2024-10-31 11:18:33,064 - INFO - response: https://duckduckgo.com/?q=%22iota+pharmaceuticals+ltd%22 200 18172
+2024-10-31 11:18:33,797 - INFO - response: https://links.duckduckgo.com/d.js?q=%22iota+pharmaceuticals+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-124949938448204435250585089003292851564&bing_market=wt-WT&ex=-1 200 13725
+2024-10-31 11:18:33,798 - INFO - Received 3 results from Duckduckgo for 'iota pharmaceuticals ltd'.
+2024-10-31 11:18:36,796 - INFO - Performing DuckDuckGo search for query: "iota developments ltd"
+2024-10-31 11:18:36,918 - INFO - response: https://duckduckgo.com/?q=%22iota+developments+ltd%22 200 18048
+2024-10-31 11:18:37,629 - INFO - response: https://links.duckduckgo.com/d.js?q=%22iota+developments+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-224650316619960743732966089216149339501&bing_market=wt-WT&ex=-1 200 20804
+2024-10-31 11:18:37,631 - INFO - Received 3 results from Duckduckgo for 'iota developments ltd'.
+2024-10-31 11:18:40,988 - INFO - Performing DuckDuckGo search for query: "green energy technologies ltd"
+2024-10-31 11:18:41,109 - INFO - response: https://duckduckgo.com/?q=%22green+energy+technologies+ltd%22 200 18262
+2024-10-31 11:18:41,834 - INFO - response: https://links.duckduckgo.com/d.js?q=%22green+energy+technologies+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-250905504617217246572245614716717836532&bing_market=wt-WT&ex=-1 200 37000
+2024-10-31 11:18:41,835 - INFO - Received 3 results from Duckduckgo for 'green energy technologies ltd'.
+2024-10-31 11:18:44,359 - INFO - Performing DuckDuckGo search for query: "green marine uk ltd"
+2024-10-31 11:18:44,490 - INFO - response: https://duckduckgo.com/?q=%22green+marine+uk+ltd%22 200 18030
+2024-10-31 11:18:45,171 - INFO - response: https://links.duckduckgo.com/d.js?q=%22green+marine+uk+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-3628570751465581114066984381586015190&bing_market=wt-WT&ex=-1 200 30972
+2024-10-31 11:18:45,173 - INFO - Received 3 results from Duckduckgo for 'green marine uk ltd'.
+2024-10-31 11:18:46,760 - INFO - Performing DuckDuckGo search for query: "silent sensors limited"
+2024-10-31 11:18:46,879 - INFO - response: https://duckduckgo.com/?q=%22silent+sensors+limited%22 200 18060
+2024-10-31 11:18:47,533 - INFO - response: https://links.duckduckgo.com/d.js?q=%22silent+sensors+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-275262432522118036713399565724612143769&bing_market=wt-WT&ex=-1 200 39696
+2024-10-31 11:18:47,534 - INFO - Received 3 results from Duckduckgo for 'silent sensors limited'.
+2024-10-31 11:18:49,392 - INFO - Performing DuckDuckGo search for query: "silent energy solutions limited"
+2024-10-31 11:18:49,547 - INFO - response: https://duckduckgo.com/?q=%22silent+energy+solutions+limited%22 202 13743
+2024-10-31 11:18:49,547 - ERROR - Error during web search for 'silent energy solutions limited': https://duckduckgo.com/?q=%22silent+energy+solutions+limited%22 202 Ratelimit. Retrying (1/5)...
+2024-10-31 11:18:51,550 - INFO - Performing DuckDuckGo search for query: "silent energy solutions limited"
+2024-10-31 11:18:51,672 - INFO - response: https://duckduckgo.com/?q=%22silent+energy+solutions+limited%22 200 18270
+2024-10-31 11:18:52,361 - INFO - response: https://links.duckduckgo.com/d.js?q=%22silent+energy+solutions+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-205108160338779066843036456849810789414&bing_market=wt-WT&ex=-1 200 43240
+2024-10-31 11:18:52,363 - INFO - Received 3 results from Duckduckgo for 'silent energy solutions limited'.
+2024-10-31 11:18:54,390 - INFO - Performing DuckDuckGo search for query: "chemistry innovation limited"
+2024-10-31 11:18:54,512 - INFO - response: https://duckduckgo.com/?q=%22chemistry+innovation+limited%22 200 18107
+2024-10-31 11:18:54,680 - INFO - response: https://links.duckduckgo.com/d.js?q=%22chemistry+innovation+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-122725401811336795283358624168524575219&bing_market=wt-WT&ex=-1 202 600
+2024-10-31 11:18:54,681 - ERROR - Error during web search for 'chemistry innovation limited': https://links.duckduckgo.com/d.js?q=%22chemistry+innovation+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-122725401811336795283358624168524575219&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (1/5)...
+2024-10-31 11:18:56,683 - INFO - Performing DuckDuckGo search for query: "chemistry innovation limited"
+2024-10-31 11:18:56,806 - INFO - response: https://duckduckgo.com/?q=%22chemistry+innovation+limited%22 200 18123
+2024-10-31 11:18:57,442 - INFO - response: https://links.duckduckgo.com/d.js?q=%22chemistry+innovation+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-122725401811336795283358624168524575219&bing_market=wt-WT&ex=-1 200 9557
+2024-10-31 11:18:57,443 - INFO - Received 3 results from Duckduckgo for 'chemistry innovation limited'.
+2024-10-31 11:18:59,335 - INFO - Performing DuckDuckGo search for query: "the royal society of chemistry"
+2024-10-31 11:18:59,476 - INFO - response: https://duckduckgo.com/?q=%22the+royal+society+of+chemistry%22 200 29032
+2024-10-31 11:19:00,293 - INFO - response: https://links.duckduckgo.com/d.js?q=%22the+royal+society+of+chemistry%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-76193370165629633152739272776419322101&bing_market=wt-WT&ex=-1 200 28713
+2024-10-31 11:19:00,294 - INFO - Received 3 results from Duckduckgo for 'the royal society of chemistry'.
+2024-10-31 11:19:02,006 - INFO - Performing DuckDuckGo search for query: "crops for the future uk cic"
+2024-10-31 11:19:02,128 - INFO - response: https://duckduckgo.com/?q=%22crops+for+the+future+uk+cic%22 200 18245
+2024-10-31 11:19:02,818 - INFO - response: https://links.duckduckgo.com/d.js?q=%22crops+for+the+future+uk+cic%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-75209043057959257336006118405829060421&bing_market=wt-WT&ex=-1 200 31381
+2024-10-31 11:19:02,819 - INFO - Received 1 results from Duckduckgo for 'crops for the future uk cic'.
+2024-10-31 11:19:05,720 - INFO - Performing DuckDuckGo search for query: "the forum for the future lbg"
+2024-10-31 11:19:05,846 - INFO - response: https://duckduckgo.com/?q=%22the+forum+for+the+future+lbg%22 200 18261
+2024-10-31 11:19:06,447 - INFO - response: https://links.duckduckgo.com/d.js?q=%22the+forum+for+the+future+lbg%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-125348460153396158268357454774014103148&bing_market=wt-WT&ex=-1 200 1020
+2024-10-31 11:19:06,448 - WARNING - No results found for 'the forum for the future lbg' using DuckDuckGo.
+2024-10-31 11:19:06,448 - INFO - Received 0 results from Duckduckgo for 'the forum for the future lbg'.
+2024-10-31 11:19:08,942 - INFO - Performing DuckDuckGo search for query: "stakeholder forum for a sustainable future lbg"
+2024-10-31 11:19:09,063 - INFO - response: https://duckduckgo.com/?q=%22stakeholder+forum+for+a+sustainable+future+lbg%22 200 18464
+2024-10-31 11:19:09,786 - INFO - response: https://links.duckduckgo.com/d.js?q=%22stakeholder+forum+for+a+sustainable+future+lbg%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-322398303216594137624666763002711117652&bing_market=wt-WT&ex=-1 200 17971
+2024-10-31 11:19:09,787 - INFO - Received 2 results from Duckduckgo for 'stakeholder forum for a sustainable future lbg'.
+2024-10-31 11:19:12,701 - INFO - Performing DuckDuckGo search for query: "crops for the future limited"
+2024-10-31 11:19:12,827 - INFO - response: https://duckduckgo.com/?q=%22crops+for+the+future+limited%22 200 18131
+2024-10-31 11:19:15,387 - INFO - response: https://links.duckduckgo.com/d.js?q=%22crops+for+the+future+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-18420334827087881082767218555043034506&bing_market=wt-WT&ex=-1 200 5100
+2024-10-31 11:19:15,389 - INFO - Received 3 results from Duckduckgo for 'crops for the future limited'.
+2024-10-31 11:19:19,146 - INFO - Performing DuckDuckGo search for query: "odin medical limited"
+2024-10-31 11:19:19,271 - INFO - response: https://duckduckgo.com/?q=%22odin+medical+limited%22 200 17941
+2024-10-31 11:19:20,008 - INFO - response: https://links.duckduckgo.com/d.js?q=%22odin+medical+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-227483903046040967710230741938000262333&bing_market=wt-WT&ex=-1 200 38438
+2024-10-31 11:19:20,009 - INFO - Received 3 results from Duckduckgo for 'odin medical limited'.
+2024-10-31 11:19:21,305 - INFO - Performing DuckDuckGo search for query: "t medical limited"
+2024-10-31 11:19:21,428 - INFO - response: https://duckduckgo.com/?q=%22t+medical+limited%22 200 17992
+2024-10-31 11:19:22,105 - INFO - response: https://links.duckduckgo.com/d.js?q=%22t+medical+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-1544220897814325372139553452047085541&bing_market=wt-WT&ex=-1 200 35412
+2024-10-31 11:19:22,106 - INFO - Received 3 results from Duckduckgo for 't medical limited'.

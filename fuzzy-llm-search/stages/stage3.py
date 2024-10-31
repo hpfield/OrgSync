@@ -1,7 +1,9 @@
-# stages/stage3.py
-
+import logging  # Import logging
 from collections import defaultdict
 from sklearn.neighbors import NearestNeighbors
+
+# Get the logger for this stage file
+logger = logging.getLogger(__name__)
 
 def stage3_group_similar_names(vectorizer, name_vectors, unique_combined_names, threshold=0.5):
     nbrs = NearestNeighbors(n_neighbors=10, metric='cosine', algorithm='brute').fit(name_vectors)
@@ -16,5 +18,5 @@ def stage3_group_similar_names(vectorizer, name_vectors, unique_combined_names, 
             grouped_names[name].extend(similar_names)
             used_names.add(name)
             used_names.update(similar_names)
-    print(f"Grouped names into {len(grouped_names)} groups.")
+    logger.info(f"Grouped names into {len(grouped_names)} groups.")
     return grouped_names
