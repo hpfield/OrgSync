@@ -1,0 +1,10 @@
+2024-11-01 14:07:32,319 - INFO - Loaded and preprocessed 36508 names.
+2024-11-01 14:07:32,337 - INFO - Stage 1 complete.
+2024-11-01 14:07:32,371 - INFO - Vectorized 5411 unique combined names.
+2024-11-01 14:07:32,374 - INFO - Stage 2 complete.
+2024-11-01 14:07:32,710 - INFO - Grouped names into 474 groups after removing groups of size 1.
+2024-11-01 14:07:32,711 - INFO - Stage 3 complete.
+2024-11-01 14:07:32,711 - INFO - Extracting unique names from grouped names for web search...
+2024-11-01 14:09:24,795 - ERROR - Failed to retrieve search results for '3d industries limited' after 5 retries.
+2024-11-01 14:11:16,876 - ERROR - Failed to retrieve search results for 'a k industries ltd' after 5 retries.
+2024-11-01 14:13:08,957 - ERROR - Failed to retrieve search results for 'aberdeen city council' after 5 retries.
