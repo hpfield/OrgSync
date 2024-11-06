@@ -6,7 +6,7 @@ def test_duckduckgo_text_search():
     ddgs = DDGS()
     
     # Define the search keywords and parameters
-    keywords = "wild berry environmental limited"
+    keywords = "university of oxford department of engineering science"
     region = "uk-en"        # Region for English in the US
     safesearch = "moderate" # Safesearch level
     timelimit = "m"         # Time limit: search for results from the past month

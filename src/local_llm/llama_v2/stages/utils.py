@@ -94,6 +94,54 @@ import random
 import sys
 # Assume DDGS is already imported and available
 
+# def perform_web_search(names, num_results=3, max_retries=5, search_method='duckduckgo', api_key=None):
+#     if search_method == 'duckduckgo' and DDGS is None:
+#         logger.error("DuckDuckGo search module not available. Please install 'duckduckgo-search' or choose another search method.")
+#         sys.exit(1)
+    
+#     web_search_results = {}
+#     for name in names:
+#         retries = 0
+#         success = False
+#         while retries < max_retries and not success:
+#             original_level = logging.getLogger().level  # Get original level at the start
+#             try:
+#                 query = f'"{name}"'
+#                 search_results = []
+                
+#                 # Temporarily suppress logs
+#                 logging.getLogger().setLevel(logging.CRITICAL)
+                
+#                 # Perform search
+#                 ddgs = DDGS()
+#                 results = ddgs.text(query, region='wt-wt', safesearch='Moderate', max_results=num_results)
+                
+#                 if results:
+#                     for res in results:
+#                         search_results.append({
+#                             'url': res.get('href', ''),
+#                             'title': res.get('title', ''),
+#                             'description': res.get('body', '')
+#                         })
+                
+#                 # Restore original logging level in `finally`
+#                 success = True
+                
+#             except Exception as e:
+#                 retries += 1
+#                 logger.error(f"Error during web search for '{name}': {e}. Retrying ({retries}/{max_retries})...")
+#                 time.sleep(2 ** retries)  # Exponential backoff
+                
+#             finally:
+#                 # Restore logging level no matter what
+#                 logging.getLogger().setLevel(original_level)
+                
+#         if not success:
+#             logger.error(f"Failed to retrieve search results for '{name}' after {max_retries} retries.")
+#             web_search_results[name] = []
+            
+#     return web_search_results
+
 def perform_web_search(names, num_results=3, max_retries=5, search_method='duckduckgo', api_key=None):
     if search_method == 'duckduckgo' and DDGS is None:
         logger.error("DuckDuckGo search module not available. Please install 'duckduckgo-search' or choose another search method.")
@@ -104,44 +152,42 @@ def perform_web_search(names, num_results=3, max_retries=5, search_method='duckd
         retries = 0
         success = False
         while retries < max_retries and not success:
-            original_level = logging.getLogger().level  # Get original level at the start
             try:
                 query = f'"{name}"'
                 search_results = []
+                if search_method == 'duckduckgo':
+                    # logger.info(f"Performing DuckDuckGo search for query: {query}")
+                    # Alter logging level to silence unwanted logs during search
+                    original_level = logging.getLogger().level
+                    logging.getLogger().setLevel(logging.CRITICAL)
+                    ddgs = DDGS()
+                    results = ddgs.text(query, region='wt-wt', safesearch='Moderate', max_results=num_results)
+                    logging.getLogger().setLevel(original_level)
+                    if results:
+                        for res in results:
+                            search_results.append({
+                                'url': res.get('href', ''),
+                                'title': res.get('title', ''),
+                                'description': res.get('body', '')
+                            })
+                    # else:
+                    #     logger.warning(f"No results found for '{name}' using DuckDuckGo.")
+                else:
+                    logger.error(f"Unknown search method: {search_method}")
+                    sys.exit(1)
                 
-                # Temporarily suppress logs
-                logging.getLogger().setLevel(logging.CRITICAL)
-                
-                # Perform search
-                ddgs = DDGS()
-                results = ddgs.text(query, region='wt-wt', safesearch='Moderate', max_results=num_results)
-                
-                if results:
-                    for res in results:
-                        search_results.append({
-                            'url': res.get('href', ''),
-                            'title': res.get('title', ''),
-                            'description': res.get('body', '')
-                        })
-                
-                # Restore original logging level in `finally`
+                web_search_results[name] = search_results
+                # logger.info(f"Received {len(search_results)} results from {search_method.capitalize()} for '{name}'.")
+                time.sleep(random.uniform(1, 3))  # Adjust delay as needed
                 success = True
-                
             except Exception as e:
                 retries += 1
-                logger.error(f"Error during web search for '{name}': {e}. Retrying ({retries}/{max_retries})...")
+                # logger.error(f"Error during web search for '{name}': {e}. Retrying ({retries}/{max_retries})...")
                 time.sleep(2 ** retries)  # Exponential backoff
-                
-            finally:
-                # Restore logging level no matter what
-                logging.getLogger().setLevel(original_level)
-                
         if not success:
             logger.error(f"Failed to retrieve search results for '{name}' after {max_retries} retries.")
             web_search_results[name] = []
-            
     return web_search_results
-
 
 
 #! Not currently using
