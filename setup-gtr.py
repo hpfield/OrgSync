@@ -25,6 +25,74 @@ schema_paths = {
 }
 
 
+def normalize_json_fields(data: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Normalize a list of dictionaries by ensuring all dictionaries have the same fields.
+    Missing fields are populated with None.
+    
+    Args:
+        data: List of dictionaries to normalize
+        
+    Returns:
+        List of normalized dictionaries with consistent fields
+    """
+    # First pass: collect all possible fields
+    all_fields = set()
+    for item in data:
+        all_fields.update(item.keys())
+    
+    # Second pass: normalize all dictionaries
+    normalized_data = []
+    for item in data:
+        normalized_item = {field: item.get(field, None) for field in all_fields}
+        normalized_data.append(normalized_item)
+    
+    return normalized_data
+
+def normalize_json_file(input_path: str, output_path: str) -> None:
+    """
+    Read JSON file, normalize all dictionaries, and write back to new file.
+    
+    Args:
+        input_path: Path to input JSON file
+        output_path: Path to write normalized JSON file
+    """
+    # Read input file
+    with open(input_path, 'r') as f:
+        data = json.load(f)
+    
+    # Normalize data
+    normalized_data = normalize_json_fields(data)
+    
+    # Write normalized data
+    with open(output_path, 'w') as f:
+        json.dump(normalized_data, f, indent=2)
+        
+def analyze_field_coverage(data: List[Dict[str, Any]]) -> Dict[str, float]:
+    """
+    Analyze what percentage of records have each field.
+    
+    Args:
+        data: List of dictionaries to analyze
+        
+    Returns:
+        Dictionary mapping field names to their coverage percentage
+    """
+    total_records = len(data)
+    field_counts = defaultdict(int)
+    
+    for item in data:
+        for field in item.keys():
+            field_counts[field] += 1
+    
+    coverage = {
+        field: (count / total_records) * 100 
+        for field, count in field_counts.items()
+    }
+    
+    return coverage
+
+
 class SchemaProcessor:
     def __init__(self, schema_path: str):
         """Initialize processor with a schema file path."""
@@ -281,6 +349,9 @@ def combine_datasets(processed_data: Dict[str, List[Dict]]) -> List[Dict]:
     return combined
 
 
+
+
+
 if __name__ == "__main__":
     # Define schema and data paths
     schemas = {
@@ -295,14 +366,20 @@ if __name__ == "__main__":
         'persons': file_paths['persons']
     }
 
-    test_path = "organisations_cut.json"
-
+    # process orgs only as not using linked fields for splink matching
     processed_data = {}
     processor = SchemaProcessor(schema_paths['organisations'])
-    raw_data = processor._load_json(test_path)
+    raw_data = processor._load_json(data_files['organisations'])
     processed_data = [processor.process_data(item, "organisations") for item in raw_data]
     # processor.process_data(raw_data, 'organisations')
     # pprint(processed_data)
     # save
-    with open("processed.json", "w") as f:
-        json.dump(processed_data, f, indent=2)
+    normalised_data = normalize_json_fields(processed_data)
+
+    save_path = os.path.join(script_directory, "data/processed/")
+    if not os.path.exists(save_path):
+        os.makedirs(save_path)
+    save_as = "gtr_organisations_processed.json"
+    with open(os.path.join(save_path, save_as), "w") as f:
+        json.dump(normalised_data, f, indent=2)
+    print(f"Data saved to {os.path.join(save_path, save_as)}")
