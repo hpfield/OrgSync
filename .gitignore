@@ -154,3 +154,5 @@ cython_debug/
 data/
 eda/wip/
 organisations.json
+processed.json
+*.json

@@ -110,56 +110,109 @@ class SchemaProcessor:
                 # pprint(data[field])
                 processed[field] = data[field]
                 continue
-
-        # Process nested arrays - Removed for now but revisit. 
-        # for path, properties in self.nested_arrays.items():
-        #     parts = path.split(".")
-        #     current_data = data
-        #     for part in parts:
-        #         current_data = current_data.get(part, {})
-        #         if not current_data:
-        #             break
-
-        #     if current_data:
-        #         if isinstance(current_data, list):
-        #             processed[parts[-1]] = [
-        #                 {k: item.get(k) for k in properties}
-        #                 for item in current_data
-        #             ]
-        #         elif isinstance(current_data, dict):
-        #             processed[parts[-1]] = [
-        #                 {k: v.get(k) for k in properties}
-        #                 for v in current_data.values()
-        #                 if isinstance(v, dict)
-        #             ]
-
-        # Process links
-        pprint(data["links"]["link"])
-        #! currently manual but could be automated/ based on inputs/schema features
-        #! could also come one level up on the links
+        
+        # Some fields contain lists of dictionaries with the same keys, corresponding with different
+        # entities, so we want to explode these out into separate fields. 
+        # Current method is specific to the "links" column but could be generalised. 
         if "links" in data and "link" in data["links"]:
+            #Using "link" to replace existing link dict. Could rename and manually drop the old link dicts. 
             processed["link"] = self._process_links(data["links"]["link"], entity_type)
     
-        # if "addresses" in data and "address" in data["addresses"]:
-        #     processed["address"] = self._process_nested_special(data, "addresses", "address", entity_type)
-        #     processed.pop("address")
+        # Handle nested fields by specifying which fields to keep 
+        chosen_children_of_parent = {
+            "address": ["postCode", "region", "country", "type"],
+            "link": []
+        } 
+
+        for k, v in chosen_children_of_parent.items():
+            parent = k
+            child_fields_to_keep = v
+            if not parent in processed:
+                raise ValueError(f"Parent {parent} not in processed data.") 
     
+            processed_children = self._process_nested_special(processed, parent, child_fields_to_keep)
+            processed.pop(parent)
+            if not processed_children:
+                continue
+            for key, value in processed_children.items():
+                processed[f"{parent}.{key}"] = value
+
         return processed
 
-    # def _process_nested_special(self, data, parent, child, entity_type: str):
-    #     """
-    #     Handle nested fields of form
-    #         key: [{key: value, ..., key:value}]
-    #     Where the list only contains one dictionary. 
+    def _process_nested_special(self, processed_data: dict, parent_key: str, child_fields_to_keep: List[str]):
+        """
+        Handle nested fields of form
+            key: [{key: value, ..., key:value}]
+        Where the list only contains one dictionary. 
 
-    #     """
-    #     fields_dict = {}
-    #     if not 
-    #     fields = data[parent][child][0].keys()
+
+        Parameters
+        ----------
+        processed_data : dict
+            The full processed entity dictionary.
+    
+        parent_key : str
+            The key of the nested data.
+        
+        child_fields_to_keep : List[str]
+            The fields to keep from the nested data. If empty, all fields are kept.
+
+        Returns
+        -------
+        relationships : dict
+            The processed nested data keys and value. 
+        """
+        relationships = {}
+        parent = processed_data[parent_key]
+        if isinstance(parent, dict):
+            parent_dict = parent
+
+        elif isinstance(processed_data[parent_key], list):
+            # Currently assuming multiple dictionaries in list would have same fields
+            # meaning if we explode them out, they would replace oneanother.
+            if len(parent) > 1:
+                raise ValueError("Error: List contains multiple dictionaries")
+            # Some lists can be empty, in which case we return None so that it can be handled later.
+            if len(parent) == 0:
+                return None
+            parent_dict = parent[0]
+            
+        else:
+            raise ValueError("Nested data is not a list or dict.")
+
+        if len(child_fields_to_keep) == 0:
+            child_fields_to_keep = list(parent_dict.keys())
+        
+        for child_field in child_fields_to_keep:
+            assert child_field in parent_dict, f"Field {child_field} not in nested data."
+            data = parent_dict.get(child_field)
+            relationships[child_field] = data
+        return relationships
+        
+        # # child_fields = nested_data[parent_key][0].keys()
+        # if len(child_fields_to_keep) == 0:
+        #     child_fields_to_keep = processed_data[parent_key][0].keys()
+
+
+        # for child_field in child_fields_to_keep:
+        #     # data = processed_data[parent_key][0][child_field]
+        #     # assert data is not None, f"Data for {child_field} is None."
+        #     assert child_field in processed_data[parent_key][0], f"Field {child_field} not in nested data."
+        #     data = processed_data[parent_key][0].get(child_field)
+        #     relationships[child_field] = data
+        # return relationships
+
+
+            
+
+        # if not nested_data[parent][child]:
+        # fields_dict = {}
+        # if not 
+        # fields = nested_data[parent][child][0].keys()
     
 
 
-
+    #! Handles transforming of list of dicts, to separate fields based on keys from the dicts. 
     def _process_links(self, links: List[Dict], entity_type: str) -> Dict[str, List[str]]:
         """Process links into categorized relationships."""
         relationships = defaultdict(list)
