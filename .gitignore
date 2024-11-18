@@ -156,3 +156,4 @@ eda/wip/
 organisations.json
 processed.json
 *.json
+/.tmp
