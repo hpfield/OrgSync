@@ -70,6 +70,12 @@ def remove_fields(data: List[Dict[str, Any]], fields_to_keep: List[str]) -> List
                 del entry[key]
     return data
 
+def preprocess_name(name):
+    name = name.lower()  # Convert to lowercase
+    name = re.sub(r'\s+', ' ', name)  # Replace multiple spaces with a single space
+    name = re.sub(r'[^\w\s]', '', name)  # Remove punctuation
+    return name.strip()  # Strip leading and trailing whitespace
+
 # Combine fields representing same information
 
 # Search for urls for entries, create new field
@@ -90,6 +96,9 @@ if __name__ == "__main__":
     full_path = test_paths["gtr"]
     with open(full_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
+
+    for entry in data:
+        entry["name"]
     gtr_data = remove_fields(data, gtr_fields_to_keep)
     # save json
     with open(os.path.join(output_dir, "gtr_data.json"), 'w', encoding='utf-8') as file:

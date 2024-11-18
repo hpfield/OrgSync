@@ -1,6 +1,34 @@
 import os, sys
 import pandas as pd
 import numpy as np
+import re
+
+def combine_dfs(df1, df2):
+    "combine two dfs with same column headers"
+    return pd.concat([df1, df2])
+
+
+# Splink suggested str processing: remove special characters, replace abbreviations with full words (st -> street etc.)
+
+def clean_string_columns(df: pd.DataFrame, columns: list) -> pd.DataFrame:
+    """
+    Clean specified string columns, skipping non-string values and missing data.
+    """
+    df_copy = df.copy()
+    
+    def clean_string(x):
+        if pd.isna(x) or not isinstance(x, str):
+            return x
+        return re.sub(r'[^\w\s]', '', 
+            re.sub(r'\s+', ' ', 
+                x.lower()
+            )
+        ).strip()
+    
+    for col in columns:
+        df_copy[col] = df_copy[col].apply(clean_string)
+    
+    return df_copy
 
 def change_col_names(df, col_map):
     """
