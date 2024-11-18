@@ -2,6 +2,29 @@ import os, sys
 import pandas as pd
 import numpy as np
 
+def change_col_names(df, col_map):
+    """
+    Take a dictionary {"column_name": "new_column_name",...}
+
+    And change the column names in the dataframe accordingly.
+    """
+    return df.rename(columns=col_map)
+
+def drop_cols(df, cols):
+    """
+    Drop columns from a dataframe
+    """
+    return df.drop(columns=cols)
+
+def reorder_cols(df, order):
+    """
+    Take in dataframe and place the specified columns in the order of the list, skipping any that are not present in the dataframe.
+    Any remaining columns should appear in the order they were in the original dataframe, after the specified columns.
+    """
+    cols = [col for col in order if col in df.columns]
+    remaining = [col for col in df.columns if col not in cols]
+    return df[cols + remaining]
+
 def remove_df_columns_not_in_list(df, list_of_col_names):
     """
     Remove columns from a DataFrame that are not in the list of column names
@@ -79,6 +102,25 @@ def empty_list_to_nan_full(df, column):
     df[column] = df[column].apply(lambda x: np.nan if isinstance(x, list) and len(x) == 0 else x)
     return df
 
+def count_nans(df, column):
+    if not column:
+        return df.isna().sum() 
+    return df[column].isna().sum()
+
+def check_empty_strings(df) -> dict:
+    """
+    Check each column in a DataFrame for empty strings matching regex pattern r'^\s*$'
+    
+    Args:
+        df: pandas DataFrame to check
+        
+    Returns:
+        dict: Dictionary mapping column names to boolean values indicating if empty strings were found
+    """
+    return {
+        col: df[col].astype(str).str.match(r'^\s*$').any() 
+        for col in df.columns
+    }
 
 def blank_to_nan(df, column):
     """
@@ -90,6 +132,8 @@ def blank_to_nan(df, column):
     - Check if a string contains only whitespace
     - Match blank lines in text
     
+    If column = None, apply to all columns containing strs
+
     Parameters:
     df (pandas.DataFrame): Input dataframe
     column (str): Name of column to process
@@ -97,17 +141,20 @@ def blank_to_nan(df, column):
     Returns:
     pandas.DataFrame: DataFrame with processed column
     """
-    df[column] = df[column].replace(r'^\s*$', np.nan, regex=True)
-    return df
+    if column:
+        df[column] = df[column].replace(r'^\s*$', np.nan, regex=True)
+        return df
+    
+    return df.apply(lambda x: x.replace(r'^\s*$', np.nan, regex=True) if x.dtype == 'object' else x)
+
+
+    
 
 def nan_to_empty_list(df, column):
     pass
 
 
 
-
-
-## Text Processing
 def convert_text_to_lowercase(df, column):
     """Convert text to lowercase"""
     pass

@@ -7,6 +7,7 @@ from collections import defaultdict
 from pprint import pprint
 import pandas as pd
 
+
 pd.set_option('display.max_columns', 100)
 pd.set_option('display.max_rows', 100)
 pd.set_option('display.max_colwidth', 199)
@@ -17,20 +18,24 @@ pd.set_option('display.expand_frame_repr', True)
 # Determine the directory where this script is located
 script_directory = os.path.dirname(os.path.abspath(__file__))
 
+## data & Globals
+base_path = os.path.join(script_directory, "data", "raw")
 file_paths = {
-    "gtr": os.path.join(script_directory, "data", "processed" "gtr_organisations_processed.csv"),
-    "cordis": os.path.join(script_directory, "data", "raw", "uk_data.json"),
+    "gtr": os.path.join(base_path, "gtr_data.json"),
+    "cordis": os.path.join(base_path, "uk_data.json"),
 }
 
+# testing on smaller datasets first.
+base_test_dir = os.path.join(script_directory, "data", "test")
 test_paths = {
-    "gtr": os.path.join("data", "test", "gtr_organisations_processed.csv"),
+    "gtr": os.path.join("data", "test", "gtr_organisations_processed.json"),
     "cordis": os.path.join("data", "test", "uk_data.json"),
 }
 
 # Initial fields of interest for each dataset
 gtr_fields_to_keep = [
     "name",
-    "id",
+    "id", # kept as unique identifier but not used for matching
     # "address.country", # exclude as all UK at this point
     "address.type",
     "address.postCode",
@@ -39,16 +44,18 @@ gtr_fields_to_keep = [
     # "created", # include to match with contentUpdateDate not implemented
 ]
 
-coris_fields_to_keep = [
+cordis_fields_to_keep = [
     "name",
     "shortName",
-    "projectAcronym",
+    # "projectAcronym",
+    "organisationID",
     "city", 
     # "country", # exclude as all UK at this point
     "geolocation",
     "postCode",
     "street",
     "nutsCode",
+    "rcn",
     "organisationURL",
     # "contentUpdateDate" # not implemented
 ]
@@ -75,16 +82,34 @@ def remove_fields(data: List[Dict[str, Any]], fields_to_keep: List[str]) -> List
 
 if __name__ == "__main__":
     # load data
-    gtr_data = pd.read_csv(test_paths["gtr"])
-    cordis_data = pd.read_json(test_paths["cordis"])
+    output_dir = os.path.join(base_path, "processed")
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    
+    test_paths = file_paths
+    full_path = test_paths["gtr"]
+    with open(full_path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+    gtr_data = remove_fields(data, gtr_fields_to_keep)
+    # save json
+    with open(os.path.join(output_dir, "gtr_data.json"), 'w', encoding='utf-8') as file:
+        json.dump(gtr_data, file, indent=4)
 
-    # remove fields
-    gtr_data = remove_fields(gtr_data, gtr_fields_to_keep)
-    cordis_data = remove_fields(cordis_data, coris_fields_to_keep)
+    full_path= test_paths["cordis"]
+    with open(full_path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
 
-    # save to test dir
-    base = os.path.join(script_directory, "data", "test")
-    gtr_data.to_csv(os.path.join(base, "gtr_test.csv"), index=False)
-    cordis_data.to_json(os.path.join(base, "cordis_test.json"), orient="records")
+    cordis_data = remove_fields(data, cordis_fields_to_keep)
+    # save json
+    with open(os.path.join(output_dir, "cordis_data.json"), 'w', encoding='utf-8') as file:
+        json.dump(cordis_data, file, indent=4)
+
+
+    output_dir = os.path.join("base_path")
+
+    print("Done")
+
+
+
 
 

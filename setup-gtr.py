@@ -376,10 +376,10 @@ if __name__ == "__main__":
     # save
     normalised_data = normalize_json_fields(processed_data)
 
-    save_path = os.path.join(script_directory, "data/processed/")
+    save_path = os.path.join(script_directory, "data/raw/")
     if not os.path.exists(save_path):
         os.makedirs(save_path)
-    save_as = "gtr_organisations_processed.json"
+    save_as = "gtr_data.json"
     with open(os.path.join(save_path, save_as), "w") as f:
         json.dump(normalised_data, f, indent=2)
     print(f"Data saved to {os.path.join(save_path, save_as)}")
