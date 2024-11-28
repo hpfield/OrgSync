@@ -94,7 +94,7 @@ import random
 import sys
 # Assume DDGS is already imported and available
 
-def perform_web_search(names, num_results=3, max_retries=7, search_method='duckduckgo', api_key=None):
+def perform_web_search(names, num_results=5, max_retries=7, search_method='duckduckgo', api_key=None):
     if search_method == 'duckduckgo' and DDGS is None:
         logger.error("DuckDuckGo search module not available. Please install 'duckduckgo-search' or choose another search method.")
         sys.exit(1)
