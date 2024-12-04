@@ -152,7 +152,7 @@ cython_debug/
 #.idea/
 
 data/
-eda/wip/
+**/__pycache__/
 organisations.json
 processed.json
 *.json
