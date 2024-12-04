@@ -60,7 +60,7 @@ if parser.parse_args().all_data:
     
     base_dir = os.path.join("data", "raw", "all_scraped")
     file_path = os.path.join(base_dir,"gtr", "scraped", "2024_07", "organisations.json")
-    schema_path = os.path.join(base_dir, "gtr", "scraped", "2024_07", "schemas", "organisation.json")
+    schema_path = os.path.join(base_dir, "gtr", "scraped", "schemas", "organisation.json")
 
     raw_data = read_json(file_path)
     schema = read_json(schema_path)
@@ -111,7 +111,7 @@ if parser.parse_args().all_data:
 
     cordis_data = remove_fields(cordis_data, cordis_fields_to_keep)
     cordis_data = map_names_json(cordis_data, map_names_cordis)
-    
+
     uk_data = cordis_data + gtr_data
     save_json(uk_data, os.path.join(script_directory, 'data/raw/uk_data.json'))
 
