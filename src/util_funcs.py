@@ -6,24 +6,77 @@ from datetime import datetime
 from collections import defaultdict
 from pprint import pprint
 
-# Determine the directory where this script is located
-script_directory = os.path.dirname(os.path.abspath(__file__))
+def map_names_json(data: List[Dict[str, Any]], map_names: Dict[str, str]) -> List[Dict[str, Any]]:
+    """
+    Rename fields in a list of dictionaries.
 
-# Define the base path and the file paths to combine
-input_path = os.path.join(script_directory, "data/raw/all_scraped/")
+    Args:
+        data: List of dictionaries to process
+        map_names: Dictionary mapping old field names to new field names
 
-file_paths = {
-    "organisations": os.path.join(input_path, "gtr/scraped/2024_07/organisations.json"),
-    "projects": os.path.join(input_path, "gtr/scraped/2024_07/projects.json"),
-    "persons": os.path.join(input_path, "gtr/scraped/2024_07/persons.json"),
-}
+    Returns:
+        List of dictionaries with renamed fields
+    """
+    for entry in data:
+        for key, value in map_names.items():
+            if key in entry:
+                entry[value] = entry[key]
+                del entry[key]
+    return data
 
-schema_paths = {
-    "organisations": os.path.join(input_path, "gtr/scraped/schemas/organisation.json"),
-    "projects": os.path.join(input_path, "gtr/scraped/schemas/project.json"),
-    "persons": os.path.join(input_path, "gtr/scraped/schemas/person.json"),
-}
+# def map_names_json(data, map_names):
+#         """
+#         Changes the name of a field using a mapping dictionary, removing the old field name
+#         """
+#         for entry in data:
+#             for key, value in map_names.items():
+#                 entry[value] = entry.pop(key)
+#         return data
 
+def remove_fields(data: List[Dict[str, Any]], fields_to_keep: List[str]) -> List[Dict[str, Any]]:
+    """
+    Removes fields from dictionaries in a list of dictionaries.
+
+    Args:
+        data: List of dictionaries to process
+        fields_to_keep: List of fields to keep in each dictionary
+
+    Returns:
+        List of dictionaries with only the specified fields 
+    """
+    for entry in data:
+        for key in list(entry.keys()):
+            if key not in fields_to_keep:
+                del entry[key]
+    return data
+
+def add_const_field_json(data: List[Dict[str, Any]], field_name: str, field_value: Any) -> List[Dict[str, Any]]:
+    """Add a constant field to all dictionaries in a list."""
+    return [{**item, field_name: field_value} for item in data]
+
+def save_json(data: Any, filename:str, save_dir: str|None = None, encoding="utf-8") -> None:
+    """Save JSON data to file."""
+    if not filename.endswith(".json"):
+        filename += ".json"
+
+    if save_dir:
+        if not os.path.exists(save_dir):
+            os.makedirs(save_dir)
+        save_path = os.path.join(save_dir, filename)
+
+    else:
+        save_path = filename
+
+    with open(save_path, 'w', encoding=encoding) as f:
+        json.dump(data, f, indent=2)
+    print(f"Data saved to {save_path}")
+    
+
+
+def read_json(filepath: str, encoding="utf-8") -> Dict:
+    """Load JSON data from file."""
+    with open(filepath, 'r', encoding=encoding) as f:
+        return json.load(f)
 
 def normalize_json_fields(data: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """
@@ -94,9 +147,14 @@ def analyze_field_coverage(data: List[Dict[str, Any]]) -> Dict[str, float]:
 
 
 class SchemaProcessor:
-    def __init__(self, schema_path: str):
+    """
+    Process GtR data according to it's schema to remove explode nested fields into
+    individual fields with single values per entry, and array fields containing multiple values. 
+    """
+    def __init__(self, data_json, schema):
         """Initialize processor with a schema file path."""
-        self.schema = self.load_json(schema_path)
+        self.data_json = data_json
+        self.schema = schema
         self.processed_fields = set()
         self.nested_arrays = {}
         self.links = {}
@@ -108,11 +166,11 @@ class SchemaProcessor:
         # pprint(self.links)
         # pprint(self.lookup_parent)
 
-    @staticmethod
-    def load_json(filepath: str) -> Dict:
-        """Load JSON data from file."""
-        with open(filepath, 'r') as f:
-            return json.load(f)
+    # @staticmethod
+    # def load_json(filepath: str) -> Dict:
+    #     """Load JSON data from file."""
+    #     with open(filepath, 'r') as f:
+    #         return json.load(f)
 
     def _analyze_schema(self, schema: Dict, parent_path: str = "") -> None:
         """Recursively analyze schema to identify nested structures and links."""
@@ -299,10 +357,10 @@ class SchemaProcessor:
                 # })
         return dict(relationships)
 
-def process_dataset(schema_path: str, data_path: str, entity_type: str) -> List[Dict]:
+def process_dataset(data_json, schema, entity_type: str) -> List[Dict]:
     """Process an entire dataset using its schema."""
-    processor = SchemaProcessor(schema_path)
-    raw_data = processor.load_json(data_path)
+    processor = SchemaProcessor(data_json, schema)
+    raw_data = processor.data_json
     
     # Handle both single objects and arrays
     if isinstance(raw_data, list):
@@ -349,33 +407,33 @@ def combine_datasets(processed_data: Dict[str, List[Dict]]) -> List[Dict]:
     return combined
 
 
-if __name__ == "__main__":
-    # Define schema and data paths
-    schemas = {
-        'organisations': schema_paths['organisations'],
-        'projects': schema_paths['projects'],
-        'persons': schema_paths['persons']
-    }
+# if __name__ == "__main__":
+#     # Define schema and data paths
+#     schemas = {
+#         'organisations': schema_paths['organisations'],
+#         'projects': schema_paths['projects'],
+#         'persons': schema_paths['persons']
+#     }
 
-    data_files = {
-        'organisations': file_paths['organisations'],
-        'projects': file_paths['projects'],
-        'persons': file_paths['persons']
-    }
+#     data_files = {
+#         'organisations': file_paths['organisations'],
+#         'projects': file_paths['projects'],
+#         'persons': file_paths['persons']
+#     }
 
-    # process orgs only as not using linked fields for splink matching
-    processor = SchemaProcessor(schema_paths['organisations'])
-    raw_data = processor.load_json(data_files['organisations'])
-    processed_data = [processor.process_data(item, "organisations") for item in raw_data]
-    # processor.process_data(raw_data, 'organisations')
-    # pprint(processed_data)
-    # save
-    normalised_data = normalize_json_fields(processed_data)
+#     # process orgs only as not using linked fields for splink matching
+#     processor = SchemaProcessor(schema_paths['organisations'])
+#     raw_data = processor.load_json(data_files['organisations'])
+#     processed_data = [processor.process_data(item, "organisations") for item in raw_data]
+#     # processor.process_data(raw_data, 'organisations')
+#     # pprint(processed_data)
+#     # save
+#     normalised_data = normalize_json_fields(processed_data)
 
-    save_path = os.path.join(script_directory, "data/raw/")
-    if not os.path.exists(save_path):
-        os.makedirs(save_path)
-    save_as = "gtr_data.json"
-    with open(os.path.join(save_path, save_as), "w") as f:
-        json.dump(normalised_data, f, indent=2)
-    print(f"Data saved to {os.path.join(save_path, save_as)}")
+#     save_path = os.path.join(script_directory, "data/raw/")
+#     if not os.path.exists(save_path):
+#         os.makedirs(save_path)
+#     save_as = "gtr_data.json"
+#     with open(os.path.join(save_path, save_as), "w") as f:
+#         json.dump(normalised_data, f, indent=2)
+#     print(f"Data saved to {os.path.join(save_path, save_as)}")

@@ -159,3 +159,4 @@ organisations.json
 processed.json
 *.json
 /.tmp
+cfg/config.yaml
