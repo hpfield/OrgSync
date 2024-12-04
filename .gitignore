@@ -152,6 +152,8 @@ cython_debug/
 #.idea/
 
 data/
+.tmp
+__pycache__
 **/__pycache__/
 organisations.json
 processed.json
