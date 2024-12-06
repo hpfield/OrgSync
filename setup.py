@@ -9,7 +9,9 @@ from src.util_funcs import (
     save_json,
     add_const_field_json,
     remove_fields,
-    map_names_json)
+    map_names_json,
+    convert_entries_to_str
+)
 
 # Allow testing only on Cordis data only
 parser = argparse.ArgumentParser()
@@ -113,6 +115,7 @@ if parser.parse_args().all_data:
     cordis_data = map_names_json(cordis_data, map_names_cordis)
     
     uk_data = cordis_data + gtr_data
+    convert_entries_to_str(uk_data, ["postcode", "unique_id"])
     save_json(uk_data, os.path.join(script_directory, 'data/raw/uk_data.json'))
 
 

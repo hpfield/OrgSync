@@ -33,6 +33,24 @@ def map_names_json(data: List[Dict[str, Any]], map_names: Dict[str, str]) -> Lis
 #                 entry[value] = entry.pop(key)
 #         return data
 
+def convert_entries_to_str(data: List[Dict[str, Any]], fields: List[str]) -> List[Dict[str, Any]]:
+    """
+    Convert fields in a list of dictionaries to strings.
+
+    Args:
+        data: List of dictionaries to process
+        fields: List of fields to convert to strings
+
+    Returns:
+        List of dictionaries with specified fields converted to strings
+    """
+    for entry in data:
+        for field in fields:
+            if field in entry:
+                if not isinstance(entry[field], str):
+                    entry[field] = str(entry[field])
+    return data
+
 def remove_fields(data: List[Dict[str, Any]], fields_to_keep: List[str]) -> List[Dict[str, Any]]:
     """
     Removes fields from dictionaries in a list of dictionaries.
