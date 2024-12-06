@@ -1,0 +1,136 @@
+﻿Institution name,Title,Summary impact type,Countries,Formal partners,Funding programmes,Name of funders,1. Summary of the impact,,url
+University of Southampton,AccelerComm: hardware acceleration spin-out for 5G communications,Technological,[UK];[China];[USA];[Global],,[ICURE Aid for Start Ups Cohort 4],[EPSRC];[Innovate UK],"
+###  1. Summary of the impact 
+
+ Professor Rob Maunder and his team at the University of Southampton have developed methodologies for the joint design of signal processing algorithms and their hardware acceleration for mobile communication. Since March 2016, the impact of this research has been as follows: 
+
+ **I1** Creation of a spin\-out company AccelerComm Ltd to develop the research into commercial\-grade hardware accelerator designs. AccelerComm now employs 33 people, has a valuation of over \[text removed for publication\] and offers 27 hardware accelerator design products protected by 5 granted patents and a further 32 patent applications. 
+
+ **I2** Deployment of hardware accelerator designs in 5G base\-stations, test\-and\-measurement equipment, satellites and user devices world\-wide, through 58 licenses of the AccelerComm products to \[text removed for publication\] organisations including National Instruments, \[text removed for publication\], generating \[text removed for publication\] of license sales booking for AccelerComm, plus royalty commitments that will be realised in future years. 
+
+ **I3** Contributing to the global standards that define 5G. Maunder led a consortium including Ericsson, LG Electronics, Orange, NEC and Sony that contributed to defining the hardware accelerated signal processing aspects of the global standard for 5G mobile communication. 
+
+ **I4** Facilitating 5G deployment. Research has led to open source simulation models that, in combination with AccelerComm's partnerships with hardware vendors Intel, Xilinx and Achronix, have contributed to the development of a global eco\-system for open standardised hardware platforms for 5G base\-station implementation, enabling the 'integration in a day' of hardware accelerators. 
+
+ **I5** Maunder informed part of the UK government's Future Telecoms Infrastructure Review, which sets the flagship policy for the roll\-out of 5G in the UK, with the target of providing 5G coverage to the majority of the UK population by 2027. 
+",,https://results2021.ref.ac.uk/impact/10c676e9-7039-4efe-9ff7-c8adb0931a44
+University of Edinburgh,Code size reduction enables cost savings and enhances functionality of modem and WiFi chipsets,Technological,,,,[EPSRC],"
+#  1. Summary of the impact 
+
+ Research led by the University of Edinburgh \(UoE\) has resulted in a compiler tool that reduces firmware code size by up to 12% in modem chips for smartphones and Internet of Things \(IoT\) devices. The research has been commercialised by world\-leading smartphone chip manufacturer Qualcomm, and employed in more than 175,000,000 5G handsets worldwide. It enabled the company to bring to market modem chips that are smaller, more energy efficient, and/or able to perform more complex functions \(such as compatibility with 5G\) than previously possible. As an early adopter of the open\-sourced UoE research, Qualcomm’s business has significantly improved, borne out both in their clients’ ability to manufacture devices with novel functionality, and in their elimination of competitors from the 5G modem chip market. 
+",,https://results2021.ref.ac.uk/impact/fcc22fe8-c6d4-450a-aa64-9e18af0d70a3
+University of Bristol,Enabling the 5G Networked Society,Technological,,,[Programme Grant],[EPSRC];[European Commission];[DCMS];[EPSRC];[EPSRC],"
+###  1. Summary of the impact 
+
+ Society is now benefiting from the higher data rates, lower latency and higher reliability afforded by 5G, thanks to research undertaken by the University of Bristol’s Smart Internet Lab. This research directly influenced Government policy, yielding the GBP200 million national 5G testbeds and trials programme, and culminating in a strategy for securing the UK’s telecommunication supply chain. The Lab’s pioneering research into new 5G technologies and control methodologies has been adopted by international standardisation bodies, influenced the architecture of BT’s 5G network roll\-out, as well as initiating the adoption of 5G connectivity by multiple vertical industries. Samsung has exploited the research in their mobile edge computing product portfolio, and Zeetta Networks, a spin\-out with >30 staff, is commercialising NetOS®, a suite of software tools for 5G network virtualisation and orchestration deployed in 4 German cities, a football stadium and city festival. 
+",,https://results2021.ref.ac.uk/impact/2f77f185-074e-482f-9bdb-8146a98d6ecc
+"University of Nottingham, The",Enabling the rollout of 5G in Italy and optimising vibration and noise control in vehicles using wave modelling,Technological,[FRANCE];[GERMANY];[ITALY];[JAPAN];[UNITED KINGDOM],[CST AG];[InuTech GmbH];[Romax Technology Ltd];[Telecom Italia];[Yanmar Co Ltd],[Responsive Mode];[H2020 FET Open];[COST Network];[Industry Fellowship];[FP7 IAPP];[Responsive mode],[Engineering and Physical Sciences Research Council];[European Commission];[15 - Royal Society],"
+ **1. Summary of the impact** \(indicative maximum 100 words\) 
+
+ Working in partnership with a leading communications provider, Telecom Italia, software and modelling developed at the University of Nottingham were applied to real\-life wireless communication scenarios to inform operational planning in the rollout of 5G in Italy. 
+
+ Research confirmed that electromagnetic fields \(EMF\) transitioning from outdoor\-to\-indoor environments would remain under Italy’s exposure limit of 6V/m. \[TEXT REDACTED\] 
+
+ The same underpinning research informs the design and manufacturing process for a range of complex structures for minimised noise and vibration, including tractor cabins \(Yanmar Ltd\) and others through new licensed software \(inuTech\). 
+",,https://results2021.ref.ac.uk/impact/0cf6aa38-83d0-4c31-9cf2-243e938c4431
+University of Southampton,Hollow Core Fibres: Delivering economic impact via the commercialisation of a disruptive optical fibre technology for next-generation communications systems.,Technological,[UK];[USA];[Denmark];[Germany];[France];[Ireland];[Netherlands],,,[EPSRC];[EU],"
+###  1. Summary of the impact 
+
+ Pioneering studies at the University of Southampton’s Optoelectronics Research Centre \(ORC\) have demonstrated a set of hollow core optical fibre structures with world\-record properties, proving the commercial viability of a technology designed to disrupt how data communications systems operate and meet increasing global demand for higher bandwidth. Through the spin\-out of fast\-growing company Lumenisity Ltd in January 2016, the commercialisation of hollow core fibre \(HCF\) technology has delivered significant economic impact, including: \[text removed for publication\] raised in external investment, with \~50% coming from overseas into the UK economy; the creation of more than 50 highly skilled engineering and manufacturing jobs at a new \[text removed for publication\] facility in the Southampton area; and revenues approaching \[text removed for publication\] from the sale of first\-generation products with very strong growth forecast in the coming years. The first commercial deployment of HCFs has delivered technical, and therefore financial, benefits to companies in the financial services sector with proof\-of\-concept trials planned in other data communication and telecommunication applications: notably in data centre interconnect and 5G backhaul – both critical if the UK is to meet its broadband connectivity goals. Lumenisity and the ORC are now receiving enquiries and are engaged with many world\-leading companies both in the UK and internationally. 
+",,https://results2021.ref.ac.uk/impact/6168e649-490b-4e7b-8497-e532259b80ca
+Liverpool John Moores University,ICS3: What to do With the Wi-Fi Wild West (Wi-5),Technological,"[England, Turkey, Cyprus, Netherlands, Spain, France, Denmark, Austria, Italy]","[Nederlandse Organisatie Voor Toegepast Natuurwetenschappelijk Onderzoek (TNO), Universidad de Zaragoza, Telefónica S.A., AirTies, PrimeTel PLC, Blu Wireless Technology, AIMES, Inventya, DefProc, Digicredis, CGA Simulation];[Liverpool City Council, Royal Liverpool and Broadgreen University Hospitals NHS Trust (RLBUHT), e-Health Cluster, University of Liverpool]",[EU Horizon 2020];[Liverpool 5G Testbed],[European Commission];[DCMS],"
+###  1. Summary of the impact 
+
+ Wi\-Fi devices should operate in a way to reduce interference between them and thus increase spectrum capacity to meet growing service demands. The EU H2020 funded Wi\-5 project developed novel algorithms for such a solution. Its impact includes \(a\) the text here redacted, \(b\) solution exploitation for securing two government grants worth £7.8m to create 5G\-supported digital health and social care services with estimated annual savings of £247,688 per hundred users, \(c\) consultation with 16 telecommunication operators in 7 countries \(e.g., the text here redacted\), and \(d\) 16 contributions to standardisation bodies. 
+",,https://results2021.ref.ac.uk/impact/3c3f41d0-1a96-4506-9dea-ccccf91fdfb9
+University College London,Improving Data Transfer with Multipath Transmission Control Protocols,Technological,[Global],,[European Commission FP7  ];[Google Inc  ],[European Commission FP7];[Google Inc];[British Telecommunications PLC  ],"
+###  1. Summary of the impact 
+
+ Research at UCL pioneered the suite of Multipath Transmission Control Protocols \(MPTCP\). These protocols improve the efficiency of data transfer across the Internet when compared to the classic suite of transfer protocols “TCP/IP”. The UCL team demonstrated the improved effectiveness of these protocols which has led to multiple commercial deployments, either by Internet Service Providers or by companies such as phone handset suppliers. In addition, UCL research has been incorporated into Operating Systems such as Apple’s iOS and Linux and it is now shaping the design of 5G cellular networks. As a result of UCL research, millions of users benefit every day from smoother transitions between different Internet connections ensuring that online services have a much higher performance and reliability. 
+",,https://results2021.ref.ac.uk/impact/14c2a082-bde1-430b-a050-380ec574838e
+University of Cambridge,Improving mobile phone and network performance through multipath routing and rate control,Technological,[Global],,,,"
+ **1. Summary of the impact** \(indicative maximum 100 words\) 
+
+ With increased demands on the internet, Kelly developed at the University of Cambridge a novel multipath extension to Transmission Control Protocol \(TCP\), the main system of rules for transferring data across the internet. His algorithm has been translated into a practical implementation, “Multipath TCP” \(MPTCP\), standardised by the Internet Engineering Task Force, the international body for defining internet operating protocols. 
+
+ **Key impacts:** 
+
+ **\[I1\]** In the current REF period MPTCP has been deployed on over 1,380,000,000 Apple iPhones worldwide, representing sales of over USD951,000,000,000, and is also used on Korea Telecom and Huawei smartphones. 
+
+ **\[I2\]** In 2015 a new company was founded, Tessares, which uses MPTCP to provide faster internet services, particularly in rural areas, in six countries. Tessares employs nearly 30 people. 
+
+ **\[I3\]** Since July 2020, MPTCP is a standard feature of 5G. 
+",,https://results2021.ref.ac.uk/impact/e0040f2d-8148-4631-979a-35355680dcdf
+Kingston University,Intelligent computer vision improving security in crowded public events and agricultural practice on farms,Technological,[United Kingdom];[European Union],[Blue Bear Systems Research];[Broadway Partners];[Cybermoor];[King’s College London];[Lancaster University];[North Pennines – Area of Outstanding Natural Beauty];[Precision Decisions];[Quickline];[World Around Me];[Fraunhofer Gesellschaft Zur Foerderung Der Angewandten Forschung E.V.];[Acoucite];[Atos It Solutions And Services Sro];[Bruel & Kjaer Sound & Vibration Measurement A/S];[City Of Bonn];[Ethniko Kentro Erevnas Kai Technologikis Anaptyxis];[Cnet Svenska Ab];[Dexels Bv];[Digisky Srl];[Danmarks Tekniske Universitet];[Freie Und Hansestadt Hamburg];[Hochschule Fur Angewandte Wissenschaften Hamburg];[H W Communications Limited];[In-Jet Aps];[Fondazione Links - Leading Innovation & Knowledge For Society];[Kobenhavns Kommune];[Leeds Beckett University];[Movement Entertainment Srl];[Optinvent];[Praesidio Aps];[Ring Advocacy Aps];[Telecom Italia Spa];[Tivoli As];[Comune Di Torino];[VCA Technology Ltd];[Den Erhvervsdrivende Fond Vaeksthus Sjaelland];[Yorkshire County Cricket Club Limited];[Leeds Cricket Football And Athletic Co Limited],[5G Testbeds Programme];[H2020-EU.3.1.4.];[H2020-EU.2.1.1.],"[Department for Digital, Culture, Media and Sport];[European Commission]","
+###  1. Summary of the impact 
+
+ Research into computer vision and visual surveillance conducted by Remagnino and ROVIT have improved the welfare and economic prosperity of citizens across Europe by: 
+
+-  establishing safety and security benefits in large public events through the deployment of the ‘MONICA’ platform for Internet\-of\-Things\-enabled crowd analysis in 5 European countries, with over 140,000 end\-users 
+
+-  harnessing 5G to provide welfare improvement and cost savings to farmers through improvements to agricultural data analysis using drones, time\-saving measures, reducing medical costs, and increasing crop yields 
+
+-  bringing industrial benefits and strategic redirection to VCA Technology Ltd 
+
+-  driving forward drone operations with Blue Bear Research Systems 
+",,https://results2021.ref.ac.uk/impact/5582f9ef-dd9b-412d-881a-f7f64e53cfb0
+University of the West of Scotland,Leading international 5G innovations and shaping global standards and policy,Technological,[United Kingdom];[France];[Germany];[Portugal];[Greece];[Italy];[Ireland];[Romania],"[5G Infrastructure Public Private Partnership];[International Telecommunication Union];[European Telecommunications Standards Institute];[Eurescom-European Institute for Research and Strategic Studies in Telecommunications GmbH];[Altice Labs ];[Orange Romania ];[Orange France];[EFACEC Energia ];[Dell EMC ];[Ericsson Telecomunicazioni ];[IBM Israel Science and Technology Limited];[The Hellenic Telecommunications Organisation ];[EURECOM];[Universitat Politècnica de Catalunya ];[RedZinc Service Ltd];[Cork Institute of Technology ];[Universidad De Murcia ];[Deutsches Forschungszentrum Fuer Kuenstliche Intelligenz Gmbh ];[Universidad Complutense De Madrid ];[Nextworks];[Innoroute GmbH ];[Alvarion Technologies Ltd ];[Ubiwhere];[PROEF];[Creative Systems Engineering];[PT Inovação e Sistemas, S.A.,]",[Horizon 2020 Research and Innovation Action],[European Commission ],"
+1.  **Summary of the impact** 
+
+ University of the West of Scotland \(UWS\) plays a pivotal role in Europe’s global leadership in 5G – a vital technology used across a wide range of crucial sectors, including energy, healthcare, security etc. UWS’ ground\-breaking research has led the development of Europe’s 5G Golden Nugget innovation, and visions encapsulated within official White Papers. UWS’ 5G network management and control solutions have been deployed in the 5G trial testbeds of several leading 5G industries. Furthermore, UWS’ pioneering research has directly led to the development of the ITU \(International Telecommunication Union\) and ETSI \(European Telecommunications Standards Institute\) global ICT standards – essential to interoperability and innovation of international ICT systems. Further impact on national policies was achieved in the Scotland’s AI Strategy. 
+",,https://results2021.ref.ac.uk/impact/91042024-2d9e-4154-9362-19af0ee99f63
+University of Bristol,"Millimetre wave technology enables fast, reliable WiFi on the move",Technological,[England],,[Horizon 2020];[Horizon 2020];[Horizon 2020],[West of England Local Enterprise Partnership];[EPSRC];[European Union];[European Union];[European Union];[First Rail Holdings];[Rail Safety and Standards Board];[First Group],"
+ **1. Summary of the impact** 
+
+ Mobile phone coverage of the UK’s 19,000 miles of railway is notoriously poor. Underpinned by research from the University of Bristol, FirstGroup through evo\-rail \( [www.evo\-rail.com](http://www.evo-rail.com/)\) has now deployed 5G\-rail millimetre wave wireless technology to provide gigabit connectivity from trackside to train. Their passengers can now access the internet on the move via conventional WiFi, offering a through\-put 100 times faster than with cellular networks. The research also influenced government policy mandating train operators to improve broadband connectivity as well as facilitating a Bristol\-based SME, Blu Wireless Technology Ltd, to develop and sell products, greatly expanding their business through trialling and deployment of their millimetre wave technology by FirstGroup Holdings on their South\-West train franchise. 
+",,https://results2021.ref.ac.uk/impact/732b941a-206b-4963-b41e-d81c25d65637
+The University of Kent,"Optimising Wireless Mobile Communication Technologies, Advancing Telecommunication Business Performance, and Informing International Standards",Technological,[United Kingdom],[University of Essex],[EPRSC Research Grant],[EPSRC],"
+ **1. Summary of the impact** \(indicative maximum 100 words\) 
+
+ Kent’s research on mobile communication has led to significant advances in distributed wireless transmission technologies, including user\-selected algorithms in cloud radio access networks \(Gomes, Wang, Zhu\), indoor distributed antenna systems \(Wang, Zhu\), radio over fibre and optical fronthaul technologies, and the use of Ethernet in the fronthaul \(Assimakopoulos Gomes\). The team led the prestigious EPSRC NIRVANA and EU Horizon 2020 iCIRRUS 5G projects. Their combined research and expertise have been widely adopted by international telecommunications providers and vendors, including ThreeUK, BT, ADVA, and VIAVI. This has led to direct impacts on innovation and improved business performance through the design and delivery of new technologies. Kent’s expertise has also been instrumental in the development of new IEC and IEEE standards and specifications for radio over fibre and fronthaul transport technologies. 
+",,https://results2021.ref.ac.uk/impact/34354265-468c-48a3-aeac-186dca9abd07
+King's College London,Pioneering 5G research impacts global telecommunications industry,Technological,[Global];[UK];[UK],[Ericsson Ltd];[Uni of Surrey];[Uni of Edinburgh];[Digital Catapult],"[5G Testbeds & Trials Programme, Hub 1 Project];[The UK Programmable Fixed and Mobile Internet Infrastructure (INITIATE)];[Integration of SDN and NFV in 5G to support access traffic splitting, switching and steering]","[Department for Digital, Culture, Media & Sport];[EPSRC];[BT Group]","
+ **1. Summary of the impact** \(indicative maximum 100 words\) 
+
+ Mobile connectivity is truly pervasive and underpins a wide range of commercial and societal applications. Telco has thus become a trillion\-pound industry with 2G\-4G mobile networks serving more than eight billion connections today. 5G systems were seven years in the making and are now being deployed with an expected market value of GBP500,000,000,000 by 2030. 
+
+ A key factor in the success to acquire parts of this market is the ability to enter the 5G market early with innovative offerings, and to cut operational costs through standardised solutions. To this end, King’s fundamental research contributions on 5G telecommunication systems impacted industry and standards developments alike: 
+
+-  **Ericsson** \(5G market leader\): King’s impacted **\[text removed for publication\]**. 
+
+-  **Konica Minolta** \(enterprise printing market leader\): King’s impacted **\[text removed for publication\]**. 
+
+-  **3GPP** \(global telecommunications standards body, 700 industry members\): King’s provided standards\-essential contributions to two standards on converged 5G architectures, which provide significant benefits in terms of customer experience and affects all network and broadband providers globally. 
+
+-  **GSMA** \(global operator alliance with 750 operator members\): King’s introduced cost\-saving Generic 5G Slice Templates, initially included in the de\-facto industry guidebook and which are now being adopted by **\[text removed for publication\]** telecoms operators globally. 
+",,https://results2021.ref.ac.uk/impact/d8f1fe54-f707-48e5-9ac2-22b3d6a1dbef
+The University of Surrey,Putting the UK in the driving seat in the race to 5G,Societal,,,,,"
+###  1. Summary of the impact \(indicative maximum 100 words\) 
+
+ The 5G Innovation Centre \(5GIC\) has produced major impacts on the UK’s 5G policy and put the UK in pole position in the race to 5G, worth £173 billion by 2030. £95 million from 26 major industrial partners and government was focused on UK research into 5G standards and roll out. Local Enterprise Partnerships \(LEPs\) were engaged to integrate 5G into regional economies and a network of over 300 Small and medium\-sized enterprises \(SMEs\) created. 5GIC support was instrumental in Department of Digital Culture Media and Sport \(DCMS\) establishing a £200 million nationally co\-ordinated programme of six regional 5G testbed facilities and trials, as part of over £1 billion of funding to boost UK digital infrastructure. 
+",,https://results2021.ref.ac.uk/impact/5cb453c9-d7b2-4eb8-a630-4fe569c8d0e5
+University of Durham,Radio propagation for 5G wireless networks,Technological,[Worldwide],[Ofcom UK];[Ofcom Switzerland];[Samsung],[PATRICIAN];[Impact acceleration account];[CREW project],[EPSRC];[OFCOM];[European Commission],"
+ **1. Summary of the impact** \(indicative maximum 100 words\) 
+
+ Durham University has taken the lead in providing the research used by the International Telecommunications Union \(ITU\) and is **the source of the sole dataset** for the 73GHz frequency band **and the residential model**. Professor Salous’ research has contributed to the internationally agreed Recommendations for the fifth generation \(5G\) wireless communications in the built environment, and in the generation of new Recommendations around signal strength attenuation from outside to inside buildings. 
+
+ These Recommendations have helped to determine the frequency allocation for 5G telecommunications systems which was decided at the World Radiocommunications Conference in 2019. This policy change has significant global impact on the telecommunications industry and its users. 
+",,https://results2021.ref.ac.uk/impact/a93d7b61-06af-4aad-8466-b8cc3206665c
+University of Brighton,Transforming the digital economy by leveraging the value of data ,Technological,[UK],[Wired Sussex];[National Centre for Universities and Business];[University of Sussex];[Digital Catapult ];[Coast to Capital Local Economic Partnership];[Greater Brighton Economic Board],[Research Grant],[AHRC];[ERDF],"
+#  1. Summary of the impact 
+
+ University of Brighton \(UoB\) research through the Fuse cluster of collaborative research projects, including its innovation ecosystem generator *FuseBox24*, provided evidence that contributed to leveraging public investment of over GBP28,000,000 to support innovation and growth in the Creative, Digital and IT \(CDIT\) sector in the Sussex region. Joint research programmes at UoB with business partner Wired Sussex have supported 150 micro, SME and larger companies to develop and deliver new products, services and experiences, resulting in 43 new business collaborations. Access to the only business\-led 5G testbed and 5G Accelerator programme resulted in first to market advantages for 20 businesses enabling each to develop and showcase new products and services to a proof\-of\-concept phase. This research has become integral to the 5G roll\-out and the UK’s strategic development of the digital and immersive economy. 
+",,https://results2021.ref.ac.uk/impact/49ed341c-8d5f-41e8-9164-0594b5732b46
+Kingston University,Using ubiquitous networks to produce novel communication capabilities and to improve quality of life,Societal,[United Kingdom];[Spain];[Norway];[Ukraine];[Ireland];[Finland];[Greece];[Belgium];[France];[Germany];[Poland],[Ubitech Ltd];[Thales Six GTS France SAS];[Technische Universitaet Dresden];[Technische Universitaet Ilmenau];[Oulun Yliopisto];[National University Corporation Japan Advanced Institute Of Science And Technology];[Akademia Gorniczo-Hutnicza Im. Stanislawa Staszica W Krakowie];[Fqs Poland Sp. Z O.O.];[University of Surrey];[Ntram General S.A.];[Kyy Games Oy];[Mauri Loba Cesar Francesc];[The National Microelectronics Applications Centre Ltd];[Aphoi Koumanakou & Sia Ee];[Associacio Provincial De Paralisi Cerebral Appc];[European Foundation For Physiotherapy And Physical Activity Of The European Region Of The World Confederation For Physical Therapy];[Universitat Rovira I Virgili];[Institute Of Communication And Computer Systems];[International Clinic Of Rehabilitation LLC];[Hugintech As];[Cubic Defence UK Limited],[TSB Development of Prototype];[FP7-ICT – Specific Programme “Cooperation”];[FP7-SME-2012];[H2020-EU.2.1.1. - INDUSTRIAL LEADERSHIP - Leadership in enabling and industrial technologies - Information and Communication Technologies ];[Knowledge Transfer Partnership ],[Technology Strategy Board];[European Commission];[Innovate UK],"
+###  1. Summary of the impact 
+
+ Research by Kingston University \(KU\) into methods for building ubiquitous Mobile Ad\-Hoc Networks \(MANETs\), quality of service in streaming, and machine learning have led to: 
+
+-  the development of the Vocality RoIP—an advanced radio gateway, to support disaster relief efforts and emergency responders across the globe 
+
+-  the founding of Ubitech Ltd., a network and software solutions SME 
+
+-  the improvement of motor skills for over 1,000 children with cerebral palsy in 6 countries including Ireland, Spain, Ukraine, and Malaysia through a hospital gaming application 
+
+-  contributions to new technological standards and EU 5G policy 
+",,https://results2021.ref.ac.uk/impact/04180ba5-84d5-4bf2-a864-a565a006cbb2

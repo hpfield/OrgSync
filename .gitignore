@@ -1,8 +1,10 @@
-data/raw/all_scraped
-data/raw/combined_organizations.json
-eda/uk_unique_org_embeddings.npy
-data/raw/uk_data.json
-data/ror/
+# data/raw/all_scraped
+# data/raw/combined_organizations.json
+# eda/uk_unique_org_embeddings.npy
+# data/raw/uk_data.json
+# data/ror/
 eda/tmp/
 llama-models/
 .llama/
+data/ror/v1.51-2024-08-21-ror-data.zip
+data/raw/all_scraped/scrape.tar.xz
