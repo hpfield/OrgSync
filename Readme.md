@@ -36,7 +36,7 @@ sudo apt update
 sudo apt install git-lfs
 ```
 
-Initialise git lfs and track csv files:
+Initialise git lfs and track json files:
 ```
 git lfs install
 git lfs track "*.json"
