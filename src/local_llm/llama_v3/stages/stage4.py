@@ -1,7 +1,7 @@
 import logging
 from tqdm import tqdm
 
-from stages.utils import perform_web_search  # Import the web search utility
+from stages.utils import perform_web_search
 
 def stage4_perform_web_search(grouped_names, search_method='duckduckgo'):
     logger = logging.getLogger(__name__)

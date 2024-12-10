@@ -8,12 +8,9 @@ import yaml
 
 logger = logging.getLogger(__name__)
 
-# Determine the project root based on the location of this file
-# utils.py is at: OrgSync/src/local_llm/llama_v3/stages/utils.py
-PROJECT_ROOT = Path(__file__).resolve().parents[4]  # Go up 4 levels
+PROJECT_ROOT = Path(__file__).resolve().parents[4]  
 CONFIG_PATH = PROJECT_ROOT / 'cfg' / 'config.yaml'
 
-# Load the configuration
 with open(CONFIG_PATH, 'r') as f:
     config_data = yaml.safe_load(f)
 
@@ -21,14 +18,12 @@ MODELS_DIR = Path(config_data['models_dir']).resolve()
 DEFAULT_CKPT_DIR = config_data['default_ckpt_dir']
 TOKENIZER_PATH = MODELS_DIR / config_data['tokenizer_subpath']
 
-# Add the 'models' directory to sys.path
 sys.path.append(str(MODELS_DIR.parent))
 
-# Set environment variables required by torch.distributed
 os.environ['RANK'] = '0'
 os.environ['WORLD_SIZE'] = '1'
 os.environ['MASTER_ADDR'] = 'localhost'
-os.environ['MASTER_PORT'] = '12355'  # You can choose any free port
+os.environ['MASTER_PORT'] = '12355'  # choose any free port
 
 def configure_environment():
     sys.path.append(str(MODELS_DIR.parent))
@@ -37,7 +32,7 @@ def configure_environment():
     os.environ['MASTER_ADDR'] = 'localhost'
     os.environ['MASTER_PORT'] = '12355'
 
-# Try importing search modules and model
+
 try:
     from googlesearch import search as google_search
 except ImportError:
