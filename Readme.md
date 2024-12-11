@@ -1,4 +1,4 @@
-# # OrgSync
+# OrgSync
 
 In a database of academic publications, we must resolve situations where the same organisation has been referred to by different names. To do this, we apply a multi-stage technique, where we:
 
