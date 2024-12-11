@@ -1,3 +1,2351 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:372583024119cfa2a397bdd8fc9b8dc4aa84b10c3aa82e1b6d117e5febde1d10
-size 62771
+{
+  "lime technology limited": [
+    "lime technology limited",
+    "lime microsystems ltd"
+  ],
+  "jisc lbg": [
+    "jisc services limited",
+    "jisc lbg"
+  ],
+  "the research network ltd": [
+    "the research network ltd",
+    "research network services limited"
+  ],
+  "northamptonshire county council": [
+    "northamptonshire county council"
+  ],
+  "aintree university hospital nhs foundation trust": [
+    "liverpool university hospital nhs foundation trust",
+    "aintree university hospital nhs foundation trust"
+  ],
+  "john thompson  sons ltd": [
+    "john wiley and sons ltd",
+    "john thompson  sons ltd"
+  ],
+  "newcells biotech limited": [
+    "newcells biotech limited"
+  ],
+  "british transport police authority": [
+    "british transport police authority"
+  ],
+  "monmouthshire county council": [
+    "monmouthshire county council"
+  ],
+  "the british coatings federation limited lbg": [
+    "the british plastics federation lbg",
+    "british woodworking federation lbg",
+    "the british coatings federation limited lbg"
+  ],
+  "mark group limited": [
+    "mark group limited"
+  ],
+  "university of oxford department of engineering science": [
+    "university of oxford",
+    "university of oxford department of engineering science"
+  ],
+  "spirent communications plc": [
+    "spirent communications plc"
+  ],
+  "university of gloucestershire": [
+    "university of gloucestershire"
+  ],
+  "vision sense limited": [
+    "molecular sense ltd",
+    "molecular sense",
+    "vision sense limited"
+  ],
+  "the royal veterinary college": [
+    "the royal veterinary college"
+  ],
+  "cranfield aerospace limited": [
+    "cranfield aerospace limited",
+    "cranfield aerospace solutions limited",
+    "cranfield aeronautical research limited"
+  ],
+  "health intelligence ltd": [
+    "health intelligence ltd"
+  ],
+  "composite integration ltd": [
+    "composite integration ltd",
+    "composite integration"
+  ],
+  "toshiba international europe ltd": [
+    "toshiba europe limited",
+    "toshiba international europe ltd"
+  ],
+  "clyde space limited": [
+    "clyde space limited"
+  ],
+  "peak design limited": [
+    "peak design limited"
+  ],
+  "national maritime museum": [
+    "national maritime museum"
+  ],
+  "south east health technologies alliance limited": [
+    "south east health technologies alliance limited"
+  ],
+  "royal free london nhs foundation trust": [
+    "royal free london nhs foundation trust"
+  ],
+  "aegis it research ltd": [
+    "aegis it research ltd"
+  ],
+  "gas measurement instruments limited": [
+    "gas measurement instruments limited"
+  ],
+  "croydon health services national health service trust": [
+    "croydon health services national health service trust"
+  ],
+  "university for the creative arts": [
+    "university for the creative arts"
+  ],
+  "consortium of european research libraries": [
+    "consortium of european research libraries"
+  ],
+  "the carbon capture and storage association": [
+    "the carbon capture and storage association"
+  ],
+  "wilding butler construction ltd": [
+    "g w butler limited",
+    "wilding butler construction ltd"
+  ],
+  "exemplas holdings limited": [
+    "exemplas limited",
+    "exemplas holdings limited"
+  ],
+  "the marine foundation limited": [
+    "the marine foundation limited"
+  ],
+  "daido metal europe limited": [
+    "daido metal europe limited",
+    "daido industrial bearings europe limited"
+  ],
+  "visolis technologies ltd": [
+    "visolis technologies ltd"
+  ],
+  "university hospitals southampton nhs foundation trust": [
+    "university hospitals southampton nhs foundation trust"
+  ],
+  "culture coventry": [
+    "culture coventry"
+  ],
+  "riversimple engineering limited": [
+    "riversimple llp",
+    "riversimple movement limited",
+    "riversimple engineering limited"
+  ],
+  "the association for science and discovery centres lbg": [
+    "the association for science and discovery centres lbg"
+  ],
+  "uk centre for ecology  hydrology": [
+    "centre for ecology and hydrology",
+    "uk centre for ecology  hydrology"
+  ],
+  "cambridge biomedical consultants limited": [
+    "cambridge biomedical consultants limited"
+  ],
+  "creative concern limited": [
+    "creative concern limited"
+  ],
+  "dyslexia institute lbg": [
+    "dyslexia institute lbg"
+  ],
+  "innovation bridge consulting limited": [
+    "innovation bridge consulting limited"
+  ],
+  "offshore renewable energy catapult": [
+    "offshore renewable energy catapult limited",
+    "ore catapult",
+    "offshore renewable energy catapult"
+  ],
+  "kws uk": [
+    "kws uk",
+    "kws uk ltd",
+    "kws uk maize",
+    "kws uk variety guide",
+    "kws hybrid rye guide",
+    "kws uk maize portfolio",
+    "kws maize field guide"
+  ],
+  "centre for future studies uk limited": [
+    "centre for future studies uk limited"
+  ],
+  "creo medical limited": [
+    "creo medical limited"
+  ],
+  "horiba mira limited": [
+    "horiba mira limited",
+    "horiba uk limited"
+  ],
+  "animal health trust": [
+    "benchmark animal health limited",
+    "animal health trust"
+  ],
+  "neuroprex europe inc ltd": [
+    "inc research uk ltd",
+    "neuroprex europe inc ltd"
+  ],
+  "nottingham city council": [
+    "nottingham city homes limited",
+    "nottingham city council"
+  ],
+  "indestructible paint ltd": [
+    "indestructible paint ltd"
+  ],
+  "leicester city council": [
+    "university of leicester",
+    "leicester city council"
+  ],
+  "safc hitech limited": [
+    "safc hitech limited"
+  ],
+  "micro materials limited": [
+    "micro materials limited"
+  ],
+  "advanced insulation systems ltd": [
+    "advanced insulation systems ltd"
+  ],
+  "transcrip partners llp": [
+    "transcrip partners llp"
+  ],
+  "london luton airport operations limited": [
+    "london luton airport operations limited"
+  ],
+  "the centre for sustainable healthcare ltd": [
+    "the centre for sustainable healthcare ltd"
+  ],
+  "p1vital products limited": [
+    "p1vital limited",
+    "p1vital products limited"
+  ],
+  "wellcome trust sanger institute": [
+    "wellcome trust limited",
+    "wellcome trust sanger institute"
+  ],
+  "stem cell sciences uk ltd": [
+    "stem cell sciences uk ltd",
+    "stem cell sciences plc"
+  ],
+  "west yorkshire combined authority": [
+    "west yorkshire combined authority"
+  ],
+  "atkins consultants limited": [
+    "atkins limited",
+    "atkins consultants limited"
+  ],
+  "survitec service  distribution limited": [
+    "survitec group limited",
+    "survitec service  distribution limited"
+  ],
+  "marine  remote sensing solutions limited": [
+    "marine  remote sensing solutions limited"
+  ],
+  "link technologies ltd": [
+    "link technologies ltd",
+    "link medical research ltd"
+  ],
+  "smarter grid solutions ltd": [
+    "smarter grid solutions ltd",
+    "smarter grid solutions"
+  ],
+  "glass technology services limited": [
+    "glass technology services limited",
+    "glass futures ltd"
+  ],
+  "materials consultancy services limited": [
+    "materials consultancy services limited"
+  ],
+  "progressive energy limited": [
+    "progressive energy limited"
+  ],
+  "segmentum analysis ltd": [
+    "segmentum analysis ltd"
+  ],
+  "avon wildlife trust": [
+    "yorkshire wildlife trust",
+    "avon wildlife trust"
+  ],
+  "the manufacturing technology centre limited": [
+    "the manufacturing technology centre limited"
+  ],
+  "european lung foundation": [
+    "european lung foundation"
+  ],
+  "british geological survey": [
+    "british geological survey",
+    "bgs geology viewer",
+    "british geological survey - wikipedia",
+    "gsni - british geological survey"
+  ],
+  "mda consulting ltd": [
+    "mda consulting ltd",
+    "mda space and robotics limited"
+  ],
+  "chalice medical limited": [
+    "t medical limited",
+    "chalice medical limited"
+  ],
+  "the nottingham trent university": [
+    "the nottingham trent university"
+  ],
+  "dorset county council": [
+    "dorset county council"
+  ],
+  "alchemie technology limited": [
+    "alchemie limited",
+    "alchemie technology limited"
+  ],
+  "royal botanic gardens kew": [
+    "botanic gardens conservation international lbg",
+    "royal botanic gardens kew"
+  ],
+  "nottingham scientific limited": [
+    "nottingham scientific limited"
+  ],
+  "the board trustees of the science museum": [
+    "the board trustees of the science museum"
+  ],
+  "thames water utilities limited": [
+    "thames water utilities limited"
+  ],
+  "the secretary of state for environment food and rural affairs": [
+    "the secretary of state for environment food and rural affairs"
+  ],
+  "nanoco technologies ltd": [
+    "nanoco technologies ltd"
+  ],
+  "oxford nanopore technologies ltd": [
+    "oxford nanopore technologies ltd",
+    "oxford nanopore"
+  ],
+  "queen mary innovation limited": [
+    "queen mary innovation limited",
+    "queen mary university of london"
+  ],
+  "hssmi trading limited": [
+    "hssmi limited",
+    "hssmi trading limited"
+  ],
+  "bmt group ltd": [
+    "bmt smart limited",
+    "bmt defence services limited",
+    "bmt group ltd"
+  ],
+  "sava technologies ltd": [
+    "sava technologies ltd"
+  ],
+  "nhs education for scotland": [
+    "nhs education for scotland",
+    "nhs national services scotland"
+  ],
+  "otaq aquaculture limited": [
+    "otaq limited",
+    "otaq aquaculture limited"
+  ],
+  "preston solutions limited": [
+    "preston solutions limited",
+    "preston solutions limited"
+  ],
+  "composites evolution limited": [
+    "composites evolution limited"
+  ],
+  "highland health board": [
+    "highland health board"
+  ],
+  "rand europe community interest company": [
+    "rand europe community interest company"
+  ],
+  "london school of hygiene and tropical medicine royal charter": [
+    "london school of hygiene and tropical medicine royal charter"
+  ],
+  "molecular discovery ltd": [
+    "molecular discovery ltd"
+  ],
+  "cadzow communications consulting limited": [
+    "cadzow communications consulting limited"
+  ],
+  "orion clinical services ltd": [
+    "orion clinical services ltd",
+    "orion clinical services inc",
+    "orion sante sarl"
+  ],
+  "the centre for economic policy research": [
+    "the centre for economic policy research"
+  ],
+  "ocean flow energy ltd": [
+    "ocean flow energy ltd"
+  ],
+  "beta bugs limited": [
+    "beta bugs limited"
+  ],
+  "cascade water products limited": [
+    "cascade water products limited"
+  ],
+  "lexden technologies ltd": [
+    "lexden technologies ltd"
+  ],
+  "sagentia limited": [
+    "sagentia limited",
+    "sagentia group limited"
+  ],
+  "mitsubishi hitachi power systems europe ltd": [
+    "mitsubishi hitachi power systems europe ltd"
+  ],
+  "icon technology  process consulting limited": [
+    "icon technology systems ltd",
+    "icon technology  process consulting limited"
+  ],
+  "university of plymouth enterprise ltd": [
+    "university of plymouth",
+    "university of plymouth enterprise ltd"
+  ],
+  "health data research uk": [
+    "health data research uk"
+  ],
+  "ycf limited by guarantee": [
+    "ycf limited by guarantee"
+  ],
+  "nhs health and social care information centre": [
+    "nhs health and social care information centre"
+  ],
+  "mhealth futures ltd": [
+    "emerge mhealth ltd",
+    "my mhealth limited",
+    "mhealth futures ltd"
+  ],
+  "emotion special projects ltd": [
+    "emotion special projects ltd"
+  ],
+  "applied inspection limited": [
+    "applied inspection limited"
+  ],
+  "vero software limited": [
+    "vero software limited",
+    "vero uk limited"
+  ],
+  "imagen biotech limited": [
+    "imagen biotech limited",
+    "imagen therapeutics limited"
+  ],
+  "intercept pharma europe ltd": [
+    "intercept pharma europe ltd"
+  ],
+  "virtus it limited": [
+    "virtus projects limited",
+    "virtus it limited"
+  ],
+  "spi lasers uk ltd": [
+    "spi lasers uk ltd",
+    "trumpf laser uk ltd"
+  ],
+  "aston university": [
+    "aston university"
+  ],
+  "meggitt aerospace limited": [
+    "meggitt plc",
+    "meggitt aerospace limited"
+  ],
+  "g24 innovations ltd": [
+    "g24 innovations ltd",
+    "g24 power limited"
+  ],
+  "promethean particles ltd": [
+    "promethean limited",
+    "promethean particles ltd"
+  ],
+  "longitude consulting engineers limited": [
+    "longitude consulting engineers limited"
+  ],
+  "we are unfolded ltd": [
+    "we are unfolded ltd",
+    "we are social ltd"
+  ],
+  "the chancellor masters and scholars of the university of cambridge": [
+    "the chancellor masters and scholars of the university of cambridge"
+  ],
+  "soil environment services limited": [
+    "soil environment services limited"
+  ],
+  "advanced mechanical systems ltd": [
+    "advanced mechanical systems ltd"
+  ],
+  "ideas forward ltd": [
+    "ideas forward ltd",
+    "ideas forward"
+  ],
+  "citizens advice reading": [
+    "citizens advice reading",
+    "citizens advice manchester",
+    "coventry citizens advice"
+  ],
+  "gooch  housego torquay limited": [
+    "gooch  housego torquay limited"
+  ],
+  "scottish hydro electric transmission plc": [
+    "scottish hydro electric transmission plc",
+    "scottish and southern electricity networks",
+    "scottish hydro electric power distribution plc"
+  ],
+  "hiden analytical ltd": [
+    "hiden analytical ltd",
+    "hiden isochema ltd"
+  ],
+  "scriptoria ltd": [
+    "scriptoria",
+    "scriptoria ltd"
+  ],
+  "the uk it association": [
+    "the uk it association",
+    "uk it association",
+    "ukita"
+  ],
+  "police and crime commissioner for north yorkshire": [
+    "police and crime commissioner for north yorkshire",
+    "north yorkshire police authority"
+  ],
+  "liverpool john moores university": [
+    "liverpool john moores university"
+  ],
+  "applied enzyme technology limited": [
+    "applied materials technology limited",
+    "applied enzyme technology limited"
+  ],
+  "cardiff metropolitan university": [
+    "cardiff metropolitan university"
+  ],
+  "brunel university london": [
+    "brunel university london"
+  ],
+  "north east scotland transport partnership": [
+    "north east scotland transport partnership"
+  ],
+  "centre of excellence for life sciences ltd": [
+    "centre of excellence for life sciences ltd",
+    "centre of excellence for life sciences ltd (trading as bionow)"
+  ],
+  "university college london hospitalsnhs foundation trust": [
+    "university college london",
+    "university college london hospitalsnhs foundation trust"
+  ],
+  "wind technologies limited": [
+    "wind technologies limited"
+  ],
+  "true clarity limited": [
+    "true clarity limited"
+  ],
+  "nuance communications uk limited": [
+    "nuance communications uk limited"
+  ],
+  "innovative materials processing technologies ltd": [
+    "innovative materials processing technologies ltd"
+  ],
+  "moorfields eye hospital nhs foundation trust": [
+    "moorfields eye hospital nhs foundation trust"
+  ],
+  "sensor technology limited": [
+    "sensor technology limited"
+  ],
+  "white loop limited": [
+    "white loop limited"
+  ],
+  "europe analytica limited": [
+    "europe analytica limited"
+  ],
+  "aurora medical limited": [
+    "aurora medical limited"
+  ],
+  "powdertech limited": [
+    "powdertech limited"
+  ],
+  "south west water limited": [
+    "south west water limited"
+  ],
+  "rs consulting limited": [
+    "rs consulting limited"
+  ],
+  "bae systems integrated system technologies ltd": [
+    "bae systems integrated system technologies ltd"
+  ],
+  "rcgp rscthe royal college of general practitioners and surveillance centre": [
+    "the royal college of general practitioners",
+    "rcgp rscthe royal college of general practitioners and surveillance centre"
+  ],
+  "genomics england limited": [
+    "genomics england limited"
+  ],
+  "goodrich actuation systems limited": [
+    "goodrich control systems",
+    "goodrich actuation systems limited"
+  ],
+  "lloyds register group limited": [
+    "lloyds register group limited",
+    "lloyds register group services"
+  ],
+  "alstom ltd": [
+    "alstom transport uk limited",
+    "alstom ltd"
+  ],
+  "herefordshire primary care trust": [
+    "herefordshire primary care trust"
+  ],
+  "croda international plc": [
+    "croda europe ltd",
+    "croda international plc"
+  ],
+  "european museum forum lbg": [
+    "european multimedia forum ltd",
+    "european museum forum lbg"
+  ],
+  "edinburgh innovations": [
+    "edinburgh innovations",
+    "edinburgh innovation"
+  ],
+  "royal borough of greenwich": [
+    "royal borough of greenwich",
+    "university of greenwich"
+  ],
+  "london borough of camden": [
+    "london borough of newham",
+    "london borough of southwark",
+    "london borough of islington",
+    "london borough of camden"
+  ],
+  "wild resources limited": [
+    "wild resources limited"
+  ],
+  "nautilus associates limited": [
+    "nautilus associates limited"
+  ],
+  "ge aviation systems limited": [
+    "ge aviation systems limited"
+  ],
+  "dassault systemes uk ltd": [
+    "dassault systemes simulia ltd",
+    "dassault systemes biovia limited",
+    "dassault systemes uk ltd"
+  ],
+  "intelligent voice limited": [
+    "intelligent voice limited"
+  ],
+  "university of bristol": [
+    "university of bristol"
+  ],
+  "williams industrial services limited": [
+    "williams advanced engineering limited",
+    "williams industrial services limited"
+  ],
+  "europe for business ltd": [
+    "europe for business ltd"
+  ],
+  "ashford and st peter s hospitals nhs foundation trust": [
+    "gloucestershire hospitals nhs foundation trust",
+    "ashford and st peter s hospitals nhs foundation trust"
+  ],
+  "minerva public relations  communications limited": [
+    "minerva public relations  communications limited"
+  ],
+  "edwards diving services limited": [
+    "edwards ltd",
+    "edwards diving services limited"
+  ],
+  "nanotechnology industries association": [
+    "nanotechnology industries association",
+    "institute of nanotechnology"
+  ],
+  "gloucestershire rural community council": [
+    "gloucestershire rural community council"
+  ],
+  "oxford institute for energy studies": [
+    "oxford institute for energy studies"
+  ],
+  "university of leeds": [
+    "institute for transport studies university of leeds",
+    "university of leeds"
+  ],
+  "polymer vision limited": [
+    "polymer vision limited",
+    "polymer vision"
+  ],
+  "apa parafricta ltd": [
+    "apa ltd",
+    "apa parafricta ltd"
+  ],
+  "advanced bioprocess development limited": [
+    "advanced bioprocess development limited"
+  ],
+  "dnv services uk limited": [
+    "dnv uk limited",
+    "dnv services uk limited"
+  ],
+  "siemens healthcare limited": [
+    "siemens plc",
+    "siemens mobility limited",
+    "siemens healthcare limited"
+  ],
+  "pagnanelli risk solutions limited": [
+    "risk management solutions limited",
+    "pagnanelli risk solutions limited"
+  ],
+  "cambridge design partnership llp": [
+    "cambridge design partnership llp"
+  ],
+  "gpu prime ltd": [
+    "gpu prime ltd"
+  ],
+  "fergussons advanced composites technology ltd": [
+    "meggitt advanced composites limited",
+    "fergussons advanced composites technology ltd"
+  ],
+  "university of essex": [
+    "university of essex"
+  ],
+  "university of york": [
+    "university of york",
+    "york st john university"
+  ],
+  "horizons unleashed ltd": [
+    "horizons unleashed ltd",
+    "horizons unleashed ltd",
+    "horizons unleashed ltd"
+  ],
+  "surface technology international limited": [
+    "surface technology international limited"
+  ],
+  "merseyside recycling  waste authority": [
+    "merseyside recycling  waste authority"
+  ],
+  "ingleton wood llp": [
+    "ingleton wood llp"
+  ],
+  "obs medical ltd": [
+    "obs medical ltd",
+    "obs medical"
+  ],
+  "office of communications": [
+    "office of communications"
+  ],
+  "birmingham city university": [
+    "birmingham city university"
+  ],
+  "institute of refrigeration": [
+    "institute of refrigeration"
+  ],
+  "talis systems limited": [
+    "talis information limited",
+    "talis systems limited"
+  ],
+  "university of newcastle upon tyne": [
+    "university of newcastle upon tyne",
+    "newcastle university"
+  ],
+  "solar polar limited": [
+    "solar polar limited"
+  ],
+  "moog controls limited": [
+    "moog controls limited",
+    "moog insensys limited"
+  ],
+  "oxford computer consultants limited": [
+    "oxford computer consultants limited",
+    "oxford computer consultants"
+  ],
+  "the arts catalyst": [
+    "the arts catalyst"
+  ],
+  "front technologies ltd": [
+    "front technologies ltd"
+  ],
+  "cae uk plc": [
+    "cae uk plc"
+  ],
+  "mars space ltd": [
+    "mars space ltd"
+  ],
+  "niab": [
+    "niab",
+    "niab emr"
+  ],
+  "comma press": [
+    "comma press"
+  ],
+  "the scottish salmon company limited": [
+    "the scottish salmon company limited",
+    "the scottish salmon company plc"
+  ],
+  "county council of the city and county of cardiff": [
+    "cardiff council",
+    "county council of the city and county of cardiff"
+  ],
+  "international council of associations for science education": [
+    "the association for science education",
+    "international council of associations for science education"
+  ],
+  "salisbury nhs foundation trust": [
+    "salisbury nhs foundation trust"
+  ],
+  "airbus operations limited": [
+    "airbus group limited",
+    "airbus ds limited",
+    "airbus operations limited"
+  ],
+  "the mental health foundation": [
+    "the mental health foundation"
+  ],
+  "plasma clean limited": [
+    "plasma clean limited"
+  ],
+  "united medical innovation ltd": [
+    "united medical innovation ltd"
+  ],
+  "environmental sustainability associates limited": [
+    "environmental sustainability associates limited"
+  ],
+  "aquila biomedical limited": [
+    "aquila biomedical limited"
+  ],
+  "loughborough university enterprisesltd": [
+    "loughborough university",
+    "loughborough university enterprisesltd"
+  ],
+  "birkbeck college  university of london": [
+    "university college london",
+    "university of london",
+    "birkbeck college  university of london"
+  ],
+  "kratos analytical limited": [
+    "kratos analytical limited"
+  ],
+  "bird  bird llp": [
+    "bird  bird llp"
+  ],
+  "icon lifesaver limited": [
+    "icon lifesaver limited"
+  ],
+  "printed electronics ltd": [
+    "printed electronics ltd",
+    "printed electronics limited"
+  ],
+  "greater london authority": [
+    "greater london authority"
+  ],
+  "persontyle group limited": [
+    "persontyle limited",
+    "persontyle group limited"
+  ],
+  "smiths detection watford limited": [
+    "smiths detection group ltd",
+    "smiths detection watford limited"
+  ],
+  "mast group limited": [
+    "mast group limited"
+  ],
+  "open source innovation ltd": [
+    "open source innovation ltd"
+  ],
+  "tiro medical ltd": [
+    "tiro medical ltd",
+    "tiro medical limited"
+  ],
+  "tata steel uk limited": [
+    "tata steel uk consulting limited",
+    "tata steel uk limited"
+  ],
+  "edf energy limited": [
+    "edf energy renewables limited",
+    "edf energy nuclear generation limited",
+    "edf energy limited"
+  ],
+  "eco limited": [
+    "eco limited",
+    "eco limited (e co)"
+  ],
+  "the queens university of belfast": [
+    "queens university belfast",
+    "the queens university of belfast"
+  ],
+  "atlantis resources scotland limited": [
+    "atlantis health uk limited",
+    "atlantis resources scotland limited"
+  ],
+  "cranswick country foods plc": [
+    "cranswick country foods plc"
+  ],
+  "novatica technologies ltd": [
+    "novatica technologies ltd"
+  ],
+  "traffic environment systems limited": [
+    "traffic environment systems limited"
+  ],
+  "lidar technologies ltd": [
+    "lidar technologies ltd"
+  ],
+  "seismic image processing ltd": [
+    "seismic image processing ltd"
+  ],
+  "avacta life sciences limited": [
+    "avacta life sciences limited"
+  ],
+  "architectural solar limited": [
+    "architectural solar limited"
+  ],
+  "helrik and louw and partners company ltd": [
+    "helrik and louw and partners company ltd",
+    "helrik and louw and partners company ltd",
+    "helrik and louw and partners company ltd"
+  ],
+  "avalon fresh limited": [
+    "avalon fresh limited"
+  ],
+  "smith  nephew medical limited": [
+    "smith  nephew medical limited"
+  ],
+  "engine developments ltd": [
+    "engine developments ltd"
+  ],
+  "bolton electronics ltd": [
+    "bolton electronics ltd"
+  ],
+  "the warden and fellows of nuffield college in the university of oxford": [
+    "the warden and fellows of nuffield college in the university of oxford"
+  ],
+  "flexenable limited": [
+    "flexenable technology limited",
+    "flexenable limited"
+  ],
+  "nokia solutions and networks uk limited": [
+    "nokia uk limited",
+    "nokia solutions and networks uk limited"
+  ],
+  "prostate cancer uk": [
+    "prostate cancer uk"
+  ],
+  "university of the west of scotland": [
+    "university of the west of scotland"
+  ],
+  "the national archives": [
+    "the national archives"
+  ],
+  "remade south east ltd": [
+    "remade south east ltd",
+    "remade south east ltd"
+  ],
+  "ge oil  gas uk limited": [
+    "ge energy uk limited",
+    "ge oil  gas uk limited"
+  ],
+  "birmingham museums trust": [
+    "birmingham museums trust"
+  ],
+  "scottishpower energy retail limited": [
+    "scottishpower energy retail limited",
+    "scottishpower renewable energy limited"
+  ],
+  "ds smith plc": [
+    "ds smith plc",
+    "ds smith paper limited"
+  ],
+  "british nutrition foundation": [
+    "british nutrition foundation"
+  ],
+  "winsor medical limited": [
+    "winsor medical limited"
+  ],
+  "metropolitan kings cross limited": [
+    "kings cross central limited partnership",
+    "metropolitan kings cross limited"
+  ],
+  "fujitsu systems europe ltd": [
+    "fujitsu services ltd",
+    "fujitsu systems europe ltd"
+  ],
+  "transport for london": [
+    "transport for greater manchester",
+    "transport for london"
+  ],
+  "fuel 3d technologies limited": [
+    "fuel 3d technologies limited"
+  ],
+  "instruct academic services limited": [
+    "instruct academic services limited"
+  ],
+  "brighton and sussex university hospitals nhs trust": [
+    "university hospitals sussex nhs foundation trust",
+    "brighton and sussex university hospitals nhs trust"
+  ],
+  "rollsroyce marine power operations limited": [
+    "power operations limited",
+    "rollsroyce marine power operations limited"
+  ],
+  "lightsource renewable energy holdings limited": [
+    "lightsource renewable energy holdings limited"
+  ],
+  "tui airways limited": [
+    "tui airways limited"
+  ],
+  "constellation technologies ltd": [
+    "constellation technologies ltd"
+  ],
+  "gw pharmaceuticals": [
+    "gw pharma limited",
+    "gw pharmaceuticals plc",
+    "gw pharmaceuticals"
+  ],
+  "climate futures limited": [
+    "climate futures limited"
+  ],
+  "the scottish hydrogen and fuel cell association ltd": [
+    "uk hydrogen and fuel cell association",
+    "the scottish hydrogen and fuel cell association ltd"
+  ],
+  "university of the highlands and islands": [
+    "university of the highlands and islands"
+  ],
+  "pulse medical technologies limited": [
+    "pulse medical technologies limited"
+  ],
+  "friendly technologies ltd": [
+    "friendly technologies ltd"
+  ],
+  "the glasgow caledonian university": [
+    "the glasgow caledonian university"
+  ],
+  "matrix recycling systems ltd": [
+    "matrix recycling systems ltd"
+  ],
+  "applied functional materials limited": [
+    "applied functional materials limited",
+    "applied materials technology limited"
+  ],
+  "quality meat scotland": [
+    "quality meat scotland"
+  ],
+  "real group uk limited": [
+    "real wireless limited",
+    "real group uk limited"
+  ],
+  "royal college of nursing of the united kingdom royal charter": [
+    "royal college of nursing of the united kingdom royal charter"
+  ],
+  "tictac communications limited": [
+    "tictac communications limited"
+  ],
+  "lincolnshire county council": [
+    "lancashire county council",
+    "lincolnshire county council"
+  ],
+  "anglia ruskin university higher education corporation": [
+    "middlesex university higher education corporation",
+    "anglia ruskin university higher education corporation"
+  ],
+  "calon wen organic milk cooperative ltd": [
+    "calon wen organic milk cooperative ltd",
+    "organic milk suppliers cooperative ltd"
+  ],
+  "health protection agency hpa": [
+    "scottish environment protection agency",
+    "health protection agency hpa"
+  ],
+  "anex analytical services ltd": [
+    "anex analytical services ltd"
+  ],
+  "university of surrey": [
+    "university of surrey"
+  ],
+  "birmingham womens and childrens nhs foundation trust": [
+    "birmingham womens and childrens nhs foundation trust",
+    "birmingham women's and children's nhs foundation trust"
+  ],
+  "good food oxfordshire ltd": [
+    "good food oxfordshire ltd"
+  ],
+  "p a moody recycling limited": [
+    "p a moody recycling limited"
+  ],
+  "university of east london": [
+    "university of east london"
+  ],
+  "orion innovations llp": [
+    "orion innovations uk ltd",
+    "orion innovations llp"
+  ],
+  "lightpoint medical ltd": [
+    "lightpoint medical ltd"
+  ],
+  "babraham bioscience technologies limited": [
+    "the babraham institute",
+    "babraham bioscience technologies limited"
+  ],
+  "aggregate industries uk limited": [
+    "aggregate industries uk ltd",
+    "aggregate industries uk limited"
+  ],
+  "owlstone medical limited": [
+    "owlstone medical limited"
+  ],
+  "mineral and resource planning associates ltd": [
+    "mineral and resource planning associates ltd"
+  ],
+  "james hallam ltd": [
+    "james hallam ltd"
+  ],
+  "succorfish ltd": [
+    "succorfish ltd",
+    "succorfish m2m limited"
+  ],
+  "agas electronic materials ltd": [
+    "agas electronic materials ltd",
+    "a-gas electronic materials"
+  ],
+  "canonical limited": [
+    "canonical limited",
+    "canonical group limited"
+  ],
+  "rina consulting defence ltd": [
+    "rina consulting defence ltd",
+    "rina tech uk ltd"
+  ],
+  "fiscal technologies ltd": [
+    "fiscal technologies ltd"
+  ],
+  "economic and social research council": [
+    "analytica social and economic research limited",
+    "national institute of economic and social research lbg",
+    "wales institute of social  economic research data  methods",
+    "economic and social research council"
+  ],
+  "rollsroyce fuel cell systems limited": [
+    "fuel cell systems ltd",
+    "rollsroyce fuel cell systems limited"
+  ],
+  "apd communications ltd": [
+    "apd communications ltd"
+  ],
+  "north american science associates limited": [
+    "north american science associates limited"
+  ],
+  "tomato limited": [
+    "tomato limited"
+  ],
+  "fai aquaculture limited": [
+    "fai farms ltd",
+    "fai aquaculture limited"
+  ],
+  "the university of salford": [
+    "the university of salford"
+  ],
+  "university of bradford": [
+    "university of bradford"
+  ],
+  "billon financial ltd": [
+    "billon group limited",
+    "billon financial ltd"
+  ],
+  "rtc north limited": [
+    "rtc north limited"
+  ],
+  "leicester housing association limited ips": [
+    "the glasgow housing association limited ips",
+    "leicester housing association limited ips"
+  ],
+  "national energy action": [
+    "national energy action",
+    "national energy action lbg"
+  ],
+  "renewable technical services limited": [
+    "renewable ltd",
+    "renewable technical services ltd",
+    "renewable technical services limited"
+  ],
+  "future cities lab ltd": [
+    "future cities lab ltd",
+    "future cities catapult"
+  ],
+  "highway energy systems limited": [
+    "highway energy systems limited"
+  ],
+  "pal technologies limited": [
+    "pal technologies limited"
+  ],
+  "helpage international lbg": [
+    "helpage international uk",
+    "helpage international lbg"
+  ],
+  "it power consulting ltd": [
+    "it power ltd",
+    "it power consulting ltd"
+  ],
+  "advanced communications  information systems ltd": [
+    "advanced transport systems ltd",
+    "advanced communications  information systems ltd"
+  ],
+  "european access network": [
+    "european access network"
+  ],
+  "oxford semantic technologies limited": [
+    "oxford semantic technologies limited",
+    "oxford semantic technologies"
+  ],
+  "the rotherham nhs foundation trust": [
+    "the rotherham nhs foundation trust"
+  ],
+  "interoute communications ltd": [
+    "interoute communications ltd"
+  ],
+  "bath spa university": [
+    "bath spa university"
+  ],
+  "organics limited": [
+    "gilchesters organics limited",
+    "organics limited"
+  ],
+  "desap system solutions limited": [
+    "desap system solutions limited",
+    "desap enterprises limited"
+  ],
+  "opportunity peterborough limited": [
+    "opportunity peterborough limited"
+  ],
+  "aviation enterprises limited": [
+    "aviation enterprises limited"
+  ],
+  "iota pharmaceuticals ltd": [
+    "iota pharmaceuticals ltd"
+  ],
+  "stirling dynamics ltd": [
+    "stirling dynamics ltd"
+  ],
+  "ic focus limited": [
+    "ic focus limited"
+  ],
+  "interactive coventry limited": [
+    "interactive coventry limited"
+  ],
+  "liverpool heart and chest hospital nhs foundation trust": [
+    "liverpool university hospital nhs foundation trust",
+    "liverpool heart and chest hospital nhs foundation trust"
+  ],
+  "scottish power generation ltd": [
+    "surface generation ltd",
+    "scottish power generation ltd"
+  ],
+  "optos public limited company": [
+    "optos public limited company"
+  ],
+  "uk power networks operations ltd": [
+    "uk power networks operations ltd"
+  ],
+  "c3 global limited": [
+    "c3 biotechnologies limited",
+    "c3 global limited"
+  ],
+  "seagate technology ireland": [
+    "seagate technology ireland",
+    "seagate systems uk limited"
+  ],
+  "lamb precision engineering limited": [
+    "lamb precision engineering limited"
+  ],
+  "retroscreen virology ltd": [
+    "retroscreen virology ltd",
+    "retroscreen virology group limited"
+  ],
+  "charles jackson  co ltd": [
+    "charles jackson  co ltd"
+  ],
+  "autonomy systems limited": [
+    "autonomy systems limited",
+    "autonomy corporation plc",
+    "autonomy"
+  ],
+  "msquared lasers limited": [
+    "msquared lasers limited"
+  ],
+  "eaton aerospace limited": [
+    "eaton limited",
+    "eaton aerospace limited"
+  ],
+  "open phacts foundation lbg": [
+    "open phacts foundation lbg"
+  ],
+  "sarissa biomedical limited": [
+    "sarissa biomedical limited"
+  ],
+  "isis innovation ltd": [
+    "isis innovation ltd"
+  ],
+  "microwave technology ltd": [
+    "microwave technology ltd",
+    "flann microwave limited"
+  ],
+  "the british council royal charter": [
+    "the british council royal charter"
+  ],
+  "rockwell collins uk ltd": [
+    "rockwell collins uk limited",
+    "rockwell collins uk ltd"
+  ],
+  "helios": [
+    "helios technology ltd",
+    "helios"
+  ],
+  "aimes grid services community interest company": [
+    "ambiotek community interest company",
+    "aimes grid services community interest company"
+  ],
+  "trelleborg sealing solutions uk limited": [
+    "trelleborg offshore uk limited",
+    "trelleborg sealing solutions uk limited"
+  ],
+  "dem dx limited": [
+    "dem dx limited",
+    "dem solutions ltd"
+  ],
+  "life molecular imaging ltd": [
+    "life molecular imaging ltd"
+  ],
+  "pera innovation limited": [
+    "pera innovation limited",
+    "pera technology limited"
+  ],
+  "medicsight limited": [
+    "medicsight plc",
+    "medicsight limited"
+  ],
+  "microsharp innovation limited": [
+    "microsharp innovation limited",
+    "microsharp corporation limited"
+  ],
+  "photon design limited": [
+    "cambridge photon technology limited",
+    "photon design limited"
+  ],
+  "platform kinetics limited": [
+    "platform kinetics limited"
+  ],
+  "uk office for national statistics": [
+    "national measurement office",
+    "uk office for national statistics"
+  ],
+  "rsk adas limited": [
+    "rsk adas limited"
+  ],
+  "future isle of wight cic": [
+    "future isle of wight cic"
+  ],
+  "sp power systems limited": [
+    "sp power systems limited"
+  ],
+  "aps biocontrol ltd": [
+    "aps biocontrol ltd"
+  ],
+  "ps analytical limited": [
+    "ps analytical limited"
+  ],
+  "parametric optimization solutions limited": [
+    "parametric optimization solutions limited",
+    "parametric technology uk limited"
+  ],
+  "royal brompton and harefield national health service trust": [
+    "the royal brompton and harefield national health service trust",
+    "royal brompton and harefield national health service trust"
+  ],
+  "berry consultants llp": [
+    "berry consultants llp"
+  ],
+  "johnson matthey hydrogen technologies limited": [
+    "johnson matthey plc",
+    "johnson matthey battery systems engineering limited",
+    "johnson matthey hydrogen technologies limited"
+  ],
+  "community energy scotland limited": [
+    "community energy scotland limited"
+  ],
+  "hawk associates limited": [
+    "hawk associates limited"
+  ],
+  "the english heritage trust": [
+    "english heritage",
+    "the english heritage trust"
+  ],
+  "pharmidex pharmaceutical services limited": [
+    "pharmidex",
+    "pharmidex pharmaceutical services limited"
+  ],
+  "deltex medical limited": [
+    "deltex medical limited"
+  ],
+  "west and north yorkshire chamber of commerce and industry": [
+    "west and north yorkshire chamber of commerce and industry"
+  ],
+  "pab coventry ltd": [
+    "pab coventry ltd"
+  ],
+  "econic technologies ltd": [
+    "econic technologies ltd"
+  ],
+  "liverpool hope university": [
+    "liverpool hope university"
+  ],
+  "stakeholder forum for a sustainable future lbg": [
+    "the forum for the future lbg",
+    "stakeholder forum for a sustainable future lbg"
+  ],
+  "footprint tools limited": [
+    "footprint sheffield limited",
+    "footprint tools limited"
+  ],
+  "odqa renewable energy technologies limited": [
+    "odqa renewable energy technologies limited"
+  ],
+  "costain ltd": [
+    "costain ltd",
+    "costain group plc"
+  ],
+  "forensic science service ltd": [
+    "forensic science service ltd"
+  ],
+  "westcountry rivers trust lbg": [
+    "the rivers trust",
+    "westcountry rivers trust lbg"
+  ],
+  "good things foundation": [
+    "good things foundation"
+  ],
+  "maritime plymouth": [
+    "university of plymouth",
+    "maritime plymouth"
+  ],
+  "first somerset  avon ltd": [
+    "first somerset  avon limited",
+    "first somerset  avon ltd"
+  ],
+  "environmental resources management limited": [
+    "environmental and management solutions ltd",
+    "environmental resources management limited"
+  ],
+  "the society for the reduction of carbon limited": [
+    "the society for the reduction of carbon limited"
+  ],
+  "the association for decentralised energy": [
+    "the association for decentralised energy"
+  ],
+  "renewable energy association lbg": [
+    "renewable energy systems limited",
+    "renewable energy assurance limited",
+    "renewable energy association lbg"
+  ],
+  "alan harper composites": [
+    "alan harper composites",
+    "alan harper composites ltd"
+  ],
+  "cochlear research and development limited": [
+    "cochlear europe limited",
+    "cochlear research and development limited"
+  ],
+  "iamas technologies ltd": [
+    "iamas technologies ltd"
+  ],
+  "finetech medical limited": [
+    "finetech medical limited"
+  ],
+  "bp alternative energy international limited": [
+    "bp alternative energy international limited",
+    "bp technology ventures limited"
+  ],
+  "the leeds teaching hospitals national health service trust": [
+    "the leeds teaching hospitals national health service trust"
+  ],
+  "green marine uk ltd": [
+    "green marine uk ltd"
+  ],
+  "development solutions europe ltd": [
+    "development solutions europe ltd"
+  ],
+  "tax justice network": [
+    "tax justice network"
+  ],
+  "ixaris technologies limited": [
+    "ixaris systems ltd",
+    "ixaris technologies limited"
+  ],
+  "isaac newton institute for mathematical sciences": [
+    "isaac newton institute for mathematical sciences"
+  ],
+  "electro scientific industries europe ltd": [
+    "electro scientific industries europe ltd"
+  ],
+  "south east england development agency": [
+    "south east england development agency"
+  ],
+  "northern ireland environment agency  department of environment for northern ireland": [
+    "invest northern ireland",
+    "northern ireland environment agency  department of environment for northern ireland"
+  ],
+  "ascentx medical europe limited": [
+    "t medical limited",
+    "ascentx medical europe limited"
+  ],
+  "lancashire care nhs foundation trust": [
+    "lancashire care nhs foundation trust"
+  ],
+  "oxford brookes university": [
+    "oxford brookes university"
+  ],
+  "fleet innovations ltd": [
+    "fleet innovations ltd"
+  ],
+  "move it or lose it": [
+    "move it or lose it"
+  ],
+  "goodrich control systems private unlimited company": [
+    "goodrich control systems",
+    "goodrich control systems private unlimited company"
+  ],
+  "enigma diagnostics limited": [
+    "enigma diagnostics limited",
+    "enigma diagnostics"
+  ],
+  "kings college london": [
+    "kings college london"
+  ],
+  "business models inc ltd": [
+    "business models inc ltd"
+  ],
+  "thales esecurity ltd": [
+    "thales uk limited",
+    "thales esecurity ltd"
+  ],
+  "magnetic systems technology limited": [
+    "magnetic systems technology limited",
+    "magnetic systems technology limited"
+  ],
+  "peter davidson consultancy limited": [
+    "peter davidson consultancy limited",
+    "davidson peter"
+  ],
+  "argent energy uk limited": [
+    "argent waugh limited",
+    "argent energy uk limited"
+  ],
+  "advanced chemistry development uk limited": [
+    "chemistry innovation limited",
+    "advanced chemistry development uk limited"
+  ],
+  "global security challenge llp": [
+    "global security challenge llp"
+  ],
+  "bristol natural history consortium": [
+    "bristol natural history consortium",
+    "natural history museum"
+  ],
+  "oxfordshire bioscience network ltd": [
+    "bioscience network limited",
+    "oxfordshire bioscience network ltd"
+  ],
+  "element energy limited": [
+    "element six limited",
+    "element energy limited"
+  ],
+  "south tyneside college": [
+    "south tyneside college"
+  ],
+  "air bp limited": [
+    "air bp limited",
+    "bp international limited"
+  ],
+  "moredun research institute": [
+    "moredun research institute",
+    "moredun scientific limited"
+  ],
+  "ibm united kingdom ltd": [
+    "ibm united kingdom ltd"
+  ],
+  "innova integra limited": [
+    "innova biosciences limited",
+    "innova integra limited"
+  ],
+  "yorkshire photonic technology limited": [
+    "yorkshire photonic technology limited"
+  ],
+  "lm wind power uk limited": [
+    "lm wind power uk limited"
+  ],
+  "bae systems applied intelligence limited": [
+    "bae systems operations limited",
+    "bae systems applied intelligence limited"
+  ],
+  "scensive technologies ltd": [
+    "scensive technologies ltd"
+  ],
+  "vivid economics ltd": [
+    "vivid economics ltd"
+  ],
+  "mirada medical ltd": [
+    "mirada medical ltd"
+  ],
+  "nottinghamshire healthcare nhs foundation trust": [
+    "nottinghamshire healthcare nhs foundation trust"
+  ],
+  "microsens medtech ltd": [
+    "microsens diagnostics ltd",
+    "microsens medtech ltd"
+  ],
+  "iqe europe ltd": [
+    "iqe plc",
+    "iqe europe ltd"
+  ],
+  "university of hull": [
+    "university of hull"
+  ],
+  "the university of sussex": [
+    "the university of sussex"
+  ],
+  "atlantis operations uk limited": [
+    "atlantis health uk limited",
+    "atlantis operations uk limited"
+  ],
+  "european association for cancer research": [
+    "cancer research uk lbg",
+    "european association for cancer research"
+  ],
+  "film optics ltd": [
+    "film optics ltd"
+  ],
+  "community forest trust": [
+    "the forest trust lbg",
+    "community forest trust"
+  ],
+  "bae systems land and sea systems ltd": [
+    "bae systems operations limited",
+    "bae systems land and sea systems ltd"
+  ],
+  "wild berry enterprises limited": [
+    "wild berry enterprises limited"
+  ],
+  "siemens industry software limited": [
+    "siemens plc",
+    "siemens industry software limited"
+  ],
+  "fibre photonics ltd": [
+    "fibre photonics ltd",
+    "fibre photonics"
+  ],
+  "tangent technologies ltd": [
+    "tangent technologies ltd"
+  ],
+  "the institute for criminal policy research icpr": [
+    "the institute for criminal policy research icpr"
+  ],
+  "southampton city council": [
+    "southampton city council"
+  ],
+  "pall manufacturing uk limited": [
+    "pall manufacturing uk limited",
+    "pall europe limited"
+  ],
+  "southampton solent university": [
+    "southampton solent university"
+  ],
+  "crops for the future limited": [
+    "crops for the future uk cic",
+    "crops for the future limited"
+  ],
+  "bioniqs ltd": [
+    "bioniqs limited",
+    "bioniqs ltd"
+  ],
+  "wave hub limited": [
+    "wave hub limited"
+  ],
+  "the cedar foundation": [
+    "the cedar foundation"
+  ],
+  "halton chamber of commerce and enterprise lbg": [
+    "halton chamber of commerce and enterprise lbg"
+  ],
+  "rockfield software limited": [
+    "rockfield",
+    "rockfield software limited"
+  ],
+  "ocado innovation limited": [
+    "ocado innovation limited",
+    "ocado retail limited"
+  ],
+  "open geospatial consortium europe limited": [
+    "geospatial research ltd",
+    "open geospatial consortium europe limited"
+  ],
+  "dairy uk ltd": [
+    "dairy uk ltd"
+  ],
+  "brighton  hove bus and coach company limited": [
+    "brighton  hove bus and coach company limited"
+  ],
+  "nxp semiconductors uk limited": [
+    "nxp semiconductors uk limited",
+    "nxp laboratories uk limited"
+  ],
+  "mercury recycling limited": [
+    "mercury recycling limited"
+  ],
+  "insight publishers limited": [
+    "insight publishers limited"
+  ],
+  "edoteverythingdotcom trading as denarius professional": [
+    "edoteverythingdotcom trading as denarius professional"
+  ],
+  "university of aberdeen": [
+    "the university court of the university of aberdeen",
+    "university of aberdeen"
+  ],
+  "integrated environmental solutions limited": [
+    "integrated environmental solutions limited"
+  ],
+  "ufloor technologies ltd": [
+    "ufloor technologies ltd"
+  ],
+  "london school of economics and political science": [
+    "london school of economics and political science"
+  ],
+  "sheffield teaching hospitals nhs foundation trust": [
+    "sheffield teaching hospitals nhs foundation trust"
+  ],
+  "innovo engineering and construction ltd": [
+    "innovo engineering and construction ltd"
+  ],
+  "lancaster cohousing company ltd": [
+    "lancaster cohousing company ltd"
+  ],
+  "south east coast ambulance service nhs foundation trust": [
+    "south east coast ambulance service nhs foundation trust"
+  ],
+  "the open university": [
+    "the open university"
+  ],
+  "university of st mark  st john": [
+    "york st john university",
+    "university of st mark  st john"
+  ],
+  "understanding targeting limited": [
+    "targeting innovation limited",
+    "understanding targeting limited"
+  ],
+  "biopharma process systems ltd": [
+    "biopharma process systems ltd",
+    "biopharma technology ltd"
+  ],
+  "blue visby services ltd": [
+    "blue visby services ltd"
+  ],
+  "regional agency for public health and social wellbeing": [
+    "regional health and social care board",
+    "regional agency for public health and social wellbeing"
+  ],
+  "renew technologies ltd": [
+    "renew technologies ltd"
+  ],
+  "critical software technologies ltd": [
+    "critical software technologies ltd"
+  ],
+  "transport systems catapult limited": [
+    "transport systems catapult limited"
+  ],
+  "ups limited": [
+    "ups limited",
+    "ups systems plc"
+  ],
+  "nec europe ltd": [
+    "nec europe ltd",
+    "nec technologies uk limited"
+  ],
+  "poultry health services limited": [
+    "poultry health services limited"
+  ],
+  "department of health social services and public safety": [
+    "department of health",
+    "department of health social services and public safety"
+  ],
+  "the university of exeter": [
+    "the university of exeter"
+  ],
+  "future home uk limited": [
+    "future home uk limited"
+  ],
+  "oldham metropolitan borough council": [
+    "oldham metropolitan borough council",
+    "stockport metropolitan borough council"
+  ],
+  "university of dundee": [
+    "university of dundee"
+  ],
+  "horizon discovery limited": [
+    "horizon discovery limited"
+  ],
+  "sparta technologies ltd": [
+    "sparta technologies ltd"
+  ],
+  "fluid analytics": [
+    "fluid analytics",
+    "fluid analytics.ai"
+  ],
+  "northern ireland rare disease partnership": [
+    "northern ireland rare disease partnership"
+  ],
+  "thales ground transportation systems uk limited": [
+    "thales uk limited",
+    "thales ground transportation systems uk limited"
+  ],
+  "marine harvest scotland limited": [
+    "marine harvest scotland limited"
+  ],
+  "london business school": [
+    "london business school"
+  ],
+  "cambridge cleantech ltd": [
+    "cambridge cleantech ltd"
+  ],
+  "selex systems integration ltd": [
+    "selex systems integration ltd"
+  ],
+  "cardiff scintigraphics limited": [
+    "cardiff scintigraphics limited"
+  ],
+  "the royal society of chemistry": [
+    "the royal society of chemistry",
+    "chemistry innovation limited"
+  ],
+  "odin medical limited": [
+    "t medical limited",
+    "odin medical limited"
+  ],
+  "ergomed clinical research limited": [
+    "ergomed clinical research limited"
+  ],
+  "scottish fire and rescue service": [
+    "fire service college limited",
+    "scottish fire and rescue service"
+  ],
+  "swansea university": [
+    "swansea university"
+  ],
+  "advanced digital innovation ltd": [
+    "advanced digital innovation ltd",
+    "advanced digital innovation uk ltd"
+  ],
+  "shell research limited": [
+    "shell research limited"
+  ],
+  "surrey and borders partnership nhs foundation trust": [
+    "surrey and borders partnership nhs foundation trust"
+  ],
+  "almac diagnostic services limited": [
+    "almac diagnostic services limited"
+  ],
+  "intelligent formulation limited": [
+    "intelligent formulation limited"
+  ],
+  "b9 energy storage ltd": [
+    "b9 energy om limited",
+    "b9 energy storage ltd"
+  ],
+  "the uk health  environment research institute limited": [
+    "the uk health  environment research institute limited"
+  ],
+  "scottish government": [
+    "welsh government",
+    "scottish government"
+  ],
+  "randox laboratories ltd": [
+    "randox laboratories ltd",
+    "randox clinics limited"
+  ],
+  "kingspan renewables limited": [
+    "kingspan renewables limited",
+    "kingspan insulation limited"
+  ],
+  "williams grand prix engineering limited": [
+    "williams grand prix engineering limited",
+    "williams advanced engineering limited"
+  ],
+  "secure secure ltd": [
+    "secure secure ltd"
+  ],
+  "cymru coal limited": [
+    "cymru coal limited"
+  ],
+  "mango business solutions limited": [
+    "mango business solutions limited"
+  ],
+  "rollsroyce plc": [
+    "rollsroyce power engineering plc",
+    "rollsroyce plc"
+  ],
+  "honda r  d europe uk limited": [
+    "honda motor europe limited",
+    "honda r  d europe uk limited"
+  ],
+  "reading borough council": [
+    "reading borough council"
+  ],
+  "haydale composite solutions limited": [
+    "haydale ltd",
+    "haydale composite solutions limited"
+  ],
+  "marine stewardship council": [
+    "aquaculture stewardship council",
+    "marine stewardship council"
+  ],
+  "coventry university enterprises limited": [
+    "coventry university",
+    "coventry university enterprises limited"
+  ],
+  "the solar press uk limited": [
+    "the solar press uk limited"
+  ],
+  "silent sensors limited": [
+    "silent sensors limited"
+  ],
+  "terravesta assured energy crops limited": [
+    "terravesta assured energy crops limited"
+  ],
+  "biotronics ltd": [
+    "biotronics 3d limited",
+    "biotronics ltd"
+  ],
+  "operations consulting llp": [
+    "operations consulting llp"
+  ],
+  "data centre alliance limited": [
+    "data centre alliance limited"
+  ],
+  "ceres power limited": [
+    "ceres power limited",
+    "ceres power"
+  ],
+  "institute for european environmental policy london": [
+    "institute for european environmental policy london"
+  ],
+  "albion technologies ltd": [
+    "albion technologies ltd"
+  ],
+  "land rover": [
+    "land rover",
+    "jaguar land rover limited"
+  ],
+  "g c hahn and company limited": [
+    "hahn plastics ltd",
+    "g c hahn and company limited"
+  ],
+  "ayton willow ltd": [
+    "ayton willow ltd"
+  ],
+  "impact measurement limited": [
+    "impact measurement limited"
+  ],
+  "osprey corporation limited": [
+    "osprey corporation limited"
+  ],
+  "global maritime consultancy ltd": [
+    "global maritime consultancy ltd"
+  ],
+  "ge energy power conversion technology limited": [
+    "ge energy uk limited",
+    "ge energy power conversion technology limited"
+  ],
+  "the university of manchester i3 limited": [
+    "the university of manchester",
+    "the university of manchester i3 limited"
+  ],
+  "shire creative limited": [
+    "shire creative limited"
+  ],
+  "ealing hospital nhs trust": [
+    "ealing hospital nhs trust"
+  ],
+  "conserv bioscience limited": [
+    "conserv bioscience limited"
+  ],
+  "the university court of abertay university": [
+    "the university court of abertay university"
+  ],
+  "ge healthcare limited": [
+    "ge healthcare limited"
+  ],
+  "royal college of psychiatrists": [
+    "royal college of psychiatrists"
+  ],
+  "analytics engines limited": [
+    "reaction engines limited",
+    "analytics engines limited"
+  ],
+  "borregaard industries limited": [
+    "borregaard industries limited"
+  ],
+  "axion recycling ltd": [
+    "axion polymers",
+    "axion consulting",
+    "axion recycling ltd"
+  ],
+  "autoclaves limited": [
+    "ascot autoclaves",
+    "rm autoclaves limited",
+    "autoclaves limited"
+  ],
+  "alzheimers society": [
+    "alzheimers society",
+    "alzheimers research uk"
+  ],
+  "the rural development company limited": [
+    "the rural development company limited"
+  ],
+  "trig avionics limited": [
+    "trig avionics limited"
+  ],
+  "viridor waste management limited": [
+    "viridor waste management limited"
+  ],
+  "trilateral research ltd": [
+    "trilateral research ltd",
+    "trilateral research consulting llp"
+  ],
+  "thales transport and security limited": [
+    "thales uk limited",
+    "thales transport and security limited"
+  ],
+  "renishaw neuro solutions ltd": [
+    "renishaw plc",
+    "renishaw neuro solutions ltd"
+  ],
+  "greater manchester police": [
+    "greater manchester police"
+  ],
+  "life technologies limited": [
+    "life technologies limited"
+  ],
+  "scottishpower renewable uk limited": [
+    "scottishpower renewable energy limited",
+    "scottishpower renewable uk limited"
+  ],
+  "kheiron medical technologies ltd": [
+    "kheiron medical",
+    "kheiron medical technologies ltd"
+  ],
+  "crowd analytics ltd": [
+    "crowd analytics ltd",
+    "crowd analytics"
+  ],
+  "portsmouth city council": [
+    "portsmouth city council"
+  ],
+  "oxford biodynamics plc": [
+    "oxford biodynamics plc"
+  ],
+  "abs consulting ltd": [
+    "abs consulting ltd",
+    "abs europe ltd"
+  ],
+  "edinburgh napier university": [
+    "edinburgh napier university"
+  ],
+  "frontier economics limited": [
+    "frontier economics limited"
+  ],
+  "medical research council": [
+    "medical research council"
+  ],
+  "royal northern college of music": [
+    "royal northern college of music"
+  ],
+  "westminster city council": [
+    "westminster city council"
+  ],
+  "sp global indices uk limited": [
+    "sp global uk limited",
+    "sp global indices uk limited"
+  ],
+  "bristol clifton and west of england zoological society limited": [
+    "bristol clifton and west of england zoological society limited"
+  ],
+  "belfast city council": [
+    "belfast city council"
+  ],
+  "applied renewables research limited": [
+    "applied renewables research limited"
+  ],
+  "imerys minerals ltd": [
+    "imerys minerals ltd",
+    "marine minerals limited"
+  ],
+  "royal liverpool and broadgreen university hospitals nhs trust": [
+    "liverpool university hospital nhs foundation trust",
+    "royal liverpool and broadgreen university hospitals nhs trust"
+  ],
+  "forensic pathways limited": [
+    "forensic pathways limited"
+  ],
+  "knowledge 4 all foundation lbg": [
+    "open knowledge foundation lbg",
+    "knowledge 4 all foundation lbg"
+  ],
+  "d young  co llp": [
+    "d young  co llp"
+  ],
+  "renewable advice ltd": [
+    "renewable ltd",
+    "renewable advice ltd"
+  ],
+  "micropore technologies ltd": [
+    "micropore technologies ltd"
+  ],
+  "grid xitek limited": [
+    "grid xitek limited"
+  ],
+  "volterra consulting ltd": [
+    "volterra consulting ltd",
+    "volterra partners llp"
+  ],
+  "ilika technologies ltd": [
+    "ilika technologies ltd"
+  ],
+  "dr foster research ltd": [
+    "dr foster research ltd",
+    "dr foster research limited"
+  ],
+  "graphene industries limited": [
+    "graphene industries limited"
+  ],
+  "zoological society of london institute of zoology": [
+    "zoological society of london institute of zoology"
+  ],
+  "sofant technologies ltd": [
+    "sofant technologies ltd"
+  ],
+  "accentus medical limited": [
+    "t medical limited",
+    "accentus medical limited"
+  ],
+  "advanced innovative engineering uk limited": [
+    "williams advanced engineering limited",
+    "advanced innovative engineering uk limited"
+  ],
+  "alp technologies ltd": [
+    "alp technologies ltd"
+  ],
+  "cardiff and vale university health board": [
+    "cardiff and vale university health board"
+  ],
+  "nuspec bioscience limited": [
+    "nuspec bioscience limited"
+  ],
+  "bluemorph technologies ltd": [
+    "bluemorph technologies ltd"
+  ],
+  "mapix technologies ltd": [
+    "mapix technologies ltd"
+  ],
+  "green air monitoring ltd": [
+    "green air monitoring ltd"
+  ],
+  "thales alenia space uk ltd": [
+    "thales alenia space uk ltd",
+    "thales uk limited"
+  ],
+  "national gas transmission plc": [
+    "national gas transmission plc"
+  ],
+  "datasat communications limited": [
+    "h w communications limited",
+    "datasat communications limited"
+  ],
+  "rollsroyce controls and data services limited": [
+    "rollsroyce controls and data services limited"
+  ],
+  "chelsea and westminster hospital nhs foundation trust": [
+    "chelsea and westminster hospital nhs foundation trust"
+  ],
+  "hobart lasers ltd": [
+    "hobart lasers ltd"
+  ],
+  "the city of edinburgh council": [
+    "the university of edinburgh",
+    "the city of edinburgh council"
+  ],
+  "image solutions uk limited": [
+    "image solutions uk limited"
+  ],
+  "adorial technologies ltd": [
+    "adorial technologies ltd"
+  ],
+  "phoenix photonics limited": [
+    "phoenix photonics limited"
+  ],
+  "south warwickshire nhs foundation trust": [
+    "south warwickshire university nhs foundation trust",
+    "south warwickshire nhs foundation trust"
+  ],
+  "cisco systems ltd": [
+    "cisco systems ltd",
+    "cisco international limited"
+  ],
+  "food and environment research agency": [
+    "food and environment research agency",
+    "fera science"
+  ],
+  "smerud medical research uk limited": [
+    "smerud medical research uk limited"
+  ],
+  "tonic life communications limited": [
+    "tonic life communications limited"
+  ],
+  "advantage west midlands": [
+    "advantage west midlands"
+  ],
+  "gkn aerospace services limited": [
+    "gkn aerospace services limited"
+  ],
+  "healthcare improvement scotland": [
+    "healthcare improvement scotland",
+    "healthcare improvement scotland"
+  ],
+  "reveragen biopharma limited": [
+    "reveragen biopharma limited"
+  ],
+  "digital catapult": [
+    "digital catapult"
+  ],
+  "arralis technologies ltd": [
+    "arralis technologies ltd"
+  ],
+  "northumberland national park authority": [
+    "northumberland national park authority"
+  ],
+  "materials solutions lbg": [
+    "materials solutions lbg",
+    "materials solutions limited"
+  ],
+  "neem biotech ltd": [
+    "neem biotech ltd"
+  ],
+  "university of durham": [
+    "university of durham"
+  ],
+  "leatherhead research limited": [
+    "leatherhead research limited"
+  ],
+  "microcab industries ltd": [
+    "microcab industries ltd"
+  ],
+  "kelvin nanotechnology limited": [
+    "kelvin nanotechnology limited"
+  ],
+  "norwich university of the arts": [
+    "norwich university of the arts"
+  ],
+  "careful industries ltd": [
+    "careful industries ltd"
+  ],
+  "iweb technologies ltd": [
+    "iweb technologies ltd"
+  ],
+  "integrated change": [
+    "integrated change",
+    "integrated technologies limited"
+  ],
+  "university of strathclyde": [
+    "university of strathclyde"
+  ],
+  "lindstrand technologies ltd": [
+    "lindstrand technologies ltd"
+  ],
+  "welsh local government association": [
+    "welsh local government association",
+    "welsh local government"
+  ],
+  "avanti communications ltd": [
+    "avanti communications ltd"
+  ],
+  "thales research  technology uk limited": [
+    "thales uk limited",
+    "thales research  technology uk limited"
+  ],
+  "rnc avionics limited": [
+    "rnc avionics limited"
+  ],
+  "bioconversion technologies ltd": [
+    "bioconversion technologies ltd"
+  ],
+  "ws atkins international ltd": [
+    "atkins limited",
+    "ws atkins international ltd"
+  ],
+  "brighton  hove food partnership": [
+    "brighton  hove chamber of commerce",
+    "brighton  hove food partnership"
+  ],
+  "almac sciences limited": [
+    "almac sciences limited",
+    "almac group uk limited"
+  ],
+  "the school of pharmacy university of london": [
+    "the school of pharmacy university of london"
+  ],
+  "the heart of england forest": [
+    "the heart of england forest",
+    "heart of england nhs foundation trust"
+  ],
+  "chronos therapeutics limited": [
+    "chronos therapeutics limited",
+    "chronos therapeutics ltd"
+  ],
+  "curtisswright controls uk ltd": [
+    "k controls ltd",
+    "curtisswright controls uk ltd"
+  ],
+  "society of maritime industries ltd": [
+    "society of maritime industries ltd"
+  ],
+  "x tech medical limited": [
+    "t medical limited",
+    "x tech medical limited"
+  ],
+  "stephens fresh foods ltd": [
+    "stephens fresh foods ltd"
+  ],
+  "falcon communications limited": [
+    "falcon communications limited"
+  ],
+  "g  p batteries limited": [
+    "g  p batteries limited"
+  ],
+  "brandon medical company limited": [
+    "brandon medical company limited"
+  ],
+  "british association for the advancement of science": [
+    "the british association for the advancement of science",
+    "british science association",
+    "british association for the advancement of science"
+  ],
+  "public health scotland": [
+    "public health scotland"
+  ],
+  "a2 technologies ltd": [
+    "a2 technologies ltd"
+  ],
+  "lightsense technologies ltd": [
+    "lightsense technologies ltd"
+  ],
+  "the university of sheffield": [
+    "the university of sheffield"
+  ],
+  "coventry biennial ltd": [
+    "coventry biennial ltd"
+  ],
+  "focus business communications limited": [
+    "focus business communications limited"
+  ],
+  "the council of the borough of torbay": [
+    "",
+    "the council of the borough of torbay"
+  ]
+}

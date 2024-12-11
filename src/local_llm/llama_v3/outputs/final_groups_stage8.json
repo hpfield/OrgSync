@@ -1,3 +1,3211 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3fa3074855b2be2c4a6d1139a5d39b40684e4c167c7930976a631e5ac5e6156b
-size 68107
+[
+  {
+    "selected_names": [
+      "the chancellor masters and scholars of the university of oxford",
+      "university of oxford"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "benchmark animal health group limited",
+      "benchmark animal health limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "university of bath"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "scensive technologies ltd",
+      "scensive technologies ltd.",
+      "scensive electronic nose"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "interoute communications ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "integrated technologies limited",
+      "itl group",
+      "itl medical"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "fleet bioprocessing limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "thales transport and security limited",
+      "thales uk limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "accentus medical limited",
+      "t medical limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "welsh local government association",
+      "welsh local government association"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "iberdrola engineering and construction uk limited",
+      "innovo engineering and construction ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "alchemie limited",
+      "alchemie technology limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "pharmidex",
+      "pharmidex pharmaceutical services limited"
+    ],
+    "organisation_type": "contract research organisation (CRO)"
+  },
+  {
+    "selected_names": [
+      "future home uk limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "roslin cell sciences ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "oxford economics limited",
+      "oxford economics limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "university of gloucestershire"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "real group uk limited",
+      "real wireless limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "alzheimers research uk"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "stirling dynamics ltd",
+      "stirling dynamics"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "ergomed clinical research limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "university hospitals coventry and warwickshire national health service trust",
+      "university hospitals coventry and warwickshire nhs trust",
+      "university hospitals coventry and warwickshire"
+    ],
+    "organisation_type": "hospital"
+  },
+  {
+    "selected_names": [
+      "3d industries limited",
+      "biotronics 3d limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "future intelligence ltd",
+      "health intelligence ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "the mental health foundation",
+      "mental health foundation"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "the uk intelligent systems research institute limited"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "the university of nottingham",
+      "university of nottingham"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "national gas transmission plc"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "moog controls limited",
+      "moog insensys limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "kings cross central limited partnership",
+      "metropolitan kings cross limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "climate associates limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "g w butler limited",
+      "wilding butler construction ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "element six limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "british transport police authority",
+      "british transport police authority (btpa)",
+      "british transport police"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "beta bugs limited",
+      "beta bugs"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "orion innovations llp",
+      "orion innovations uk ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "fibre photonics ltd",
+      "fibre photonics"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "crops for energy limited",
+      "crops for energy limited",
+      "crops for energy limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "clyde space limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "heart of england nhs foundation trust",
+      "the heart of england forest"
+    ],
+    "organisation_type": "['NHS Foundation Trust', 'charity', 'non-profit']"
+  },
+  {
+    "selected_names": [
+      "niab",
+      "niab emr"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "the university of bolton",
+      "university of bolton",
+      "bolton university",
+      "uob"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "network society research ltd"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "the scottish salmon company limited",
+      "scottish salmon producers organisation limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "dnv kema limited",
+      "dnv uk limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "london north west healthcare national health service trust"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "calon wen organic milk cooperative ltd",
+      "organic milk suppliers cooperative ltd"
+    ],
+    "organisation_type": "cooperative"
+  },
+  {
+    "selected_names": [
+      "innovation bridge consulting limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "it power consulting ltd",
+      "it power ltd"
+    ],
+    "organisation_type": "consulting company"
+  },
+  {
+    "selected_names": [
+      "aws ocean energy ltd",
+      "aws ocean energy"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "trig avionics limited",
+      "trig avionics"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "edwards diving services limited",
+      "edwards ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "seagate systems uk limited",
+      "seagate technology ireland"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "university of york",
+      "york st john university"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "the institute for criminal policy research icpr"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "london city airport limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "architectural solar limited",
+      "solar drives limited",
+      "smartalloys limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "critical software technologies ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "pab coventry ltd",
+      "pab coventry ltd",
+      "pab coventry ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "rural development initiatives limited",
+      "the rural development company limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "aquila biomedical limited",
+      "aquila biomedical ltd",
+      "aquila biomedical limited company profile"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "id business solutions limited",
+      "id business solutions limited",
+      "id business solutions limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "kings college hospital nhs foundation trust",
+      "kings college london"
+    ],
+    "organisation_type": "hospital and university"
+  },
+  {
+    "selected_names": [
+      "the uk it association",
+      "uk it association (ukita)"
+    ],
+    "organisation_type": "trade association"
+  },
+  {
+    "selected_names": [
+      "hmk technical services limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "coal products limited",
+      "coal products ltd (cpl)"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "ic focus limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "devenish nutrition ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "edf energy limited",
+      "edf energy nuclear generation limited",
+      "edf energy renewables limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "mitsubishi hitachi power systems europe ltd",
+      "mitsubishi power europe"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "operations consulting llp",
+      "servicio now implementation & operations consulting llp",
+      "valiant service and operations consulting llp"
+    ],
+    "organisation_type": "consulting company"
+  },
+  {
+    "selected_names": [
+      "renewable energy assurance limited",
+      "renewable energy assurance ltd",
+      "renewable energy assurance"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "emotion special projects ltd",
+      "kw special projects limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "design for life systems limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "kingston university higher education corporation"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "prostate cancer uk"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "berry consultants llp",
+      "berry consultants llp",
+      "berry consultants llp"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "south east coast ambulance service nhs foundation trust"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "brighton and sussex university hospitals nhs trust",
+      "university hospitals sussex nhs foundation trust"
+    ],
+    "organisation_type": "healthcare provider"
+  },
+  {
+    "selected_names": [
+      "innovative materials processing technologies ltd",
+      "innovative materials processing technologies ltd.",
+      "innovative materials processing technologies"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "iota pharmaceuticals ltd",
+      "iota pharmaceuticals ltd",
+      "iota pharmaceuticals ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "fluid analytics",
+      "fluid analytics.ai"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "birkbeck college university of london",
+      "university college london",
+      "university of london"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "rsk adas limited",
+      "rsk adas ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "applied renewables research limited"
+    ],
+    "organisation_type": "research institute/company"
+  },
+  {
+    "selected_names": [
+      "london business school"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "leeds beckett university"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "isle of wight council",
+      "isle of wight council"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "future cities catapult",
+      "future cities lab ltd"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "micro materials limited",
+      "micro materials ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "aps biocontrol ltd",
+      "aps biocontrol"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "reaction engines limited",
+      "reaction engines"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "talis information limited",
+      "talis systems limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "mda consulting ltd",
+      "mda space and robotics limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "highway energy systems limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "community foundation northern ireland",
+      "foundation northern ireland"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "future horizons ltd",
+      "future horizons"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "development solutions europe ltd",
+      "development solutions europe ltd",
+      "development solutions europe ltd"
+    ],
+    "organisation_type": "consultancy"
+  },
+  {
+    "selected_names": [
+      "davidson peter",
+      "peter davidson consultancy limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "we are social ltd",
+      "we are unfolded ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "eow2 wind ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "digital life sciences ltd",
+      "digital life sciences ltd",
+      "digital life sciences ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "williams advanced engineering limited",
+      "williams grand prix engineering limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "freshfield microwave systems limited",
+      "freshfield microwave systems"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "promethean limited",
+      "promethean particles ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "bmt group ltd",
+      "bmt smart limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "cascade water products limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "gooch housego torquay limited",
+      "gooch housego torquay"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "rockwell collins uk limited",
+      "rockwell collins uk ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "avon wildlife trust",
+      "yorkshire wildlife trust"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "alstom ltd",
+      "alstom transport uk limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "university of bristol",
+      "university of bristol"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "axion recycling ltd",
+      "axion polymers",
+      "axion consulting"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "stakeholder forum for a sustainable future lbg",
+      "the forum for the future lbg"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "southampton solent university",
+      "university of southampton"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "applied satellite technology limited",
+      "ast networks"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "helrik and louw company ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "green marine uk ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "university of cambridge",
+      "department of physics",
+      "university of cambridge department of physics"
+    ],
+    "organisation_type": "university department"
+  },
+  {
+    "selected_names": [
+      "wild resources limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "barnsley metropolitan borough council"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "ibm united kingdom ltd",
+      "ibm united kingdom ltd",
+      "ibm united kingdom ltd."
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "cambridge environmental research consultants ltd",
+      "cambridge environmental research consultants ltd",
+      "cambridge environmental research consultants ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "environmental and management solutions ltd",
+      "environmental monitoring solutions limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "honda motor europe limited",
+      "honda motor europe ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "bp alternative energy international limited",
+      "bp technology ventures limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "insight publishers limited",
+      "insight publishers limited",
+      "insight publishers limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "cochlear europe limited",
+      "cochlear research and development limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "hiden analytical ltd",
+      "hiden isochema ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "smith nephew medical limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "daido industrial bearings europe limited",
+      "daido metal europe limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "europe analytica limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "nxp laboratories uk limited",
+      "nxp semiconductors uk limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "premier autoclaves service and solutions ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "emerge mhealth ltd",
+      "mhealth futures ltd",
+      "my mhealth limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "centre for factories of the future limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "bioniqs limited",
+      "bioniqs ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "progressive energy limited",
+      "progressive energy ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "merseyside recycling waste authority"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "ixaris systems ltd",
+      "ixaris technologies limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "selex systems integration ltd",
+      "selex es ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "bradford college",
+      "university of bradford"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "microsens diagnostics ltd",
+      "microsens medtech ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "aston university"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "london borough of islington",
+      "islington"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "silent sensors limited",
+      "silent sensors ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "health and social care board for northern ireland",
+      "regional health and social care board"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "g p batteries limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "enigma digital limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "p1vital limited",
+      "p1vital products limited"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "nottinghamshire healthcare nhs foundation trust"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "york museums and gallery trust"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "institute for european environmental policy london",
+      "ieep uk"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "the glasgow caledonian university"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "access associates limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "police and crime commissioner for north yorkshire",
+      "police and crime commissioner for west yorkshire",
+      "the police and crime commissioner for south yorkshire"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "parametric optimization solutions limited",
+      "parametric technology uk limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "peak ndt limited",
+      "peak ndt limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "cambridge photon technology limited",
+      "photon design limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "autonomy systems limited",
+      "autonomy corporation plc",
+      "autonomy"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "footprint sheffield limited",
+      "footprint tools limited",
+      "footprint tools"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "open phacts foundation lbg",
+      "sib institut suisse de bioinformatique",
+      "stichting lygature",
+      "the hyve bv",
+      "the university of manchester",
+      "universite du luxembourg",
+      "universite paul sabatier toulouse iii",
+      "universiteit maastricht",
+      "university of oxford"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "preston solutions limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "argent waugh limited",
+      "argent  waugh limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "fergussons advanced composites technology ltd",
+      "meggitt advanced composites limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "traffic environment systems limited",
+      "traffic international"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "royal college of music",
+      "royal northern college of music"
+    ],
+    "organisation_type": "conservatoire"
+  },
+  {
+    "selected_names": [
+      "charles jackson co ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "tax justice network",
+      "tax justice"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "consortium of european research libraries",
+      "consortium of european research libraries [cerl]",
+      "consortium of european research libraries - wikipedia"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "westminster city council",
+      "westminster city council",
+      "westminster city council"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "environmental technology evolution ltd",
+      "environmental technology evolution ltd - golden",
+      "environmental technology evolution ltd - apollo.io"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "leicester housing association limited ips",
+      "the glasgow housing association limited ips"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "lime microsystems ltd",
+      "lime technology limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "green tomato cars limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "ingleton wood llp",
+      "ingleton wood"
+    ],
+    "organisation_type": "consultancy"
+  },
+  {
+    "selected_names": [
+      "salisbury nhs foundation trust",
+      "salisbury hospital",
+      "salisbury nhs foundation trust - wikipedia"
+    ],
+    "organisation_type": "healthcare provider"
+  },
+  {
+    "selected_names": [
+      "europe for business ltd",
+      "europe for business"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "grid xitek limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "citizens advice manchester",
+      "citizens advice reading"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "global maritime consultancy ltd",
+      "global maritime consultancy & engineering"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "icon international services limited",
+      "icon international services limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "good things foundation",
+      "good things foundation",
+      "good things foundation"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "meggitt aerospace limited",
+      "meggitt plc",
+      "meggitt uk limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "dem dx limited",
+      "dem solutions ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "nautilus associates limited",
+      "nautilus uk"
+    ],
+    "organisation_type": "trade union"
+  },
+  {
+    "selected_names": [
+      "dassault systemes biovia limited",
+      "dassault systemes simulia ltd",
+      "dassault systemes uk ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "wild berry environmental limited",
+      "wild berry environmental limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "education scotland"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "kingspan insulation limited",
+      "kingspan renewables limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "molecular discovery ltd"
+    ],
+    "organisation_type": "software company"
+  },
+  {
+    "selected_names": [
+      "billon financial ltd",
+      "billon group limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "ge energy power conversion technology limited",
+      "ge energy uk limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "gas sensing solutions ltd",
+      "gas sensing solutions"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "atkins limited",
+      "ws atkins international ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "trilateral research consulting llp",
+      "trilateral research ltd"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "south east health technologies alliance limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "alan harper composites",
+      "alan harper composites ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "south west college"
+    ],
+    "organisation_type": "educational institution"
+  },
+  {
+    "selected_names": [
+      "bird",
+      "bird llp"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "national measurement office",
+      "national measurement and"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "pall europe limited",
+      "pall manufacturing uk limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "national energy action",
+      "national energy action lbg"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "photonic science limited",
+      "photonic science"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "northern care alliance nhs foundation trust",
+      "salford royal nhs foundation trust"
+    ],
+    "organisation_type": "healthcare provider"
+  },
+  {
+    "selected_names": [
+      "pagnanelli risk solutions limited",
+      "risk management solutions limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "hobart lasers ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "rockfield software limited",
+      "rockfield"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "inspection technologies ltd",
+      "inspection technologies ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "almac discovery ltd",
+      "almac sciences limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "lm wind power uk limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "bath west community energy limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "the warden and fellows of nuffield college in the university of oxford",
+      "nuffield college"
+    ],
+    "organisation_type": "charitable corporation aggregate"
+  },
+  {
+    "selected_names": [
+      "oxford semantic technologies limited",
+      "oxford semantic technologies"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "helyx secure information systems limited",
+      "helyx sis",
+      "helyx sis limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "crowd analytics ltd",
+      "crowd dynamics international limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "otaq aquaculture limited",
+      "otaq limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "impact measurement limited",
+      "impact measurement limited"
+    ],
+    "organisation_type": "consulting organization"
+  },
+  {
+    "selected_names": [
+      "canonical group limited",
+      "canonical limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "costain group plc",
+      "costain ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "ceres power limited",
+      "ceres power"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "buckinghamshire council",
+      "buckinghamshire county council"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "sensor technology limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "helpage international lbg",
+      "helpage international uk"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "department for transport",
+      "department for transport"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "the open university"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "smarter mobility solutions ltd",
+      "smarter mobility solutions"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "brighton hove city council"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "creative concern limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "segmentum analysis ltd",
+      "segmentum analysis ltd",
+      "segmentum analysis ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "a-gas electronic materials",
+      "agas electronic materials ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "sp global uk limited",
+      "sp global indices uk limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "advanced digital innovation ltd",
+      "advanced digital innovation uk ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "the board of trustees of the tate gallery",
+      "the board of trustees of the tate"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "radioactive waste management limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "gw pharma limited",
+      "gw pharmaceuticals"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "swansea university",
+      "swansea nhs trust"
+    ],
+    "organisation_type": "['university', 'healthcare']"
+  },
+  {
+    "selected_names": [
+      "kws uk",
+      "kws uk ltd",
+      "kws uk maize",
+      "kws uk maize portfolio",
+      "kws uk variety guide"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "life molecular imaging ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "croda europe ltd",
+      "croda international plc"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "leatherhead research limited"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "johnson matthey plc",
+      "johnson matthey battery systems engineering limited",
+      "johnson matthey hydrogen technologies limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "the rotherham nhs foundation trust"
+    ],
+    "organisation_type": "healthcare provider"
+  },
+  {
+    "selected_names": [
+      "oil and gas corrosion ltd",
+      "oil and gas corrosion ltd."
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "royal brompton and harefield national health service trust",
+      "the royal brompton and harefield national health service trust"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "image solutions uk limited",
+      "image solutions uk ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "north east scotland transport partnership",
+      "north east scotland transport partnership",
+      "nestrans"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "healthcare improvement scotland"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "airbus ds limited",
+      "airbus group limited",
+      "airbus operations limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "chronos technology limited",
+      "chronos technology"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "john wiley and sons ltd"
+    ],
+    "organisation_type": "publisher"
+  },
+  {
+    "selected_names": [
+      "jisc lbg",
+      "jisc services limited"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "newcastle university",
+      "university of newcastle upon tyne"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "united utilities water plc",
+      "united utilities water limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "university hospitals bristol and weston nhs foundation trust",
+      "university hospitals bristol nhs foundation trust"
+    ],
+    "organisation_type": "healthcare provider"
+  },
+  {
+    "selected_names": [
+      "true ai limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "survitec group limited",
+      "survitec service distribution limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "cardiff council",
+      "county council of the city and county of cardiff"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "exemplas holdings limited",
+      "exemplas limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "fujitsu services ltd",
+      "fujitsu services limited",
+      "fujitsu systems europe ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "mineral and resource planning associates ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "sandvik osprey limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "polymer vision limited",
+      "polymer vision"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "hansard society limited by guarantee"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "university of strathclyde"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "medicsight limited",
+      "medicsight plc"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "bae systems applied intelligence limited",
+      "bae systems land and sea systems ltd",
+      "bae systems operations limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "nanotechnology industries association",
+      "nanotechia"
+    ],
+    "organisation_type": "trade association"
+  },
+  {
+    "selected_names": [
+      "national museum wales",
+      "amgueddfa cymru - museum wales",
+      "national museum of wales"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "grampian health board"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "rand europe community interest company"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "the scottish hydrogen and fuel cell association ltd",
+      "uk hydrogen and fuel cell association"
+    ],
+    "organisation_type": "trade association"
+  },
+  {
+    "selected_names": [
+      "nec europe ltd",
+      "nec technologies uk limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "molecular vision limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "british woodworking federation lbg",
+      "the british plastics federation lbg"
+    ],
+    "organisation_type": "trade association"
+  },
+  {
+    "selected_names": [
+      "abs consulting ltd",
+      "abs europe ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "medical engineering technologies ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "aquaculture stewardship council",
+      "marine stewardship council"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "materials solutions lbg",
+      "materials solutions limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "advanced communications information systems ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "riversimple engineering limited",
+      "riversimple llp",
+      "riversimple movement limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "university of lancaster"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "the university of birmingham"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "applied genomics ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "dr foster research ltd",
+      "dr foster research limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "dementia pal ltd",
+      "pal technologies limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "european association for cancer research",
+      "institute of cancer research the royal cancer hospital lbg"
+    ],
+    "organisation_type": "non-profit research institute"
+  },
+  {
+    "selected_names": [
+      "fire service college limited",
+      "scottish fire and rescue service"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "digital catapult"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "james hallam ltd",
+      "james hallam"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "herefordshire primary care trust"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "targeting innovation limited",
+      "understanding targeting limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "sagentia limited",
+      "sagentia group limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "offshore renewable energy catapult",
+      "offshore renewable energy catapult limited"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "ayton willow ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "bioscience network limited",
+      "oxfordshire bioscience network ltd"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "rtc north limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "powdertech bicester limited",
+      "powdertech limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "oxford institute for energy studies"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "london school of hygiene and tropical medicine royal charter",
+      "london school of hygiene and tropical medicine royal charter",
+      "london school of hygiene and tropical medicine royal charter"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "pera consulting uk limited",
+      "pera innovation limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "biopharma process systems ltd",
+      "biopharma technology ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "leicester city council"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "global security intelligence limited",
+      "global security intelligence limited",
+      "global security intelligence limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "virtus it limited",
+      "virtus projects limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "siemens industry software limited",
+      "siemens plc"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "mars space ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "aerospace international services limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "soil environment services limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "reading borough council"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "the association for science and discovery centres lbg"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "european multimedia forum ltd",
+      "european multimedia forum ltd."
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "food forensic limited"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "engine developments ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "mast group limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "cranfield aerospace limited",
+      "cranfield university"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "fai aquaculture limited",
+      "fai farms ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "west midlands",
+      "west midlands combined authority"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "marine scotland",
+      "marine scotland compliance",
+      "marine scotland marine group"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "tata steel uk consulting limited",
+      "tata steel uk limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "zoological society of london",
+      "institute of zoology"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "mark group limited",
+      "mark group"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "shell research limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "ocado group plc",
+      "ocado retail limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "the society for the reduction of carbon limited",
+      "the society for the reduction of carbon limited"
+    ],
+    "organisation_type": "registered society"
+  },
+  {
+    "selected_names": [
+      "cambridge design partnership llp"
+    ],
+    "organisation_type": "Limited liability partnership"
+  },
+  {
+    "selected_names": [
+      "edoteverything.com trading as denarius professional",
+      "edoteverything.com"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "b9 energy om limited",
+      "b9 energy storage ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "glass futures ltd",
+      "glass futures"
+    ],
+    "organisation_type": "non-profit research institute"
+  },
+  {
+    "selected_names": [
+      "volterra consulting ltd",
+      "volterra partners llp"
+    ],
+    "organisation_type": "consultancy"
+  },
+  {
+    "selected_names": [
+      "south tees hospitals nhs foundation trust"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "eco limited",
+      "partneriaeth eco dyffryn dyfi eco valley partnership lbg"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "basf public limited company"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "health protection agency hpa",
+      "scottish environment protection agency"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "british lung foundation"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "flexenable limited",
+      "flexenable technology limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "succorfish ltd",
+      "succorfish m2m limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "knowledge integration ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "indestructible paint ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "the city of edinburgh council"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "imagen biotech limited",
+      "imagen therapeutics limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "g24 innovations ltd",
+      "g24 power limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "lancashire care nhs foundation trust",
+      "lancashire and south cumbria nhs foundation trust"
+    ],
+    "organisation_type": "healthcare provider"
+  },
+  {
+    "selected_names": [
+      "economic and social research council",
+      "economic and social research council (esrc)"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "renishaw plc",
+      "renishaw neuro solutions ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "the wellcome trust limited",
+      "wellcome trust sanger institute"
+    ],
+    "organisation_type": "non-profit research institute"
+  },
+  {
+    "selected_names": [
+      "the british council royal charter"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "the technology research centre limited"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "west and north yorkshire chamber of commerce and industry",
+      "west and north yorkshire chamber of commerce"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "carbon capture machine uk ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "aegis it research ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "inc research uk ltd",
+      "inc research uk ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "goodrich control systems",
+      "goodrich control systems private unlimited company"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "the manchester metropolitan university"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "queen mary innovation limited",
+      "queen mary university of london"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "the secretary of state for environment food and rural affairs"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "helios technology ltd",
+      "helios"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "hssmi limited",
+      "hssmi trading limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "interactive coventry limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "wave energy scotland limited"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "queens university belfast",
+      "the queens university of belfast"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "lloyds register group limited",
+      "lloyds register group services"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "bristol natural history consortium",
+      "natural history museum"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "cranswick country foods plc"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "horizon consulting engineers limited",
+      "horizon consulting engineers ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "the royal college of general practitioners",
+      "rcgp",
+      "the royal college of general practitioners and surveillance centre"
+    ],
+    "organisation_type": "professional body"
+  },
+  {
+    "selected_names": [],
+    "organisation_type": "government organization, university"
+  },
+  {
+    "selected_names": [
+      "ds smith paper limited",
+      "ds smith plc"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "british airways plc",
+      "british airways",
+      "british airways pl"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "iqe europe ltd",
+      "iqe plc"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "babraham bioscience technologies limited",
+      "the babraham institute"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "safc hitech limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "cadfem uk cae ltd",
+      "cae uk plc"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "yorkshire dairy goats",
+      "yorkshire dairy goats"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "community forest trust",
+      "the forest trust lbg"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "environmental sustainability associates limited",
+      "environmental sustainability associates limited",
+      "environmental sustainability associates limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "gilchesters organics limited",
+      "organics limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "norwich university of the arts"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "research data alliance foundation",
+      "research data alliance foundation"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "the centre for sustainable healthcare ltd",
+      "the centre for sustainable healthcare"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "jaguar land rover limited",
+      "land rover"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "surface technology international limited",
+      "surface technology international"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "intercept pharma europe ltd",
+      "intercept pharma europe ltd",
+      "intercept pharma europe ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "scriptoria",
+      "scriptoria ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "siemens healthcare limited",
+      "siemens healthcare ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "platform london",
+      "platform  london"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "geospatial research ltd",
+      "geospatial research"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "nhs 24 scotland",
+      "nhs national services scotland"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "cardiff and vale university health board"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "isaac newton institute for mathematical sciences",
+      "isaac newton institute"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "the cedar foundation"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "academic consulting services ltd",
+      "academic consulting"
+    ],
+    "organisation_type": "consulting firm"
+  },
+  {
+    "selected_names": [
+      "retroscreen virology ltd",
+      "retroscreen virology group limited"
+    ],
+    "organisation_type": "contract research organization/company"
+  },
+  {
+    "selected_names": [
+      "aberdeen city council"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "horiba mira limited",
+      "mira ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "scottish power generation ltd",
+      "surface generation ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "medical research council",
+      "medical research council (united kingdom)"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "dundee city council"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "comma press"
+    ],
+    "organisation_type": "publisher"
+  },
+  {
+    "selected_names": [
+      "hydro group plc",
+      "hydro group systems inc."
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "vero software limited",
+      "vero uk limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "northumberland national park authority"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "nokia solutions and networks uk limited",
+      "nokia uk limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "randox clinics limited",
+      "randox clinics ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "opportunity peterborough limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "maritime plymouth",
+      "university of plymouth"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "loughborough university",
+      "loughborough university enterprisesltd"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "rollsroyce plc",
+      "rollsroyce submarines limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "persontyle limited",
+      "persontyle group limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "rs consulting limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "loop technology limited",
+      "loop technology limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "hanzo archives limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "rina consulting defence ltd",
+      "rina tech uk ltd"
+    ],
+    "organisation_type": "consulting company"
+  },
+  {
+    "selected_names": [
+      "apa ltd",
+      "apa parafricta ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "lamb industries ltd",
+      "r lamb industries ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "c3 biotechnologies limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "magnetic i d ltd",
+      "magnetic systems technology limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "ups limited",
+      "ups systems plc"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "rollsroyce power engineering plc",
+      "rolls-royce power engineering plc"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "institute of refrigeration"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "chemistry innovation limited",
+      "the royal society of chemistry"
+    ],
+    "organisation_type": "professional association and company"
+  },
+  {
+    "selected_names": [
+      "blue visby services ltd",
+      "blue visby"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "smiths detection group ltd",
+      "smiths detection watford limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "oxford computer consultants limited",
+      "oxford computer consultants"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "g c hahn and company limited",
+      "hahn plastics ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "plasma clean limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "imerys minerals ltd",
+      "marine minerals limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "goodrich actuation systems limited",
+      "triumph actuation systems uk ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "microsharp corporation limited",
+      "microsharp innovation limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "fera science",
+      "food and environment research agency"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "university of east london",
+      "uel"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "poultry health services limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "aurora medical limited",
+      "aurora ventures limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "ideas forward ltd",
+      "ideas forward"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "transport for greater manchester",
+      "transport for greater manchester"
+    ],
+    "organisation_type": "government organization"
+  },
+  {
+    "selected_names": [
+      "highlands  islands enterprise",
+      "university of the highlands and islands"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "the european marine energy centre limited"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "stephens fresh foods ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "moredun research institute",
+      "moredun scientific limited"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "open source innovation ltd",
+      "open source management limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "university of hull"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "north energy associates limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "hawk associates limited",
+      "hawk associates"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "image processing techniques limited",
+      "image processing techniques limited",
+      "image processing techniques limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "haydale composite solutions limited",
+      "haydale ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "cambridge cleantech ltd",
+      "cambridge cleantech ltd., cambridge"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "association for the conservation of energy",
+      "association for the conservation of energy - wikipedia",
+      "association for the conservation of energy - wikiwand",
+      "association for the conservation of energy - wikiwand articles"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "minerva public relations communications limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "toshiba europe limited",
+      "toshiba international europe ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "british dyslexia association",
+      "british dyslexia association - dyslexia factsheet",
+      "the dyslexia association"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "d young co llp"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "uk power networks operations ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "cisco international limited",
+      "cisco systems ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "eaton aerospace limited",
+      "eaton limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "printed electronics limited",
+      "printed electronics ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "edinburgh innovations",
+      "edinburgh innovation"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "trelleborg offshore uk limited",
+      "trelleborg sealing solutions uk limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "innova biosciences limited",
+      "innova integra limited"
+    ],
+    "organisation_type": "research and development company"
+  },
+  {
+    "selected_names": [
+      "the rivers trust",
+      "westcountry rivers trust lbg"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "english heritage",
+      "the english heritage trust"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "university of the west of england",
+      "uwe bristol"
+    ],
+    "organisation_type": "university"
+  },
+  {
+    "selected_names": [
+      "atlantis health uk limited",
+      "atlantis operations uk limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "rutland biodynamics limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "advanced bioprocess development limited",
+      "advanced bioprocess development"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "centre for ecology and hydrology",
+      "uk centre for ecology and hydrology"
+    ],
+    "organisation_type": "research institute"
+  },
+  {
+    "selected_names": [
+      "botanic gardens conservation international lbg",
+      "royal botanic gardens kew"
+    ],
+    "organisation_type": "non-profit"
+  },
+  {
+    "selected_names": [
+      "first somerset avon limited",
+      "first somerset avon ltd"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "desap enterprises limited",
+      "desap system solutions limited"
+    ],
+    "organisation_type": "company"
+  },
+  {
+    "selected_names": [
+      "z prime limited"
+    ],
+    "organisation_type": "company"
+  }
+]

@@ -1,6 +1,2 @@
-*.json filter=lfs diff=lfs merge=lfs -text
-
-src/local_llm/llama_v3/outputs/*.json -filter -diff -merge
-src/local_llm/llama_v2/outputs/*.json -filter -diff -merge
-src/local_llm/llama_original/outputs/*.json -filter -diff -merge
-src/api_llm/openai_original/*.json -filter -diff -merge
+data/** filter=lfs diff=lfs merge=lfs -text
+*.json !text !filter !merge !diff
