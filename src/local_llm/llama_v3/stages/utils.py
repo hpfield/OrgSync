@@ -4,25 +4,29 @@ import time
 import random
 import logging
 from pathlib import Path
-import yaml
 
+# Initialize logger
 logger = logging.getLogger(__name__)
 
-# Determine the project root based on the location of this file
-# utils.py is at: OrgSync/src/local_llm/llama_v3/stages/utils.py
-PROJECT_ROOT = Path(__file__).resolve().parents[4]  # Go up 4 levels
-CONFIG_PATH = PROJECT_ROOT / 'cfg' / 'config.yaml'
+# -------------------------------
+# Configuration Section
+# -------------------------------
 
-# Load the configuration
-with open(CONFIG_PATH, 'r') as f:
-    config_data = yaml.safe_load(f)
+# Determine the absolute path to the project root (where main.py is located)
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
-MODELS_DIR = Path(config_data['models_dir']).resolve()
-DEFAULT_CKPT_DIR = config_data['default_ckpt_dir']
-TOKENIZER_PATH = MODELS_DIR / config_data['tokenizer_subpath']
+# Assuming the 'models' directory is at '/home/ubuntu/OrgSync/llama-models/models'
+# You can adjust this path if 'models' is located differently
+MODELS_DIR = Path("/home/ubuntu/OrgSync/llama-models/models")
 
 # Add the 'models' directory to sys.path
 sys.path.append(str(MODELS_DIR.parent))
+
+# Absolute path to the tokenizer model
+TOKENIZER_PATH = str(MODELS_DIR / "llama3" / "api" / "tokenizer.model")
+
+# Absolute path to the checkpoint directory
+DEFAULT_CKPT_DIR = "/home/ubuntu/OrgSync/.llama/checkpoints/Meta-Llama3.1-8B-Instruct"  # Replace with your actual path
 
 # Set environment variables required by torch.distributed
 os.environ['RANK'] = '0'
@@ -30,20 +34,29 @@ os.environ['WORLD_SIZE'] = '1'
 os.environ['MASTER_ADDR'] = 'localhost'
 os.environ['MASTER_PORT'] = '12355'  # You can choose any free port
 
+# Allow environemnt variables to be reset to persist through pipeline
 def configure_environment():
+    # Add the 'models' directory to sys.path
     sys.path.append(str(MODELS_DIR.parent))
+
+    # Set environment variables required by torch.distributed
     os.environ['RANK'] = '0'
     os.environ['WORLD_SIZE'] = '1'
     os.environ['MASTER_ADDR'] = 'localhost'
-    os.environ['MASTER_PORT'] = '12355'
+    os.environ['MASTER_PORT'] = '12355'  # You can choose any free port
 
-# Try importing search modules and model
+# -------------------------------
+# End of Configuration
+# -------------------------------
+
+# Import the googlesearch module
 try:
     from googlesearch import search as google_search
 except ImportError:
     google_search = None
-    logger.warning("Google search module not available.")
+    logger.warning("Google search module not available. Install it to enable Google search functionality.")
 
+# Import necessary classes from the models package
 try:
     from models.llama3.reference_impl.generation import Llama
     from models.llama3.api.datatypes import (
@@ -56,16 +69,17 @@ except ModuleNotFoundError as e:
     logger.critical(f"Error importing Llama model modules: {e}")
     sys.exit(1)
 
+# Import DuckDuckGo search function
 try:
     from duckduckgo_search import DDGS
 except ImportError:
     DDGS = None
-    logger.warning("DuckDuckGo search module not available.")
+    logger.warning("DuckDuckGo search module not available. Install it to enable DuckDuckGo search functionality.")
 
 logger.info("Initializing the Llama generator.")
 generator = Llama.build(
-    ckpt_dir=str(DEFAULT_CKPT_DIR),
-    tokenizer_path=str(TOKENIZER_PATH),
+    ckpt_dir=DEFAULT_CKPT_DIR,
+    tokenizer_path=TOKENIZER_PATH,
     max_seq_len=8192,
     max_batch_size=4,
     model_parallel_size=None,
@@ -74,9 +88,15 @@ generator = Llama.build(
 def get_generator():
     return generator
 
+import logging
+import time
+import random
+import sys
+# Assume DDGS is already imported and available
+
 def perform_web_search(names, num_results=5, max_retries=7, search_method='duckduckgo', api_key=None):
     if search_method == 'duckduckgo' and DDGS is None:
-        logger.error("DuckDuckGo search module not available.")
+        logger.error("DuckDuckGo search module not available. Please install 'duckduckgo-search' or choose another search method.")
         sys.exit(1)
     
     web_search_results = {}
@@ -84,9 +104,15 @@ def perform_web_search(names, num_results=5, max_retries=7, search_method='duckd
         retries = 0
         success = False
         while retries < max_retries and not success:
+            # original_level = logging.getLogger().level  # Get original level at the start
             try:
                 query = f'"{name}"'
                 search_results = []
+                
+                # Temporarily suppress logs
+                # logging.getLogger().setLevel(logging.CRITICAL)
+                
+                # Perform search
                 ddgs = DDGS()
                 results = ddgs.text(query, region='wt-wt', safesearch='Moderate', max_results=num_results)
                 
@@ -98,17 +124,53 @@ def perform_web_search(names, num_results=5, max_retries=7, search_method='duckd
                             'description': res.get('body', '')
                         })
                 
+                # Restore original logging level in `finally`
                 success = True
                 
             except Exception as e:
                 retries += 1
                 logger.error(f"Error during web search for '{name}': {e}. Retrying ({retries}/{max_retries})...")
-                time.sleep(2 ** retries)
+                time.sleep(2 ** retries)  # Exponential backoff
+                
+            # finally:
+                # Restore logging level no matter what
+                # logging.getLogger().setLevel(original_level)
                 
         if not success:
             logger.error(f"Failed to retrieve search results for '{name}' after {retries} retries.")
             web_search_results[name] = []
-        else:
-            web_search_results[name] = search_results
-
+            
     return web_search_results
+
+
+
+#! Not currently using
+def duckduckgo_search(query, num_results):
+    """Perform a search using the DuckDuckGo API."""
+    logger.info(f"Performing DuckDuckGo search for query: {query}")
+    params = {
+        'q': query,
+        'format': 'json',
+        'no_html': 1,
+        'skip_disambig': 1,
+        'pretty': 1,
+    }
+    headers = {
+        'User-Agent': 'Mozilla/5.0'
+    }
+    response = requests.get('https://api.duckduckgo.com/', params=params, headers=headers)
+    data = response.json()
+
+    results = []
+    related_topics = data.get('RelatedTopics', [])
+    for topic in related_topics:
+        if 'FirstURL' in topic:
+            results.append(topic['FirstURL'])
+        elif 'Topics' in topic:
+            for subtopic in topic['Topics']:
+                if 'FirstURL' in subtopic:
+                    results.append(subtopic['FirstURL'])
+        if len(results) >= num_results:
+            break
+    logger.info(f"Received URLs from DuckDuckGo for query '{query}'.")
+    return results[:num_results]
