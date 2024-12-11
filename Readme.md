@@ -13,7 +13,7 @@ In a database of academic publications, we must resolve situations where the sam
 
 We conduct micro-labelling sessions as we progress to account for the absence of labelled data. We do this to obtain some metric of success beyond anecdotal experiences reading model outputs.
 
-## Repo Setup
+## Repo Setup 
 
 Clone this repo.
 
