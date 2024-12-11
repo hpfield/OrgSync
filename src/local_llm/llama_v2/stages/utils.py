@@ -4,29 +4,26 @@ import time
 import random
 import logging
 from pathlib import Path
+import yaml
+import requests
 
-# Initialize logger
 logger = logging.getLogger(__name__)
 
-# -------------------------------
-# Configuration Section
-# -------------------------------
+# Determine the project root based on the location of this file
+# utils.py is at: OrgSync/src/local_llm/llama_v3/stages/utils.py
+PROJECT_ROOT = Path(__file__).resolve().parents[4]  # Go up 4 levels
+CONFIG_PATH = PROJECT_ROOT / 'cfg' / 'config.yaml'
 
-# Determine the absolute path to the project root (where main.py is located)
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+# Load the configuration
+with open(CONFIG_PATH, 'r') as f:
+    config_data = yaml.safe_load(f)
 
-# Assuming the 'models' directory is at '/home/ubuntu/OrgSync/llama-models/models'
-# You can adjust this path if 'models' is located differently
-MODELS_DIR = Path("/home/ubuntu/OrgSync/llama-models/models")
+MODELS_DIR = Path(config_data['models_dir']).resolve()
+DEFAULT_CKPT_DIR = config_data['default_ckpt_dir']
+TOKENIZER_PATH = MODELS_DIR / config_data['tokenizer_subpath']
 
 # Add the 'models' directory to sys.path
 sys.path.append(str(MODELS_DIR.parent))
-
-# Absolute path to the tokenizer model
-TOKENIZER_PATH = str(MODELS_DIR / "llama3" / "api" / "tokenizer.model")
-
-# Absolute path to the checkpoint directory
-DEFAULT_CKPT_DIR = "/home/ubuntu/OrgSync/.llama/checkpoints/Meta-Llama3.1-8B-Instruct"  # Replace with your actual path
 
 # Set environment variables required by torch.distributed
 os.environ['RANK'] = '0'
