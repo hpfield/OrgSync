@@ -30,7 +30,7 @@ st.markdown("""
 
 # File paths
 DATA_FILE = "outputs/final_output_with_context.json"
-SAVE_FILE = "labeled_data.json"
+SAVE_FILE = "outputs/human_labelled_data.json"
 
 # Load the original JSON data
 with open(DATA_FILE, "r") as file:

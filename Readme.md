@@ -19,7 +19,10 @@ Clone this repo.
 
 ### Setup environment
 
-`conda create -f orgsync.yml   conda activate orgsync`
+```
+conda create -f orgsync.yml   
+conda activate orgsync
+```
 
 ### Download data
 
@@ -55,11 +58,18 @@ Once you have llama-3.1 installed, you will need to configure the locations of c
 
 Go to the `cfg/config.yaml` file and update the following values to reflect where the files are stored on your machine:
 
-`models_dir: "/home/ubuntu/OrgSync/llama-models/models"   default_ckpt_dir: "/home/ubuntu/OrgSync/.llama/checkpoints/Meta-Llama3.1-8B-Instruct"   tokenizer_subpath: "llama3/api/tokenizer.model" # relative to models_dir`
+```
+models_dir: "/home/ubuntu/OrgSync/llama-models/models"   
+default_ckpt_dir: "/home/ubuntu/OrgSync/.llama/checkpoints/Meta-Llama3.1-8B-Instruct"   
+tokenizer_subpath: "llama3/api/tokenizer.model" # relative to models_dir
+```
 
 ### Latest version
 
-`cd src/local_llm/llama_v3   python main.py`
+```
+cd src/local_llm/llama_v3   
+python main.py
+```
 
 Optionally, you can specify the stage at which to start with `--stage=NUM` where `NUM` can be 1 - 8. This is useful if you've had to stop the process part way through and wish to pick up where you left off.
 
@@ -71,10 +81,14 @@ The next phase of this project is to continue data labelling of the model output
 
 We use a browser based labelling tool which automatically saves labels in `src/local_llm/llama_v3/outputs/human_labelled_data.json`. Unlabelled examples will have the "Not Labelled" option checked.
 
-`cd src/local_llm/llama_v3   streamlit run manual_label_app.py`
+```
+cd src/local_llm/llama_v3   
+streamlit run manual_label_app.py
+```
 
 ### Changes to implement
 
+- Developing from `src/local_llm/llama_v3`
 - Obtain 5 web search results per name: 3 often only shows companies house, when additional context is required to distinguish between names.
 - Design alternative web-search options: Can use rate-limited options but over several days, the current option frequently cannot find answers and takes a long time.
 - Reorient pipeline around api-based LLM queries for better results: Historically these have proven to be overly cautious, but web search results context could help with this.
