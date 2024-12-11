@@ -25,7 +25,7 @@ Clone this repo.
 
 Download the data from [google drive](https://drive.google.com/file/d/19sb1UXM6v9p0s617t5LD9rOfjLMYbqpM/view?usp=drive_link) and save the tar file to the repo root.
 
-Extract the data:
+### Extract the data:
 
 ```
 tar -xzvf data.tar.gz
