@@ -50,7 +50,7 @@ The repo data includes all experiment results to date, and so running the code y
 
 Follow instructions on the [llama-models](https://github.com/meta-llama/llama-models/tree/main) git repo.
 
-When you reach the meta llama-downloads page, request access to *Llama 3.1: 405B, 70B & 8B*.
+When you reach the meta llama-downloads page, request access to **Llama 3.1: 405B, 70B & 8B**.
 
 ### Setup config
 
