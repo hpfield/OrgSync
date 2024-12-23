@@ -35,9 +35,14 @@ tar -xzvf data.tar.gz
 ```
 
 ### Prepare data
-
+For full combined Cordis and GtR organisations data (~60k records)
 ```
 python setup.py
+```
+
+For Cordis only (~5k records)
+```
+python setup.py --cordis_only
 ```
 
 ## Quick Grab Results
