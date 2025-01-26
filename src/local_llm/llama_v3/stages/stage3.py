@@ -1,32 +1,23 @@
 import logging
-from collections import defaultdict
-from sklearn.neighbors import NearestNeighbors
+from sklearn.feature_extraction.text import TfidfVectorizer
 
-# Initialize logger
 logger = logging.getLogger(__name__)
 
-def stage3_group_similar_names(vectorizer, name_vectors, unique_combined_names, threshold=0.5):
-    nbrs = NearestNeighbors(n_neighbors=10, metric='cosine', algorithm='brute').fit(name_vectors)
-    distances, indices = nbrs.kneighbors(name_vectors)
+def stage3_vectorize_names(preprocessed_data):
+    """
+    Converts each dictionary entry to a frozenset so we only remove truly duplicate
+    dictionaries. Then vectorizes the 'combined_name' field for similarity checks later.
+    """
+    # Make entire entry hashable -> remove exact duplicates
+    unique_entries = list({frozenset(entry.items()): entry for entry in preprocessed_data}.values())
 
-    grouped_names = {}
-    used_names = set()
+    # Extract the combined names for vectorization
+    unique_combined_names = [entry['combined_name'] for entry in unique_entries]
+    total_unique_entries = len(unique_entries)
 
-    for i, name in enumerate(unique_combined_names):
-        if name in used_names:
-            continue
-        similar_names = [
-            unique_combined_names[idx]
-            for j, idx in enumerate(indices[i])
-            if distances[i][j] <= threshold and idx != i and unique_combined_names[idx] not in used_names
-        ]
-        all_group_names = [name] + similar_names
-        if len(all_group_names) > 1:
-            grouped_names[name] = similar_names
-            used_names.update(all_group_names)
-        else:
-            # No similar names found, skip adding this group
-            continue
+    # Vectorize those combined names
+    vectorizer = TfidfVectorizer().fit(unique_combined_names)
+    name_vectors = vectorizer.transform(unique_combined_names)
 
-    logger.info(f"Grouped names into {len(grouped_names)} groups after removing groups of size 1.")
-    return grouped_names
+    logger.info(f"Vectorized {total_unique_entries} unique entries based on full uniqueness.")
+    return vectorizer, name_vectors, unique_entries

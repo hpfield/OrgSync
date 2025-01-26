@@ -1,0 +1,76 @@
+{
+  "220a3284-95d7-4624-95c9-99121a07a62a": {
+    "name": "london school of hygiene and tropical medicine",
+    "items": [
+      {
+        "org_name": "london school of hygiene and tropical medicine royal charter",
+        "unique_id": "999912667",
+        "dataset": "cordis",
+        "postcode": "WC1E 7HT"
+      },
+      {
+        "org_name": "london school of hygiene and tropical medicine royal charter",
+        "unique_id": "999912667",
+        "dataset": "cordis",
+        "postcode": "WC1E 7HT"
+      },
+      {
+        "org_name": "london school of hygiene and tropical medicine royal charter",
+        "unique_id": "999912667",
+        "dataset": "cordis",
+        "postcode": "WC1E 7HT"
+      },
+      {
+        "org_name": "london school of hygiene and tropical medicine royal charter",
+        "unique_id": "999912667",
+        "dataset": "cordis",
+        "postcode": "WC1E 7HT"
+      }
+    ]
+  },
+  "f4512916-302b-4d66-a1fd-a7cc1a311062": {
+    "name": "sagentia",
+    "items": [
+      {
+        "org_name": "sagentia group limited",
+        "unique_id": "",
+        "dataset": "",
+        "postcode": ""
+      }
+    ]
+  },
+  "79411b8b-ea94-4408-904c-396bd711b323": {
+    "name": "cpl scientific publishing services ltd",
+    "items": [
+      {
+        "org_name": "cpl scientific publishing services ltd",
+        "unique_id": "996446275",
+        "dataset": "cordis",
+        "postcode": "RG14 1RZ"
+      },
+      {
+        "org_name": "cpl scientific publishing services ltd",
+        "unique_id": "996446275",
+        "dataset": "cordis",
+        "postcode": "RG14 1RZ"
+      },
+      {
+        "org_name": "cpl scientific publishing services ltd",
+        "unique_id": "",
+        "dataset": "cordis",
+        "postcode": ""
+      }
+    ]
+  },
+  "ab4fc1a5-585b-46df-8c94-d591675e3bba": {
+    "name": "advanced communications information systems ltd",
+    "items": [
+      {
+        "org_name": "advanced communications  information systems ltd",
+        "unique_id": "",
+        "dataset": "",
+        "postcode": ""
+      }
+    ]
+  }
+}

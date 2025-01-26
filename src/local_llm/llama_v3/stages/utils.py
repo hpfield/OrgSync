@@ -74,7 +74,7 @@ generator = Llama.build(
 def get_generator():
     return generator
 
-def perform_web_search(names, num_results=5, max_retries=7, search_method='duckduckgo', api_key=None):
+def perform_web_search(names, num_results=3, max_retries=5, search_method='duckduckgo', api_key=None):
     if search_method == 'duckduckgo' and DDGS is None:
         logger.error("DuckDuckGo search module not available.")
         sys.exit(1)
@@ -89,7 +89,7 @@ def perform_web_search(names, num_results=5, max_retries=7, search_method='duckd
                 search_results = []
                 ddgs = DDGS()
                 results = ddgs.text(query, region='wt-wt', safesearch='Moderate', max_results=num_results)
-                
+                logger.info(f"Raw Results for {query}: {results}")
                 if results:
                     for res in results:
                         search_results.append({

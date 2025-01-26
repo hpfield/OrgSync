@@ -1,0 +1,19 @@
+2025-01-26 20:56:30,124 - INFO - Loaded and preprocessed 105575 entries.
+2025-01-26 20:56:30,257 - INFO - Stage 1 complete.
+2025-01-26 20:56:30,476 - INFO - Found 5418 identical-name groups with more than 1 entry.
+2025-01-26 20:56:30,675 - INFO - Stage 2 complete.
+2025-01-26 20:56:31,573 - INFO - Vectorized 74506 unique entries based on full uniqueness.
+2025-01-26 20:56:31,998 - INFO - Stage 3 complete.
+2025-01-26 20:57:25,675 - INFO - Grouped names into 14058 groups (size >= 2).
+2025-01-26 20:57:25,701 - INFO - Stage 4 complete.
+2025-01-26 20:57:25,711 - INFO - Extracting unique names from grouped names for web search...
+2025-01-26 20:57:25,727 - INFO - Number of web searches needed: 41226
+2025-01-26 20:57:25,851 - INFO - response: https://duckduckgo.com/?q=%220+infinity+limited%22 200 19417
+2025-01-26 20:57:26,414 - INFO - response: https://links.duckduckgo.com/d.js?q=%220+infinity+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-165767661169204105743848889874534516546&bing_market=wt-WT&ex=-1 200 21097
+2025-01-26 20:57:26,415 - ERROR - Error during web search for '0 infinity limited': _text_extract_json() keywords='"0 infinity limited"' ValueError: subsection not found. Retrying (1/5)...
+2025-01-26 20:57:28,542 - INFO - response: https://duckduckgo.com/?q=%220+infinity+limited%22 200 19416
+2025-01-26 20:57:29,067 - INFO - response: https://links.duckduckgo.com/d.js?q=%220+infinity+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-165767661169204105743848889874534516546&bing_market=wt-WT&ex=-1 200 8788
+2025-01-26 20:57:29,068 - ERROR - Error during web search for '0 infinity limited': _text_extract_json() keywords='"0 infinity limited"' ValueError: subsection not found. Retrying (2/5)...
+2025-01-26 20:57:33,195 - INFO - response: https://duckduckgo.com/?q=%220+infinity+limited%22 200 19416
+2025-01-26 20:57:33,353 - INFO - response: https://links.duckduckgo.com/d.js?q=%220+infinity+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-165767661169204105743848889874534516546&bing_market=wt-WT&ex=-1 202 510
+2025-01-26 20:57:33,354 - ERROR - Error during web search for '0 infinity limited': https://links.duckduckgo.com/d.js?q=%220+infinity+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-165767661169204105743848889874534516546&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (3/5)...

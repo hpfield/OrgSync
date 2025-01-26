@@ -1,7 +1,5 @@
 core_data_file: data/raw/from_tom/gtr/scraped/2024_07/organisations.json
-project_root: /home/rz20505/Documents/ask-jgi/OrgSync
-
-# Paths to models and checkpoints
-models_dir: "/home/ubuntu/OrgSync/llama-models/models"
-default_ckpt_dir: "/home/ubuntu/OrgSync/.llama/checkpoints/Meta-Llama3.1-8B-Instruct"
-tokenizer_subpath: "llama3/api/tokenizer.model"  # relative to models_dir
+default_ckpt_dir: /home/ubuntu/OrgSync/.llama/checkpoints/Meta-Llama3.1-8B-Instruct
+models_dir: /home/ubuntu/OrgSync/llama-models/models
+project_root: /home/ubuntu/OrgSync
+tokenizer_subpath: llama3/api/tokenizer.model

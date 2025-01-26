@@ -1,50 +1,86 @@
+import json
 import logging
+from tqdm import tqdm
+from stages.utils import UserMessage, SystemMessage, get_generator
 
-# Initialize logger
 logger = logging.getLogger(__name__)
 
-def stage6_combine_overlapping_groups(refined_groups):
-    logger.info("Combining overlapping groups...")
-    group_sets = []
-    for names in refined_groups.values():
-        if not isinstance(names, list):
-            logger.warning(f"Expected names to be a list, but got {type(names)}. Setting names to an empty list.")
-            names = []
+def stage6_process_groups_with_llm(grouped_names, web_search_results):
+    generator = get_generator()
+    refined_groups = {}
+    num_groups = len(grouped_names)
+    logger.info("Processing groups with LLM...")
+
+    with tqdm(total=num_groups, desc='Processing groups with LLM') as pbar:
+        for unique_name, matched_names in grouped_names.items():
+            pbar.update(1)
+            group_names = [unique_name] + matched_names
+            # Gather search results for each name
+            group_search_results = {name: web_search_results.get(name, []) for name in group_names}
+            response = process_group_with_llm(unique_name, matched_names, group_search_results, generator)
+
+            try:
+                parsed_response = json.loads(response)
+                if isinstance(parsed_response, list):
+                    selected_names = parsed_response
+                else:
+                    logger.warning(f"LLM response is not a list, skipping. Response: {response}")
+                    selected_names = []
+            except json.JSONDecodeError:
+                logger.error(f"Error parsing LLM response for group '{unique_name}': {response}")
+                selected_names = []
+            except Exception as e:
+                logger.exception(f"Unexpected error processing group '{unique_name}': {e}")
+                selected_names = []
+
+            # Ensure the original unique_name is present
+            if unique_name not in selected_names:
+                selected_names.append(unique_name)
+            refined_groups[unique_name] = selected_names
+            
+    logger.info(f"Refined groups to {len(refined_groups)} groups after LLM processing.")
+    return refined_groups
+
+def process_group_with_llm(unique_name, matched_names, group_search_results, generator):
+    system_message = SystemMessage(
+        content=(
+            "You are an AI assistant that helps identify whether organization names refer "
+            "to the same UK research organization. You have access to web search results to assist. "
+            "Output must be a JSON array of selected names in lowercase, no extra text."
+        )
+    )
+
+    web_results_str = ""
+    all_names = [unique_name] + matched_names
+    for name in all_names:
+        results = group_search_results.get(name, [])
+        if results:
+            result_strs = []
+            for result in results:
+                url = result.get('url', '')
+                title = result.get('title', '')
+                description = result.get('description', '')
+                result_str = f"Title: {title}\nURL: {url}\nDescription: {description}"
+                result_strs.append(result_str)
+            combined = '\n\n'.join(result_strs)
+            web_results_str += f"Search results for '{name}':\n{combined}\n\n"
         else:
-            names = [str(name) for name in names if isinstance(name, str)]
-        try:
-            group_sets.append(set(names))
-        except TypeError as e:
-            logger.error(f"Error converting names to set: {e}. Names: {names}")
-            continue
+            web_results_str += f"Search results for '{name}':\nNo results currently available.\n\n"
 
-    merged_groups = merge_overlapping_groups(group_sets)
-    # Remove duplicates within each merged group (already sets)
-    merged_groups = [sorted(list(group)) for group in merged_groups]  # Convert sets to sorted lists
-    logger.info(f"Number of combined groups: {len(merged_groups)}")
-    return merged_groups
+    matched_names_str = '\n'.join(matched_names)
+    prompt = f"""Given the organization name: "{unique_name}"
+and the following list of similar names:
+{matched_names_str}
 
-def merge_overlapping_groups(group_sets):
-    merged = []
-    for group in group_sets:
-        found = False
-        for mgroup in merged:
-            if group & mgroup:
-                mgroup |= group
-                found = True
-                break
-        if not found:
-            merged.append(set(group))
-    merging = True
-    while merging:
-        merging = False
-        for i in range(len(merged)):
-            for j in range(i+1, len(merged)):
-                if merged[i] & merged[j]:
-                    merged[i] |= merged[j]
-                    del merged[j]
-                    merging = True
-                    break
-            if merging:
-                break
-    return merged
+Here are web search results for each name:
+{web_results_str}
+
+Please select the names that belong to the same organization as "{unique_name}", 
+and output them as a JSON array in lowercase. If ambiguous, exclude the name.
+No extra text, just JSON array (e.g. ["acme corp", "acme inc"])."""
+
+    user_message = UserMessage(content=prompt)
+    chat_history = [system_message, user_message]
+
+    result = generator.chat_completion(chat_history, max_gen_len=None, temperature=0.0, top_p=0.9)
+    return result.generation.content.strip()

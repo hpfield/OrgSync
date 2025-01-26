@@ -1,0 +1,16 @@
+2025-01-26 20:55:46,389 - INFO - Loaded and preprocessed 105575 entries.
+2025-01-26 20:55:46,412 - INFO - Stage 1 complete.
+2025-01-26 20:55:46,412 - INFO - Found 4 identical-name groups with more than 1 entry.
+2025-01-26 20:55:46,413 - INFO - Stage 2 complete.
+2025-01-26 20:55:46,416 - INFO - Vectorized 94 unique entries based on full uniqueness.
+2025-01-26 20:55:46,417 - INFO - Stage 3 complete.
+2025-01-26 20:55:46,419 - INFO - Grouped names into 4 groups (size >= 2).
+2025-01-26 20:55:46,420 - INFO - Stage 4 complete.
+2025-01-26 20:55:46,420 - INFO - Extracting unique names from grouped names for web search...
+2025-01-26 20:55:46,420 - INFO - Number of web searches needed: 7
+2025-01-26 20:55:46,566 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 200 19961
+2025-01-26 20:55:47,080 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27928548814780635856806168743766419248&bing_market=wt-WT&ex=-1 200 1150
+2025-01-26 20:55:47,081 - ERROR - Error during web search for 'advanced communications  information systems ltd': _text_extract_json() keywords='"advanced communications  information systems ltd"' ValueError: subsection not found. Retrying (1/5)...
+2025-01-26 20:55:49,203 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 200 19961
+2025-01-26 20:55:49,658 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27928548814780635856806168743766419248&bing_market=wt-WT&ex=-1 200 1150
+2025-01-26 20:55:49,659 - ERROR - Error during web search for 'advanced communications  information systems ltd': _text_extract_json() keywords='"advanced communications  information systems ltd"' ValueError: subsection not found. Retrying (2/5)...
