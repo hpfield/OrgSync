@@ -104,7 +104,7 @@ dependencies:
       - pexpect==4.9.0
       - pillow==10.4.0
       - platformdirs==4.3.6
-      - primp==0.8.3
+      - primp
       - prompt-toolkit==3.0.48
       - psutil==6.1.0
       - ptyprocess==0.7.0
