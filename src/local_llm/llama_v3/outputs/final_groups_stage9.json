@@ -1,34 +1,16 @@
 {
-  "6859c311-b792-4702-8cd1-204f56dca2ab": {
+  "f1d44997-212f-4b52-afed-5802d88a58ce": {
     "name": "london school of hygiene and tropical medicine",
     "items": [
       {
         "org_name": "london school of hygiene and tropical medicine royal charter",
-        "unique_id": "999912667",
-        "dataset": "cordis",
-        "postcode": "WC1E 7HT"
-      },
-      {
-        "org_name": "london school of hygiene and tropical medicine royal charter",
-        "unique_id": "999912667",
-        "dataset": "cordis",
-        "postcode": "WC1E 7HT"
-      },
-      {
-        "org_name": "london school of hygiene and tropical medicine royal charter",
-        "unique_id": "999912667",
-        "dataset": "cordis",
-        "postcode": "WC1E 7HT"
-      },
-      {
-        "org_name": "london school of hygiene and tropical medicine royal charter",
-        "unique_id": "999912667",
-        "dataset": "cordis",
-        "postcode": "WC1E 7HT"
+        "unique_id": "",
+        "dataset": "",
+        "postcode": ""
       }
     ]
   },
-  "748ff38c-10bf-47d9-8ea0-3fcf2b50ff53": {
+  "996e66f4-c1b0-45ad-8c3f-57404750c65c": {
     "name": "sagentia",
     "items": [
       {
@@ -39,31 +21,19 @@
       }
     ]
   },
-  "abea67b7-5078-4235-bb2e-a8f758e9f458": {
+  "e637c58a-230b-40eb-9c5e-dfa00ed418fb": {
     "name": "cpl scientific publishing services ltd",
     "items": [
       {
         "org_name": "cpl scientific publishing services ltd",
-        "unique_id": "996446275",
-        "dataset": "cordis",
-        "postcode": "RG14 1RZ"
-      },
-      {
-        "org_name": "cpl scientific publishing services ltd",
-        "unique_id": "996446275",
-        "dataset": "cordis",
-        "postcode": "RG14 1RZ"
-      },
-      {
-        "org_name": "cpl scientific publishing services ltd",
         "unique_id": "",
-        "dataset": "cordis",
+        "dataset": "",
         "postcode": ""
       }
     ]
   },
-  "96c8ec52-456f-4953-a99d-5480005ce8c7": {
-    "name": "advanced communications information systems ltd",
+  "de28597c-7add-465f-b0f6-49485e755ae2": {
+    "name": "advanced communications information systems",
     "items": [
       {
         "org_name": "advanced communications  information systems ltd",

@@ -34,12 +34,20 @@ if __name__ == "__main__":
     # Define the base path for raw data
     input_path = os.path.join(script_directory, "data/raw/all_scraped/")
     # Define the file paths to combine for Cordis data
+    #! Old
+    # cordis_files = [
+    #     "cordis/2024_07/FP7/organization.json",
+    #     "cordis/2024_07/Horizon 2020/organization.json",
+    #     "cordis/2024_07/Horizon Europe/organization.json",
+    # ]
     cordis_files = [
-        "cordis/2024_07/FP7/organization.json",
-        "cordis/2024_07/Horizon 2020/organization.json",
-        "cordis/2024_07/Horizon Europe/organization.json",
+        "cordis/FP7/organization.json",
+        "cordis/Horizon 2020/organization.json",
+        "cordis/Horizon Europe/organization.json",
     ]
-    gtr_file = "gtr/scraped/2024_07/organisations.json"
+    #! Old
+    # gtr_file = "gtr/scraped/2024_07/organisations.json"
+    gtr_file = "gtr/organisations.json"
 
     # Combine and filter Cordis data
     uk_data = []

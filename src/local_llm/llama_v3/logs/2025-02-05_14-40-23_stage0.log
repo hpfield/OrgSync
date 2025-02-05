@@ -1,0 +1,45 @@
+2025-02-05 14:40:23,341 - INFO - Repo root: /home/ubuntu/OrgSync
+2025-02-05 14:40:23,501 - INFO - Loaded old database with 105575 entries from /home/ubuntu/OrgSync/data/raw/old_uk_data.json
+2025-02-05 14:40:24,012 - INFO - Merged dataset has 82281 total entries.
+2025-02-05 14:40:24,012 - INFO - Found 7773 new entries not in the old database.
+2025-02-05 14:40:24,347 - INFO - Merged data written to /home/ubuntu/OrgSync/data/raw/merged_uk_data.json
+2025-02-05 14:40:24,370 - INFO - New entries written to /home/ubuntu/OrgSync/data/raw/new_entries.json
+2025-02-05 14:40:24,531 - INFO - Stage 0 complete.
+2025-02-05 14:40:24,747 - INFO - Loaded and preprocessed 82281 entries.
+2025-02-05 14:40:24,808 - INFO - Stage 1 complete.
+2025-02-05 14:40:24,948 - INFO - Found 5591 identical-name groups with more than 1 entry.
+2025-02-05 14:40:25,007 - INFO - Stage 2 complete.
+2025-02-05 14:40:25,623 - INFO - Vectorized 82279 unique entries based on full uniqueness.
+2025-02-05 14:40:25,943 - INFO - Stage 3 complete.
+2025-02-05 14:41:25,071 - INFO - Grouped names into 15611 groups (size >= 2).
+2025-02-05 14:41:25,498 - INFO - Stage 4 complete.
+2025-02-05 14:41:25,512 - INFO - Created/added to 3939 groups with new data.
+2025-02-05 14:41:25,674 - INFO - Loaded existing web search DB from outputs/all_web_search_results.json
+2025-02-05 14:41:25,677 - INFO - 13424 out of 13424 names need new web searches.
+2025-02-05 14:41:25,819 - INFO - response: https://duckduckgo.com/?q=%22northumbrian+water+group+united+kingdom%22 200 20857
+2025-02-05 14:41:26,538 - INFO - response: https://links.duckduckgo.com/d.js?q=%22northumbrian+water+group+united+kingdom%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-250637193762330177007196373693083724811&bing_market=wt-WT&ex=-1 200 19263
+2025-02-05 14:41:26,539 - ERROR - Error during web search for 'northumbrian water group united kingdom': _text_extract_json() keywords='"northumbrian water group united kingdom"' ValueError: subsection not found. Retrying (1/5)...
+2025-02-05 14:41:28,681 - INFO - response: https://duckduckgo.com/?q=%22northumbrian+water+group+united+kingdom%22 200 20879
+2025-02-05 14:41:29,340 - INFO - response: https://links.duckduckgo.com/d.js?q=%22northumbrian+water+group+united+kingdom%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-250637193762330177007196373693083724811&bing_market=wt-WT&ex=-1 200 15330
+2025-02-05 14:41:29,341 - ERROR - Error during web search for 'northumbrian water group united kingdom': _text_extract_json() keywords='"northumbrian water group united kingdom"' ValueError: subsection not found. Retrying (2/5)...
+2025-02-05 14:41:33,479 - INFO - response: https://duckduckgo.com/?q=%22northumbrian+water+group+united+kingdom%22 200 20857
+2025-02-05 14:41:34,129 - INFO - response: https://links.duckduckgo.com/d.js?q=%22northumbrian+water+group+united+kingdom%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-250637193762330177007196373693083724811&bing_market=wt-WT&ex=-1 200 15312
+2025-02-05 14:41:34,130 - ERROR - Error during web search for 'northumbrian water group united kingdom': _text_extract_json() keywords='"northumbrian water group united kingdom"' ValueError: subsection not found. Retrying (3/5)...
+2025-02-05 14:41:42,268 - INFO - response: https://duckduckgo.com/?q=%22northumbrian+water+group+united+kingdom%22 200 20857
+2025-02-05 14:41:42,986 - INFO - response: https://links.duckduckgo.com/d.js?q=%22northumbrian+water+group+united+kingdom%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-250637193762330177007196373693083724811&bing_market=wt-WT&ex=-1 200 5220
+2025-02-05 14:41:42,987 - ERROR - Error during web search for 'northumbrian water group united kingdom': _text_extract_json() keywords='"northumbrian water group united kingdom"' ValueError: subsection not found. Retrying (4/5)...
+2025-02-05 14:41:59,130 - INFO - response: https://duckduckgo.com/?q=%22northumbrian+water+group+united+kingdom%22 200 20856
+2025-02-05 14:41:59,927 - INFO - response: https://links.duckduckgo.com/d.js?q=%22northumbrian+water+group+united+kingdom%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-250637193762330177007196373693083724811&bing_market=wt-WT&ex=-1 200 16331
+2025-02-05 14:41:59,928 - INFO - Raw Results for "northumbrian water group united kingdom": []
+2025-02-05 14:42:00,053 - INFO - response: https://duckduckgo.com/?q=%22pixel+creative+technologies%22 200 20681
+2025-02-05 14:42:00,688 - INFO - response: https://links.duckduckgo.com/d.js?q=%22pixel+creative+technologies%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-72906243767602314789379609914192304075&bing_market=wt-WT&ex=-1 200 9602
+2025-02-05 14:42:00,688 - ERROR - Error during web search for 'pixel creative technologies': _text_extract_json() keywords='"pixel creative technologies"' ValueError: subsection not found. Retrying (1/5)...
+2025-02-05 14:42:02,825 - INFO - response: https://duckduckgo.com/?q=%22pixel+creative+technologies%22 200 20680
+2025-02-05 14:42:03,396 - INFO - response: https://links.duckduckgo.com/d.js?q=%22pixel+creative+technologies%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-72906243767602314789379609914192304075&bing_market=wt-WT&ex=-1 200 9946
+2025-02-05 14:42:03,397 - ERROR - Error during web search for 'pixel creative technologies': _text_extract_json() keywords='"pixel creative technologies"' ValueError: subsection not found. Retrying (2/5)...
+2025-02-05 14:42:07,528 - INFO - response: https://duckduckgo.com/?q=%22pixel+creative+technologies%22 200 20681
+2025-02-05 14:42:08,424 - INFO - response: https://links.duckduckgo.com/d.js?q=%22pixel+creative+technologies%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-72906243767602314789379609914192304075&bing_market=wt-WT&ex=-1 200 9866
+2025-02-05 14:42:08,424 - ERROR - Error during web search for 'pixel creative technologies': _text_extract_json() keywords='"pixel creative technologies"' ValueError: subsection not found. Retrying (3/5)...
+2025-02-05 14:42:16,553 - INFO - response: https://duckduckgo.com/?q=%22pixel+creative+technologies%22 200 20681
+2025-02-05 14:42:17,140 - INFO - response: https://links.duckduckgo.com/d.js?q=%22pixel+creative+technologies%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-72906243767602314789379609914192304075&bing_market=wt-WT&ex=-1 200 32209
+2025-02-05 14:42:17,141 - ERROR - Error during web search for 'pixel creative technologies': _text_extract_json() keywords='"pixel creative technologies"' ValueError: subsection not found. Retrying (4/5)...
