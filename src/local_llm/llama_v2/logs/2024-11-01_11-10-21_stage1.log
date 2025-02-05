@@ -1,0 +1,7 @@
+2024-11-01 11:10:22,132 - INFO - Loaded and preprocessed 36508 names.
+2024-11-01 11:10:22,151 - INFO - Stage 1 complete.
+2024-11-01 11:10:22,185 - INFO - Vectorized 5411 unique combined names.
+2024-11-01 11:10:22,186 - INFO - Stage 2 complete.
+2024-11-01 11:10:22,526 - INFO - Grouped names into 674 groups.
+2024-11-01 11:10:22,528 - INFO - Stage 3 complete.
+2024-11-01 11:10:22,528 - INFO - Performing web search on grouped names...

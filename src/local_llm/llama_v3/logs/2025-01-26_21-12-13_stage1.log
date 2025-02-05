@@ -1,0 +1,56 @@
+2025-01-26 21:12:13,983 - INFO - Loaded and preprocessed 105575 entries.
+2025-01-26 21:12:14,007 - INFO - Stage 1 complete.
+2025-01-26 21:12:14,007 - INFO - Found 4 identical-name groups with more than 1 entry.
+2025-01-26 21:12:14,008 - INFO - Stage 2 complete.
+2025-01-26 21:12:14,013 - INFO - Vectorized 94 unique entries based on full uniqueness.
+2025-01-26 21:12:14,016 - INFO - Stage 3 complete.
+2025-01-26 21:12:14,019 - INFO - Grouped names into 4 groups (size >= 2).
+2025-01-26 21:12:14,019 - INFO - Stage 4 complete.
+2025-01-26 21:12:14,019 - INFO - Extracting unique names from grouped names for web search...
+2025-01-26 21:12:14,019 - INFO - Number of web searches needed: 7
+2025-01-26 21:12:14,174 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 200 19962
+2025-01-26 21:12:14,330 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27928752906527225673222941240184033568&bing_market=wt-WT&ex=-1 202 594
+2025-01-26 21:12:14,331 - ERROR - Error during web search for 'advanced communications  information systems ltd': https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27928752906527225673222941240184033568&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (1/5)...
+2025-01-26 21:12:16,467 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 200 19961
+2025-01-26 21:12:16,640 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27928752906527225673222941240184033568&bing_market=wt-WT&ex=-1 202 594
+2025-01-26 21:12:16,641 - ERROR - Error during web search for 'advanced communications  information systems ltd': https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27928752906527225673222941240184033568&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (2/5)...
+2025-01-26 21:12:20,790 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 202 15392
+2025-01-26 21:12:20,790 - ERROR - Error during web search for 'advanced communications  information systems ltd': https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 202 Ratelimit. Retrying (3/5)...
+2025-01-26 21:12:28,922 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 200 19849
+2025-01-26 21:12:29,519 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27928752906527225673222941240184033568&bing_market=wt-WT&ex=-1 200 1150
+2025-01-26 21:12:29,520 - ERROR - Error during web search for 'advanced communications  information systems ltd': _text_extract_json() keywords='"advanced communications  information systems ltd"' ValueError: subsection not found. Retrying (4/5)...
+2025-01-26 21:12:45,653 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 200 19848
+2025-01-26 21:12:46,162 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27928752906527225673222941240184033568&bing_market=wt-WT&ex=-1 200 1150
+2025-01-26 21:12:46,163 - ERROR - Error during web search for 'advanced communications  information systems ltd': _text_extract_json() keywords='"advanced communications  information systems ltd"' ValueError: subsection not found. Retrying (5/5)...
+2025-01-26 21:13:18,194 - ERROR - Failed to retrieve search results for 'advanced communications  information systems ltd' after 5 retries.
+2025-01-26 21:13:18,323 - INFO - response: https://duckduckgo.com/?q=%22advanced+transport+systems+ltd%22 200 19679
+2025-01-26 21:13:18,488 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+transport+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-213503170850397709805703723624393008663&bing_market=wt-WT&ex=-1 202 573
+2025-01-26 21:13:18,489 - ERROR - Error during web search for 'advanced transport systems ltd': https://links.duckduckgo.com/d.js?q=%22advanced+transport+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-213503170850397709805703723624393008663&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (1/5)...
+2025-01-26 21:13:20,627 - INFO - response: https://duckduckgo.com/?q=%22advanced+transport+systems+ltd%22 200 19662
+2025-01-26 21:13:21,315 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+transport+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-213503170850397709805703723624393008663&bing_market=wt-WT&ex=-1 200 8781
+2025-01-26 21:13:21,316 - ERROR - Error during web search for 'advanced transport systems ltd': _text_extract_json() keywords='"advanced transport systems ltd"' ValueError: subsection not found. Retrying (2/5)...
+2025-01-26 21:13:25,438 - INFO - response: https://duckduckgo.com/?q=%22advanced+transport+systems+ltd%22 200 19662
+2025-01-26 21:13:26,008 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+transport+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-213503170850397709805703723624393008663&bing_market=wt-WT&ex=-1 200 8760
+2025-01-26 21:13:26,009 - ERROR - Error during web search for 'advanced transport systems ltd': _text_extract_json() keywords='"advanced transport systems ltd"' ValueError: subsection not found. Retrying (3/5)...
+2025-01-26 21:13:34,168 - INFO - response: https://duckduckgo.com/?q=%22advanced+transport+systems+ltd%22 200 19662
+2025-01-26 21:13:34,337 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+transport+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-213503170850397709805703723624393008663&bing_market=wt-WT&ex=-1 202 579
+2025-01-26 21:13:34,338 - ERROR - Error during web search for 'advanced transport systems ltd': https://links.duckduckgo.com/d.js?q=%22advanced+transport+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-213503170850397709805703723624393008663&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (4/5)...
+2025-01-26 21:13:50,466 - INFO - response: https://duckduckgo.com/?q=%22advanced+transport+systems+ltd%22 200 19692
+2025-01-26 21:13:51,020 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+transport+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-213503170850397709805703723624393008663&bing_market=wt-WT&ex=-1 200 8663
+2025-01-26 21:13:51,021 - ERROR - Error during web search for 'advanced transport systems ltd': _text_extract_json() keywords='"advanced transport systems ltd"' ValueError: subsection not found. Retrying (5/5)...
+2025-01-26 21:14:23,054 - ERROR - Failed to retrieve search results for 'advanced transport systems ltd' after 5 retries.
+2025-01-26 21:14:23,191 - INFO - response: https://duckduckgo.com/?q=%22cpl+scientific+publishing+services+ltd%22 200 19671
+2025-01-26 21:14:23,795 - INFO - response: https://links.duckduckgo.com/d.js?q=%22cpl+scientific+publishing+services+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-63504142848981756485133981682508546050&bing_market=wt-WT&ex=-1 200 6737
+2025-01-26 21:14:23,796 - ERROR - Error during web search for 'cpl scientific publishing services ltd': _text_extract_json() keywords='"cpl scientific publishing services ltd"' ValueError: subsection not found. Retrying (1/5)...
+2025-01-26 21:14:25,920 - INFO - response: https://duckduckgo.com/?q=%22cpl+scientific+publishing+services+ltd%22 200 19795
+2025-01-26 21:14:26,511 - INFO - response: https://links.duckduckgo.com/d.js?q=%22cpl+scientific+publishing+services+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-63504142848981756485133981682508546050&bing_market=wt-WT&ex=-1 200 8801
+2025-01-26 21:14:26,512 - ERROR - Error during web search for 'cpl scientific publishing services ltd': _text_extract_json() keywords='"cpl scientific publishing services ltd"' ValueError: subsection not found. Retrying (2/5)...
+2025-01-26 21:14:30,644 - INFO - response: https://duckduckgo.com/?q=%22cpl+scientific+publishing+services+ltd%22 200 19798
+2025-01-26 21:14:30,807 - INFO - response: https://links.duckduckgo.com/d.js?q=%22cpl+scientific+publishing+services+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-63504142848981756485133981682508546050&bing_market=wt-WT&ex=-1 202 536
+2025-01-26 21:14:30,808 - ERROR - Error during web search for 'cpl scientific publishing services ltd': https://links.duckduckgo.com/d.js?q=%22cpl+scientific+publishing+services+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-63504142848981756485133981682508546050&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (3/5)...
+2025-01-26 21:14:38,942 - INFO - response: https://duckduckgo.com/?q=%22cpl+scientific+publishing+services+ltd%22 200 19768
+2025-01-26 21:14:39,113 - INFO - response: https://links.duckduckgo.com/d.js?q=%22cpl+scientific+publishing+services+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-63504142848981756485133981682508546050&bing_market=wt-WT&ex=-1 202 589
+2025-01-26 21:14:39,114 - ERROR - Error during web search for 'cpl scientific publishing services ltd': https://links.duckduckgo.com/d.js?q=%22cpl+scientific+publishing+services+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-63504142848981756485133981682508546050&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (4/5)...
+2025-01-26 21:14:55,253 - INFO - response: https://duckduckgo.com/?q=%22cpl+scientific+publishing+services+ltd%22 200 19768
+2025-01-26 21:14:55,860 - INFO - response: https://links.duckduckgo.com/d.js?q=%22cpl+scientific+publishing+services+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-63504142848981756485133981682508546050&bing_market=wt-WT&ex=-1 200 25272
+2025-01-26 21:14:55,861 - ERROR - Error during web search for 'cpl scientific publishing services ltd': _text_extract_json() keywords='"cpl scientific publishing services ltd"' ValueError: subsection not found. Retrying (5/5)...

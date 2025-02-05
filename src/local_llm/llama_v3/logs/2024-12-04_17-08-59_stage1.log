@@ -1,0 +1,16 @@
+2024-12-04 17:08:59,940 - INFO - Loaded and preprocessed 105575 names.
+2024-12-04 17:08:59,962 - INFO - Stage 1 complete.
+2024-12-04 17:09:00,358 - INFO - Vectorized 69099 unique combined names.
+2024-12-04 17:09:00,391 - INFO - Stage 2 complete.
+2024-12-04 17:09:43,926 - INFO - Grouped names into 12803 groups after removing groups of size 1.
+2024-12-04 17:09:43,951 - INFO - Stage 3 complete.
+2024-12-04 17:09:43,958 - INFO - Extracting unique names from grouped names for web search...
+2024-12-04 17:09:44,110 - INFO - response: https://duckduckgo.com/?q=%220+infinity+limited%22 200 18876
+2024-12-04 17:09:44,294 - INFO - response: https://links.duckduckgo.com/d.js?q=%220+infinity+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-165424922673243611855034104974150490514&bing_market=wt-WT&ex=-1 202 565
+2024-12-04 17:09:44,295 - ERROR - Error during web search for '0 infinity limited': https://links.duckduckgo.com/d.js?q=%220+infinity+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-165424922673243611855034104974150490514&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (1/7)...
+2024-12-04 17:09:46,424 - INFO - response: https://duckduckgo.com/?q=%220+infinity+limited%22 200 18876
+2024-12-04 17:09:47,025 - INFO - response: https://links.duckduckgo.com/d.js?q=%220+infinity+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-165424922673243611855034104974150490514&bing_market=wt-WT&ex=-1 200 8687
+2024-12-04 17:09:47,155 - INFO - response: https://duckduckgo.com/?q=%22100+resilient+cities%22 200 18950
+2024-12-04 17:09:47,821 - INFO - response: https://links.duckduckgo.com/d.js?q=%22100+resilient+cities%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-43812252615610648990468814193310879148&bing_market=wt-WT&ex=-1 200 22357
+2024-12-04 17:09:47,964 - INFO - response: https://duckduckgo.com/?q=%221000+days+llc%22 202 14337
+2024-12-04 17:09:47,964 - ERROR - Error during web search for '1000 days llc': https://duckduckgo.com/?q=%221000+days+llc%22 202 Ratelimit. Retrying (1/7)...

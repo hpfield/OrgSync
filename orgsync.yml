@@ -59,11 +59,13 @@ dependencies:
       - comm==0.2.2
       - debugpy==1.8.7
       - decorator==5.1.1
+      - duckduckgo-search==6.3.7
       - executing==2.1.0
       - fairscale==0.4.13
       - filelock==3.16.1
       - fire==0.7.0
       - fsspec==2024.9.0
+      - git-filter-repo==2.47.0
       - googlesearch-python==1.2.5
       - huggingface-hub==0.25.2
       - ipykernel==6.29.5
@@ -102,6 +104,7 @@ dependencies:
       - pexpect==4.9.0
       - pillow==10.4.0
       - platformdirs==4.3.6
+      - primp
       - prompt-toolkit==3.0.48
       - psutil==6.1.0
       - ptyprocess==0.7.0

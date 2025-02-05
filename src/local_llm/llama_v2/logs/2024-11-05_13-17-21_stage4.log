@@ -1,0 +1,3 @@
+2024-11-05 13:17:21,241 - INFO - Performing web search on grouped names...
+2024-11-05 13:19:13,320 - ERROR - Failed to retrieve search results for 'lime technology limited' after 5 retries.
+2024-11-05 13:21:05,401 - ERROR - Failed to retrieve search results for 'lime microsystems ltd' after 5 retries.
