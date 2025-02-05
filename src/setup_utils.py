@@ -24,6 +24,38 @@ def save_json(data: Any, filename: str, save_dir: str|None = None, encoding="utf
         json.dump(data, f, indent=4)
     print(f"Data saved to {save_path}")
 
+
+def process_uktin_names_only(raw_data):
+    """
+    Parse a JSON containing project information and extract all organization names
+    from the 'partners' field into a list of dictionaries.
+    
+    Args:
+        raw_data (dict): Input JSON data either as a string or dictionary
+        
+    Returns:
+        list: List of dictionaries with organization names
+    """
+    data = raw_data
+    
+    # Initialize result list
+    organizations = []
+    
+    # Iterate through all entries in the JSON
+    for _, project_data in data.items():
+        # Check if 'partners' exists in the project data
+        if 'partners' in project_data:
+            # For each partner in the partners list
+            for partner in project_data['partners']:
+                # Create a dictionary with the organization name
+                org_dict = {
+                    "name": partner
+                }
+                # Add it to our results list
+                organizations.append(org_dict)
+    
+    return organizations
+
 def process_gtr_data(raw_data):
     """
     Transform GTR organization data from nested to flat structure.
