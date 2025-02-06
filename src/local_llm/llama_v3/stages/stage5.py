@@ -13,6 +13,9 @@ def stage5_perform_web_search(grouped_names, search_method='duckduckgo', num_res
     - Returns the entire dictionary, but the pipeline typically uses only the sub-dict for the active method.
     """
 
+    if search_method == 'duckduckgo':
+        logger.info(f"Due to rate limits, the program will wait for 60 seconds every 20 searches.")
+
     # Path to the rolling DB
     rolling_db_path = os.path.join(output_dir, 'all_web_search_results.json')
 
@@ -27,6 +30,7 @@ def stage5_perform_web_search(grouped_names, search_method='duckduckgo', num_res
 
     # Ensure we have a sub-dict for this search method
     if search_method not in all_web_search_results:
+        logger.info(f"Couldn't find any previous search results using {search_method}")
         all_web_search_results[search_method] = {}
 
     # Extract all names from grouped_names
