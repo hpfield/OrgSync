@@ -6,6 +6,14 @@ import logging
 from pathlib import Path
 import yaml
 
+# Edit for using Openai GPT-4o
+# from openai import OpenAI
+# client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+# def get_client():
+#     return client
+def get_client():
+    return None
 
 logger = logging.getLogger(__name__)
 
@@ -108,7 +116,7 @@ def perform_web_search(names, num_results=3, max_retries=5, search_method='duckd
             except Exception as e:
                 retries += 1
                 logger.error(f"Error during web search for '{name}': {e}. Retrying ({retries}/{max_retries})...")
-                time.sleep(2 ** retries)
+                time.sleep(64 * retries)
                 
         if not success:
             logger.error(f"Failed to retrieve search results for '{name}' after {retries} retries.")

@@ -17,18 +17,21 @@ from stages.stage6 import stage6_process_groups_with_llm
 from stages.stage7 import stage7_combine_overlapping_groups
 from stages.stage8 import stage8_determine_organisation_type
 from stages.stage9 import stage9_finalize_groups
+from stages.stage10 import stage10_refine_groups_with_llm
+from stages.stage11 import stage11_capitalize_group_names
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Process organization names in stages.')
-    parser.add_argument('--stage', type=int, default=0, help='Stage to start from (0-9)')
+    parser.add_argument('--stage', type=int, default=0, help='Stage to start from (0-11)')
     parser.add_argument('--threshold', type=float, default=0.5, help='Threshold for grouping similar names')
     parser.add_argument('--search-method', type=str, choices=['google', 'duckduckgo'], default='duckduckgo',
                         help='Method for web searching in Stage 5')
     parser.add_argument('--input', nargs='+', help='Input file(s) for the starting stage')
     parser.add_argument('--output-dir', type=str, default='outputs', help='Output directory to save results')
-    # Let’s add a param for # of search results to retrieve per item
     parser.add_argument('--num-search-results', type=int, default=5,
                         help='Number of web search results to retrieve for each org name')
+    parser.add_argument('--data-mode', type=str, choices=['all', 'new'], default='new',
+                        help='Run pipeline over all data or only new data')
     return parser.parse_args()
 
 def setup_logging(stage):
@@ -55,29 +58,32 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
 
     # -----------
-    # Stage 0
+    # Stage 0: Load data (new vs. all)
     # -----------
     if stage <= 0:
-        # Compare old vs new data
         repo_root = os.path.abspath(os.path.join(__file__, '../../../..'))
         logging.info(f'Repo root: {repo_root}')
-        new_data_path = os.path.join(repo_root, "data", "raw", "uk_data.json")
-        old_data_path = os.path.join(repo_root, "data", "raw", "old_uk_data.json")
-        merged_data_path = os.path.join(repo_root, "data", "raw", "merged_uk_data.json")
-        new_entries_path = os.path.join(repo_root, "data", "raw", "new_entries.json")
-
-        merged_data = stage0_check_new_data(
-            new_data_path,
-            old_data_path,
-            merged_data_path,
-            new_entries_path
-        )
+        if args.data_mode == "new":
+            new_data_path = os.path.join(repo_root, "data", "raw", "uk_data.json")
+            old_data_path = os.path.join(repo_root, "data", "raw", "old_uk_data.json")
+            merged_data_path = os.path.join(repo_root, "data", "raw", "merged_uk_data.json")
+            new_entries_path = os.path.join(repo_root, "data", "raw", "new_entries.json")
+            merged_data = stage0_check_new_data(
+                new_data_path,
+                old_data_path,
+                merged_data_path,
+                new_entries_path
+            )
+        else:  # "all" mode: process all data without filtering new entries
+            data_path = os.path.join(repo_root, "data", "raw", "uk_data.json")
+            with open(data_path, 'r') as f:
+                merged_data = json.load(f)
         with open(os.path.join(output_dir, 'stage0_merged_data.pkl'), 'wb') as f:
             pickle.dump(merged_data, f)
         logging.info("Stage 0 complete.")
 
     # ---------------------------
-    # Stage 1: Load and preprocess
+    # Stage 1: Load and preprocess data
     # ---------------------------
     if stage <= 1:
         if stage == 1 and input_files:
@@ -88,8 +94,6 @@ def main():
                 merged_data = pickle.load(f)
 
         preprocessed_data = stage1_load_and_preprocess_data(merged_data)
-        #! For testing
-        # preprocessed_data = [x for x in preprocessed_data if x['dataset'] == 'cordis'][:50] + [x for x in preprocessed_data if x['dataset'] == 'gtr'][:50]
         with open(os.path.join(output_dir, 'preprocessed_data.pkl'), 'wb') as f:
             pickle.dump(preprocessed_data, f)
         logging.info("Stage 1 complete.")
@@ -155,52 +159,48 @@ def main():
             vectorizer, name_vectors, unique_entries, threshold=args.threshold
         )
 
-        # Save the full set of grouped names
-        with open(os.path.join(output_dir, 'grouped_names_stage4.json'), 'w') as f:
-            json.dump(grouped_names, f, indent=2)
+        # For new data, filter groups to only include those with new entries;
+        # for "all", pass along all groups.
+        if args.data_mode == "new":
+            new_data_groups = {}
+            for rep_name, group_info in grouped_names.items():
+                items = group_info["items"]
+                if any(item.get("is_new", False) for item in items):
+                    new_data_groups[rep_name] = group_info
+            logging.info(f"Created {len(new_data_groups)} groups with new data.")
+            if len(new_data_groups) == 0:
+                logging.info("No groups contain new data. Exiting pipeline.")
+                sys.exit(0)
+            grouped_names_stage4_path = os.path.join(output_dir, 'grouped_names_stage4_new_data_only.json')
+            with open(grouped_names_stage4_path, 'w') as f:
+                json.dump(new_data_groups, f, indent=2)
+        else:
+            grouped_names_stage4_path = os.path.join(output_dir, 'grouped_names_stage4_all_data.json')
+            with open(grouped_names_stage4_path, 'w') as f:
+                json.dump(grouped_names, f, indent=2)
         logging.info("Stage 4 complete.")
-
-        # Create a subset that only includes groups with new entries
-        new_data_groups = {}
-        for rep_name, group_info in grouped_names.items():
-            items = group_info["items"]
-            # If ANY item in this group is new, we keep the group
-            if any(item.get("is_new", False) for item in items):
-                new_data_groups[rep_name] = group_info
-        
-        logging.info(f"Created/added to {len(new_data_groups)} groups with new data.")
-
-        if len(new_data_groups) == 0:
-            logging.info("No groups contain new data. Nothing to update—exiting pipeline.")
-            sys.exit(0)  # <--- Immediately exit if no new data found
-
-        # Otherwise, we save that subset for Stage 5
-        with open(os.path.join(output_dir, 'grouped_names_stage4_new_data_only.json'), 'w') as f:
-            json.dump(new_data_groups, f, indent=2)
 
     # ---------------------------
     # Stage 5: Perform web search
     # ---------------------------
     if stage <= 5:
-        # We'll read the new_data_groups from the file we just wrote
-        new_data_stage4_path = os.path.join(output_dir, 'grouped_names_stage4_new_data_only.json')
         if stage == 5 and input_files:
             with open(input_files[0], 'r') as f:
                 grouped_names = json.load(f)
         else:
-            with open(new_data_stage4_path, 'r') as f:
+            with open(grouped_names_stage4_path, 'r') as f:
                 grouped_names = json.load(f)
+            with open(os.path.join(output_dir, 'unique_entries_stage3.json'), 'r') as f:
+                unique_entries = json.load(f)
 
-        # The function below handles the new rolling web-search DB
         all_web_results = stage5_perform_web_search(
             grouped_names,
+            unique_entries,
             search_method=args.search_method,
             num_results=args.num_search_results,
             output_dir=output_dir
         )
 
-        # Because Stage 6 (and beyond) needs only the sub-DB for this search method, 
-        # we store it in a single file to pass forward.
         sub_db = all_web_results.get(args.search_method, {})
         with open(os.path.join(output_dir, 'web_search_results_stage5.json'), 'w') as f:
             json.dump(sub_db, f, indent=2)
@@ -211,16 +211,18 @@ def main():
     # ---------------------------
     if stage <= 6:
         refined_groups_out = os.path.join(output_dir, 'refined_groups_stage6.json')
-
-        new_data_stage4_path = os.path.join(output_dir, 'grouped_names_stage4_new_data_only.json')
         if stage == 6 and input_files:
             with open(input_files[0], 'r') as f:
                 grouped_names = json.load(f)
             with open(input_files[1], 'r') as f:
                 method_sub_db = json.load(f)
         else:
-            with open(new_data_stage4_path, 'r') as f:
-                grouped_names = json.load(f)
+            if args.data_mode == "new":
+                with open(os.path.join(output_dir, 'grouped_names_stage4_new_data_only.json'), 'r') as f:
+                    grouped_names = json.load(f)
+            else:
+                with open(os.path.join(output_dir, 'grouped_names_stage4_all_data.json'), 'r') as f:
+                    grouped_names = json.load(f)
             with open(os.path.join(output_dir, 'web_search_results_stage5.json'), 'r') as f:
                 method_sub_db = json.load(f)
 
@@ -258,7 +260,7 @@ def main():
         logging.info("Stage 8 complete.")
 
     # ---------------------------
-    # Stage 9: Finalize groups
+    # Stage 9: Finalize groups (produce formatted groups)
     # ---------------------------
     if stage <= 9:
         groups_with_types_path = os.path.join(output_dir, 'groups_with_types_stage8.json')
@@ -268,27 +270,62 @@ def main():
             method_sub_db = json.load(f)
         with open(os.path.join(output_dir, 'identical_name_groups_stage2.json'), 'r') as f:
             identical_name_groups = json.load(f)
+        with open(os.path.join(output_dir, 'unique_entries_stage3.json'), 'r') as f:
+            unique_entries = json.load(f)
 
-        final_groups = stage9_finalize_groups(
-            groups_with_types, method_sub_db, identical_name_groups
+        formatted_groups = stage9_finalize_groups(
+            groups_with_types, method_sub_db, unique_entries
         )
 
-        with open(os.path.join(output_dir, 'final_groups_stage9.json'), 'w') as f:
-            json.dump(final_groups, f, indent=2)
-        logging.info("Stage 9 complete.")
+        # Save as formatted groups (do not merge to rolling output yet)
+        formatted_groups_path = os.path.join(output_dir, 'formatted_groups_stage9.json')
+        with open(formatted_groups_path, 'w') as f:
+            json.dump(formatted_groups, f, indent=2)
+        logging.info("Stage 9 complete (formatted groups saved).")
 
-        # Now merge with the rolling output: output_groups.json
+    # ---------------------------
+    # Stage 10: Refine groups with LLM (post-stage 9)
+    # ---------------------------
+    if stage <= 10:
+        formatted_groups_path = os.path.join(output_dir, 'formatted_groups_stage9.json')
+        with open(formatted_groups_path, 'r') as f:
+            formatted_groups = json.load(f)
+        with open(os.path.join(output_dir, 'web_search_results_stage5.json'), 'r') as f:
+            method_sub_db = json.load(f)
+        with open(os.path.join(output_dir, 'unique_entries_stage3.json'), 'r') as f:
+            unique_entries = json.load(f)
+
+        refined_groups = stage10_refine_groups_with_llm(formatted_groups, method_sub_db, unique_entries)
+        refined_groups_path = os.path.join(output_dir, 'refined_groups_stage10.json')
+        with open(refined_groups_path, 'w') as f:
+            json.dump(refined_groups, f, indent=2)
+        logging.info("Stage 10 complete.")
+
+    # ---------------------------
+    # Stage 11: Apply capitalisation to group names and merge to rolling output
+    # ---------------------------
+    if stage <= 11:
+        refined_groups_path = os.path.join(output_dir, 'refined_groups_stage10.json')
+        with open(refined_groups_path, 'r') as f:
+            groups_to_capitalise = json.load(f)
+        with open(os.path.join(output_dir, 'web_search_results_stage5.json'), 'r') as f:
+            method_sub_db = json.load(f)
+        final_groups = stage11_capitalize_group_names(groups_to_capitalise, method_sub_db)
+        final_groups_path = os.path.join(output_dir, 'final_groups_stage11.json')
+        with open(final_groups_path, 'w') as f:
+            json.dump(final_groups, f, indent=2)
+        logging.info("Stage 11 complete.")
+
+        # Merge with rolling output (output_groups.json)
         rolling_path = os.path.join(output_dir, 'output_groups.json')
         if os.path.exists(rolling_path):
             with open(rolling_path, 'r') as f:
                 old_final = json.load(f)
         else:
             old_final = {}
-
         old_final.update(final_groups)
         with open(rolling_path, 'w') as f:
             json.dump(old_final, f, indent=2)
-
         logging.info(f"Updated rolling final output at {rolling_path}.")
 
 if __name__ == '__main__':

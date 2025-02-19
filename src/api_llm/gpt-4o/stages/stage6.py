@@ -1,7 +1,7 @@
 import json
 import logging
 from tqdm import tqdm
-from stages.utils import UserMessage, SystemMessage, get_generator
+from stages.utils import UserMessage, SystemMessage, get_client, get_generator
 
 logger = logging.getLogger(__name__)
 
@@ -21,7 +21,10 @@ def stage6_process_groups_with_llm(grouped_names, web_search_results):
     organization as 'unique_name'. We store the result in `refined_groups` as:
       refined_groups[unique_name] = [list_of_selected_names]
     """
-    generator = get_generator()
+    
+    # client = get_client()
+
+    client = get_generator()
     refined_groups = {}
     num_groups = len(grouped_names)
 
@@ -47,7 +50,7 @@ def stage6_process_groups_with_llm(grouped_names, web_search_results):
                 unique_name,
                 matched_names_list,
                 group_search_results,
-                generator
+                client
             )
 
             # Attempt to parse the JSON response
@@ -82,13 +85,13 @@ def stage6_process_groups_with_llm(grouped_names, web_search_results):
     logger.info(f"Refined groups to {len(refined_groups)} groups after LLM processing.")
     return refined_groups
 
-def process_group_with_llm(unique_name, matched_names_list, group_search_results, generator):
+def process_group_with_llm(unique_name, matched_names_list, group_search_results, client):
     """
     Sends a prompt to the LLM:
       - unique_name is the 'primary' name
       - matched_names_list are possible duplicates
       - group_search_results is a dict {org_name -> list_of_search_hits}
-      - generator is the local LLM client object
+      - client is the local LLM client object
 
     We expect the LLM to return a JSON array of chosen names (in lowercase).
     """
@@ -132,5 +135,13 @@ No extra text, just JSON array (e.g. ["acme corp", "acme inc"])."""
     user_message = UserMessage(content=prompt)
     chat_history = [system_message, user_message]
 
-    result = generator.chat_completion(chat_history, max_gen_len=None, temperature=0.0, top_p=0.9)
+    # completion = client.chat.completions.create(
+    #     model="gpt-4o",
+    #     messages=chat_history
+    # )
+
+    # return completion.choices[0].message
+
+    result = client.chat_completion(chat_history, max_gen_len=None, temperature=0.0, top_p=0.9)
     return result.generation.content.strip()
+    

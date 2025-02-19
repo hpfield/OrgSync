@@ -6,11 +6,14 @@ from stages.utils import perform_web_search
 
 logger = logging.getLogger(__name__)
 
-def stage5_perform_web_search(grouped_names, search_method='duckduckgo', num_results=3, output_dir='outputs'):
+def stage5_perform_web_search(grouped_names, all_names_and_items, search_method='duckduckgo', num_results=3, output_dir='outputs'):
     """
     - Maintains a rolling database of all web searches in 'all_web_search_results.json'.
     - For the given search_method, only fetch new results if we have < num_results for that name (or it's absent).
     - Returns the entire dictionary, but the pipeline typically uses only the sub-dict for the active method.
+    
+    Modification:
+      - Use the postcode from all_names_and_items to form the search query as '{name} {postcode}'
     """
 
     if search_method == 'duckduckgo':
@@ -33,6 +36,14 @@ def stage5_perform_web_search(grouped_names, search_method='duckduckgo', num_res
         logger.info(f"Couldn't find any previous search results using {search_method}")
         all_web_search_results[search_method] = {}
 
+    # Pre-process all_names_and_items to build a lookup of normalized name -> postcode
+    postcode_lookup = {}
+    for entry in all_names_and_items:
+        key = entry["combined_name"].lower()
+        # Use the first postcode encountered for this name
+        if key not in postcode_lookup:
+            postcode_lookup[key] = entry["postcode"]
+
     # Extract all names from grouped_names
     unique_names = set()
     for rep_name, info in grouped_names.items():
@@ -51,14 +62,22 @@ def stage5_perform_web_search(grouped_names, search_method='duckduckgo', num_res
     logger.info(f"{len(names_to_search)} out of {len(unique_names)} names need new web searches.")
 
     # Perform the new/updated searches
-    # We'll do them in a single pass, or you can do them individually.
-    # Let's do individually for clarity.
     for name in tqdm(names_to_search, desc='Performing new web searches'):
+        # Look up the postcode for the name (using a case-insensitive key)
+        normalized_name = name.lower()
+        postcode = postcode_lookup.get(normalized_name, "").strip()
+        # Build the query with the postcode if available
+        if postcode:
+            query = f"{name} {postcode}"
+        else:
+            query = name
+
         try:
-            new_results_dict = perform_web_search([name], num_results=num_results, search_method=search_method)
-            # We expect the structure { name: [list_of_results] }
-            found = new_results_dict.get(name, [])
-            # Update the DB entry for this name
+            # Perform search with the constructed query
+            new_results_dict = perform_web_search([query], num_results=num_results, search_method=search_method)
+            # The results are expected to be in the dict with the key as our query
+            found = new_results_dict.get(query, [])
+            # Update the DB entry using the original name as the key
             all_web_search_results[search_method][name] = found
         except Exception as e:
             logger.error(f"Error searching for '{name}': {e}")
