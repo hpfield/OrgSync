@@ -1,6 +1,8 @@
 # OrgSync
 
 In a database of academic publications, we must resolve situations where the same organisation has been referred to by different names. To do this, we apply a multi-stage technique outlined in the following diagram:
+
+
 ![orgsync drawio](https://github.com/user-attachments/assets/e25ea5e3-9249-42d4-b3f8-b5c28b9a60a2)
 
 We conduct micro-labelling sessions as we progress to account for the absence of labelled data. We do this to obtain some metric of success beyond anecdotal experiences reading model outputs.
