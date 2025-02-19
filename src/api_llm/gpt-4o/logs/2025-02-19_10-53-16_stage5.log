@@ -1,0 +1,43 @@
+2025-02-19 10:53:16,299 - INFO - Due to rate limits, the program will wait for 60 seconds every 20 searches.
+2025-02-19 10:53:16,351 - INFO - Loaded existing web search DB from outputs/all_web_search_results.json
+2025-02-19 10:53:16,356 - INFO - 13554 out of 13554 names need new web searches.
+2025-02-19 10:53:17,102 - INFO - response: https://html.duckduckgo.com/html 200 9447
+2025-02-19 10:53:17,903 - INFO - response: https://lite.duckduckgo.com/lite/ 200 14918
+2025-02-19 10:53:18,734 - INFO - response: https://html.duckduckgo.com/html 200 38534
+2025-02-19 10:53:19,623 - INFO - response: https://lite.duckduckgo.com/lite/ 200 14030
+2025-02-19 10:53:20,395 - INFO - response: https://html.duckduckgo.com/html 200 28996
+2025-02-19 10:53:21,127 - INFO - response: https://lite.duckduckgo.com/lite/ 200 9352
+2025-02-19 10:53:22,305 - INFO - response: https://lite.duckduckgo.com/lite/ 200 5808
+2025-02-19 10:53:23,260 - INFO - response: https://lite.duckduckgo.com/lite/ 200 16502
+2025-02-19 10:53:24,032 - INFO - response: https://html.duckduckgo.com/html 200 20753
+2025-02-19 10:53:24,770 - INFO - response: https://html.duckduckgo.com/html 200 31262
+2025-02-19 10:53:25,674 - INFO - response: https://html.duckduckgo.com/html 200 25458
+2025-02-19 10:53:26,317 - INFO - response: https://lite.duckduckgo.com/lite/ 200 15885
+2025-02-19 10:53:27,132 - INFO - response: https://lite.duckduckgo.com/lite/ 200 10680
+2025-02-19 10:53:28,313 - INFO - response: https://lite.duckduckgo.com/lite/ 200 8266
+2025-02-19 10:53:29,279 - INFO - response: https://lite.duckduckgo.com/lite/ 200 19375
+2025-02-19 10:53:30,072 - INFO - response: https://lite.duckduckgo.com/lite/ 200 15637
+2025-02-19 10:53:30,845 - INFO - response: https://html.duckduckgo.com/html 200 13414
+2025-02-19 10:53:33,030 - INFO - response: https://html.duckduckgo.com/html 200 8074
+2025-02-19 10:53:33,706 - INFO - response: https://html.duckduckgo.com/html 200 11915
+2025-02-19 10:53:34,881 - INFO - response: https://html.duckduckgo.com/html 200 8070
+2025-02-19 10:53:35,005 - INFO - response: https://html.duckduckgo.com/html 202 14252
+2025-02-19 10:53:35,005 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-19 10:53:35,877 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14252
+2025-02-19 10:53:35,877 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-19 10:53:35,877 - ERROR - Error during web search for 'centre of excellence for public health': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (1/5)...
+2025-02-19 10:53:38,000 - INFO - response: https://html.duckduckgo.com/html 202 14246
+2025-02-19 10:53:38,000 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-19 10:53:38,885 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14246
+2025-02-19 10:53:38,886 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-19 10:53:38,886 - ERROR - Error during web search for 'centre of excellence for public health': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (2/5)...
+2025-02-19 10:53:43,006 - INFO - response: https://html.duckduckgo.com/html 202 14252
+2025-02-19 10:53:43,007 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-19 10:53:43,881 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14246
+2025-02-19 10:53:43,882 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-19 10:53:43,882 - ERROR - Error during web search for 'centre of excellence for public health': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (3/5)...
+2025-02-19 10:53:52,021 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14251
+2025-02-19 10:53:52,021 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-19 10:53:52,892 - INFO - response: https://html.duckduckgo.com/html 202 14246
+2025-02-19 10:53:52,892 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-19 10:53:52,892 - ERROR - Error during web search for 'centre of excellence for public health': https://html.duckduckgo.com/html 202 Ratelimit. Retrying (4/5)...

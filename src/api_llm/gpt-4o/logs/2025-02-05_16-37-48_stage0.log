@@ -1,0 +1,201 @@
+2025-02-05 16:37:48,305 - INFO - Repo root: /home/ubuntu/OrgSync
+2025-02-05 16:37:48,467 - INFO - Loaded old database with 105575 entries from /home/ubuntu/OrgSync/data/raw/old_uk_data.json
+2025-02-05 16:37:48,995 - INFO - Merged dataset has 82281 total entries.
+2025-02-05 16:37:48,996 - INFO - Found 7773 new entries not in the old database.
+2025-02-05 16:37:49,371 - INFO - Merged data written to /home/ubuntu/OrgSync/data/raw/merged_uk_data.json
+2025-02-05 16:37:49,396 - INFO - New entries written to /home/ubuntu/OrgSync/data/raw/new_entries.json
+2025-02-05 16:37:49,573 - INFO - Stage 0 complete.
+2025-02-05 16:37:49,782 - INFO - Loaded and preprocessed 82281 entries.
+2025-02-05 16:37:49,847 - INFO - Stage 1 complete.
+2025-02-05 16:37:49,977 - INFO - Found 5591 identical-name groups with more than 1 entry.
+2025-02-05 16:37:50,037 - INFO - Stage 2 complete.
+2025-02-05 16:37:50,653 - INFO - Vectorized 82279 unique entries based on full uniqueness.
+2025-02-05 16:37:50,976 - INFO - Stage 3 complete.
+2025-02-05 16:38:51,153 - INFO - Grouped names into 15687 groups (size >= 2).
+2025-02-05 16:38:51,576 - INFO - Stage 4 complete.
+2025-02-05 16:38:51,590 - INFO - Created/added to 3944 groups with new data.
+2025-02-05 16:38:51,762 - INFO - Loaded existing web search DB from outputs/all_web_search_results.json
+2025-02-05 16:38:51,767 - INFO - 13186 out of 13554 names need new web searches.
+2025-02-05 16:38:52,540 - INFO - response: https://html.duckduckgo.com/html 200 25341
+2025-02-05 16:38:53,151 - INFO - response: https://html.duckduckgo.com/html 200 23308
+2025-02-05 16:38:53,785 - INFO - response: https://html.duckduckgo.com/html 200 43779
+2025-02-05 16:38:54,399 - INFO - response: https://lite.duckduckgo.com/lite/ 200 22648
+2025-02-05 16:38:55,086 - INFO - response: https://lite.duckduckgo.com/lite/ 200 14980
+2025-02-05 16:38:55,764 - INFO - response: https://lite.duckduckgo.com/lite/ 200 16892
+2025-02-05 16:38:56,305 - INFO - response: https://html.duckduckgo.com/html 200 8082
+2025-02-05 16:38:56,896 - INFO - response: https://lite.duckduckgo.com/lite/ 200 15200
+2025-02-05 16:38:57,502 - INFO - response: https://html.duckduckgo.com/html 200 33732
+2025-02-05 16:38:58,147 - INFO - response: https://lite.duckduckgo.com/lite/ 200 18767
+2025-02-05 16:38:58,758 - INFO - response: https://lite.duckduckgo.com/lite/ 200 18676
+2025-02-05 16:38:59,495 - INFO - response: https://lite.duckduckgo.com/lite/ 200 18205
+2025-02-05 16:39:00,097 - INFO - response: https://lite.duckduckgo.com/lite/ 200 25553
+2025-02-05 16:39:00,890 - INFO - response: https://html.duckduckgo.com/html 200 36551
+2025-02-05 16:39:01,630 - INFO - response: https://lite.duckduckgo.com/lite/ 200 19696
+2025-02-05 16:39:02,215 - INFO - response: https://lite.duckduckgo.com/lite/ 200 16140
+2025-02-05 16:39:02,859 - INFO - response: https://html.duckduckgo.com/html 200 21396
+2025-02-05 16:39:03,488 - INFO - response: https://html.duckduckgo.com/html 200 20363
+2025-02-05 16:39:04,095 - INFO - response: https://lite.duckduckgo.com/lite/ 200 17926
+2025-02-05 16:39:04,753 - INFO - response: https://html.duckduckgo.com/html 200 18671
+2025-02-05 16:39:05,564 - INFO - response: https://html.duckduckgo.com/html 202 14236
+2025-02-05 16:39:05,565 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:39:06,439 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14236
+2025-02-05 16:39:06,440 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:39:06,440 - ERROR - Error during web search for 'brighton and hove community works': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (1/5)...
+2025-02-05 16:39:08,567 - INFO - response: https://html.duckduckgo.com/html 202 14248
+2025-02-05 16:39:08,567 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:39:09,437 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14236
+2025-02-05 16:39:09,438 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:39:09,438 - ERROR - Error during web search for 'brighton and hove community works': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (2/5)...
+2025-02-05 16:39:13,571 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14242
+2025-02-05 16:39:13,571 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:39:14,440 - INFO - response: https://html.duckduckgo.com/html 202 14236
+2025-02-05 16:39:14,441 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:39:14,441 - ERROR - Error during web search for 'brighton and hove community works': https://html.duckduckgo.com/html 202 Ratelimit. Retrying (3/5)...
+2025-02-05 16:39:22,579 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14236
+2025-02-05 16:39:22,579 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:39:23,475 - INFO - response: https://html.duckduckgo.com/html 202 14236
+2025-02-05 16:39:23,476 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:39:23,476 - ERROR - Error during web search for 'brighton and hove community works': https://html.duckduckgo.com/html 202 Ratelimit. Retrying (4/5)...
+2025-02-05 16:39:39,652 - INFO - response: https://html.duckduckgo.com/html 202 14248
+2025-02-05 16:39:39,652 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:39:40,562 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14236
+2025-02-05 16:39:40,563 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:39:40,563 - ERROR - Error during web search for 'brighton and hove community works': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (5/5)...
+2025-02-05 16:40:12,595 - ERROR - Failed to retrieve search results for 'brighton and hove community works' after 5 retries.
+2025-02-05 16:40:13,361 - INFO - response: https://lite.duckduckgo.com/lite/ 200 13989
+2025-02-05 16:40:13,885 - INFO - response: https://html.duckduckgo.com/html 200 17331
+2025-02-05 16:40:14,456 - INFO - response: https://html.duckduckgo.com/html 200 47344
+2025-02-05 16:40:14,972 - INFO - response: https://lite.duckduckgo.com/lite/ 200 8293
+2025-02-05 16:40:15,633 - INFO - response: https://html.duckduckgo.com/html 200 16491
+2025-02-05 16:40:16,306 - INFO - response: https://html.duckduckgo.com/html 200 32688
+2025-02-05 16:40:16,965 - INFO - response: https://html.duckduckgo.com/html 200 36771
+2025-02-05 16:40:17,674 - INFO - response: https://lite.duckduckgo.com/lite/ 200 5919
+2025-02-05 16:40:18,344 - INFO - response: https://lite.duckduckgo.com/lite/ 200 21497
+2025-02-05 16:40:18,992 - INFO - response: https://html.duckduckgo.com/html 200 25500
+2025-02-05 16:40:19,590 - INFO - response: https://lite.duckduckgo.com/lite/ 200 17112
+2025-02-05 16:40:20,231 - INFO - response: https://lite.duckduckgo.com/lite/ 200 5991
+2025-02-05 16:40:20,812 - INFO - response: https://html.duckduckgo.com/html 200 23248
+2025-02-05 16:40:21,397 - INFO - response: https://lite.duckduckgo.com/lite/ 200 18997
+2025-02-05 16:40:21,994 - INFO - response: https://html.duckduckgo.com/html 200 29525
+2025-02-05 16:40:22,677 - INFO - response: https://html.duckduckgo.com/html 200 15530
+2025-02-05 16:40:23,304 - INFO - response: https://html.duckduckgo.com/html 200 30802
+2025-02-05 16:40:23,943 - INFO - response: https://html.duckduckgo.com/html 200 26056
+2025-02-05 16:40:24,605 - INFO - response: https://lite.duckduckgo.com/lite/ 200 15959
+2025-02-05 16:40:25,185 - INFO - response: https://html.duckduckgo.com/html 200 12879
+2025-02-05 16:40:25,313 - INFO - response: https://html.duckduckgo.com/html 202 14212
+2025-02-05 16:40:25,314 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:40:26,189 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14206
+2025-02-05 16:40:26,189 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:40:26,189 - ERROR - Error during web search for 'mina alpha limited': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (1/5)...
+2025-02-05 16:40:28,309 - INFO - response: https://html.duckduckgo.com/html 202 14212
+2025-02-05 16:40:28,310 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:40:29,186 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14206
+2025-02-05 16:40:29,186 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:40:29,186 - ERROR - Error during web search for 'mina alpha limited': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (2/5)...
+2025-02-05 16:40:33,315 - INFO - response: https://html.duckduckgo.com/html 202 14212
+2025-02-05 16:40:33,316 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:40:34,184 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14212
+2025-02-05 16:40:34,184 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:40:34,184 - ERROR - Error during web search for 'mina alpha limited': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (3/5)...
+2025-02-05 16:40:42,314 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14212
+2025-02-05 16:40:42,314 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:40:43,195 - INFO - response: https://html.duckduckgo.com/html 202 14229
+2025-02-05 16:40:43,195 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:40:43,195 - ERROR - Error during web search for 'mina alpha limited': https://html.duckduckgo.com/html 202 Ratelimit. Retrying (4/5)...
+2025-02-05 16:40:59,335 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14202
+2025-02-05 16:40:59,336 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:41:00,207 - INFO - response: https://html.duckduckgo.com/html 202 14236
+2025-02-05 16:41:00,208 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:41:00,208 - ERROR - Error during web search for 'mina alpha limited': https://html.duckduckgo.com/html 202 Ratelimit. Retrying (5/5)...
+2025-02-05 16:41:32,224 - ERROR - Failed to retrieve search results for 'mina alpha limited' after 5 retries.
+2025-02-05 16:41:32,748 - INFO - response: https://lite.duckduckgo.com/lite/ 200 13572
+2025-02-05 16:41:33,384 - INFO - response: https://html.duckduckgo.com/html 200 12126
+2025-02-05 16:41:34,456 - INFO - response: https://html.duckduckgo.com/html 200 8102
+2025-02-05 16:41:35,057 - INFO - response: https://lite.duckduckgo.com/lite/ 200 18255
+2025-02-05 16:41:35,729 - INFO - response: https://html.duckduckgo.com/html 200 22441
+2025-02-05 16:41:36,284 - INFO - response: https://html.duckduckgo.com/html 200 26172
+2025-02-05 16:41:36,876 - INFO - response: https://lite.duckduckgo.com/lite/ 200 13475
+2025-02-05 16:41:37,538 - INFO - response: https://html.duckduckgo.com/html 200 32211
+2025-02-05 16:41:38,062 - INFO - response: https://lite.duckduckgo.com/lite/ 200 10065
+2025-02-05 16:41:39,122 - INFO - response: https://lite.duckduckgo.com/lite/ 200 7265
+2025-02-05 16:41:39,723 - INFO - response: https://html.duckduckgo.com/html 200 17004
+2025-02-05 16:41:40,377 - INFO - response: https://lite.duckduckgo.com/lite/ 200 13232
+2025-02-05 16:41:40,984 - INFO - response: https://html.duckduckgo.com/html 200 8110
+2025-02-05 16:41:41,526 - INFO - response: https://html.duckduckgo.com/html 200 26003
+2025-02-05 16:41:42,937 - INFO - response: https://html.duckduckgo.com/html 200 25443
+2025-02-05 16:41:43,613 - INFO - response: https://html.duckduckgo.com/html 200 29274
+2025-02-05 16:41:44,285 - INFO - response: https://html.duckduckgo.com/html 200 17922
+2025-02-05 16:41:46,486 - INFO - response: https://html.duckduckgo.com/html 200 20043
+2025-02-05 16:41:47,133 - INFO - response: https://lite.duckduckgo.com/lite/ 200 16951
+2025-02-05 16:41:47,851 - INFO - response: https://lite.duckduckgo.com/lite/ 200 15407
+2025-02-05 16:41:47,971 - INFO - response: https://html.duckduckgo.com/html 202 14232
+2025-02-05 16:41:47,971 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:41:48,840 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14232
+2025-02-05 16:41:48,840 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:41:48,840 - ERROR - Error during web search for '365 health solutions limited': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (1/5)...
+2025-02-05 16:41:50,966 - INFO - response: https://html.duckduckgo.com/html 202 14243
+2025-02-05 16:41:50,967 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:41:51,838 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14238
+2025-02-05 16:41:51,839 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:41:51,839 - ERROR - Error during web search for '365 health solutions limited': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (2/5)...
+2025-02-05 16:41:55,963 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14238
+2025-02-05 16:41:55,963 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:41:56,833 - INFO - response: https://html.duckduckgo.com/html 202 14250
+2025-02-05 16:41:56,833 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:41:56,833 - ERROR - Error during web search for '365 health solutions limited': https://html.duckduckgo.com/html 202 Ratelimit. Retrying (3/5)...
+2025-02-05 16:42:04,960 - INFO - response: https://html.duckduckgo.com/html 202 14232
+2025-02-05 16:42:04,961 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:42:05,832 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14226
+2025-02-05 16:42:05,833 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:42:05,833 - ERROR - Error during web search for '365 health solutions limited': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (4/5)...
+2025-02-05 16:42:21,973 - INFO - response: https://html.duckduckgo.com/html 202 14244
+2025-02-05 16:42:21,974 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:42:22,848 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14238
+2025-02-05 16:42:22,849 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:42:22,849 - ERROR - Error during web search for '365 health solutions limited': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (5/5)...
+2025-02-05 16:42:54,869 - ERROR - Failed to retrieve search results for '365 health solutions limited' after 5 retries.
+2025-02-05 16:42:55,409 - INFO - response: https://lite.duckduckgo.com/lite/ 200 10131
+2025-02-05 16:42:56,520 - INFO - response: https://lite.duckduckgo.com/lite/ 200 14525
+2025-02-05 16:42:57,310 - INFO - response: https://html.duckduckgo.com/html 200 44333
+2025-02-05 16:42:57,881 - INFO - response: https://html.duckduckgo.com/html 200 11403
+2025-02-05 16:42:58,998 - INFO - response: https://html.duckduckgo.com/html 200 32286
+2025-02-05 16:42:59,746 - INFO - response: https://html.duckduckgo.com/html 200 25794
+2025-02-05 16:43:00,339 - INFO - response: https://lite.duckduckgo.com/lite/ 200 18540
+2025-02-05 16:43:01,237 - INFO - response: https://lite.duckduckgo.com/lite/ 200 17418
+2025-02-05 16:43:01,913 - INFO - response: https://html.duckduckgo.com/html 200 43614
+2025-02-05 16:43:02,513 - INFO - response: https://html.duckduckgo.com/html 200 26633
+2025-02-05 16:43:03,120 - INFO - response: https://html.duckduckgo.com/html 200 33165
+2025-02-05 16:43:03,767 - INFO - response: https://lite.duckduckgo.com/lite/ 200 23293
+2025-02-05 16:43:04,400 - INFO - response: https://html.duckduckgo.com/html 200 25879
+2025-02-05 16:43:05,003 - INFO - response: https://lite.duckduckgo.com/lite/ 200 20264
+2025-02-05 16:43:05,628 - INFO - response: https://lite.duckduckgo.com/lite/ 200 15128
+2025-02-05 16:43:06,172 - INFO - response: https://html.duckduckgo.com/html 200 8116
+2025-02-05 16:43:06,827 - INFO - response: https://lite.duckduckgo.com/lite/ 200 18463
+2025-02-05 16:43:07,386 - INFO - response: https://html.duckduckgo.com/html 200 8116
+2025-02-05 16:43:07,935 - INFO - response: https://lite.duckduckgo.com/lite/ 200 17847
+2025-02-05 16:43:08,536 - INFO - response: https://html.duckduckgo.com/html 200 12077
+2025-02-05 16:43:09,351 - INFO - response: https://html.duckduckgo.com/html 202 14212
+2025-02-05 16:43:09,352 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:43:10,224 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14205
+2025-02-05 16:43:10,225 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:43:10,225 - ERROR - Error during web search for 'pelikon limited': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (1/5)...
+2025-02-05 16:43:12,345 - INFO - response: https://html.duckduckgo.com/html 202 14212
+2025-02-05 16:43:12,345 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:43:13,215 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14200
+2025-02-05 16:43:13,215 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:43:13,216 - ERROR - Error during web search for 'pelikon limited': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (2/5)...
+2025-02-05 16:43:17,353 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14206
+2025-02-05 16:43:17,353 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:43:18,224 - INFO - response: https://html.duckduckgo.com/html 202 14212
+2025-02-05 16:43:18,225 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:43:18,225 - ERROR - Error during web search for 'pelikon limited': https://html.duckduckgo.com/html 202 Ratelimit. Retrying (3/5)...
+2025-02-05 16:43:26,355 - INFO - response: https://html.duckduckgo.com/html 202 14206
+2025-02-05 16:43:26,356 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:43:27,226 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14200
+2025-02-05 16:43:27,226 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:43:27,226 - ERROR - Error during web search for 'pelikon limited': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (4/5)...
+2025-02-05 16:43:43,357 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14206
+2025-02-05 16:43:43,358 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:43:44,236 - INFO - response: https://html.duckduckgo.com/html 202 14206
+2025-02-05 16:43:44,236 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:43:44,236 - ERROR - Error during web search for 'pelikon limited': https://html.duckduckgo.com/html 202 Ratelimit. Retrying (5/5)...

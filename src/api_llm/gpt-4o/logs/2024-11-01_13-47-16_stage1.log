@@ -1,0 +1,25 @@
+2024-11-01 13:47:16,975 - INFO - Loaded and preprocessed 36508 names.
+2024-11-01 13:47:16,991 - INFO - Stage 1 complete.
+2024-11-01 13:47:17,025 - INFO - Vectorized 5411 unique combined names.
+2024-11-01 13:47:17,027 - INFO - Stage 2 complete.
+2024-11-01 13:47:17,371 - INFO - Grouped names into 463 groups after removing groups of size 1.
+2024-11-01 13:47:17,372 - INFO - Stage 3 complete.
+2024-11-01 13:47:17,372 - INFO - Extracting unique names from grouped names for web search...
+2024-11-01 13:48:38,898 - ERROR - Failed to retrieve search results for 'advanced transport systems ltd' after 5 retries.
+2024-11-01 13:49:41,720 - ERROR - Failed to retrieve search results for 'advantage west midlands' after 5 retries.
+2024-11-01 13:50:44,584 - ERROR - Failed to retrieve search results for 'aegis it research ltd' after 5 retries.
+2024-11-01 13:51:47,381 - ERROR - Failed to retrieve search results for 'aegis trust' after 5 retries.
+2024-11-01 13:52:50,254 - ERROR - Failed to retrieve search results for 'aerospace international services limited' after 5 retries.
+2024-11-01 13:53:53,071 - ERROR - Failed to retrieve search results for 'agas electronic materials ltd' after 5 retries.
+2024-11-01 13:54:55,863 - ERROR - Failed to retrieve search results for 'agm batteries limited' after 5 retries.
+2024-11-01 13:55:58,637 - ERROR - Failed to retrieve search results for 'aimes grid services community interest company' after 5 retries.
+2024-11-01 13:57:01,561 - ERROR - Failed to retrieve search results for 'aintree university hospital nhs foundation trust' after 5 retries.
+2024-11-01 13:58:04,304 - ERROR - Failed to retrieve search results for 'air bp limited' after 5 retries.
+2024-11-01 13:59:08,167 - ERROR - Failed to retrieve search results for 'airbus ds limited' after 5 retries.
+2024-11-01 14:00:11,011 - ERROR - Failed to retrieve search results for 'airbus group limited' after 5 retries.
+2024-11-01 14:01:13,882 - ERROR - Failed to retrieve search results for 'airbus operations limited' after 5 retries.
+2024-11-01 14:02:16,669 - ERROR - Failed to retrieve search results for 'alan harper composites' after 5 retries.
+2024-11-01 14:03:19,474 - ERROR - Failed to retrieve search results for 'alan harper composites ltd' after 5 retries.
+2024-11-01 14:04:22,282 - ERROR - Failed to retrieve search results for 'alchemie limited' after 5 retries.
+2024-11-01 14:05:25,059 - ERROR - Failed to retrieve search results for 'alchemie technology limited' after 5 retries.
+2024-11-01 14:06:27,892 - ERROR - Failed to retrieve search results for 'almac diagnostic services limited' after 5 retries.

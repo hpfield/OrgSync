@@ -1,0 +1,48 @@
+2024-11-05 16:26:24,159 - INFO - Extracting unique names from grouped names for web search...
+2024-11-05 16:26:24,296 - INFO - response: https://duckduckgo.com/?q=%223d+industries+limited%22 200 18234
+2024-11-05 16:26:25,071 - INFO - response: https://links.duckduckgo.com/d.js?q=%223d+industries+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-139543641667960088828518569901342890831&bing_market=wt-WT&ex=-1 200 33988
+2024-11-05 16:26:25,197 - INFO - response: https://duckduckgo.com/?q=%22a+k+industries+ltd%22 200 18212
+2024-11-05 16:26:25,974 - INFO - response: https://links.duckduckgo.com/d.js?q=%22a+k+industries+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-227234132468403176660173645577269458340&bing_market=wt-WT&ex=-1 200 34616
+2024-11-05 16:26:26,118 - INFO - response: https://duckduckgo.com/?q=%22aberdeen+city+council%22 200 27001
+2024-11-05 16:26:27,066 - INFO - response: https://links.duckduckgo.com/d.js?q=%22aberdeen+city+council%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-21643756664455265977070212410792998072&bing_market=wt-WT&ex=-1 200 63565
+2024-11-05 16:26:27,197 - INFO - response: https://duckduckgo.com/?q=%22abs+consulting+ltd%22 200 18198
+2024-11-05 16:26:28,066 - INFO - response: https://links.duckduckgo.com/d.js?q=%22abs+consulting+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-303922540291236212659705672500232504023&bing_market=wt-WT&ex=-1 200 40367
+2024-11-05 16:26:28,194 - INFO - response: https://duckduckgo.com/?q=%22abs+europe+ltd%22 200 18150
+2024-11-05 16:26:28,945 - INFO - response: https://links.duckduckgo.com/d.js?q=%22abs+europe+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-171794828332205649887122597810317860548&bing_market=wt-WT&ex=-1 200 22563
+2024-11-05 16:26:29,100 - INFO - response: https://duckduckgo.com/?q=%22academic+consulting+services+ltd%22 202 13943
+2024-11-05 16:26:29,100 - ERROR - Error during web search for 'academic consulting services ltd': https://duckduckgo.com/?q=%22academic+consulting+services+ltd%22 202 Ratelimit. Retrying (1/7)...
+2024-11-05 16:26:31,223 - INFO - response: https://duckduckgo.com/?q=%22academic+consulting+services+ltd%22 200 18468
+2024-11-05 16:26:31,887 - INFO - response: https://links.duckduckgo.com/d.js?q=%22academic+consulting+services+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-154990766994946049157735222911897872950&bing_market=wt-WT&ex=-1 200 19053
+2024-11-05 16:26:32,018 - INFO - response: https://duckduckgo.com/?q=%22accentus+medical+limited%22 200 18358
+2024-11-05 16:26:32,666 - INFO - response: https://links.duckduckgo.com/d.js?q=%22accentus+medical+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-118096562259941141751916671303788117929&bing_market=wt-WT&ex=-1 200 25874
+2024-11-05 16:26:32,788 - INFO - response: https://duckduckgo.com/?q=%22access+associates+limited%22 200 18365
+2024-11-05 16:26:33,475 - INFO - response: https://links.duckduckgo.com/d.js?q=%22access+associates+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-30144392069407291249914814669246190621&bing_market=wt-WT&ex=-1 200 57661
+2024-11-05 16:26:33,603 - INFO - response: https://duckduckgo.com/?q=%22action+mental+health%22 200 18222
+2024-11-05 16:26:34,324 - INFO - response: https://links.duckduckgo.com/d.js?q=%22action+mental+health%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-173355602752250282565122864344331561477&bing_market=wt-WT&ex=-1 200 43582
+2024-11-05 16:26:34,451 - INFO - response: https://duckduckgo.com/?q=%22advanced+bioprocess+development+limited%22 200 18552
+2024-11-05 16:26:35,511 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+bioprocess+development+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-275277963246653642548982545986951022294&bing_market=wt-WT&ex=-1 200 35079
+2024-11-05 16:26:35,650 - INFO - response: https://duckduckgo.com/?q=%22advanced+chemistry+development+uk+limited%22 200 18674
+2024-11-05 16:26:36,327 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+chemistry+development+uk+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-136688995556853215335901223188510652096&bing_market=wt-WT&ex=-1 200 1268
+2024-11-05 16:26:36,495 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 202 14161
+2024-11-05 16:26:36,495 - ERROR - Error during web search for 'advanced communications  information systems ltd': https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 202 Ratelimit. Retrying (1/7)...
+2024-11-05 16:26:38,625 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 200 18743
+2024-11-05 16:26:39,230 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-28900375400168348254557397595996861040&bing_market=wt-WT&ex=-1 200 1129
+2024-11-05 16:26:39,365 - INFO - response: https://duckduckgo.com/?q=%22advanced+digital+innovation+ltd%22 200 18453
+2024-11-05 16:26:40,055 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+digital+innovation+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-15660341675224144895118123754974298864&bing_market=wt-WT&ex=-1 200 21966
+2024-11-05 16:26:40,206 - INFO - response: https://duckduckgo.com/?q=%22advanced+digital+innovation+uk+ltd%22 200 18522
+2024-11-05 16:26:40,959 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+digital+innovation+uk+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-191576655942502692082241926394268956883&bing_market=wt-WT&ex=-1 200 24150
+2024-11-05 16:26:41,094 - INFO - response: https://duckduckgo.com/?q=%22advanced+material+development+limited%22 200 18524
+2024-11-05 16:26:41,801 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+material+development+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-94145096793725971653667946619457039440&bing_market=wt-WT&ex=-1 200 31054
+2024-11-05 16:26:41,945 - INFO - response: https://duckduckgo.com/?q=%22advanced+transport+systems+ltd%22 200 18444
+2024-11-05 16:26:42,703 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+transport+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-212862516716659277212550844626789860679&bing_market=wt-WT&ex=-1 200 43838
+2024-11-05 16:26:42,836 - INFO - response: https://duckduckgo.com/?q=%22advantage+west+midlands%22 200 25089
+2024-11-05 16:26:42,999 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advantage+west+midlands%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-51479010740575184744136017088573559279&bing_market=wt-WT&ex=-1 202 520
+2024-11-05 16:26:43,000 - ERROR - Error during web search for 'advantage west midlands': https://links.duckduckgo.com/d.js?q=%22advantage+west+midlands%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-51479010740575184744136017088573559279&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (1/7)...
+2024-11-05 16:26:45,176 - INFO - response: https://duckduckgo.com/?q=%22advantage+west+midlands%22 202 20524
+2024-11-05 16:26:45,176 - ERROR - Error during web search for 'advantage west midlands': https://duckduckgo.com/?q=%22advantage+west+midlands%22 202 Ratelimit. Retrying (2/7)...
+2024-11-05 16:26:49,345 - INFO - response: https://duckduckgo.com/?q=%22advantage+west+midlands%22 202 20525
+2024-11-05 16:26:49,345 - ERROR - Error during web search for 'advantage west midlands': https://duckduckgo.com/?q=%22advantage+west+midlands%22 202 Ratelimit. Retrying (3/7)...
+2024-11-05 16:26:57,513 - INFO - response: https://duckduckgo.com/?q=%22advantage+west+midlands%22 202 20522
+2024-11-05 16:26:57,513 - ERROR - Error during web search for 'advantage west midlands': https://duckduckgo.com/?q=%22advantage+west+midlands%22 202 Ratelimit. Retrying (4/7)...
+2024-11-05 16:27:13,687 - INFO - response: https://duckduckgo.com/?q=%22advantage+west+midlands%22 202 20525
+2024-11-05 16:27:13,687 - ERROR - Error during web search for 'advantage west midlands': https://duckduckgo.com/?q=%22advantage+west+midlands%22 202 Ratelimit. Retrying (5/7)...

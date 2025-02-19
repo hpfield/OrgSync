@@ -27,7 +27,7 @@ def parse_arguments():
     parser.add_argument('--input', nargs='+', help='Input file(s) for the starting stage')
     parser.add_argument('--output-dir', type=str, default='outputs', help='Output directory to save results')
     # Let’s add a param for # of search results to retrieve per item
-    parser.add_argument('--num-search-results', type=int, default=3,
+    parser.add_argument('--num-search-results', type=int, default=5,
                         help='Number of web search results to retrieve for each org name')
     return parser.parse_args()
 

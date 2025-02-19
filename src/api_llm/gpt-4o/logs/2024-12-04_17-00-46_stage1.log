@@ -1,0 +1,15 @@
+2024-12-04 17:00:47,243 - INFO - Loaded and preprocessed 36508 names.
+2024-12-04 17:00:47,258 - INFO - Stage 1 complete.
+2024-12-04 17:00:47,295 - INFO - Vectorized 5411 unique combined names.
+2024-12-04 17:00:47,297 - INFO - Stage 2 complete.
+2024-12-04 17:00:47,629 - INFO - Grouped names into 462 groups after removing groups of size 1.
+2024-12-04 17:00:47,631 - INFO - Stage 3 complete.
+2024-12-04 17:00:47,631 - INFO - Extracting unique names from grouped names for web search...
+2024-12-04 17:00:47,768 - INFO - response: https://duckduckgo.com/?q=%223d+industries+limited%22 200 18966
+2024-12-04 17:00:48,412 - INFO - response: https://links.duckduckgo.com/d.js?q=%223d+industries+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-138914287371636570212156321468156367071&bing_market=wt-WT&ex=-1 200 8705
+2024-12-04 17:00:48,540 - INFO - response: https://duckduckgo.com/?q=%22a+k+industries+ltd%22 200 18890
+2024-12-04 17:00:48,715 - INFO - response: https://links.duckduckgo.com/d.js?q=%22a+k+industries+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-226682540930272223845158984899079470644&bing_market=wt-WT&ex=-1 202 563
+2024-12-04 17:00:48,716 - ERROR - Error during web search for 'a k industries ltd': https://links.duckduckgo.com/d.js?q=%22a+k+industries+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-226682540930272223845158984899079470644&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (1/7)...
+2024-12-04 17:00:50,845 - INFO - response: https://duckduckgo.com/?q=%22a+k+industries+ltd%22 200 18890
+2024-12-04 17:00:51,011 - INFO - response: https://links.duckduckgo.com/d.js?q=%22a+k+industries+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-226682540930272223845158984899079470644&bing_market=wt-WT&ex=-1 202 561
+2024-12-04 17:00:51,012 - ERROR - Error during web search for 'a k industries ltd': https://links.duckduckgo.com/d.js?q=%22a+k+industries+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-226682540930272223845158984899079470644&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (2/7)...

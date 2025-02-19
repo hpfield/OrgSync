@@ -1,0 +1,33 @@
+2025-02-05 16:54:34,688 - INFO - Due to rate limits, the program will wait for 60 seconds every 20 searches.
+2025-02-05 16:54:34,698 - INFO - Loaded existing web search DB from outputs/all_web_search_results.json
+2025-02-05 16:54:34,701 - INFO - 13186 out of 13554 names need new web searches.
+2025-02-05 16:54:35,324 - INFO - response: https://lite.duckduckgo.com/lite/ 200 13498
+2025-02-05 16:54:35,916 - INFO - response: https://html.duckduckgo.com/html 200 38852
+2025-02-05 16:54:36,792 - INFO - response: https://html.duckduckgo.com/html 200 45890
+2025-02-05 16:54:37,455 - INFO - response: https://lite.duckduckgo.com/lite/ 200 5787
+2025-02-05 16:54:37,895 - INFO - response: https://lite.duckduckgo.com/lite/ 200 5811
+2025-02-05 16:54:38,598 - INFO - response: https://lite.duckduckgo.com/lite/ 200 13348
+2025-02-05 16:54:39,227 - INFO - response: https://lite.duckduckgo.com/lite/ 200 16967
+2025-02-05 16:54:40,004 - INFO - response: https://html.duckduckgo.com/html 200 8080
+2025-02-05 16:54:40,605 - INFO - response: https://html.duckduckgo.com/html 200 38171
+2025-02-05 16:54:41,308 - INFO - response: https://lite.duckduckgo.com/lite/ 200 17106
+2025-02-05 16:54:41,907 - INFO - response: https://html.duckduckgo.com/html 200 36193
+2025-02-05 16:54:42,672 - INFO - response: https://html.duckduckgo.com/html 200 32732
+2025-02-05 16:54:43,285 - INFO - response: https://lite.duckduckgo.com/lite/ 200 18290
+2025-02-05 16:54:43,884 - INFO - response: https://lite.duckduckgo.com/lite/ 200 17035
+2025-02-05 16:54:44,593 - INFO - response: https://html.duckduckgo.com/html 200 16702
+2025-02-05 16:54:45,277 - INFO - response: https://html.duckduckgo.com/html 200 20360
+2025-02-05 16:54:45,992 - INFO - response: https://html.duckduckgo.com/html 200 35617
+2025-02-05 16:54:46,591 - INFO - response: https://html.duckduckgo.com/html 200 23547
+2025-02-05 16:54:47,124 - INFO - response: https://lite.duckduckgo.com/lite/ 200 5853
+2025-02-05 16:54:47,764 - INFO - response: https://html.duckduckgo.com/html 200 27025
+2025-02-05 16:54:47,881 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14254
+2025-02-05 16:54:47,882 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:54:48,751 - INFO - response: https://html.duckduckgo.com/html 202 14254
+2025-02-05 16:54:48,751 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:54:48,751 - ERROR - Error during web search for 'the felixstowe dock and railway company': https://html.duckduckgo.com/html 202 Ratelimit. Retrying (1/5)...
+2025-02-05 16:54:50,890 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14248
+2025-02-05 16:54:50,890 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-02-05 16:54:51,764 - INFO - response: https://html.duckduckgo.com/html 202 14254
+2025-02-05 16:54:51,764 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-02-05 16:54:51,764 - ERROR - Error during web search for 'the felixstowe dock and railway company': https://html.duckduckgo.com/html 202 Ratelimit. Retrying (2/5)...

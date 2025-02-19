@@ -1,0 +1,40 @@
+2024-11-05 12:25:33,608 - INFO - Loaded and preprocessed 36508 names.
+2024-11-05 12:25:33,624 - INFO - Stage 1 complete.
+2024-11-05 12:25:33,657 - INFO - Vectorized 5411 unique combined names.
+2024-11-05 12:25:33,659 - INFO - Stage 2 complete.
+2024-11-05 12:25:33,985 - INFO - Grouped names into 469 groups after removing groups of size 1.
+2024-11-05 12:25:33,986 - INFO - Stage 3 complete.
+2024-11-05 12:25:33,986 - INFO - Extracting unique names from grouped names for web search...
+2024-11-05 12:27:04,788 - ERROR - Failed to retrieve search results for 'advanced transport systems ltd' after 5 retries.
+2024-11-05 12:28:07,738 - ERROR - Failed to retrieve search results for 'advantage west midlands' after 5 retries.
+2024-11-05 12:29:10,555 - ERROR - Failed to retrieve search results for 'aegis it research ltd' after 5 retries.
+2024-11-05 12:30:14,557 - ERROR - Failed to retrieve search results for 'aegis trust' after 5 retries.
+2024-11-05 12:31:17,526 - ERROR - Failed to retrieve search results for 'aerospace international services limited' after 5 retries.
+2024-11-05 12:32:20,328 - ERROR - Failed to retrieve search results for 'agas electronic materials ltd' after 5 retries.
+2024-11-05 12:33:23,213 - ERROR - Failed to retrieve search results for 'agm batteries limited' after 5 retries.
+2024-11-05 12:34:26,031 - ERROR - Failed to retrieve search results for 'aintree university hospital nhs foundation trust' after 5 retries.
+2024-11-05 12:35:28,877 - ERROR - Failed to retrieve search results for 'airbus ds limited' after 5 retries.
+2024-11-05 12:36:31,695 - ERROR - Failed to retrieve search results for 'airbus group limited' after 5 retries.
+2024-11-05 12:37:34,521 - ERROR - Failed to retrieve search results for 'airbus operations limited' after 5 retries.
+2024-11-05 12:38:38,375 - ERROR - Failed to retrieve search results for 'alan harper composites' after 5 retries.
+2024-11-05 12:39:41,192 - ERROR - Failed to retrieve search results for 'alan harper composites ltd' after 5 retries.
+2024-11-05 12:40:44,017 - ERROR - Failed to retrieve search results for 'alchemie limited' after 5 retries.
+2024-11-05 12:41:46,845 - ERROR - Failed to retrieve search results for 'alchemie technology limited' after 5 retries.
+2024-11-05 12:42:50,752 - ERROR - Failed to retrieve search results for 'almac discovery ltd' after 5 retries.
+2024-11-05 12:43:53,598 - ERROR - Failed to retrieve search results for 'almac group uk limited' after 5 retries.
+2024-11-05 12:45:16,121 - ERROR - Failed to retrieve search results for 'almac sciences limited' after 5 retries.
+2024-11-05 12:47:08,206 - ERROR - Failed to retrieve search results for 'alstom engineering and services lim' after 5 retries.
+2024-11-05 12:49:00,290 - ERROR - Failed to retrieve search results for 'alstom ltd' after 5 retries.
+2024-11-05 12:50:52,372 - ERROR - Failed to retrieve search results for 'alstom power ltd' after 5 retries.
+2024-11-05 12:52:44,453 - ERROR - Failed to retrieve search results for 'alstom transport uk limited' after 5 retries.
+2024-11-05 12:54:36,536 - ERROR - Failed to retrieve search results for 'alzheimers research uk' after 5 retries.
+2024-11-05 12:56:28,620 - ERROR - Failed to retrieve search results for 'alzheimers society' after 5 retries.
+2024-11-05 12:58:20,680 - ERROR - Failed to retrieve search results for 'ambiotek community interest company' after 5 retries.
+2024-11-05 13:00:12,760 - ERROR - Failed to retrieve search results for 'analox sensor technology ltd' after 5 retries.
+2024-11-05 13:02:04,840 - ERROR - Failed to retrieve search results for 'analytica social and economic research limited' after 5 retries.
+2024-11-05 13:03:56,923 - ERROR - Failed to retrieve search results for 'analytics engines limited' after 5 retries.
+2024-11-05 13:05:49,005 - ERROR - Failed to retrieve search results for 'anglia ruskin university higher education corporation' after 5 retries.
+2024-11-05 13:07:41,088 - ERROR - Failed to retrieve search results for 'animal health trust' after 5 retries.
+2024-11-05 13:09:33,171 - ERROR - Failed to retrieve search results for 'apa ltd' after 5 retries.
+2024-11-05 13:11:25,250 - ERROR - Failed to retrieve search results for 'apa parafricta ltd' after 5 retries.
+2024-11-05 13:13:17,332 - ERROR - Failed to retrieve search results for 'applied enzyme technology limited' after 5 retries.

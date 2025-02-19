@@ -1,0 +1,9 @@
+2024-11-01 13:37:11,466 - INFO - Loaded and preprocessed 36508 names.
+2024-11-01 13:37:11,483 - INFO - Stage 1 complete.
+2024-11-01 13:37:11,517 - INFO - Vectorized 5411 unique combined names.
+2024-11-01 13:37:11,519 - INFO - Stage 2 complete.
+2024-11-01 13:37:11,857 - INFO - Grouped names into 468 groups after removing groups of size 1.
+2024-11-01 13:37:11,858 - INFO - Stage 3 complete.
+2024-11-01 13:37:11,859 - INFO - Extracting unique names from grouped names for web search...
+2024-11-01 13:38:35,111 - ERROR - Failed to retrieve search results for 'advantage west midlands' after 5 retries.
+2024-11-01 13:39:37,902 - ERROR - Failed to retrieve search results for 'aegis it research ltd' after 5 retries.

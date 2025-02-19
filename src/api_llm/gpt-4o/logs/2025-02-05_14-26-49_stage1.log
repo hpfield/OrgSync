@@ -1,0 +1,9 @@
+2025-02-05 14:26:50,032 - INFO - Loaded and preprocessed 74508 entries.
+2025-02-05 14:26:50,109 - INFO - Stage 1 complete.
+2025-02-05 14:26:50,258 - INFO - Found 4451 identical-name groups with more than 1 entry.
+2025-02-05 14:26:50,303 - INFO - Stage 2 complete.
+2025-02-05 14:26:50,862 - INFO - Vectorized 74506 unique entries based on full uniqueness.
+2025-02-05 14:26:51,155 - INFO - Stage 3 complete.
+2025-02-05 14:27:40,346 - INFO - Grouped names into 14167 groups (size >= 2).
+2025-02-05 14:27:40,704 - INFO - Stage 4 complete.
+2025-02-05 14:27:40,717 - INFO - No groups contain new data. Nothing to update—exiting pipeline.

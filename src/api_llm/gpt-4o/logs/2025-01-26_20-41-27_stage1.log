@@ -1,0 +1,131 @@
+2025-01-26 20:41:27,957 - INFO - Loaded and preprocessed 105575 entries.
+2025-01-26 20:41:27,981 - INFO - Stage 1 complete.
+2025-01-26 20:41:27,981 - INFO - Found 4 identical-name groups with more than 1 entry.
+2025-01-26 20:41:27,981 - INFO - Stage 2 complete.
+2025-01-26 20:41:27,985 - INFO - Vectorized 94 unique entries based on full uniqueness.
+2025-01-26 20:41:27,985 - INFO - Stage 3 complete.
+2025-01-26 20:41:27,988 - INFO - Grouped names into 4 groups (size >= 2).
+2025-01-26 20:41:27,988 - INFO - Stage 4 complete.
+2025-01-26 20:41:27,988 - INFO - Extracting unique names from grouped names for web search...
+2025-01-26 20:41:28,113 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 200 19848
+2025-01-26 20:41:28,630 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27928548814780635856806168743766419248&bing_market=wt-WT&ex=-1 200 1150
+2025-01-26 20:41:28,631 - ERROR - Error during web search for 'advanced communications  information systems ltd': _text_extract_json() keywords='"advanced communications  information systems ltd"' ValueError: subsection not found. Retrying (1/5)...
+2025-01-26 20:41:30,769 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 200 19961
+2025-01-26 20:41:30,980 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27928548814780635856806168743766419248&bing_market=wt-WT&ex=-1 202 592
+2025-01-26 20:41:30,981 - ERROR - Error during web search for 'advanced communications  information systems ltd': https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27928548814780635856806168743766419248&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (2/5)...
+2025-01-26 20:41:35,117 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 200 19961
+2025-01-26 20:41:35,287 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27928548814780635856806168743766419248&bing_market=wt-WT&ex=-1 202 602
+2025-01-26 20:41:35,287 - ERROR - Error during web search for 'advanced communications  information systems ltd': https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27928548814780635856806168743766419248&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (3/5)...
+2025-01-26 20:41:43,454 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 202 15333
+2025-01-26 20:41:43,454 - ERROR - Error during web search for 'advanced communications  information systems ltd': https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 202 Ratelimit. Retrying (4/5)...
+2025-01-26 20:41:59,597 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 200 19961
+2025-01-26 20:42:00,111 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27928548814780635856806168743766419248&bing_market=wt-WT&ex=-1 200 12361
+2025-01-26 20:42:00,244 - INFO - response: https://duckduckgo.com/?q=%22advanced+transport+systems+ltd%22 200 19549
+2025-01-26 20:42:00,882 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+transport+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-213502076867929495319724055344146731015&bing_market=wt-WT&ex=-1 200 8885
+2025-01-26 20:42:00,883 - ERROR - Error during web search for 'advanced transport systems ltd': _text_extract_json() keywords='"advanced transport systems ltd"' ValueError: subsection not found. Retrying (1/5)...
+2025-01-26 20:42:03,013 - INFO - response: https://duckduckgo.com/?q=%22advanced+transport+systems+ltd%22 200 19662
+2025-01-26 20:42:03,184 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+transport+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-213502076867929495319724055344146731015&bing_market=wt-WT&ex=-1 202 526
+2025-01-26 20:42:03,185 - ERROR - Error during web search for 'advanced transport systems ltd': https://links.duckduckgo.com/d.js?q=%22advanced+transport+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-213502076867929495319724055344146731015&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (2/5)...
+2025-01-26 20:42:07,322 - INFO - response: https://duckduckgo.com/?q=%22advanced+transport+systems+ltd%22 200 19662
+2025-01-26 20:42:07,494 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+transport+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-213502076867929495319724055344146731015&bing_market=wt-WT&ex=-1 202 524
+2025-01-26 20:42:07,495 - ERROR - Error during web search for 'advanced transport systems ltd': https://links.duckduckgo.com/d.js?q=%22advanced+transport+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-213502076867929495319724055344146731015&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (3/5)...
+2025-01-26 20:42:15,627 - INFO - response: https://duckduckgo.com/?q=%22advanced+transport+systems+ltd%22 200 19678
+2025-01-26 20:42:15,793 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+transport+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-213502076867929495319724055344146731015&bing_market=wt-WT&ex=-1 202 581
+2025-01-26 20:42:15,794 - ERROR - Error during web search for 'advanced transport systems ltd': https://links.duckduckgo.com/d.js?q=%22advanced+transport+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-213502076867929495319724055344146731015&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (4/5)...
+2025-01-26 20:42:31,932 - INFO - response: https://duckduckgo.com/?q=%22advanced+transport+systems+ltd%22 200 19678
+2025-01-26 20:42:32,098 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+transport+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-213502076867929495319724055344146731015&bing_market=wt-WT&ex=-1 202 573
+2025-01-26 20:42:32,099 - ERROR - Error during web search for 'advanced transport systems ltd': https://links.duckduckgo.com/d.js?q=%22advanced+transport+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-213502076867929495319724055344146731015&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (5/5)...
+2025-01-26 20:43:04,129 - ERROR - Failed to retrieve search results for 'advanced transport systems ltd' after 5 retries.
+2025-01-26 20:43:04,268 - INFO - response: https://duckduckgo.com/?q=%22cpl+scientific+publishing+services+ltd%22 200 19768
+2025-01-26 20:43:04,866 - INFO - response: https://links.duckduckgo.com/d.js?q=%22cpl+scientific+publishing+services+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-63503208590489171346354721141664839186&bing_market=wt-WT&ex=-1 200 6737
+2025-01-26 20:43:04,867 - ERROR - Error during web search for 'cpl scientific publishing services ltd': _text_extract_json() keywords='"cpl scientific publishing services ltd"' ValueError: subsection not found. Retrying (1/5)...
+2025-01-26 20:43:06,993 - INFO - response: https://duckduckgo.com/?q=%22cpl+scientific+publishing+services+ltd%22 200 19656
+2025-01-26 20:43:07,583 - INFO - response: https://links.duckduckgo.com/d.js?q=%22cpl+scientific+publishing+services+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-63503208590489171346354721141664839186&bing_market=wt-WT&ex=-1 200 8801
+2025-01-26 20:43:07,584 - ERROR - Error during web search for 'cpl scientific publishing services ltd': _text_extract_json() keywords='"cpl scientific publishing services ltd"' ValueError: subsection not found. Retrying (2/5)...
+2025-01-26 20:43:11,712 - INFO - response: https://duckduckgo.com/?q=%22cpl+scientific+publishing+services+ltd%22 200 19768
+2025-01-26 20:43:11,881 - INFO - response: https://links.duckduckgo.com/d.js?q=%22cpl+scientific+publishing+services+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-63503208590489171346354721141664839186&bing_market=wt-WT&ex=-1 202 583
+2025-01-26 20:43:11,882 - ERROR - Error during web search for 'cpl scientific publishing services ltd': https://links.duckduckgo.com/d.js?q=%22cpl+scientific+publishing+services+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-63503208590489171346354721141664839186&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (3/5)...
+2025-01-26 20:43:20,030 - INFO - response: https://duckduckgo.com/?q=%22cpl+scientific+publishing+services+ltd%22 200 19768
+2025-01-26 20:43:20,198 - INFO - response: https://links.duckduckgo.com/d.js?q=%22cpl+scientific+publishing+services+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-63503208590489171346354721141664839186&bing_market=wt-WT&ex=-1 202 585
+2025-01-26 20:43:20,198 - ERROR - Error during web search for 'cpl scientific publishing services ltd': https://links.duckduckgo.com/d.js?q=%22cpl+scientific+publishing+services+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-63503208590489171346354721141664839186&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (4/5)...
+2025-01-26 20:43:36,361 - INFO - response: https://duckduckgo.com/?q=%22cpl+scientific+publishing+services+ltd%22 202 15187
+2025-01-26 20:43:36,361 - ERROR - Error during web search for 'cpl scientific publishing services ltd': https://duckduckgo.com/?q=%22cpl+scientific+publishing+services+ltd%22 202 Ratelimit. Retrying (5/5)...
+2025-01-26 20:44:08,393 - ERROR - Failed to retrieve search results for 'cpl scientific publishing services ltd' after 5 retries.
+2025-01-26 20:44:08,534 - INFO - response: https://duckduckgo.com/?q=%22liverpool+school+of+tropical+medicine%22 200 31024
+2025-01-26 20:44:09,284 - INFO - response: https://links.duckduckgo.com/d.js?q=%22liverpool+school+of+tropical+medicine%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-227374721998291903681809734542009396346&bing_market=wt-WT&ex=-1 200 21839
+2025-01-26 20:44:09,285 - ERROR - Error during web search for 'liverpool school of tropical medicine': _text_extract_json() keywords='"liverpool school of tropical medicine"' ValueError: subsection not found. Retrying (1/5)...
+2025-01-26 20:44:11,419 - INFO - response: https://duckduckgo.com/?q=%22liverpool+school+of+tropical+medicine%22 200 31136
+2025-01-26 20:44:12,190 - INFO - response: https://links.duckduckgo.com/d.js?q=%22liverpool+school+of+tropical+medicine%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-227374721998291903681809734542009396346&bing_market=wt-WT&ex=-1 200 21839
+2025-01-26 20:44:12,191 - ERROR - Error during web search for 'liverpool school of tropical medicine': _text_extract_json() keywords='"liverpool school of tropical medicine"' ValueError: subsection not found. Retrying (2/5)...
+2025-01-26 20:44:16,346 - INFO - response: https://duckduckgo.com/?q=%22liverpool+school+of+tropical+medicine%22 200 31136
+2025-01-26 20:44:16,512 - INFO - response: https://links.duckduckgo.com/d.js?q=%22liverpool+school+of+tropical+medicine%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-227374721998291903681809734542009396346&bing_market=wt-WT&ex=-1 202 588
+2025-01-26 20:44:16,512 - ERROR - Error during web search for 'liverpool school of tropical medicine': https://links.duckduckgo.com/d.js?q=%22liverpool+school+of+tropical+medicine%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-227374721998291903681809734542009396346&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (3/5)...
+2025-01-26 20:44:24,615 - INFO - response: https://duckduckgo.com/?q=%22liverpool+school+of+tropical+medicine%22 200 31136
+2025-01-26 20:44:25,326 - INFO - response: https://links.duckduckgo.com/d.js?q=%22liverpool+school+of+tropical+medicine%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-227374721998291903681809734542009396346&bing_market=wt-WT&ex=-1 200 23151
+2025-01-26 20:44:25,327 - ERROR - Error during web search for 'liverpool school of tropical medicine': _text_extract_json() keywords='"liverpool school of tropical medicine"' ValueError: subsection not found. Retrying (4/5)...
+2025-01-26 20:44:41,494 - INFO - response: https://duckduckgo.com/?q=%22liverpool+school+of+tropical+medicine%22 200 31137
+2025-01-26 20:44:41,655 - INFO - response: https://links.duckduckgo.com/d.js?q=%22liverpool+school+of+tropical+medicine%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-227374721998291903681809734542009396346&bing_market=wt-WT&ex=-1 202 584
+2025-01-26 20:44:41,656 - ERROR - Error during web search for 'liverpool school of tropical medicine': https://links.duckduckgo.com/d.js?q=%22liverpool+school+of+tropical+medicine%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-227374721998291903681809734542009396346&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (5/5)...
+2025-01-26 20:45:13,688 - ERROR - Failed to retrieve search results for 'liverpool school of tropical medicine' after 5 retries.
+2025-01-26 20:45:13,818 - INFO - response: https://duckduckgo.com/?q=%22london+school+of+hygiene+and+tropical+medicine+royal+charter%22 200 20259
+2025-01-26 20:45:14,463 - INFO - response: https://links.duckduckgo.com/d.js?q=%22london+school+of+hygiene+and+tropical+medicine+royal+charter%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-244915282357797974033368012186855339146&bing_market=wt-WT&ex=-1 200 4018
+2025-01-26 20:45:14,464 - ERROR - Error during web search for 'london school of hygiene and tropical medicine royal charter': _text_extract_json() keywords='"london school of hygiene and tropical medicine royal charter"' ValueError: subsection not found. Retrying (1/5)...
+2025-01-26 20:45:16,614 - INFO - response: https://duckduckgo.com/?q=%22london+school+of+hygiene+and+tropical+medicine+royal+charter%22 200 20260
+2025-01-26 20:45:17,507 - INFO - response: https://links.duckduckgo.com/d.js?q=%22london+school+of+hygiene+and+tropical+medicine+royal+charter%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-244915282357797974033368012186855339146&bing_market=wt-WT&ex=-1 200 4019
+2025-01-26 20:45:17,508 - ERROR - Error during web search for 'london school of hygiene and tropical medicine royal charter': _text_extract_json() keywords='"london school of hygiene and tropical medicine royal charter"' ValueError: subsection not found. Retrying (2/5)...
+2025-01-26 20:45:21,645 - INFO - response: https://duckduckgo.com/?q=%22london+school+of+hygiene+and+tropical+medicine+royal+charter%22 200 20260
+2025-01-26 20:45:21,813 - INFO - response: https://links.duckduckgo.com/d.js?q=%22london+school+of+hygiene+and+tropical+medicine+royal+charter%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-244915282357797974033368012186855339146&bing_market=wt-WT&ex=-1 202 617
+2025-01-26 20:45:21,814 - ERROR - Error during web search for 'london school of hygiene and tropical medicine royal charter': https://links.duckduckgo.com/d.js?q=%22london+school+of+hygiene+and+tropical+medicine+royal+charter%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-244915282357797974033368012186855339146&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (3/5)...
+2025-01-26 20:45:29,952 - INFO - response: https://duckduckgo.com/?q=%22london+school+of+hygiene+and+tropical+medicine+royal+charter%22 200 20260
+2025-01-26 20:45:30,592 - INFO - response: https://links.duckduckgo.com/d.js?q=%22london+school+of+hygiene+and+tropical+medicine+royal+charter%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-244915282357797974033368012186855339146&bing_market=wt-WT&ex=-1 200 6593
+2025-01-26 20:45:30,592 - ERROR - Error during web search for 'london school of hygiene and tropical medicine royal charter': _text_extract_json() keywords='"london school of hygiene and tropical medicine royal charter"' ValueError: subsection not found. Retrying (4/5)...
+2025-01-26 20:45:46,729 - INFO - response: https://duckduckgo.com/?q=%22london+school+of+hygiene+and+tropical+medicine+royal+charter%22 200 20260
+2025-01-26 20:45:47,424 - INFO - response: https://links.duckduckgo.com/d.js?q=%22london+school+of+hygiene+and+tropical+medicine+royal+charter%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-244915282357797974033368012186855339146&bing_market=wt-WT&ex=-1 200 4018
+2025-01-26 20:45:47,425 - ERROR - Error during web search for 'london school of hygiene and tropical medicine royal charter': _text_extract_json() keywords='"london school of hygiene and tropical medicine royal charter"' ValueError: subsection not found. Retrying (5/5)...
+2025-01-26 20:46:19,439 - ERROR - Failed to retrieve search results for 'london school of hygiene and tropical medicine royal charter' after 5 retries.
+2025-01-26 20:46:19,570 - INFO - response: https://duckduckgo.com/?q=%22quantumdx+group+limited%22 200 19476
+2025-01-26 20:46:20,260 - INFO - response: https://links.duckduckgo.com/d.js?q=%22quantumdx+group+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-146979693802401861298398396490569541157&bing_market=wt-WT&ex=-1 200 7353
+2025-01-26 20:46:20,261 - ERROR - Error during web search for 'quantumdx group limited': _text_extract_json() keywords='"quantumdx group limited"' ValueError: subsection not found. Retrying (1/5)...
+2025-01-26 20:46:22,389 - INFO - response: https://duckduckgo.com/?q=%22quantumdx+group+limited%22 200 19477
+2025-01-26 20:46:23,043 - INFO - response: https://links.duckduckgo.com/d.js?q=%22quantumdx+group+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-146979693802401861298398396490569541157&bing_market=wt-WT&ex=-1 200 12329
+2025-01-26 20:46:23,044 - ERROR - Error during web search for 'quantumdx group limited': _text_extract_json() keywords='"quantumdx group limited"' ValueError: subsection not found. Retrying (2/5)...
+2025-01-26 20:46:27,186 - INFO - response: https://duckduckgo.com/?q=%22quantumdx+group+limited%22 200 19364
+2025-01-26 20:46:27,837 - INFO - response: https://links.duckduckgo.com/d.js?q=%22quantumdx+group+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-146979693802401861298398396490569541157&bing_market=wt-WT&ex=-1 200 8645
+2025-01-26 20:46:27,838 - ERROR - Error during web search for 'quantumdx group limited': _text_extract_json() keywords='"quantumdx group limited"' ValueError: subsection not found. Retrying (3/5)...
+2025-01-26 20:46:35,980 - INFO - response: https://duckduckgo.com/?q=%22quantumdx+group+limited%22 200 19476
+2025-01-26 20:46:36,153 - INFO - response: https://links.duckduckgo.com/d.js?q=%22quantumdx+group+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-146979693802401861298398396490569541157&bing_market=wt-WT&ex=-1 202 572
+2025-01-26 20:46:36,153 - ERROR - Error during web search for 'quantumdx group limited': https://links.duckduckgo.com/d.js?q=%22quantumdx+group+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-146979693802401861298398396490569541157&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (4/5)...
+2025-01-26 20:46:52,296 - INFO - response: https://duckduckgo.com/?q=%22quantumdx+group+limited%22 200 19476
+2025-01-26 20:46:52,476 - INFO - response: https://links.duckduckgo.com/d.js?q=%22quantumdx+group+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-146979693802401861298398396490569541157&bing_market=wt-WT&ex=-1 202 570
+2025-01-26 20:46:52,477 - ERROR - Error during web search for 'quantumdx group limited': https://links.duckduckgo.com/d.js?q=%22quantumdx+group+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-146979693802401861298398396490569541157&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (5/5)...
+2025-01-26 20:47:24,507 - ERROR - Failed to retrieve search results for 'quantumdx group limited' after 5 retries.
+2025-01-26 20:47:24,635 - INFO - response: https://duckduckgo.com/?q=%22sagentia+group+limited%22 200 19344
+2025-01-26 20:47:25,174 - INFO - response: https://links.duckduckgo.com/d.js?q=%22sagentia+group+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-1567217322370134759641795727842246850&bing_market=wt-WT&ex=-1 200 5194
+2025-01-26 20:47:25,175 - ERROR - Error during web search for 'sagentia group limited': _text_extract_json() keywords='"sagentia group limited"' ValueError: subsection not found. Retrying (1/5)...
+2025-01-26 20:47:27,305 - INFO - response: https://duckduckgo.com/?q=%22sagentia+group+limited%22 200 19456
+2025-01-26 20:47:27,791 - INFO - response: https://links.duckduckgo.com/d.js?q=%22sagentia+group+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-1567217322370134759641795727842246850&bing_market=wt-WT&ex=-1 200 4092
+2025-01-26 20:47:27,792 - ERROR - Error during web search for 'sagentia group limited': _text_extract_json() keywords='"sagentia group limited"' ValueError: subsection not found. Retrying (2/5)...
+2025-01-26 20:47:31,929 - INFO - response: https://duckduckgo.com/?q=%22sagentia+group+limited%22 200 19456
+2025-01-26 20:47:32,113 - INFO - response: https://links.duckduckgo.com/d.js?q=%22sagentia+group+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-1567217322370134759641795727842246850&bing_market=wt-WT&ex=-1 202 563
+2025-01-26 20:47:32,114 - ERROR - Error during web search for 'sagentia group limited': https://links.duckduckgo.com/d.js?q=%22sagentia+group+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-1567217322370134759641795727842246850&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (3/5)...
+2025-01-26 20:47:40,283 - INFO - response: https://duckduckgo.com/?q=%22sagentia+group+limited%22 200 19456
+2025-01-26 20:47:40,461 - INFO - response: https://links.duckduckgo.com/d.js?q=%22sagentia+group+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-1567217322370134759641795727842246850&bing_market=wt-WT&ex=-1 202 567
+2025-01-26 20:47:40,462 - ERROR - Error during web search for 'sagentia group limited': https://links.duckduckgo.com/d.js?q=%22sagentia+group+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-1567217322370134759641795727842246850&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (4/5)...
+2025-01-26 20:47:56,607 - INFO - response: https://duckduckgo.com/?q=%22sagentia+group+limited%22 200 19456
+2025-01-26 20:47:56,784 - INFO - response: https://links.duckduckgo.com/d.js?q=%22sagentia+group+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-1567217322370134759641795727842246850&bing_market=wt-WT&ex=-1 202 573
+2025-01-26 20:47:56,785 - ERROR - Error during web search for 'sagentia group limited': https://links.duckduckgo.com/d.js?q=%22sagentia+group+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-1567217322370134759641795727842246850&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (5/5)...
+2025-01-26 20:48:28,816 - ERROR - Failed to retrieve search results for 'sagentia group limited' after 5 retries.
+2025-01-26 20:48:28,818 - INFO - Completed web search for 7 unique names.
+2025-01-26 20:48:28,819 - INFO - Stage 5 complete.
+2025-01-26 20:48:28,819 - INFO - Processing groups with LLM...
+2025-01-26 20:48:29,359 - INFO - Refined groups to 4 groups after LLM processing.
+2025-01-26 20:48:29,360 - INFO - Stage 6 complete.
+2025-01-26 20:48:29,360 - INFO - Combining overlapping groups...
+2025-01-26 20:48:29,360 - INFO - Number of combined groups: 4
+2025-01-26 20:48:29,360 - INFO - Stage 7 complete.
+2025-01-26 20:48:29,360 - INFO - Determining organisation types for groups...
+2025-01-26 20:48:30,443 - INFO - Completed organisation type detection for 4 groups.
+2025-01-26 20:48:30,444 - INFO - Stage 8 complete.
+2025-01-26 20:48:30,444 - INFO - Finalizing groups to produce the final JSON with group UUIDs...
+2025-01-26 20:48:31,066 - INFO - Produced final results with 4 groups.
+2025-01-26 20:48:31,067 - INFO - Stage 9 complete.
