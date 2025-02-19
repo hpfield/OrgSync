@@ -1,15 +1,7 @@
 # OrgSync
 
-In a database of academic publications, we must resolve situations where the same organisation has been referred to by different names. To do this, we apply a multi-stage technique, where we:
-
-1. Isolate the unique listed organisation names
-2. Vectorise the names with sklearn
-3. Cluster similar names using K-Nearest-Neighbours
-4. Search the web for information on each name using duckduckgo search API
-5. Process the name clusters using Llama3.1 and web search results as context
-6. Combine & Merge any overlapping groups
-7. Determine the type of organisation each group refers to using LLM
-8. Process name groups using LLM, web search results and organisation type as context
+In a database of academic publications, we must resolve situations where the same organisation has been referred to by different names. To do this, we apply a multi-stage technique outlined in the following diagram:
+![orgsync drawio](https://github.com/user-attachments/assets/e25ea5e3-9249-42d4-b3f8-b5c28b9a60a2)
 
 We conduct micro-labelling sessions as we progress to account for the absence of labelled data. We do this to obtain some metric of success beyond anecdotal experiences reading model outputs.
 
