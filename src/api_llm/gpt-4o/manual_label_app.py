@@ -19,7 +19,7 @@ st.markdown("""
     .entry {
         margin-bottom: 20px;
     }
-    /* Smaller header for names */
+    /* Smaller header for representative names */
     h4.names-header {
         font-size: 18px;
         margin-bottom: 5px;
@@ -29,14 +29,21 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # File paths
-DATA_FILE = "outputs/final_output_with_context.json"
+DATA_FILE = "outputs/output_groups.json"
 SAVE_FILE = "outputs/human_labelled_data.json"
 
-# Load the original JSON data
+# Load the original JSON data from the new file format (dictionary keyed by group IDs)
 with open(DATA_FILE, "r") as file:
-    data = json.load(file)
+    data_dict = json.load(file)
 
-# Load previously saved labels if they exist
+# Convert the dictionary into a list of entries, each including its group_id
+data = []
+for group_id, group in data_dict.items():
+    entry = group.copy()
+    entry["group_id"] = group_id
+    data.append(entry)
+
+# Load previously saved labels if they exist, else create new entries with a label field
 if os.path.exists(SAVE_FILE):
     with open(SAVE_FILE, "r") as file:
         labeled_data = json.load(file)
@@ -58,39 +65,27 @@ def save_progress():
 def render_entry(entry, index):
     st.markdown(f"<div class='entry'>", unsafe_allow_html=True)
 
-    # Entry header
-    st.markdown(f"<h3>Entry {index + 1}</h3>", unsafe_allow_html=True)
+    # Entry header with group ID
+    st.markdown(f"<h3>Entry {index + 1} (Group ID: {entry['group_id']})</h3>", unsafe_allow_html=True)
 
-    # Names header (smaller than Entry header)
-    st.markdown(f"<h4 class='names-header compact'>Names: {', '.join(entry['names'])}</h4>", unsafe_allow_html=True)
+    # Representative Name header
+    st.markdown(f"<h4 class='names-header compact'>Representative Name: {entry['name']}</h4>", unsafe_allow_html=True)
 
-    # Organisation Type
-    st.markdown(f"<p class='compact'><strong>Organisation Type:</strong> {entry['organisation_type']}</p>", unsafe_allow_html=True)
-    
-    # Indentation for components
+    # Display number of items
+    num_items = len(entry.get("items", []))
+    st.markdown(f"<p class='compact'><strong>Number of Items:</strong> {num_items}</p>", unsafe_allow_html=True)
+
+    # List out each item in the group
     st.markdown("<div class='indent'>", unsafe_allow_html=True)
-    st.markdown(f"<p class='compact'><strong>Names with Search Results:</strong></p>", unsafe_allow_html=True)
-    for name_with_results in entry.get("names_with_search_results", []):
-        # Name sub-header
-        st.markdown(f"<h5 class='compact indent'>- Name: {name_with_results['name']}</h5>", unsafe_allow_html=True)
+    st.markdown("<p class='compact'><strong>Items:</strong></p>", unsafe_allow_html=True)
+    for item in entry.get("items", []):
         st.markdown("<div class='indent'>", unsafe_allow_html=True)
-        st.markdown(f"<p class='compact'><strong>Web Search Results:</strong></p>", unsafe_allow_html=True)
-        for result in name_with_results.get("web_search_results", []):
-            st.markdown("<div class='indent'>", unsafe_allow_html=True)
-            st.markdown(
-                f"<p class='compact'>- <strong>Title:</strong> "
-                f"<a href='{result.get('url', '')}' target='_blank'>{result.get('title', '')}</a></p>",
-                unsafe_allow_html=True
-            )
-            st.markdown(
-                f"<p class='compact'><strong>URL:</strong> "
-                f"<a href='{result.get('url', '')}' target='_blank'>{result.get('url', '')}</a></p>",
-                unsafe_allow_html=True
-            )
-            st.markdown(f"<p class='compact'><strong>Description:</strong> {result.get('description', '')}</p>", unsafe_allow_html=True)
-            st.markdown("</div>", unsafe_allow_html=True)  # Close inner indent
-        st.markdown("</div>", unsafe_allow_html=True)  # Close web search results indent
-    st.markdown("</div>", unsafe_allow_html=True)  # Close names with search results indent
+        st.markdown(f"<p class='compact'>- Org Name: {item.get('org_name', '')}</p>", unsafe_allow_html=True)
+        st.markdown(f"<p class='compact'>  Unique ID: {item.get('unique_id', '')}</p>", unsafe_allow_html=True)
+        st.markdown(f"<p class='compact'>  Dataset: {item.get('dataset', '')}</p>", unsafe_allow_html=True)
+        st.markdown(f"<p class='compact'>  Postcode: {item.get('postcode', '')}</p>", unsafe_allow_html=True)
+        st.markdown("</div>", unsafe_allow_html=True)
+    st.markdown("</div>", unsafe_allow_html=True)
 
     # Radio buttons for labeling
     label_options = ["Not Labeled", "True", "False"]
@@ -111,12 +106,12 @@ def render_entry(entry, index):
     if label == "Not Labeled":
         st.session_state.labels[index] = None
     else:
-        st.session_state.labels[index] = label == "True"
+        st.session_state.labels[index] = (label == "True")
 
     # Save progress after each change
     save_progress()
 
-    st.markdown("</div>", unsafe_allow_html=True)  # Close the entry div
+    st.markdown("</div>", unsafe_allow_html=True)
 
 # Main loop to display entries
 for i, entry in enumerate(data):
