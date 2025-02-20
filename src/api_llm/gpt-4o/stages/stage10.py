@@ -41,7 +41,7 @@ def stage10_refine_groups_with_llm(formatted_groups, web_search_results, unique_
         candidate_names = list(candidate_names_set)
         
         if not candidate_names:
-            logger.info(f"Skipping group {group_id} due to no candidate names found.")
+            logger.info(f"Skipping group {rep_name} due to no candidate names found.")
             continue
         
         # Build web search results context for each candidate name
@@ -67,7 +67,7 @@ def stage10_refine_groups_with_llm(formatted_groups, web_search_results, unique_
 The chosen representative name is "{rep_name}".
 All are determined to be a/an {organisation_type}.
 Based on the web search results below, please select the names that truly belong to the same organization as "{rep_name}", 
-and output them as a JSON array in lowercase. Exclude any ambiguous names.
+and output them as a JSON array in lowercase. Exclude any ambiguous names. No extra text, just JSON array (e.g. ["acme corp", "acme inc"]).
 Web search results:
 {web_results_str}
 """
@@ -81,10 +81,10 @@ Web search results:
             response = result.generation.content.strip()
             refined_names = json.loads(response) if response else []
             if not isinstance(refined_names, list):
-                logger.warning(f"LLM response is not a list for group {group_id}. Response: {response}")
+                logger.warning(f"LLM response is not a list for group {rep_name}. Response: {response}")
                 refined_names = []
         except Exception as e:
-            logger.error(f"Error processing group {group_id} with LLM: {e}")
+            logger.error(f"Error processing group {rep_name} with LLM: {e}")
             refined_names = []
         
         # Ensure the representative name is included
@@ -105,6 +105,6 @@ Web search results:
                 "items": items_for_group
             }
         else:
-            logger.info(f"Skipping group {group_id} due to insufficient items after LLM refinement.")
+            logger.info(f"Skipping group {rep_name} due to insufficient items after LLM refinement.")
     logger.info(f"Refined groups count: {len(refined_results)}")
     return refined_results
