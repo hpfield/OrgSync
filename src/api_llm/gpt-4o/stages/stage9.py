@@ -2,7 +2,7 @@ import json
 import logging
 import uuid
 from tqdm import tqdm
-from stages.utils import UserMessage, SystemMessage, get_generator
+from stages.utils import UserMessage, SystemMessage, get_client
 
 logger = logging.getLogger(__name__)
 
@@ -16,7 +16,7 @@ def stage9_finalize_groups(groups_with_types, web_search_results, all_names_and_
     Groups with one or no items after removal are skipped.
     Note: The redundant storage of group names is removed.
     """
-    generator = get_generator()
+    client = get_client()
     final_results = {}
     logger.info("Finalizing groups to produce the formatted groups with group UUIDs...")
 
@@ -53,7 +53,7 @@ def stage9_finalize_groups(groups_with_types, web_search_results, all_names_and_
                 continue
 
             # Use the candidate names to choose a representative name via LLM
-            representative_name = pick_representative_name_llm(candidate_names, organisation_type, web_search_results, generator)
+            representative_name = pick_representative_name_llm(candidate_names, organisation_type, web_search_results, client)
 
             # Build the items for this group by looking up from our preprocessed database.
             items_for_this_group = []
@@ -75,7 +75,7 @@ def stage9_finalize_groups(groups_with_types, web_search_results, all_names_and_
     logger.info(f"Produced formatted groups with {len(final_results)} groups.")
     return final_results
 
-def pick_representative_name_llm(candidate_names, organisation_type, web_search_results, generator):
+def pick_representative_name_llm(candidate_names, organisation_type, web_search_results, client):
     system_message = SystemMessage(content=(
         "You are an AI assistant that chooses the best representative name for a group "
         "of organisation names, given their organisation type and any web search results."
@@ -107,10 +107,19 @@ Only output the name itself, with no additional formatting.
 """
     user_message = UserMessage(content=prompt)
     chat_history = [system_message, user_message]
-    result = generator.chat_completion(
-        chat_history, max_gen_len=None, temperature=0.0, top_p=0.9
+    completion = client.chat.completions.create(
+        model="gpt-4o",
+        messages=chat_history
     )
-    best_name = result.generation.content.strip()
+
+    best_name = completion.choices[0].message
     if not best_name:
         best_name = candidate_names[0].lower()
     return best_name
+    # result = client.chat_completion(
+    #     chat_history, max_gen_len=None, temperature=0.0, top_p=0.9
+    # )
+    # best_name = result.generation.content.strip()
+    # if not best_name:
+    #     best_name = candidate_names[0].lower()
+    # return best_name

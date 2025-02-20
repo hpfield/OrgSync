@@ -7,13 +7,13 @@ from pathlib import Path
 import yaml
 
 # Edit for using Openai GPT-4o
-# from openai import OpenAI
-# client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+from openai import OpenAI
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-# def get_client():
-#     return client
 def get_client():
-    return None
+    return client
+# def get_client():
+#     return None
 
 logger = logging.getLogger(__name__)
 
