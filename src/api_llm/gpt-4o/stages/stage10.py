@@ -1,7 +1,7 @@
 import json
 import logging
 from tqdm import tqdm
-from stages.utils import UserMessage, SystemMessage, get_generator
+from stages.utils import UserMessage, SystemMessage, get_client
 
 logger = logging.getLogger(__name__)
 
@@ -13,7 +13,7 @@ def stage10_refine_groups_with_llm(formatted_groups, web_search_results, unique_
     Returns refined groups in the final output format, reusing the same UUID as stage 9:
       { group_UUID: { "name": representative_name, "items": refined_items } }.
     """
-    generator = get_generator()
+    client = get_client()
     refined_results = {}
     
     # Build lookup for unique entries by lower-case combined_name
@@ -77,8 +77,13 @@ Web search results:
         user_message = UserMessage(content=prompt)
         chat_history = [system_message, user_message]
         try:
-            result = generator.chat_completion(chat_history, max_gen_len=None, temperature=0.0, top_p=0.9)
-            response = result.generation.content.strip()
+            # result = client.chat_completion(chat_history, max_gen_len=None, temperature=0.0, top_p=0.9)
+            # response = result.generation.content.strip()
+            result = client.chat.completions.create(
+                model="gpt-4o",
+                messages=chat_history
+            )
+            response = result.choices[0].message
             refined_names = json.loads(response) if response else []
             if not isinstance(refined_names, list):
                 logger.warning(f"LLM response is not a list for group {rep_name}. Response: {response}")

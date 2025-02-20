@@ -1,12 +1,13 @@
 import json
 import logging
 from tqdm import tqdm
-from stages.utils import UserMessage, SystemMessage, get_generator
+from stages.utils import UserMessage, SystemMessage, get_client
 
 logger = logging.getLogger(__name__)
 
 def stage8_determine_organisation_type(merged_groups, web_search_results):
-    generator = get_generator()
+    # generator = get_generator()
+    client = get_client()
     groups_with_types = []
     logger.info("Determining organisation types for groups...")
 
@@ -14,7 +15,7 @@ def stage8_determine_organisation_type(merged_groups, web_search_results):
         for group_names in merged_groups:
             pbar.update(1)
             group_search_results = {name: web_search_results.get(name, []) for name in group_names}
-            response = determine_organisation_type_with_llm(group_names, group_search_results, generator)
+            response = determine_organisation_type_with_llm(group_names, group_search_results, client)
             try:
                 result = json.loads(response)
                 organisation_type = result.get('organisation_type', '')
@@ -33,7 +34,7 @@ def stage8_determine_organisation_type(merged_groups, web_search_results):
     logger.info(f"Completed organisation type detection for {len(groups_with_types)} groups.")
     return groups_with_types
 
-def determine_organisation_type_with_llm(group_names, group_search_results, generator):
+def determine_organisation_type_with_llm(group_names, group_search_results, client):
     system_message = SystemMessage(
         content=(
             "You are an AI assistant that helps identify the type of organisation "
@@ -72,5 +73,12 @@ Output JSON of the form:
     user_message = UserMessage(content=prompt)
     chat_history = [system_message, user_message]
 
-    result = generator.chat_completion(chat_history, max_gen_len=None, temperature=0.0, top_p=0.9)
-    return result.generation.content.strip()
+    completion = client.chat.completions.create(
+        model="gpt-4o",
+        messages=chat_history
+    )
+
+    return completion.choices[0].message
+
+    # result = client.chat_completion(chat_history, max_gen_len=None, temperature=0.0, top_p=0.9)
+    # return result.generation.content.strip()

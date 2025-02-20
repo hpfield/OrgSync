@@ -2,7 +2,10 @@ import streamlit as st
 import json
 import os
 
-# Custom CSS to adjust line spacing and indentation
+# Set page configuration for a wide layout
+st.set_page_config(page_title="Labeling App", layout="wide")
+
+# Custom CSS to adjust line spacing, indentation, and widen content
 st.markdown("""
     <style>
     /* Reduce the line height */
@@ -25,12 +28,18 @@ st.markdown("""
         margin-bottom: 5px;
         margin-top: 10px;
     }
+    /* Force container to use full width */
+    .stApp {
+        max-width: 100%;
+        padding: 1rem;
+    }
     </style>
 """, unsafe_allow_html=True)
 
 # File paths
 DATA_FILE = "outputs/output_groups.json"
 SAVE_FILE = "outputs/human_labelled_data.json"
+WEB_RESULTS_FILE = "outputs/web_search_results_stage5.json"
 
 # Load the original JSON data from the new file format (dictionary keyed by group IDs)
 with open(DATA_FILE, "r") as file:
@@ -43,12 +52,22 @@ for group_id, group in data_dict.items():
     entry["group_id"] = group_id
     data.append(entry)
 
-# Load previously saved labels if they exist, else create new entries with a label field
-if os.path.exists(SAVE_FILE):
-    with open(SAVE_FILE, "r") as file:
-        labeled_data = json.load(file)
+# Load previously saved labels if they exist and are valid JSON; otherwise, create a new list
+if os.path.exists(SAVE_FILE) and os.path.getsize(SAVE_FILE) > 0:
+    try:
+        with open(SAVE_FILE, "r") as file:
+            labeled_data = json.load(file)
+    except json.JSONDecodeError:
+        labeled_data = [{**entry, "label": None} for entry in data]
 else:
     labeled_data = [{**entry, "label": None} for entry in data]
+
+# Load web search results if available; otherwise, use an empty dictionary
+if os.path.exists(WEB_RESULTS_FILE) and os.path.getsize(WEB_RESULTS_FILE) > 0:
+    with open(WEB_RESULTS_FILE, "r") as file:
+        web_search_results = json.load(file)
+else:
+    web_search_results = {}
 
 # Persistent state for labels
 if "labels" not in st.session_state:
@@ -61,31 +80,61 @@ def save_progress():
     with open(SAVE_FILE, "w") as file:
         json.dump(labeled_data, file, indent=2)
 
-# Function to render each entry
+# Function to render each entry with multi-column layout for candidate metadata and web search results
 def render_entry(entry, index):
     st.markdown(f"<div class='entry'>", unsafe_allow_html=True)
 
-    # Entry header with group ID
+    # Entry header with group ID and representative name
     st.markdown(f"<h3>Entry {index + 1} (Group ID: {entry['group_id']})</h3>", unsafe_allow_html=True)
-
-    # Representative Name header
     st.markdown(f"<h4 class='names-header compact'>Representative Name: {entry['name']}</h4>", unsafe_allow_html=True)
 
-    # Display number of items
-    num_items = len(entry.get("items", []))
-    st.markdown(f"<p class='compact'><strong>Number of Items:</strong> {num_items}</p>", unsafe_allow_html=True)
-
-    # List out each item in the group
-    st.markdown("<div class='indent'>", unsafe_allow_html=True)
-    st.markdown("<p class='compact'><strong>Items:</strong></p>", unsafe_allow_html=True)
+    # Group items by candidate org_name
+    candidate_items = {}
     for item in entry.get("items", []):
+        org_name = item.get('org_name', '')
+        candidate_items.setdefault(org_name, []).append(item)
+    candidate_names = sorted(candidate_items.keys())
+
+    # Create two columns: left for candidate metadata and right for web search results
+    cols = st.columns(2)
+    
+    # Left column: Candidate names and metadata
+    with cols[0]:
         st.markdown("<div class='indent'>", unsafe_allow_html=True)
-        st.markdown(f"<p class='compact'>- Org Name: {item.get('org_name', '')}</p>", unsafe_allow_html=True)
-        st.markdown(f"<p class='compact'>  Unique ID: {item.get('unique_id', '')}</p>", unsafe_allow_html=True)
-        st.markdown(f"<p class='compact'>  Dataset: {item.get('dataset', '')}</p>", unsafe_allow_html=True)
-        st.markdown(f"<p class='compact'>  Postcode: {item.get('postcode', '')}</p>", unsafe_allow_html=True)
+        st.markdown("<p class='compact'><strong>Candidate Names & Metadata:</strong></p>", unsafe_allow_html=True)
+        for candidate in candidate_names:
+            st.markdown(f"<p class='compact'><b>{candidate}</b></p>", unsafe_allow_html=True)
+            for item in candidate_items[candidate]:
+                st.markdown("<div class='indent'>", unsafe_allow_html=True)
+                st.markdown(f"<p class='compact'>- Unique ID: {item.get('unique_id', '')}</p>", unsafe_allow_html=True)
+                st.markdown(f"<p class='compact'>  Dataset: {item.get('dataset', '')}</p>", unsafe_allow_html=True)
+                st.markdown(f"<p class='compact'>  Postcode: {item.get('postcode', '')}</p>", unsafe_allow_html=True)
+                st.markdown("</div>", unsafe_allow_html=True)
         st.markdown("</div>", unsafe_allow_html=True)
-    st.markdown("</div>", unsafe_allow_html=True)
+
+    # Right column: Web search results for each candidate name
+    with cols[1]:
+        st.markdown("<div class='indent'>", unsafe_allow_html=True)
+        st.markdown("<p class='compact'><strong>Web Search Results:</strong></p>", unsafe_allow_html=True)
+        for candidate in candidate_names:
+            st.markdown(f"<p class='compact'><b>{candidate}</b></p>", unsafe_allow_html=True)
+            results = web_search_results.get(candidate.lower(), [])
+            if results:
+                for result in results:
+                    st.markdown("<div class='indent'>", unsafe_allow_html=True)
+                    st.markdown(
+                        f"<p class='compact'>- <strong>Title:</strong> <a href='{result.get('url', '')}' target='_blank'>{result.get('title', '')}</a></p>",
+                        unsafe_allow_html=True
+                    )
+                    st.markdown(
+                        f"<p class='compact'><strong>URL:</strong> <a href='{result.get('url', '')}' target='_blank'>{result.get('url', '')}</a></p>",
+                        unsafe_allow_html=True
+                    )
+                    st.markdown(f"<p class='compact'><strong>Description:</strong> {result.get('description', '')}</p>", unsafe_allow_html=True)
+                    st.markdown("</div>", unsafe_allow_html=True)
+            else:
+                st.markdown(f"<p class='compact'>No web search results for {candidate}</p>", unsafe_allow_html=True)
+        st.markdown("</div>", unsafe_allow_html=True)
 
     # Radio buttons for labeling
     label_options = ["Not Labeled", "True", "False"]

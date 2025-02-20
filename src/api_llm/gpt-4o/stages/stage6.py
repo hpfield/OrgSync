@@ -22,9 +22,9 @@ def stage6_process_groups_with_llm(grouped_names, web_search_results):
       refined_groups[unique_name] = [list_of_selected_names]
     """
     
-    # client = get_client()
+    client = get_client()
 
-    client = get_generator()
+    # client = get_generator()
     refined_groups = {}
     num_groups = len(grouped_names)
 
@@ -135,13 +135,13 @@ No extra text, just JSON array (e.g. ["acme corp", "acme inc"])."""
     user_message = UserMessage(content=prompt)
     chat_history = [system_message, user_message]
 
-    # completion = client.chat.completions.create(
-    #     model="gpt-4o",
-    #     messages=chat_history
-    # )
+    completion = client.chat.completions.create(
+        model="gpt-4o",
+        messages=chat_history
+    )
 
-    # return completion.choices[0].message
+    return completion.choices[0].message
 
-    result = client.chat_completion(chat_history, max_gen_len=None, temperature=0.0, top_p=0.9)
-    return result.generation.content.strip()
+    # result = client.chat_completion(chat_history, max_gen_len=None, temperature=0.0, top_p=0.9)
+    # return result.generation.content.strip()
     
