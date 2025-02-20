@@ -1,29 +1,25 @@
 import json
 import logging
 from tqdm import tqdm
-from stages.utils import UserMessage, SystemMessage, get_generator
+from pydantic import BaseModel
+from stages.utils import UserMessage, SystemMessage, get_client
 
 logger = logging.getLogger(__name__)
 
+class CapitalisedNameResponse(BaseModel):
+    capitalised_name: str
+
 def stage11_capitalize_group_names(groups, web_search_results):
-    """
-    Applies appropriate capitalisation to the representative names of groups using LLM.
-    Only the overall group name is changed; the items remain unmodified.
-    The final output will have the format: { group_UUID: { "name": <capitalised_name>, "items": [...] } }
-    
-    The LLM is provided with web search results context to help determine proper capitalisation.
-    It is highly unlikely that the company name should be in all caps, and any full caps from Companies House
-    should be ignored. The LLM should not change the spelling of the representative name, only provide the correct
-    capitalisation.
-    """
-    generator = get_generator()
+    client = get_client()
     capitalised_groups = {}
     logger.info("Applying capitalisation to group names via LLM...")
+    logging.getLogger("openai").setLevel(logging.ERROR)
+    logging.getLogger("httpx").setLevel(logging.ERROR)
 
     for group_id, group_info in tqdm(groups.items(), desc="Capitalising group names"):
         current_name = group_info["name"]
 
-        # Gather web search results context for the current representative name
+        # Gather web search results context for the current representative name.
         web_results = web_search_results.get(current_name.lower(), [])
         web_context = ""
         if web_results:
@@ -46,15 +42,21 @@ Note:
 - Ignore any instances of full caps as provided by Companies House.
 - Do not change the spelling of the representative name; only adjust the capitalisation.
 
-Output only the correctly capitalised name, with no additional text."""
-        
-        system_message = SystemMessage(content="You are an AI assistant that only corrects the capitalisation of organization names based on provided context, without changing the spelling.")
-        user_message = UserMessage(content=prompt)
-        chat_history = [system_message, user_message]
+Output the result as JSON in the format: {{"capitalised_name": "Proper Capitalisation"}} with no additional text.
+"""
+        system_message = "You are an AI assistant that only corrects the capitalisation of organization names based on provided context, without changing the spelling."
+        chat_history = [
+            {"role": "system", "content": system_message},
+            {"role": "user", "content": prompt}
+        ]
         
         try:
-            result = generator.chat_completion(chat_history, max_gen_len=50, temperature=0.0, top_p=0.9)
-            capitalised_name = result.generation.content.strip()
+            result = client.beta.chat.completions.parse(
+                model="gpt-4o",
+                messages=chat_history,
+                response_format=CapitalisedNameResponse,
+            )
+            capitalised_name = result.choices[0].message.parsed.capitalised_name
             if not capitalised_name:
                 capitalised_name = current_name
         except Exception as e:

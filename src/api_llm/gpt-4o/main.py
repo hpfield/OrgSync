@@ -5,6 +5,7 @@ import pickle
 import json
 import logging
 from datetime import datetime
+import asyncio
 
 # Import stage functions
 from stages.stage0 import stage0_check_new_data
@@ -226,6 +227,7 @@ def main():
             with open(os.path.join(output_dir, 'web_search_results_stage5.json'), 'r') as f:
                 method_sub_db = json.load(f)
 
+        # refined_groups = asyncio.run(stage6_process_groups_with_llm(grouped_names, method_sub_db))
         refined_groups = stage6_process_groups_with_llm(grouped_names, method_sub_db)
         with open(refined_groups_out, 'w') as f:
             json.dump(refined_groups, f, indent=2)

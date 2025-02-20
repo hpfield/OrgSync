@@ -1,0 +1,14 @@
+2025-02-20 16:08:51,842 - ERROR - Processing group 'durham heritage coast' raised an exception: list index out of range
+Traceback (most recent call last):
+  File "/home/ubuntu/OrgSync/src/api_llm/gpt-4o/stages/stage6.py", line 45, in stage6_process_groups_with_llm
+    unique_name, response = process_group_with_llm(unique_name, matched_names_list, group_search_results, client)
+  File "/home/ubuntu/OrgSync/src/api_llm/gpt-4o/stages/stage6.py", line 140, in process_group_with_llm
+    response = message.split('```json')[1].split('```')[0].strip()
+IndexError: list index out of range
+2025-02-20 16:08:53,036 - ERROR - Processing group 'gs growers nursery ltd' raised an exception: list index out of range
+Traceback (most recent call last):
+  File "/home/ubuntu/OrgSync/src/api_llm/gpt-4o/stages/stage6.py", line 45, in stage6_process_groups_with_llm
+    unique_name, response = process_group_with_llm(unique_name, matched_names_list, group_search_results, client)
+  File "/home/ubuntu/OrgSync/src/api_llm/gpt-4o/stages/stage6.py", line 140, in process_group_with_llm
+    response = message.split('```json')[1].split('```')[0].strip()
+IndexError: list index out of range

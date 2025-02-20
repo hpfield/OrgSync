@@ -5,6 +5,10 @@ import random
 import logging
 from pathlib import Path
 import yaml
+from pydantic import BaseModel
+
+class GroupResponse(BaseModel):
+    selected_names: list[str]
 
 # Edit for using Openai GPT-4o
 from openai import OpenAI

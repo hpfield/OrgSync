@@ -1,0 +1,28 @@
+2025-02-20 16:04:55,036 - ERROR - Unexpected error processing group 'siemens mobility limited': the JSON object must be str, bytes or bytearray, not ChatCompletionMessage
+Traceback (most recent call last):
+  File "/home/ubuntu/OrgSync/src/api_llm/gpt-4o/stages/stage6.py", line 54, in stage6_process_groups_with_llm
+    parsed_response = json.loads(response)
+  File "/home/ubuntu/miniforge3/envs/orgsync/lib/python3.10/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not ChatCompletionMessage
+2025-02-20 16:04:55,789 - ERROR - Unexpected error processing group 'durham heritage coast': the JSON object must be str, bytes or bytearray, not ChatCompletionMessage
+Traceback (most recent call last):
+  File "/home/ubuntu/OrgSync/src/api_llm/gpt-4o/stages/stage6.py", line 54, in stage6_process_groups_with_llm
+    parsed_response = json.loads(response)
+  File "/home/ubuntu/miniforge3/envs/orgsync/lib/python3.10/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not ChatCompletionMessage
+2025-02-20 16:04:56,349 - ERROR - Unexpected error processing group 'gs growers nursery ltd': the JSON object must be str, bytes or bytearray, not ChatCompletionMessage
+Traceback (most recent call last):
+  File "/home/ubuntu/OrgSync/src/api_llm/gpt-4o/stages/stage6.py", line 54, in stage6_process_groups_with_llm
+    parsed_response = json.loads(response)
+  File "/home/ubuntu/miniforge3/envs/orgsync/lib/python3.10/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not ChatCompletionMessage
+2025-02-20 16:04:57,085 - ERROR - Unexpected error processing group 'national physical laboratory new delhi india': the JSON object must be str, bytes or bytearray, not ChatCompletionMessage
+Traceback (most recent call last):
+  File "/home/ubuntu/OrgSync/src/api_llm/gpt-4o/stages/stage6.py", line 54, in stage6_process_groups_with_llm
+    parsed_response = json.loads(response)
+  File "/home/ubuntu/miniforge3/envs/orgsync/lib/python3.10/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not ChatCompletionMessage

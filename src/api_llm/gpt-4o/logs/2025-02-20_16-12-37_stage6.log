@@ -1,0 +1,21 @@
+2025-02-20 16:12:39,848 - ERROR - Unexpected error processing group 'siemens mobility limited': the JSON object must be str, bytes or bytearray, not GroupResponse
+Traceback (most recent call last):
+  File "/home/ubuntu/OrgSync/src/api_llm/gpt-4o/stages/stage6.py", line 58, in stage6_process_groups_with_llm
+    parsed_response = json.loads(response)
+  File "/home/ubuntu/miniforge3/envs/orgsync/lib/python3.10/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not GroupResponse
+2025-02-20 16:12:40,879 - ERROR - Unexpected error processing group 'durham heritage coast': the JSON object must be str, bytes or bytearray, not GroupResponse
+Traceback (most recent call last):
+  File "/home/ubuntu/OrgSync/src/api_llm/gpt-4o/stages/stage6.py", line 58, in stage6_process_groups_with_llm
+    parsed_response = json.loads(response)
+  File "/home/ubuntu/miniforge3/envs/orgsync/lib/python3.10/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not GroupResponse
+2025-02-20 16:12:41,979 - ERROR - Unexpected error processing group 'gs growers nursery ltd': the JSON object must be str, bytes or bytearray, not GroupResponse
+Traceback (most recent call last):
+  File "/home/ubuntu/OrgSync/src/api_llm/gpt-4o/stages/stage6.py", line 58, in stage6_process_groups_with_llm
+    parsed_response = json.loads(response)
+  File "/home/ubuntu/miniforge3/envs/orgsync/lib/python3.10/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not GroupResponse
