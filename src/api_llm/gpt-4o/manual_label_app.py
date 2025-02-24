@@ -37,7 +37,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # File paths
-DATA_FILE = "outputs/output_groups.json"
+DATA_FILE = "outputs/final_groups_stage11.json" # "outputs/output_groups.json"
 SAVE_FILE = "outputs/human_labelled_data.json"
 WEB_RESULTS_FILE = "outputs/web_search_results_stage5.json"
 
@@ -69,23 +69,30 @@ if os.path.exists(WEB_RESULTS_FILE) and os.path.getsize(WEB_RESULTS_FILE) > 0:
 else:
     web_search_results = {}
 
-# Persistent state for labels
+# Initialize session state for labels if not present
 if "labels" not in st.session_state:
     st.session_state.labels = [entry["label"] for entry in labeled_data]
 
-# Function to save progress
-def save_progress():
-    for i, label in enumerate(st.session_state.labels):
-        labeled_data[i]["label"] = label
+# Initialize session state for pagination
+if "page" not in st.session_state:
+    st.session_state.page = 0
+
+chunk_size = 50
+start_index = st.session_state.page * chunk_size
+end_index = start_index + chunk_size
+current_data = data[start_index:end_index]
+
+def save_current_chunk():
+    # Update labels only for the current chunk and save the entire labeled_data
+    for i in range(start_index, min(end_index, len(st.session_state.labels))):
+        labeled_data[i]["label"] = st.session_state.labels[i]
     with open(SAVE_FILE, "w") as file:
         json.dump(labeled_data, file, indent=2)
+    st.success("Current chunk saved!")
 
-# Function to render each entry with multi-column layout for candidate metadata and web search results
-def render_entry(entry, index):
-    st.markdown(f"<div class='entry'>", unsafe_allow_html=True)
-
-    # Entry header with group ID and representative name
-    st.markdown(f"<h3>Entry {index + 1} (Group ID: {entry['group_id']})</h3>", unsafe_allow_html=True)
+def render_entry(entry, global_index):
+    st.markdown("<div class='entry'>", unsafe_allow_html=True)
+    st.markdown(f"<h3>Entry {global_index + 1} (Group ID: {entry['group_id']})</h3>", unsafe_allow_html=True)
     st.markdown(f"<h4 class='names-header compact'>Representative Name: {entry['name']}</h4>", unsafe_allow_html=True)
 
     # Group items by candidate org_name
@@ -98,7 +105,6 @@ def render_entry(entry, index):
     # Create two columns: left for candidate metadata and right for web search results
     cols = st.columns(2)
     
-    # Left column: Candidate names and metadata
     with cols[0]:
         st.markdown("<div class='indent'>", unsafe_allow_html=True)
         st.markdown("<p class='compact'><strong>Candidate Names & Metadata:</strong></p>", unsafe_allow_html=True)
@@ -112,7 +118,6 @@ def render_entry(entry, index):
                 st.markdown("</div>", unsafe_allow_html=True)
         st.markdown("</div>", unsafe_allow_html=True)
 
-    # Right column: Web search results for each candidate name
     with cols[1]:
         st.markdown("<div class='indent'>", unsafe_allow_html=True)
         st.markdown("<p class='compact'><strong>Web Search Results:</strong></p>", unsafe_allow_html=True)
@@ -139,31 +144,43 @@ def render_entry(entry, index):
     # Radio buttons for labeling
     label_options = ["Not Labeled", "True", "False"]
     label_index = 0
-    if st.session_state.labels[index] is True:
+    if st.session_state.labels[global_index] is True:
         label_index = 1
-    elif st.session_state.labels[index] is False:
+    elif st.session_state.labels[global_index] is False:
         label_index = 2
 
     label = st.radio(
-        f"Label Entry {index + 1}",
+        f"Label Entry {global_index + 1}",
         label_options,
         index=label_index,
-        key=f"label_{index}",
+        key=f"label_{global_index}",
     )
 
     # Update the label in session state
     if label == "Not Labeled":
-        st.session_state.labels[index] = None
+        st.session_state.labels[global_index] = None
     else:
-        st.session_state.labels[index] = (label == "True")
-
-    # Save progress after each change
-    save_progress()
+        st.session_state.labels[global_index] = (label == "True")
 
     st.markdown("</div>", unsafe_allow_html=True)
 
-# Main loop to display entries
-for i, entry in enumerate(data):
-    render_entry(entry, i)
+# Render only the current chunk (50 entries)
+for i, entry in enumerate(current_data):
+    global_index = start_index + i
+    render_entry(entry, global_index)
 
-st.success("Your progress is saved automatically. You can close the app and return later to pick up where you left off.")
+st.markdown("---")
+# Button to save the current chunk's labels
+if st.button("Save Current Chunk"):
+    save_current_chunk()
+
+# Navigation buttons for pagination
+col1, col2, col3 = st.columns(3)
+if col1.button("Previous 50"):
+    if st.session_state.page > 0:
+        st.session_state.page -= 1
+if col3.button("Next 50"):
+    if end_index < len(data):
+        st.session_state.page += 1
+
+st.success("Changes are saved when you click the save button. Use the navigation buttons to load more datapoints.")
