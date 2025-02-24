@@ -1,0 +1,7 @@
+2025-02-20 17:45:21,857 - INFO - Refined groups to 3944 groups after LLM processing.
+2025-02-20 17:45:21,870 - INFO - Stage 6 complete.
+2025-02-20 17:45:21,874 - INFO - Combining overlapping groups...
+2025-02-20 17:45:23,076 - INFO - Number of combined groups: 3944
+2025-02-20 17:45:23,084 - INFO - Stage 7 complete.
+2025-02-20 17:45:23,130 - INFO - Determining organisation types for groups...
+2025-02-20 17:45:23,130 - INFO - lenght of merged_groups: 3944

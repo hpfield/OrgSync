@@ -44,24 +44,26 @@ def stage9_finalize_groups(groups_with_types, web_search_results, all_names_and_
             if not candidate_names:
                 continue
 
-            representative_name = pick_representative_name_llm(candidate_names, organisation_type, web_search_results, client)
-
+            # Build items list from candidate names and check group size before LLM processing
             items_for_this_group = []
             for name in candidate_names:
                 normalized_name = name.lower()
                 if normalized_name in names_lookup:
                     items_for_this_group.extend(names_lookup[normalized_name])
-            if len(items_for_this_group) > 1:
-                group_uuid = str(uuid.uuid4())
-                final_results[group_uuid] = {
-                    "name": representative_name,
-                    "items": items_for_this_group,
-                    "organisation_type": organisation_type
-                }
-            else:
+            if len(items_for_this_group) <= 1:
                 logger.info(
-                    f"Skipping group '{representative_name}' due to insufficient items (found {len(items_for_this_group)})."
+                    f"Skipping group with candidate names {candidate_names} due to insufficient items (found {len(items_for_this_group)})."
                 )
+                continue
+
+            # Only call the LLM if the group has enough items.
+            representative_name = pick_representative_name_llm(candidate_names, organisation_type, web_search_results, client)
+            group_uuid = str(uuid.uuid4())
+            final_results[group_uuid] = {
+                "name": representative_name,
+                "items": items_for_this_group,
+                "organisation_type": organisation_type
+            }
     logger.info(f"Produced formatted groups with {len(final_results)} groups.")
     return final_results
 
