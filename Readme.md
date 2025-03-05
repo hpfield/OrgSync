@@ -6,11 +6,28 @@ In a database of academic publications, we must resolve situations where the sam
 ![orgsync drawio](https://github.com/user-attachments/assets/14e55f07-2c33-4c86-bfbd-8d623611db94)
 
 
-We conduct micro-labelling sessions as we progress to account for the absence of labelled data. We do this to obtain some metric of success beyond anecdotal experiences reading model outputs.
+We manually label the pipeline output groups (multiple database entries that refer to the same organisation) to obtain a Precision score. Our final implementation uses OpenAI's GPT-4o and obtains a precision of 0.94. With this score, we generate a complete set of labels over the entire dataset for integration with UKTIN's research discovery tool.
+
+## Limitations of Current Approach & Proposed Improvements
+
+1. **Web Search**
+    - **Current Limitation**: We rely on a DuckDuckGo-based utility for fetching context on organisation names. It is free to use, but rate-limited and often returns empty or incomplete results. This can result in insufficient context for the language model to make accurate grouping decisions.
+    - **Proposed Improvement**: Adopt a paid Google Search API to retrieve richer, more complete information. This would help the pipeline better differentiate between organisations, catch synonyms or expansions for acronyms, and improve overall grouping accuracy.
+2. **Initial Group Offerings**
+    - **Current Limitation**: We use an off-the-shelf embeddings model to create initial groupings based purely on semantic similarity. This often misses organisations frequently listed under acronyms or those composed of multiple child entities with different names. We adopted this approach due to limited accessible data sources (e.g., we could not reliably use advanced linking solutions such as [moj-analytical-services/splink](https://github.com/moj-analytical-services/splink)).
+    - **Proposed Improvement**: Incorporate additional data sources capable of linking organisations more concretely (e.g., authoritative registry or knowledge-graph data). With better external data, we could establish stronger, more meaningful connections between references and significantly increase recall.
+3. **Group Refinement**
+    - **Current Limitation**: The LLM-based refinement stage is a proof-of-concept that favors _precision_ over _recall_. When multiple valid entities appear in a single candidate group, the pipeline currently forces the removal of all but the single “best-fit” organisation. While this boosts precision, it can leave many organisations unlabelled.
+    - **Proposed Improvement**: Add a _group-splitting_ component to the pipeline that handles multi-entity clusters more gracefully. Instead of discarding extra members, we should split them off, preserving potentially valid sub-groupings that represent distinct organisations.
+4. **Determining a Group’s Representative Name**
+    - **Current Limitation**: The final (representative) name for a group is chosen by asking an LLM to pick the best fit. This can be inefficient, and relies on the LLM’s reasoning over multiple names.
+    - **Proposed Improvement**: Embed all names in a group and select the one with the highest average similarity to the rest. This data-driven approach can speed up the final naming step and reduce potential LLM inaccuracies.
 
 ## Repo Setup 
 
-Clone this repo.
+```
+git clone https://github.com/hpfield/OrgSync.git
+```
 
 ### Setup environment
 
@@ -19,30 +36,43 @@ conda create -f orgsync.yml
 conda activate orgsync
 ```
 
-### Download data
+### Setup Data
+Either:
+#### Update Data (For UKTIN Employee & Online Deployment)
+Conduct scraping of data from data sources and deposit files in `data/raw/all_scraped` so that `setup.py` can find the following files:
+```
+cordis_files = [
+    "cordis/FP7/organization.json",
+    "cordis/Horizon 2020/organization.json",
+    "cordis/Horizon Europe/organization.json",
+]
+gtr_file = "gtr/organisations.json"
+```
 
-Download the data from [google drive](https://drive.google.com/file/d/19sb1UXM6v9p0s617t5LD9rOfjLMYbqpM/view?usp=drive_link) and save the tar file to the repo root.
+Or...
 
-### Extract the data:
+#### Download & Extract test data (Not for deployment)
+Download test data from [google drive](https://drive.google.com/file/d/19sb1UXM6v9p0s617t5LD9rOfjLMYbqpM/view?usp=drive_link) and save the tar file to the repo root.
 
+Extract the data:
 ```
 tar -xzvf data.tar.gz
 ```
 
 ### Prepare data
-For full combined Cordis and GtR organisations data (~60k records)
+For full combined Cordis and GtR organisations data
 ```
 python setup.py
 ```
 
-For Cordis only (~5k records)
+For Cordis only (~5k records for testing)
 ```
 python setup.py --cordis_only
 ```
 
 ## Quick Grab Results
 
-The repo data includes all experiment results to date, and so running the code yourself isn't necessary to view the labelled data. The final output is stored at `src/local_llm/llama_v3/outputs/final_groups_stage8.json`, the same output with associated web search results can be found at `src/local_llm/llama_v3/outputs/final_output_with_context.json`.
+The repo data includes all experiment results to date, and so running the code yourself isn't necessary to view the labelled data. The final output is stored at `src/api_llm/gpt-4o/outputs/output_groups.json`.
 
 ## Run Pipeline
 
@@ -65,35 +95,12 @@ tokenizer_subpath: "llama3/api/tokenizer.model" # relative to models_dir
 ```
 
 ### Latest version
-
+You will need an OpenAI API key to run this code placed into the environemnt with `export OPENAI_API_KEY="YOUR API KEY HERE"`.
 ```
-cd src/local_llm/llama_v3   
+cd src/api_llm/gpt-4o  
 python main.py
 ```
 
 Optionally, you can specify the stage at which to start with `--stage=NUM` where `NUM` can be 1 - 8. This is useful if you've had to stop the process part way through and wish to pick up where you left off.
 
-## Continue Project
 
-The next phase of this project is to continue data labelling of the model outputs and implement changes to the pipeline based on insights drawn from the labelling process.
-
-### Conducting labelling:
-
-We use a browser based labelling tool which automatically saves labels in `src/local_llm/llama_v3/outputs/human_labelled_data.json`. Unlabelled examples will have the "Not Labelled" option checked.
-
-```
-cd src/local_llm/llama_v3   
-streamlit run manual_label_app.py
-```
-
-### Changes to implement
-
-- Developing from `src/local_llm/llama_v3`
-- Obtain 5 web search results per name: 3 often only shows companies house, when additional context is required to distinguish between names.
-- Design alternative web-search options: Can use rate-limited options but over several days, the current option frequently cannot find answers and takes a long time.
-- Reorient pipeline around api-based LLM queries for better results: Historically these have proven to be overly cautious, but web search results context could help with this.
-- Include the gtr data in the pipeline by editing the `setup.py` file to omit the UK country filter on the gtr data: This will increase the dataset size from ~5k to ~60k so omit this for any exploratory research.
-
-### Most recent performance
-
-With 20 of the final outputs labelled in the llama_v3 pipeline, the current strategy results in a precision of 0.7. We cannot calculate other metrics with the current strategy as we are only manually labelling the final outputs with are all positive label predictions in the form of groups. We are labelling the groups as True if we find the names to refer to the same organisation, the group need not be an exhaustive list of all the names that refer to the same organisation.
