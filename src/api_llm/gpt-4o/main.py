@@ -31,7 +31,7 @@ def parse_arguments():
     parser.add_argument('--output-dir', type=str, default='outputs', help='Output directory to save results')
     parser.add_argument('--num-search-results', type=int, default=5,
                         help='Number of web search results to retrieve for each org name')
-    parser.add_argument('--data-mode', type=str, choices=['all', 'new'], default='new',
+    parser.add_argument('--data-mode', type=str, choices=['all', 'new'], default='all',
                         help='Run pipeline over all data or only new data')
     return parser.parse_args()
 
@@ -48,39 +48,47 @@ def setup_logging(stage):
             logging.StreamHandler(sys.stdout)
         ]
     )
+    return timestamp
 
 def main():
     args = parse_arguments()
     stage = args.stage
     input_files = args.input
     output_dir = args.output_dir
-    setup_logging(stage)
+    timestamp = setup_logging(stage)
 
     os.makedirs(output_dir, exist_ok=True)
 
     # -----------
-    # Stage 0: Load data (new vs. all)
+    # Stage 0: Load data
     # -----------
     if stage <= 0:
         repo_root = os.path.abspath(os.path.join(__file__, '../../../..'))
         logging.info(f'Repo root: {repo_root}')
-        if args.data_mode == "new":
-            new_data_path = os.path.join(repo_root, "data", "raw", "uk_data.json")
-            old_data_path = os.path.join(repo_root, "data", "raw", "old_uk_data.json")
-            merged_data_path = os.path.join(repo_root, "data", "raw", "merged_uk_data.json")
-            new_entries_path = os.path.join(repo_root, "data", "raw", "new_entries.json")
-            merged_data = stage0_check_new_data(
-                new_data_path,
-                old_data_path,
-                merged_data_path,
-                new_entries_path
-            )
-        else:  # "all" mode: process all data without filtering new entries
-            data_path = os.path.join(repo_root, "data", "raw", "uk_data.json")
-            with open(data_path, 'r') as f:
-                merged_data = json.load(f)
+        data_dir = os.path.join(repo_root, "data", "raw")
+        new_data_path = os.path.join(repo_root, data_dir, "uk_data.json")
+        old_data_path = os.path.join(repo_root, data_dir, "old_uk_data.json")
+        merged_data_path = os.path.join(repo_root, data_dir, "merged_uk_data.json")
+        new_entries_path = os.path.join(repo_root, data_dir, "new_entries.json")
+        data_history_path = os.path.join(repo_root, data_dir, timestamp)
+        merged_data = stage0_check_new_data(
+            new_data_path,
+            old_data_path,
+            merged_data_path,
+            new_entries_path
+        )
         with open(os.path.join(output_dir, 'stage0_merged_data.pkl'), 'wb') as f:
             pickle.dump(merged_data, f)
+        # Save data history
+        os.makedirs(data_history_path, exist_ok=True)
+        # Copy the old uk data to history log
+        old_data_history_path = os.path.join(data_history_path, f"old_uk_data.json")
+        os.system(f"cp {old_data_path} {old_data_history_path}")
+        # Copy the new uk data to history log
+        new_data_history_path = os.path.join(data_history_path, f"uk_data.json")
+        os.system(f"cp {new_data_path} {new_data_history_path}")
+        # Merged data becomes new old data
+        os.system(f"cp {merged_data_path} {old_data_path}")
         logging.info("Stage 0 complete.")
 
     # ---------------------------
