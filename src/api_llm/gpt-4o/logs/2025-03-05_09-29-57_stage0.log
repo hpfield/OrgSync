@@ -3933,3 +3933,28 @@
 2025-03-05 13:17:41,357 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14258
 2025-03-05 13:17:41,358 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
 2025-03-05 13:17:41,358 - ERROR - Error during web search for 'cap engineering services limited CF31 5BE': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (1/5)...
+2025-03-05 13:18:46,260 - INFO - response: https://html.duckduckgo.com/html 200 21386
+2025-03-05 13:18:47,131 - INFO - response: https://html.duckduckgo.com/html 200 13495
+2025-03-05 13:18:47,926 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6307
+2025-03-05 13:18:48,809 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6221
+2025-03-05 13:18:49,823 - INFO - response: https://lite.duckduckgo.com/lite/ 200 21025
+2025-03-05 13:18:50,877 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6217
+2025-03-05 13:18:51,698 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6253
+2025-03-05 13:18:52,477 - INFO - response: https://html.duckduckgo.com/html 200 9514
+2025-03-05 13:18:53,231 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6235
+2025-03-05 13:18:54,000 - INFO - response: https://html.duckduckgo.com/html 200 9462
+2025-03-05 13:18:54,839 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6315
+2025-03-05 13:18:55,572 - INFO - response: https://html.duckduckgo.com/html 200 9325
+2025-03-05 13:18:56,346 - INFO - response: https://html.duckduckgo.com/html 200 9355
+2025-03-05 13:18:57,284 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6221
+2025-03-05 13:18:58,113 - INFO - response: https://html.duckduckgo.com/html 200 9503
+2025-03-05 13:18:58,918 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6285
+2025-03-05 13:18:59,800 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6299
+2025-03-05 13:19:00,725 - INFO - response: https://lite.duckduckgo.com/lite/ 200 13852
+2025-03-05 13:19:01,869 - INFO - response: https://lite.duckduckgo.com/lite/ 200 20023
+2025-03-05 13:19:02,756 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6317
+2025-03-05 13:19:02,883 - INFO - response: https://html.duckduckgo.com/html 202 14240
+2025-03-05 13:19:02,884 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-03-05 13:19:03,759 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14246
+2025-03-05 13:19:03,760 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-03-05 13:19:03,760 - ERROR - Error during web search for 'urban land institute EC2A 1NT': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (1/5)...

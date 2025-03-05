@@ -59,11 +59,9 @@ Defined in `parse_arguments()` within `main.py`:
 
 Example:
 
-bash
-
-CopyEdit
-
-`python main.py --stage 4 --threshold 0.75 --data-mode=new`
+```
+python main.py --stage 4 --threshold 0.75 --data-mode=new
+```
 
 ---
 
@@ -276,10 +274,33 @@ All paths default to `outputs/`, except for the raw data (which comes from a `da
 
 By the end of Stage 11, the **final** data is stored in a dictionary of group UUIDs, each mapping to an object with `"name"`, `"items"`, and optionally `"organisation_type"`. For example:
 
-json
 
-CopyEdit
-
-`{   "bf5cba29-2dd1-4433-9ec1-b2fc5a6feeb2": {     "name": "Durham University",     "items": [       {         "org_name": "durham university",         "unique_id": "CB6DB8A7-3191-4B03-B37A-1FC98C252089",         "dataset": "gtr",         "postcode": "DH1 3LE"       },       {         "org_name": "durham university",         "unique_id": "50EEF0BC-3753-464C-85B9-A24293AF091F",         "dataset": "gtr",         "postcode": "DH1 3LE"       },       {         "org_name": "durham university",         "unique_id": "80345FE1-52E7-4194-B9BA-95C482D409A3",         "dataset": "gtr",         "postcode": "Unknown"       }     ]   } }`
+```
+{
+  "bf5cba29-2dd1-4433-9ec1-b2fc5a6feeb2": {
+    "name": "Durham University",
+    "items": [
+      {
+        "org_name": "durham university",
+        "unique_id": "CB6DB8A7-3191-4B03-B37A-1FC98C252089",
+        "dataset": "gtr",
+        "postcode": "DH1 3LE"
+      },
+      {
+        "org_name": "durham university",
+        "unique_id": "50EEF0BC-3753-464C-85B9-A24293AF091F",
+        "dataset": "gtr",
+        "postcode": "DH1 3LE"
+      },
+      {
+        "org_name": "durham university",
+        "unique_id": "80345FE1-52E7-4194-B9BA-95C482D409A3",
+        "dataset": "gtr",
+        "postcode": "Unknown"
+      }
+    ]
+  }
+}
+```
 
 Each “items” list contains all the deduplicated entries determined to be the **same** organization, along with any relevant metadata (IDs, postcodes, etc.). The `"organisation_type"` (e.g., `"university"`) can also appear under the main group object if it was assigned in Stage 8–10.
