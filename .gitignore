@@ -3,3 +3,5 @@ eda/
 llama-models/
 .llama/
 data.tar.gz
+Mambaforge.sh
+Miniforge3-Linux-x86_64.sh

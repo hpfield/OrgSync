@@ -31,7 +31,6 @@ bash Mambaforge.sh -b -p /home/ubuntu/miniforge3 && \
 rm Mambaforge.sh
 
 ENV PATH=/home/ubuntu/miniforge3/bin:$PATH
-ENV MY_VARIABLE=some_value
 
 # Expose SSH port
 EXPOSE 22

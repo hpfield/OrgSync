@@ -5254,3 +5254,103 @@
 2025-03-05 14:34:34,058 - INFO - response: https://html.duckduckgo.com/html 202 14234
 2025-03-05 14:34:34,059 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
 2025-03-05 14:34:34,059 - ERROR - Error during web search for 'tropical starch co ltd BOX 75': https://html.duckduckgo.com/html 202 Ratelimit. Retrying (1/5)...
+2025-03-05 14:35:38,652 - INFO - response: https://html.duckduckgo.com/html 200 9402
+2025-03-05 14:35:39,185 - INFO - response: https://html.duckduckgo.com/html 200 9330
+2025-03-05 14:35:39,898 - INFO - response: https://lite.duckduckgo.com/lite/ 200 8409
+2025-03-05 14:35:40,572 - INFO - response: https://html.duckduckgo.com/html 200 9391
+2025-03-05 14:35:41,213 - INFO - response: https://html.duckduckgo.com/html 200 9497
+2025-03-05 14:35:41,812 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6383
+2025-03-05 14:35:42,420 - INFO - response: https://html.duckduckgo.com/html 200 21553
+2025-03-05 14:35:43,044 - INFO - response: https://html.duckduckgo.com/html 200 9375
+2025-03-05 14:35:43,620 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6269
+2025-03-05 14:35:44,283 - INFO - response: https://lite.duckduckgo.com/lite/ 200 15931
+2025-03-05 14:35:44,968 - INFO - response: https://lite.duckduckgo.com/lite/ 200 9829
+2025-03-05 14:35:46,214 - INFO - response: https://lite.duckduckgo.com/lite/ 200 10084
+2025-03-05 14:35:47,294 - INFO - response: https://lite.duckduckgo.com/lite/ 200 13746
+2025-03-05 14:35:47,778 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6215
+2025-03-05 14:35:48,478 - INFO - response: https://html.duckduckgo.com/html 200 41950
+2025-03-05 14:35:48,957 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6323
+2025-03-05 14:35:49,446 - INFO - response: https://html.duckduckgo.com/html 200 11177
+2025-03-05 14:35:50,529 - INFO - response: https://html.duckduckgo.com/html 200 8084
+2025-03-05 14:35:51,077 - INFO - response: https://html.duckduckgo.com/html 200 9371
+2025-03-05 14:35:51,636 - INFO - response: https://html.duckduckgo.com/html 200 14467
+2025-03-05 14:35:51,753 - INFO - response: https://html.duckduckgo.com/html 202 14206
+2025-03-05 14:35:51,754 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-03-05 14:35:52,623 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14226
+2025-03-05 14:35:52,624 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-03-05 14:35:52,624 - ERROR - Error during web search for 'regen sw EX4 3PL': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (1/5)...
+2025-03-05 14:36:57,183 - INFO - response: https://html.duckduckgo.com/html 200 9325
+2025-03-05 14:36:57,680 - INFO - response: https://html.duckduckgo.com/html 200 9370
+2025-03-05 14:36:58,222 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6235
+2025-03-05 14:36:58,718 - INFO - response: https://html.duckduckgo.com/html 200 9426
+2025-03-05 14:36:59,335 - INFO - response: https://lite.duckduckgo.com/lite/ 200 7668
+2025-03-05 14:37:00,000 - INFO - response: https://html.duckduckgo.com/html 200 15557
+2025-03-05 14:37:01,166 - INFO - response: https://html.duckduckgo.com/html 200 30521
+2025-03-05 14:37:01,684 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6261
+2025-03-05 14:37:02,304 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6301
+2025-03-05 14:37:02,941 - INFO - response: https://html.duckduckgo.com/html 200 25190
+2025-03-05 14:37:03,634 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6251
+2025-03-05 14:37:04,371 - INFO - response: https://html.duckduckgo.com/html 200 16392
+2025-03-05 14:37:04,965 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6275
+2025-03-05 14:37:05,801 - INFO - response: https://html.duckduckgo.com/html 200 45391
+2025-03-05 14:37:06,433 - INFO - response: https://lite.duckduckgo.com/lite/ 200 19607
+2025-03-05 14:37:06,906 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6283
+2025-03-05 14:37:07,550 - INFO - response: https://html.duckduckgo.com/html 200 30989
+2025-03-05 14:37:08,283 - INFO - response: https://lite.duckduckgo.com/lite/ 200 12656
+2025-03-05 14:37:08,771 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6243
+2025-03-05 14:37:09,391 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6247
+2025-03-05 14:37:09,512 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14246
+2025-03-05 14:37:09,512 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-03-05 14:37:10,388 - INFO - response: https://html.duckduckgo.com/html 202 14239
+2025-03-05 14:37:10,389 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-03-05 14:37:10,389 - ERROR - Error during web search for 'young people cornwall TR1 2PE': https://html.duckduckgo.com/html 202 Ratelimit. Retrying (1/5)...
+2025-03-05 14:38:14,915 - INFO - response: https://html.duckduckgo.com/html 200 9396
+2025-03-05 14:38:15,434 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6231
+2025-03-05 14:38:18,115 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6299
+2025-03-05 14:38:18,793 - INFO - response: https://html.duckduckgo.com/html 200 9386
+2025-03-05 14:38:19,218 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6187
+2025-03-05 14:38:19,925 - INFO - response: https://lite.duckduckgo.com/lite/ 200 20896
+2025-03-05 14:38:20,454 - INFO - response: https://html.duckduckgo.com/html 200 9462
+2025-03-05 14:38:20,963 - INFO - response: https://html.duckduckgo.com/html 200 9401
+2025-03-05 14:38:21,614 - INFO - response: https://html.duckduckgo.com/html 200 9360
+2025-03-05 14:38:22,390 - INFO - response: https://html.duckduckgo.com/html 200 21697
+2025-03-05 14:38:23,516 - INFO - response: https://html.duckduckgo.com/html 200 26872
+2025-03-05 14:38:24,176 - INFO - response: https://lite.duckduckgo.com/lite/ 200 13520
+2025-03-05 14:38:25,039 - INFO - response: https://html.duckduckgo.com/html 200 32104
+2025-03-05 14:38:25,620 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6271
+2025-03-05 14:38:26,239 - INFO - response: https://html.duckduckgo.com/html 200 16617
+2025-03-05 14:38:26,807 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6247
+2025-03-05 14:38:27,277 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6251
+2025-03-05 14:38:27,805 - INFO - response: https://html.duckduckgo.com/html 200 9478
+2025-03-05 14:38:28,343 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6297
+2025-03-05 14:38:29,156 - INFO - response: https://lite.duckduckgo.com/lite/ 200 13953
+2025-03-05 14:38:29,288 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14260
+2025-03-05 14:38:29,288 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-03-05 14:38:30,158 - INFO - response: https://html.duckduckgo.com/html 202 14266
+2025-03-05 14:38:30,159 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-03-05 14:38:30,159 - ERROR - Error during web search for 'department for business and trade SW1A 2DY': https://html.duckduckgo.com/html 202 Ratelimit. Retrying (1/5)...
+2025-03-05 14:39:34,856 - INFO - response: https://html.duckduckgo.com/html 200 18601
+2025-03-05 14:39:35,426 - INFO - response: https://html.duckduckgo.com/html 200 9482
+2025-03-05 14:39:35,979 - INFO - response: https://lite.duckduckgo.com/lite/ 200 8287
+2025-03-05 14:39:36,685 - INFO - response: https://lite.duckduckgo.com/lite/ 200 15597
+2025-03-05 14:39:37,896 - INFO - response: https://lite.duckduckgo.com/lite/ 200 15790
+2025-03-05 14:39:38,440 - INFO - response: https://html.duckduckgo.com/html 200 9406
+2025-03-05 14:39:39,181 - INFO - response: https://html.duckduckgo.com/html 200 26279
+2025-03-05 14:39:39,653 - INFO - response: https://html.duckduckgo.com/html 200 9438
+2025-03-05 14:39:40,231 - INFO - response: https://html.duckduckgo.com/html 200 9391
+2025-03-05 14:39:40,783 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6293
+2025-03-05 14:39:41,299 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6295
+2025-03-05 14:39:41,945 - INFO - response: https://lite.duckduckgo.com/lite/ 200 16938
+2025-03-05 14:39:42,543 - INFO - response: https://html.duckduckgo.com/html 200 9447
+2025-03-05 14:39:43,142 - INFO - response: https://lite.duckduckgo.com/lite/ 200 16653
+2025-03-05 14:39:43,830 - INFO - response: https://lite.duckduckgo.com/lite/ 200 13241
+2025-03-05 14:39:44,456 - INFO - response: https://lite.duckduckgo.com/lite/ 200 10848
+2025-03-05 14:39:44,937 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6249
+2025-03-05 14:39:45,473 - INFO - response: https://html.duckduckgo.com/html 200 9371
+2025-03-05 14:39:45,980 - INFO - response: https://html.duckduckgo.com/html 200 9498
+2025-03-05 14:39:46,661 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6245
+2025-03-05 14:39:46,777 - INFO - response: https://html.duckduckgo.com/html 202 14212
+2025-03-05 14:39:46,777 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-03-05 14:39:47,642 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14217
+2025-03-05 14:39:47,643 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-03-05 14:39:47,643 - ERROR - Error during web search for 'lumora ltd CB7 4ET': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (1/5)...
