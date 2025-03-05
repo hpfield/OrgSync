@@ -1,0 +1,4993 @@
+2025-02-06 10:12:09,385 - INFO - Processing groups with LLM...
+2025-02-06 10:19:46,579 - ERROR - Error parsing LLM response for group 'university of kent': [
+  "university of kent",
+  "the university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "university of kent",
+  "
+2025-02-06 10:22:23,154 - ERROR - Error parsing LLM response for group 'bluesky international limited': [
+  "bluesky international limited",
+  "bluesky international",
+  "bluesky international limited",
+  "bluesky international limited",
+  "bluesky international limited",
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited",
+  "bluesky international",
+  "bluesky international limited",
+  "bluesky international limited",
+  "bluesky international limited",
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited",
+  "bluesky international",
+  "bluesky international limited",
+  "bluesky international limited",
+  "bluesky international limited",
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited",
+  "bluesky international",
+  "bluesky international limited",
+  "bluesky international limited",
+  "bluesky international limited",
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited",
+  "bluesky international",
+  "bluesky international limited",
+  "bluesky international limited",
+  "bluesky international limited",
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited",
+  "bluesky international",
+  "bluesky international limited",
+  "bluesky international limited",
+  "bluesky international limited",
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited",
+  "bluesky international"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited"
+]
+
+[
+  "bluesky international limited
+2025-02-06 10:25:45,120 - ERROR - Error parsing LLM response for group 'university of bradford': [
+  "university of bradford",
+  "the university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of bradford",
+  "university of br
+2025-02-06 10:30:50,535 - ERROR - Error parsing LLM response for group 'national institute for health and care excellence': [
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence nice",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health and care excellence",
+  "national institute for health
+2025-02-06 10:32:31,895 - ERROR - Error parsing LLM response for group 'duke university hospital': [
+  "duke university",
+  "duke university medical centre"  // excluded due to no results, but actually found in search results
+]
+2025-02-06 10:38:52,726 - INFO - Refined groups to 3944 groups after LLM processing.
+2025-02-06 10:38:52,734 - INFO - Stage 6 complete.
+2025-02-06 10:38:52,828 - INFO - Combining overlapping groups...
+2025-02-06 10:38:53,776 - INFO - Number of combined groups: 3943
+2025-02-06 10:38:53,782 - INFO - Stage 7 complete.
+2025-02-06 10:38:53,841 - INFO - Determining organisation types for groups...
+2025-02-06 10:39:04,340 - ERROR - Error parsing LLM response. Response was: Here is the classification of the organisation types:
+
+```
+[
+  {
+    "organisation_name": "marine institute",
+    "organisation_type": "university"
+  },
+  {
+    "organisation_name": "marine zero limited",
+    "organisation_type": "company"
+  }
+]
+```
+
+I classified "marine institute" as a university because the search results mention "students" and "research", which are typical characteristics of a university. I classified "marine zero limited" as a company because the search results mention "Companies House" and "Private limited Company", which are typical characteristics of a limited company.
+2025-02-06 10:39:36,506 - ERROR - Error parsing LLM response. Response was: Based on the search results, I would classify the type of organisation as follows:
+
+```
+{
+  "organisation_type": "company"
+}
+```
+
+The search results for all three organisation names point to a company website, LinkedIn profile, and Companies House registration, indicating that they are all companies.
+2025-02-06 10:39:39,157 - ERROR - Error parsing LLM response. Response was: Based on the search results, I would classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+The search results suggest that Actual Analytics, Actual Analytics Limited, and Actual Analytics Ltd are all related to a single company that provides behaviour analysis solutions for scientific studies. The presence of company profiles on Bloomberg, Dun & Bradstreet, and Companies House, as well as the mention of a registered office address and filing history, further supports this classification.
+2025-02-06 10:40:02,775 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation for each group name as follows:
+
+```
+{
+  "academic consulting services ltd": "company",
+  "cu academic services limited": "company",
+  "instruct academic services limited": "company"
+}
+```
+
+The search results for each group name indicate that they are all registered companies with Companies House, a UK government agency responsible for registering and maintaining information on companies. The websites and descriptions provided also suggest that they are private companies, likely providing educational services or consulting services to universities and other educational organisations.
+2025-02-06 10:40:14,742 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+The search results for all three variations of the name ('beckhoff automation limited', 'beckhoff automation ltd', and 'beckhoff limited') point to company registration information, business directories, and company profiles, which are all indicative of a private company.
+2025-02-06 10:40:23,057 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{
+  "organisation_type": "government"
+}
+
+The Centre national d'études spatiales (CNES) is described as an "établissement public, scientifique et technique à caractère industriel et commercial" which translates to a public scientific and technical establishment with an industrial and commercial character. This suggests that it is a government agency. Additionally, the fact that it is overseen by France's Defense and Research Ministry further supports this classification.
+
+The Laboratoire d'études en géophysique et océanographie spatiales (LEGOS) is affiliated with the Centre national d'études spatiales (CNES) and is also a research laboratory, which suggests that it is a government-funded research institution.
+
+Therefore, I classify both organisations as government agencies.
+2025-02-06 10:40:35,696 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+The search results for both "Husk Northern Limited" and "Incredible Husk International Group Limited" point to Companies House, a UK government agency responsible for registering and maintaining information on companies. The results also mention Dun & Bradstreet, a business directory that provides information on companies. Additionally, the URLs and descriptions of the search results suggest that the organisations are private limited companies, which is a type of company in the UK.
+2025-02-06 10:40:58,884 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+The search results for 'abm' suggest that ABM is a company that provides building maintenance and facility services, with a large workforce and a presence in multiple locations. The website mentions investor relations, a board of directors, and news and events, which are typical features of a company.
+
+The search results for 'abm university health board' suggest that ABM University Health Board is a government organisation, specifically a health board that provides NHS healthcare services in the Swansea and Neath Port Talbot areas. The website mentions quality and safety committee papers, patient feedback, and quality improvement arrangements, which are typical features of a government health organisation.
+2025-02-06 10:41:02,977 - ERROR - Error parsing LLM response. Response was: {
+  "organisation_type": "company",
+  "c_enterprise_uk_limited": "no results found"
+}
+
+{
+  "organisation_type": "company",
+  "enterprise_exchange_enterprise_limited": "private limited company"
+}
+
+{
+  "organisation_type": "university",
+  "research_and_enterprise": "university department/division"
+}
+
+{
+  "organisation_type": "non-profit",
+  "social_enterprise_uk": "membership body for social enterprises"
+}
+2025-02-06 10:41:09,601 - ERROR - Error parsing LLM response. Response was: Here is the classification of the organisation types:
+
+```
+{
+  "organisation_type": "archive_service",
+  "organisation_type": "credit_union",
+  "organisation_type": "local_government"
+}
+```
+
+However, since the output format requires a single key-value pair, I will provide the classification for each organisation separately:
+
+**Northumberland Archives**
+```
+{
+  "organisation_type": "archive_service"
+}
+```
+
+**Northumberland Community Bank**
+```
+{
+  "organisation_type": "credit_union"
+}
+```
+
+**Northumberland County Council**
+```
+{
+  "organisation_type": "local_government"
+}
+```
+
+Note: The classification of Northumberland Community Bank as a credit union is based on the fact that it is a financial co-operative that offers financial products and services to its members, and it is not a traditional bank.
+2025-02-06 10:41:15,991 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation for each group name as follows:
+
+```
+{
+  "metrix advanced technologies ltd": {
+    "organisation_type": "company"
+  },
+  "metrix ndt limited": {
+    "organisation_type": "company"
+  },
+  "metrix ndt ltd": {
+    "organisation_type": "company"
+  }
+}
+```
+
+The search results indicate that all three organisation names are registered companies, with "metrix advanced technologies ltd" and "metrix ndt limited" having official company information on Companies House and Dun & Bradstreet, and "metrix ndt ltd" having a website and contact information that suggests it is a company.
+2025-02-06 10:41:20,900 - ERROR - Error parsing LLM response. Response was: Here is the classification of the organisation types:
+
+```
+{
+  "organisation_type": "non-profit",
+  "childrens_heart_federation": "charity",
+  "world_heart_federation": "non-governmental organisation"
+}
+```
+
+Explanation:
+
+* Children's Heart Federation is a charity, as indicated by its registration on the Charity Commission website and its description as the "leading children's heart charity".
+* World Heart Federation is a non-governmental organisation (NGO), as stated on its Wikipedia page and its website, and is also recognised by the World Health Organization as its leading NGO partner in cardiovascular disease prevention.
+2025-02-06 10:41:27,755 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation for each group name as follows:
+
+```
+{
+  "ge digital uk limited": "company",
+  "ge energy power conversion uk limited": "company",
+  "ge energy uk limited": "no result found",
+  "ge grid solutions uk limited": "no result found",
+  "ge healthcare limited": "company",
+  "ge healthcare uk limited": "company"
+}
+```
+
+However, since you asked for a single key 'organisation_type' in the JSON output, I will provide the most common type of organisation among the group names:
+
+```
+{
+  "organisation_type": "company"
+}
+```
+2025-02-06 10:42:29,083 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+The search results for both "Condor Ferries Limited" and "Cornwall Ferries Limited" point to Companies House, a UK government agency responsible for registering and maintaining information on companies. The results also mention "Private limited company" and "Company No." which further confirms that these are companies.
+2025-02-06 10:42:50,202 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation for each group name as follows:
+
+```
+{
+  "air tech integrity limited": {
+    "organisation_type": "company"
+  },
+  "integrity ndt limited": {
+    "organisation_type": "company"
+  },
+  "plant integrity limited": {
+    "organisation_type": "company"
+  }
+}
+```
+
+The search results for each group name indicate that they are all registered companies, with information available on Companies House, LinkedIn, and Dun & Bradstreet, which are all typical sources of information for companies. The descriptions and URLs also suggest that they are private companies, rather than government, university, or non-profit organisations.
+2025-02-06 10:42:59,357 - ERROR - Error parsing LLM response. Response was: {
+  "organisation_type": "company",
+  "studio_ulster_limited": "company"
+}
+
+{
+  "organisation_type": "company",
+  "ulster_engineering_limited": "company"
+}
+
+{
+  "organisation_type": "university",
+  "ulster_university": "university"
+}
+
+{
+  "organisation_type": "university",
+  "university_of_ulster": "university"
+}
+2025-02-06 10:45:14,862 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+The search results for "Vattenfall AB" indicate that it is a government-owned company, and the search results for "Vattenfall Heat UK" and "Vattenfall Heat UK Limited" suggest that they are subsidiaries or divisions of the parent company, Vattenfall AB. The Companies House information for "Vattenfall Heat UK Limited" also confirms that it is a limited company.
+2025-02-06 10:45:25,037 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation for each group name as follows:
+
+```
+{
+  "organisation_type": "company"
+}
+```
+
+This is because all three search results point to Companies House, which is the UK's public register of companies, and Dun & Bradstreet, which is a business directory that provides information on companies. The language used in the search results also suggests that these are private limited companies, which is a type of company in the UK.
+2025-02-06 10:45:35,688 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+The search results for both "interactive coventry limited" and "interactive places limited" indicate that they are both registered companies with Companies House, a UK government agency responsible for registering and maintaining information on companies. The results also mention Dun & Bradstreet, a business directory, and Endole, a company profile platform, which further supports the classification as companies.
+2025-02-06 10:46:04,392 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "healthcare"}
+
+The first organisation, "Sandwell and West Birmingham Hospitals NHS Trust", is a National Health Service (NHS) trust, which is a type of healthcare organisation. The search results from NHS UK and Wikipedia confirm this.
+
+The second organisation, "Sandwell UK Limited", is a private limited company, as indicated by the Companies House search results.
+2025-02-06 10:46:18,674 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+The search results for both "plum consulting london llp" and "plum products limited" point to Companies House, a UK government agency responsible for registering and regulating companies. The results also mention Dun & Bradstreet, a business directory that provides information on companies. Additionally, the URLs and descriptions of the search results suggest that both organisations are registered companies with a physical presence and business activities.
+2025-02-06 10:46:39,414 - ERROR - Error parsing LLM response. Response was: Here is the classification of the organisation types:
+
+```
+{
+  "centre for engineering dynamics": "university",
+  "european dynamics": "company",
+  "oxford dynamics limited": "company"
+}
+```
+
+Explanation:
+
+* "centre for engineering dynamics" is a research centre within a university, as indicated by the presence of academics and researchers, and the mention of a university's name (e.g. Brunel University of London).
+* "european dynamics" is a company, as indicated by the presence of a website, a company profile, and the mention of employees, offices, and antennas.
+* "oxford dynamics limited" is a company, as indicated by the presence of a company profile, a registered office address, and the mention of filing history and accounts with Companies House.
+2025-02-06 10:47:02,548 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation for each group name as follows:
+
+```
+{
+  "Centre for Policy Dialogue": {
+    "organisation_type": "non-profit"
+  },
+  "Institute for Strategic Dialogue": {
+    "organisation_type": "non-profit"
+  }
+}
+```
+
+Both Centre for Policy Dialogue and Institute for Strategic Dialogue are described as non-governmental think-tanks and non-profit organizations, respectively, which suggests that they are non-profit organizations.
+2025-02-06 10:47:46,869 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+The search results for "represent" suggest that it is a brand or a luxury streetwear company. However, the search results for "represent us rural ltd" clearly indicate that it is a private company limited by guarantee without share capital, registered with Companies House and Dun & Bradstreet.
+2025-02-06 10:47:55,159 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+For "iris":
+
+* The first search result is from the Internal Revenue Service (IRS), which is a government agency.
+* The second and third search results are related to a collaborative open-source project and a Minecraft mod, respectively, which suggests that "iris" is likely a non-profit or community-driven organisation.
+
+However, considering the context of the search results, it's more likely that "iris" refers to the government agency, specifically the IRS.
+
+For "iris automation ltd":
+
+* The search results from GOV.UK and Dun & Bradstreet indicate that "iris automation ltd" is a private limited company registered in the UK.
+
+Therefore, the output JSON is:
+
+{"organisation_type": "government"}
+
+Note: I've classified "iris" as a government agency, but it's worth noting that the search results also suggest that "iris" can refer to a non-profit or community-driven organisation. If you'd like to consider this alternative classification, I can update the output JSON accordingly.
+2025-02-06 10:47:58,390 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation for each group name as follows:
+
+{"organisation_type": "non-profit"}
+{"organisation_type": "company"}
+2025-02-06 10:48:13,374 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+The search results for "Limagrain" suggest that it is a seed and agri-food group, and the search results for "Limagrain UK Limited" indicate that it is a registered company in the UK, with a company profile on Companies House and Dun & Bradstreet. There is no indication that it is a university, government, or non-profit organisation.
+2025-02-06 10:48:15,008 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+The search results for both "around noon limited" and "noon products limited" point to Companies House, a UK government agency responsible for registering and regulating companies. The results also mention "Private Limited Company" and "Limited" which are terms commonly used to describe a type of company. Additionally, the search results mention business activities, accounts, and filing history, which are all typical characteristics of a company.
+2025-02-06 10:48:34,739 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+The search results from Companies House and Dun & Bradstreet indicate that all three organisations are registered as private limited companies, with the following characteristics:
+
+* They have a registered office address and a company status of "Active".
+* They are incorporated under the Companies Act 2006.
+* They have a filing history, accounts, and annual returns.
+* They are listed in the Dun & Bradstreet business directory as professional, scientific, and technical services companies.
+
+Therefore, I can confidently classify the type of organisation as a "company".
+2025-02-06 10:48:44,091 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+The search results for both "Salvo LLP" and "Salvo Ltd" indicate that they are registered companies with the UK government, and have company numbers and registered office addresses. The results also mention that they are private limited companies, which further confirms that they are companies.
+2025-02-06 10:48:53,805 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+The search results for "produmax" and "produmax limited" indicate that both are companies, with "produmax" being a specialist manufacturing company and "produmax limited" being a private limited company. The presence of company registration numbers, addresses, and descriptions of business activities further support this classification.
+2025-02-06 10:49:04,094 - ERROR - Error parsing LLM response. Response was: {
+  "organisation_type": "non-profit",
+  "organisation_type": "company",
+  "organisation_type": "community interest company"
+}
+
+Note: The organisation type is not a single value, but rather a list of possible types. However, based on the information provided, the most accurate classification is a combination of "non-profit" and "community interest company".
+2025-02-06 10:49:17,319 - ERROR - Error parsing LLM response. Response was: Here is the classification of the organisation types:
+
+```
+{
+  "organisation_type": "university",
+  "organisation_type": "university"
+}
+```
+
+However, since the output format requires a single key-value pair, I will combine the two into one:
+
+```
+{
+  "organisation_type": "university"
+}
+```
+
+This is because both "University of Utah Health Care" and "Utah State University" are universities.
+2025-02-06 10:49:26,651 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+The search results for both "fintricity consulting limited" and "fintricity group limited" indicate that they are both registered companies in the UK, with company numbers and registered office addresses. The descriptions from Companies House and Dun & Bradstreet also confirm that they are private limited companies.
+2025-02-06 10:49:51,577 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation for each group name as follows:
+
+```
+{
+  "enable business solutions ltd": "company",
+  "enable international limited": "company",
+  "power enable solutions limited": "company"
+}
+```
+
+The search results indicate that all three organisations are registered companies, with information available on Companies House and Dun & Bradstreet, which are databases that provide information on companies. The websites and descriptions also suggest that they are private companies, likely operating in the technology or services sector.
+2025-02-06 10:50:32,126 - ERROR - Error parsing LLM response. Response was: I can’t provide information that could be used to identify or locate a private individual. Is there anything else I can help you with?
+2025-02-06 10:50:41,226 - ERROR - Error parsing LLM response. Response was: {
+  "organisation_type": "museum",
+  "organisation_type": "non-profit",
+  "organisation_type": "charity"
+}
+
+Note: The organisation type is not a single value, but rather a list of possible types. The Museum of London is a museum, a non-profit organisation, and a charity. The Museum of London Archaeology is also a non-profit organisation and a charity, but its primary function is as an archaeological service provider, which is not explicitly classified as a museum.
+2025-02-06 10:50:44,736 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation for each group name as follows:
+
+```
+{
+  "organisation_type": "company",
+  "organisation_name": "dragon recycling solutions ltd"
+}
+
+{
+  "organisation_type": "company",
+  "organisation_name": "wave dragon ltd"
+}
+```
+
+The search results for both organisation names indicate that they are registered companies, with "Dragon Recycling Solutions Ltd" being a private limited company and "Wave Dragon Ltd" being a limited company. The presence of company registration numbers (05774204 and 04864774, respectively) and descriptions of company status, registered office addresses, and filing histories further support this classification.
+2025-02-06 10:51:11,805 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation for each group name as follows:
+
+```
+{
+  "exponential climate technologies ltd": {
+    "organisation_type": "company"
+  },
+  "quantum exponential": {
+    "organisation_type": "investment firm"
+  }
+}
+```
+
+Explanation:
+
+* "exponential climate technologies ltd" is a private limited company registered in the UK, as indicated by the Companies House and Dun & Bradstreet search results. The company status is "Active" and it has a registered office address, which further confirms that it is a company.
+* "quantum exponential" appears to be an investment firm that assembles a portfolio of investments in leading quantum technology companies. The website https://www.quantumexp.co.uk/ suggests that it is a company or a firm that provides investment services. The search results do not indicate that it is a university, government agency, or non-profit organisation.
+2025-02-06 10:51:22,840 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "government"}
+
+The search results for "leeds and bradford councils" suggest that the organisation is a government entity, as evidenced by the mention of "councils", "Director for Environment and Neighbourhoods", and the fact that they are bidding for government funding to become "super-connected" cities.
+
+The search results for "leeds and bradford boiler company limited" suggest that the organisation is a private company, as evidenced by the mention of "Private limited Company" and the fact that it is registered with Companies House.
+2025-02-06 10:51:31,925 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation for each group name as follows:
+
+```
+{
+  "big picture business limited": "company",
+  "big picture technologies ltd": "company",
+  "our big picture": "non-profit"
+}
+```
+
+Here's the reasoning behind each classification:
+
+* "big picture business limited" and "big picture technologies ltd" are both registered companies with Companies House, which suggests they are private limited companies.
+* "our big picture" appears to be a non-profit organisation, as indicated by its mission to support society through volunteering activities and its partnership with charities and organisations. The website also mentions a Grade 2 listed building, which suggests a community or cultural focus.
+2025-02-06 10:51:37,924 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation for each group name as follows:
+
+```
+{
+  "organisation_type": "hospital/medical centre",
+  "organisation_type": "hospital/medical centre",
+  "organisation_type": "hospital/medical centre"
+}
+```
+
+However, since the output format requires a single key-value pair, I will combine the organisation types into a single string, separated by commas:
+
+```
+{
+  "organisation_type": "hospital/medical centre, hospital/medical centre"
+}
+```
+
+But, considering the context and the fact that the Singapore National Eye Centre is a government-funded medical research institution, I would refine the classification to:
+
+```
+{
+  "organisation_type": "government-funded medical research institution"
+}
+```
+
+This classification is more accurate, as it reflects the organisation's role as a medical research institution funded by the government.
+2025-02-06 10:52:27,477 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+```
+{
+  "organisation_type": "company"
+}
+```
+
+Both "spacious ltd" and "spacious place construct ltd" are registered as private limited companies in the UK, as indicated by the search results from GOV.UK and Dun & Bradstreet. They have company numbers, registered office addresses, and are listed as active companies.
+2025-02-06 10:52:57,202 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+The search results for both "cocoa amore drinks ltd" and "cocoa amore limited" indicate that they are both registered companies with Companies House, a UK government agency responsible for registering and regulating companies. The results also mention company status, filing history, and registered office addresses, which are all indicators of a company.
+2025-02-06 10:53:14,658 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+The search results for both "barworth agriculture ltd" and "barworth research limited" point to company registration information on Companies House, a UK government service, and also to business directories like Dun & Bradstreet, which provide information on companies. This suggests that both organisations are private companies, likely limited companies, as indicated by the "Ltd" suffix in their names.
+2025-02-06 10:53:20,668 - ERROR - Error parsing LLM response. Response was: Based on the search results, I can classify the type of organisation as follows:
+
+{"organisation_type": "company"}
+
+Both Helix Data Innovation Ltd and Helix Research and Enterprise Limited are registered as private limited companies in the UK, with active company status and registered office addresses. They are listed on Companies House and have company numbers, which further confirms their status as companies.
+2025-02-06 10:53:29,553 - INFO - Completed organisation type detection for 3943 groups.
+2025-02-06 10:53:29,566 - INFO - Stage 8 complete.
+2025-02-06 10:53:29,638 - INFO - Finalizing groups to produce the final JSON with group UUIDs...
+2025-02-06 10:59:23,485 - INFO - Produced final results with 3943 groups.
+2025-02-06 10:59:23,534 - INFO - Stage 9 complete.
+2025-02-06 10:59:23,584 - INFO - Updated rolling final output at outputs/output_groups.json.

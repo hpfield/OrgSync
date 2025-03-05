@@ -1,0 +1,13 @@
+2025-02-20 16:36:18,128 - INFO - Combining overlapping groups...
+2025-02-20 16:36:19,033 - INFO - Number of combined groups: 3943
+2025-02-20 16:36:19,039 - INFO - Stage 7 complete.
+2025-02-20 16:36:19,064 - INFO - Determining organisation types for groups...
+2025-02-20 16:36:19,064 - INFO - lenght of merged_groups: 3943
+2025-02-20 16:36:23,134 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-20 16:36:23,942 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-20 16:36:24,829 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-20 16:36:25,411 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-20 16:36:26,256 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-20 16:36:26,780 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-20 16:36:27,660 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-20 16:36:28,241 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

@@ -1,0 +1,513 @@
+2025-02-24 13:01:56,756 - INFO - Refining formatted groups with LLM...
+2025-02-24 13:01:59,201 - INFO - Skipping group gs growers nurseries ltd due to insufficient items after LLM refinement.
+2025-02-24 13:02:01,759 - INFO - Skipping group crops for the future due to insufficient items after LLM refinement.
+2025-02-24 13:02:04,333 - INFO - Skipping group sheep improved genetics ltd due to insufficient items after LLM refinement.
+2025-02-24 13:02:05,384 - INFO - Skipping group cluster technology due to insufficient items after LLM refinement.
+2025-02-24 13:02:15,969 - INFO - Skipping group applied quantum computing due to insufficient items after LLM refinement.
+2025-02-24 13:02:23,265 - INFO - Skipping group felixstowe dock and railway company due to insufficient items after LLM refinement.
+2025-02-24 13:02:24,244 - INFO - Skipping group north east lincolnshire council due to insufficient items after LLM refinement.
+2025-02-24 13:02:27,078 - INFO - Skipping group baxi due to insufficient items after LLM refinement.
+2025-02-24 13:02:28,455 - INFO - Skipping group progressive technology due to insufficient items after LLM refinement.
+2025-02-24 13:02:31,707 - INFO - Skipping group international centre for reproductive health mozambique due to insufficient items after LLM refinement.
+2025-02-24 13:02:36,082 - INFO - Skipping group royal borough of kingston upon thames due to insufficient items after LLM refinement.
+2025-02-24 13:02:39,695 - INFO - Skipping group sheffield city region local economic partnership due to insufficient items after LLM refinement.
+2025-02-24 13:02:40,980 - INFO - Skipping group glasshouse community led design due to insufficient items after LLM refinement.
+2025-02-24 13:02:41,687 - INFO - Skipping group temple group due to insufficient items after LLM refinement.
+2025-02-24 13:02:53,044 - INFO - Skipping group boeing uk limited due to insufficient items after LLM refinement.
+2025-02-24 13:02:54,533 - INFO - Skipping group national institute of geophysics and volcanology due to insufficient items after LLM refinement.
+2025-02-24 13:02:55,511 - INFO - Skipping group department of energy and climate change due to insufficient items after LLM refinement.
+2025-02-24 13:02:56,386 - INFO - Skipping group integrated technologies ltd due to insufficient items after LLM refinement.
+2025-02-24 13:03:11,722 - INFO - Skipping group hydrogen solar due to insufficient items after LLM refinement.
+2025-02-24 13:03:12,541 - INFO - Skipping group human anatomy and genetics due to insufficient items after LLM refinement.
+2025-02-24 13:03:13,207 - INFO - Skipping group vietnam atomic energy institute due to insufficient items after LLM refinement.
+2025-02-24 13:03:16,527 - INFO - Skipping group edge analytics limited due to insufficient items after LLM refinement.
+2025-02-24 13:03:20,053 - INFO - Skipping group gspk design due to insufficient items after LLM refinement.
+2025-02-24 13:03:20,657 - INFO - Skipping group danaher corporation due to insufficient items after LLM refinement.
+2025-02-24 13:03:22,381 - INFO - Skipping group omya due to insufficient items after LLM refinement.
+2025-02-24 13:03:24,430 - INFO - Skipping group library and archives canada due to insufficient items after LLM refinement.
+2025-02-24 13:03:35,545 - INFO - Skipping group nobacz healthcare due to insufficient items after LLM refinement.
+2025-02-24 13:03:37,031 - INFO - Skipping group london womens clinic due to insufficient items after LLM refinement.
+2025-02-24 13:03:38,577 - INFO - Skipping group innovative physics limited due to insufficient items after LLM refinement.
+2025-02-24 13:03:39,546 - INFO - Skipping group scripps institution of oceanography due to insufficient items after LLM refinement.
+2025-02-24 13:03:40,275 - INFO - Skipping group spts technologies ltd due to insufficient items after LLM refinement.
+2025-02-24 13:03:46,506 - INFO - Skipping group isles of scilly museum due to insufficient items after LLM refinement.
+2025-02-24 13:03:53,499 - INFO - Skipping group bp exploration operating company ltd due to insufficient items after LLM refinement.
+2025-02-24 13:03:56,146 - INFO - Skipping group thales ground transportation systems uk limited due to insufficient items after LLM refinement.
+2025-02-24 13:03:56,814 - INFO - Skipping group oxford ionics due to insufficient items after LLM refinement.
+2025-02-24 13:03:57,550 - INFO - Skipping group environmental sciences department due to insufficient items after LLM refinement.
+2025-02-24 13:04:04,694 - INFO - Skipping group octopus energy limited due to insufficient items after LLM refinement.
+2025-02-24 13:04:14,987 - INFO - Skipping group british lithium limited due to insufficient items after LLM refinement.
+2025-02-24 13:04:15,663 - INFO - Skipping group element energy due to insufficient items after LLM refinement.
+2025-02-24 13:04:16,396 - INFO - Skipping group hydrostar europe ltd due to insufficient items after LLM refinement.
+2025-02-24 13:04:18,259 - INFO - Skipping group geneva university hospitals due to insufficient items after LLM refinement.
+2025-02-24 13:04:21,467 - INFO - Skipping group yamazaki mazak uk ltd due to insufficient items after LLM refinement.
+2025-02-24 13:04:28,578 - INFO - Skipping group world circuit records due to insufficient items after LLM refinement.
+2025-02-24 13:04:29,188 - INFO - Skipping group sustainable maritime solutions due to insufficient items after LLM refinement.
+2025-02-24 13:04:33,868 - INFO - Skipping group differ community power due to insufficient items after LLM refinement.
+2025-02-24 13:04:35,352 - INFO - Skipping group envorem limited due to insufficient items after LLM refinement.
+2025-02-24 13:04:43,788 - INFO - Skipping group mesl microwave ltd due to insufficient items after LLM refinement.
+2025-02-24 13:04:52,010 - INFO - Skipping group mathematics and computer science due to insufficient items after LLM refinement.
+2025-02-24 13:04:52,990 - INFO - Skipping group regensburg university of applied science due to insufficient items after LLM refinement.
+2025-02-24 13:04:58,351 - INFO - Skipping group clinical pharmacology due to insufficient items after LLM refinement.
+2025-02-24 13:04:59,334 - INFO - Skipping group pontificia universidad católica de chile due to insufficient items after LLM refinement.
+2025-02-24 13:05:02,080 - INFO - Skipping group iota pharmaceuticals ltd due to insufficient items after LLM refinement.
+2025-02-24 13:05:06,708 - INFO - Skipping group beckhoff automation ltd due to insufficient items after LLM refinement.
+2025-02-24 13:05:11,290 - INFO - Skipping group marlow foods ltd due to insufficient items after LLM refinement.
+2025-02-24 13:05:12,855 - INFO - Skipping group topolytics due to insufficient items after LLM refinement.
+2025-02-24 13:05:20,662 - INFO - Skipping group laboratoire détudes en géophysique et océanographie spatiales due to insufficient items after LLM refinement.
+2025-02-24 13:05:24,577 - INFO - Skipping group guys and st thomas foundation due to insufficient items after LLM refinement.
+2025-02-24 13:05:28,991 - INFO - Skipping group growing underground due to insufficient items after LLM refinement.
+2025-02-24 13:05:29,708 - INFO - Skipping group lateral logic ltd due to insufficient items after LLM refinement.
+2025-02-24 13:05:32,523 - INFO - Skipping group hanson uk due to insufficient items after LLM refinement.
+2025-02-24 13:05:34,301 - INFO - Skipping group nottingham unesco city of literature due to insufficient items after LLM refinement.
+2025-02-24 13:05:35,622 - INFO - Skipping group boc group due to insufficient items after LLM refinement.
+2025-02-24 13:05:38,085 - INFO - Skipping group mental health university institute of quebec due to insufficient items after LLM refinement.
+2025-02-24 13:05:39,004 - INFO - Skipping group matter 2 media due to insufficient items after LLM refinement.
+2025-02-24 13:05:41,368 - INFO - Skipping group ilof intelligent lab on fiber limited due to insufficient items after LLM refinement.
+2025-02-24 13:05:42,400 - INFO - Skipping group shanghai international studies university due to insufficient items after LLM refinement.
+2025-02-24 13:05:44,224 - INFO - Skipping group sivers photonics ltd due to insufficient items after LLM refinement.
+2025-02-24 13:05:47,606 - INFO - Skipping group apeikon therapeutics ltd due to insufficient items after LLM refinement.
+2025-02-24 13:05:48,469 - INFO - Skipping group hybrid air vehicles ltd due to insufficient items after LLM refinement.
+2025-02-24 13:05:51,248 - INFO - Skipping group federal government of brazil due to insufficient items after LLM refinement.
+2025-02-24 13:05:57,205 - INFO - Skipping group berry consultants llc due to insufficient items after LLM refinement.
+2025-02-24 13:05:59,039 - INFO - Skipping group hull and east yorkshire community foundation due to insufficient items after LLM refinement.
+2025-02-24 13:05:59,866 - INFO - Skipping group rolls-royce power engineering plc due to insufficient items after LLM refinement.
+2025-02-24 13:06:05,709 - INFO - Skipping group research administration due to insufficient items after LLM refinement.
+2025-02-24 13:06:10,219 - INFO - Skipping group research and knowledge transfer office due to insufficient items after LLM refinement.
+2025-02-24 13:06:12,795 - INFO - Skipping group haleon due to insufficient items after LLM refinement.
+2025-02-24 13:06:21,751 - INFO - Skipping group heidelberg university hospital due to insufficient items after LLM refinement.
+2025-02-24 13:06:24,113 - INFO - Skipping group samsung electronics uk due to insufficient items after LLM refinement.
+2025-02-24 13:06:25,122 - INFO - Skipping group dyson institute of engineering and technology due to insufficient items after LLM refinement.
+2025-02-24 13:06:29,986 - INFO - Skipping group scania great britain due to insufficient items after LLM refinement.
+2025-02-24 13:06:32,249 - INFO - Skipping group technical university berlin due to insufficient items after LLM refinement.
+2025-02-24 13:06:34,071 - INFO - Skipping group the guild bath due to insufficient items after LLM refinement.
+2025-02-24 13:06:34,689 - INFO - Skipping group ceva animal health due to insufficient items after LLM refinement.
+2025-02-24 13:06:35,490 - INFO - Skipping group abm university health board due to insufficient items after LLM refinement.
+2025-02-24 13:06:44,678 - INFO - Skipping group michelson diagnostics ltd due to insufficient items after LLM refinement.
+2025-02-24 13:06:45,572 - INFO - Skipping group walk 21 due to insufficient items after LLM refinement.
+2025-02-24 13:06:48,656 - INFO - Skipping group charnwood technical consulting limited due to insufficient items after LLM refinement.
+2025-02-24 13:06:51,512 - INFO - Skipping group meedan due to insufficient items after LLM refinement.
+2025-02-24 13:06:53,435 - INFO - Skipping group european technology development limited due to insufficient items after LLM refinement.
+2025-02-24 13:06:54,412 - INFO - Skipping group quantum focus instruments corporation due to insufficient items after LLM refinement.
+2025-02-24 13:06:55,952 - INFO - Skipping group immunocore ltd due to insufficient items after LLM refinement.
+2025-02-24 13:06:59,789 - INFO - Skipping group kingspan insulation ltd due to insufficient items after LLM refinement.
+2025-02-24 13:07:07,385 - INFO - Skipping group wincanton due to insufficient items after LLM refinement.
+2025-02-24 13:07:10,732 - INFO - Skipping group seagate due to insufficient items after LLM refinement.
+2025-02-24 13:07:18,527 - INFO - Skipping group polymer mimetics limited due to insufficient items after LLM refinement.
+2025-02-24 13:07:32,046 - INFO - Skipping group food and nutrition research institute fnri due to insufficient items after LLM refinement.
+2025-02-24 13:07:34,456 - INFO - Skipping group ether nde due to insufficient items after LLM refinement.
+2025-02-24 13:07:42,476 - INFO - Skipping group phoenix product development due to insufficient items after LLM refinement.
+2025-02-24 13:07:46,656 - INFO - Skipping group portsmouth water ltd due to insufficient items after LLM refinement.
+2025-02-24 13:07:47,239 - INFO - Skipping group roche due to insufficient items after LLM refinement.
+2025-02-24 13:07:55,830 - INFO - Skipping group cw fletcher due to insufficient items after LLM refinement.
+2025-02-24 13:08:00,795 - INFO - Skipping group key engineering solutions ltd due to insufficient items after LLM refinement.
+2025-02-24 13:08:01,675 - INFO - Skipping group odin medical ltd due to insufficient items after LLM refinement.
+2025-02-24 13:08:03,609 - INFO - Skipping group school of humanities due to insufficient items after LLM refinement.
+2025-02-24 13:08:04,438 - INFO - Skipping group newable due to insufficient items after LLM refinement.
+2025-02-24 13:08:05,241 - INFO - Skipping group zeiss uk due to insufficient items after LLM refinement.
+2025-02-24 13:08:07,701 - INFO - Skipping group park systems due to insufficient items after LLM refinement.
+2025-02-24 13:08:13,760 - INFO - Skipping group bells of lazonby due to insufficient items after LLM refinement.
+2025-02-24 13:08:15,923 - INFO - Skipping group fully distributed systems due to insufficient items after LLM refinement.
+2025-02-24 13:08:17,446 - INFO - Skipping group hydregen ltd due to insufficient items after LLM refinement.
+2025-02-24 13:08:18,420 - INFO - Skipping group sheffield and rotherham wildlife trust due to insufficient items after LLM refinement.
+2025-02-24 13:08:19,186 - INFO - Skipping group tata group uk due to insufficient items after LLM refinement.
+2025-02-24 13:08:19,739 - INFO - Skipping group university of saint francis xavier due to insufficient items after LLM refinement.
+2025-02-24 13:08:24,281 - INFO - Skipping group fc palmer sons due to insufficient items after LLM refinement.
+2025-02-24 13:08:24,927 - INFO - Skipping group apex additive technologies ltd due to insufficient items after LLM refinement.
+2025-02-24 13:08:25,461 - INFO - Skipping group devices ltd due to insufficient items after LLM refinement.
+2025-02-24 13:08:26,517 - INFO - Skipping group royal pavilion and museums brighton and hove due to insufficient items after LLM refinement.
+2025-02-24 13:08:27,606 - INFO - Skipping group hebridean seaweed company due to insufficient items after LLM refinement.
+2025-02-24 13:08:32,972 - INFO - Skipping group the wildlife trust for bedfordshire cambridgeshire and northamptonshire due to insufficient items after LLM refinement.
+2025-02-24 13:08:34,717 - INFO - Skipping group european federation of pharmaceutical industries and associations due to insufficient items after LLM refinement.
+2025-02-24 13:08:36,496 - INFO - Skipping group ecobat technologies due to insufficient items after LLM refinement.
+2025-02-24 13:08:37,473 - INFO - Skipping group biosep ltd due to insufficient items after LLM refinement.
+2025-02-24 13:08:38,091 - INFO - Skipping group telos aleff ltd due to insufficient items after LLM refinement.
+2025-02-24 13:08:47,961 - INFO - Skipping group edf renewables due to insufficient items after LLM refinement.
+2025-02-24 13:08:49,873 - INFO - Skipping group pn sensor due to insufficient items after LLM refinement.
+2025-02-24 13:08:52,658 - INFO - Skipping group scottish screen archive due to insufficient items after LLM refinement.
+2025-02-24 13:09:04,179 - INFO - Skipping group west belfast partnership board due to insufficient items after LLM refinement.
+2025-02-24 13:09:09,953 - INFO - Skipping group nihr woundtec htc due to insufficient items after LLM refinement.
+2025-02-24 13:09:13,431 - INFO - Skipping group hw communications ltd due to insufficient items after LLM refinement.
+2025-02-24 13:09:17,184 - INFO - Skipping group black thrive global due to insufficient items after LLM refinement.
+2025-02-24 13:09:17,879 - INFO - Skipping group ohme operations uk ltd due to insufficient items after LLM refinement.
+2025-02-24 13:09:18,673 - INFO - Skipping group new heritage solutions community interest company due to insufficient items after LLM refinement.
+2025-02-24 13:09:28,629 - INFO - Skipping group extreme light infrastructure due to insufficient items after LLM refinement.
+2025-02-24 13:09:30,756 - INFO - Skipping group the farm carboncutting toolkit due to insufficient items after LLM refinement.
+2025-02-24 13:09:31,461 - INFO - Skipping group school of creative arts due to insufficient items after LLM refinement.
+2025-02-24 13:09:32,031 - INFO - Skipping group international centre for mathematical sciences due to insufficient items after LLM refinement.
+2025-02-24 13:09:36,985 - INFO - Skipping group icebreaker one ltd due to insufficient items after LLM refinement.
+2025-02-24 13:09:45,393 - INFO - Skipping group food consumption and nutrition division due to insufficient items after LLM refinement.
+2025-02-24 13:09:49,944 - INFO - Skipping group matrix knowledge group due to insufficient items after LLM refinement.
+2025-02-24 13:09:52,256 - INFO - Skipping group eventum orthopaedics ltd due to insufficient items after LLM refinement.
+2025-02-24 13:09:52,967 - INFO - Skipping group ligo scientific collaboration due to insufficient items after LLM refinement.
+2025-02-24 13:10:00,728 - INFO - Skipping group asian resource centre croydon due to insufficient items after LLM refinement.
+2025-02-24 13:10:10,860 - INFO - Skipping group atlas composite technologies limited due to insufficient items after LLM refinement.
+2025-02-24 13:10:12,583 - INFO - Skipping group keda music ltd due to insufficient items after LLM refinement.
+2025-02-24 13:10:15,483 - INFO - Skipping group risk management solutions due to insufficient items after LLM refinement.
+2025-02-24 13:10:18,692 - INFO - Skipping group probiotics international ltd due to insufficient items after LLM refinement.
+2025-02-24 13:10:19,576 - INFO - Skipping group to play for limited due to insufficient items after LLM refinement.
+2025-02-24 13:10:22,073 - INFO - Skipping group teledyne uk limited due to insufficient items after LLM refinement.
+2025-02-24 13:10:27,252 - INFO - Skipping group lime technology ltd due to insufficient items after LLM refinement.
+2025-02-24 13:10:43,306 - INFO - Skipping group amazon web services due to insufficient items after LLM refinement.
+2025-02-24 13:10:47,258 - INFO - Skipping group london borough of hammersmith and fulham due to insufficient items after LLM refinement.
+2025-02-24 13:10:49,726 - INFO - Skipping group cambridge microelectronics due to insufficient items after LLM refinement.
+2025-02-24 13:10:56,312 - INFO - Skipping group punchdrunk theatre company due to insufficient items after LLM refinement.
+2025-02-24 13:10:59,271 - INFO - Skipping group mozambique red cross society due to insufficient items after LLM refinement.
+2025-02-24 13:11:02,440 - INFO - Skipping group leo pharma due to insufficient items after LLM refinement.
+2025-02-24 13:11:05,009 - INFO - Skipping group unicef due to insufficient items after LLM refinement.
+2025-02-24 13:11:05,710 - INFO - Skipping group national heart foundation hospital research institute due to insufficient items after LLM refinement.
+2025-02-24 13:11:06,391 - INFO - Skipping group cellula robotics due to insufficient items after LLM refinement.
+2025-02-24 13:11:08,575 - INFO - Skipping group prp architects ltd due to insufficient items after LLM refinement.
+2025-02-24 13:11:09,554 - INFO - Skipping group n blacker son due to insufficient items after LLM refinement.
+2025-02-24 13:11:13,134 - INFO - Skipping group neuroconcise due to insufficient items after LLM refinement.
+2025-02-24 13:11:17,396 - INFO - Skipping group cornubian arts and science trust due to insufficient items after LLM refinement.
+2025-02-24 13:11:20,080 - INFO - Skipping group remote sensing applications consultants ltd due to insufficient items after LLM refinement.
+2025-02-24 13:11:22,465 - INFO - Skipping group institute of acoustics due to insufficient items after LLM refinement.
+2025-02-24 13:11:33,040 - INFO - Skipping group mitsui group due to insufficient items after LLM refinement.
+2025-02-24 13:11:33,803 - INFO - Skipping group isg limited due to insufficient items after LLM refinement.
+2025-02-24 13:11:34,733 - INFO - Skipping group fhi 360 due to insufficient items after LLM refinement.
+2025-02-24 13:11:36,034 - INFO - Skipping group roger williams institute of hepatology due to insufficient items after LLM refinement.
+2025-02-24 13:11:50,561 - INFO - Skipping group torbay and south devon nhs foundation trust due to insufficient items after LLM refinement.
+2025-02-24 13:11:58,788 - INFO - Skipping group vall dhebron university hospital due to insufficient items after LLM refinement.
+2025-02-24 13:12:02,982 - INFO - Skipping group virtual viewing due to insufficient items after LLM refinement.
+2025-02-24 13:12:04,601 - INFO - Skipping group international relations due to insufficient items after LLM refinement.
+2025-02-24 13:12:05,354 - INFO - Skipping group rapid biomedical gmbh due to insufficient items after LLM refinement.
+2025-02-24 13:12:09,833 - INFO - Skipping group bruce power due to insufficient items after LLM refinement.
+2025-02-24 13:12:10,952 - INFO - Skipping group tanzania media womens association due to insufficient items after LLM refinement.
+2025-02-24 13:12:11,898 - INFO - Skipping group henkel ltd due to insufficient items after LLM refinement.
+2025-02-24 13:12:14,868 - INFO - Skipping group student registry due to insufficient items after LLM refinement.
+2025-02-24 13:12:18,736 - INFO - Skipping group nature conservation research centre due to insufficient items after LLM refinement.
+2025-02-24 13:12:19,433 - INFO - Skipping group federal university of agriculture abeokuta due to insufficient items after LLM refinement.
+2025-02-24 13:12:27,025 - INFO - Skipping group syngenta seeds ltd due to insufficient items after LLM refinement.
+2025-02-24 13:12:27,871 - INFO - Skipping group defense threat reduction agency due to insufficient items after LLM refinement.
+2025-02-24 13:12:28,865 - INFO - Skipping group carnegie trust for the universities of scotland due to insufficient items after LLM refinement.
+2025-02-24 13:12:29,625 - INFO - Skipping group national air traffic services limited due to insufficient items after LLM refinement.
+2025-02-24 13:12:32,095 - INFO - Skipping group liberty steel due to insufficient items after LLM refinement.
+2025-02-24 13:12:33,457 - INFO - Skipping group polysolar due to insufficient items after LLM refinement.
+2025-02-24 13:12:34,343 - INFO - Skipping group joint united nations programme on hivaids due to insufficient items after LLM refinement.
+2025-02-24 13:12:36,242 - INFO - Skipping group jacobs clean energy due to insufficient items after LLM refinement.
+2025-02-24 13:12:38,080 - INFO - Skipping group senckenberg museum due to insufficient items after LLM refinement.
+2025-02-24 13:12:42,345 - INFO - Skipping group canal and river trust due to insufficient items after LLM refinement.
+2025-02-24 13:13:02,772 - INFO - Skipping group mull iona community trust due to insufficient items after LLM refinement.
+2025-02-24 13:13:04,106 - INFO - Skipping group west ham united fc due to insufficient items after LLM refinement.
+2025-02-24 13:13:08,005 - INFO - Skipping group flir systems due to insufficient items after LLM refinement.
+2025-02-24 13:13:10,740 - INFO - Skipping group the sainsbury family charitable trusts due to insufficient items after LLM refinement.
+2025-02-24 13:13:12,792 - INFO - Skipping group nuffield health due to insufficient items after LLM refinement.
+2025-02-24 13:13:17,068 - INFO - Skipping group pelamis wave power ltd due to insufficient items after LLM refinement.
+2025-02-24 13:13:33,959 - INFO - Skipping group horus security consultancy ltd due to insufficient items after LLM refinement.
+2025-02-24 13:13:34,620 - INFO - Skipping group cowheels car club due to insufficient items after LLM refinement.
+2025-02-24 13:13:37,465 - INFO - Skipping group cambridge raman imaging due to insufficient items after LLM refinement.
+2025-02-24 13:13:39,633 - INFO - Skipping group aggregate industries limited due to insufficient items after LLM refinement.
+2025-02-24 13:13:44,536 - INFO - Skipping group green solutions ltd due to insufficient items after LLM refinement.
+2025-02-24 13:13:52,821 - INFO - Skipping group cambridge cognition ltd due to insufficient items after LLM refinement.
+2025-02-24 13:13:58,721 - INFO - Skipping group ac immune sa due to insufficient items after LLM refinement.
+2025-02-24 13:13:59,386 - INFO - Skipping group activequote ltd due to insufficient items after LLM refinement.
+2025-02-24 13:14:04,757 - INFO - Skipping group ultimaker gb due to insufficient items after LLM refinement.
+2025-02-24 13:14:08,017 - INFO - Skipping group leeds city region local economic partnership due to insufficient items after LLM refinement.
+2025-02-24 13:14:09,308 - INFO - Skipping group catholic university sedes sapientiae due to insufficient items after LLM refinement.
+2025-02-24 13:14:12,488 - INFO - Skipping group mettis aerospace due to insufficient items after LLM refinement.
+2025-02-24 13:14:16,164 - INFO - Skipping group livework studio limited due to insufficient items after LLM refinement.
+2025-02-24 13:14:17,875 - INFO - Skipping group wessington cryogenics limited due to insufficient items after LLM refinement.
+2025-02-24 13:14:18,653 - INFO - Skipping group motion robotics ltd due to insufficient items after LLM refinement.
+2025-02-24 13:14:23,928 - INFO - Skipping group thanet earth limited due to insufficient items after LLM refinement.
+2025-02-24 13:14:24,738 - INFO - Skipping group transport and travel research limited due to insufficient items after LLM refinement.
+2025-02-24 13:14:30,779 - INFO - Skipping group ddm health due to insufficient items after LLM refinement.
+2025-02-24 13:14:33,790 - INFO - Skipping group wildlife and countryside link due to insufficient items after LLM refinement.
+2025-02-24 13:14:34,563 - INFO - Skipping group sharp laboratories of europe due to insufficient items after LLM refinement.
+2025-02-24 13:14:53,379 - INFO - Skipping group opteran technologies ltd due to insufficient items after LLM refinement.
+2025-02-24 13:14:54,955 - INFO - Skipping group william grant & sons distillers due to insufficient items after LLM refinement.
+2025-02-24 13:14:55,991 - INFO - Skipping group eon energy solutions ltd due to insufficient items after LLM refinement.
+2025-02-24 13:15:03,844 - INFO - Skipping group platform kinetics due to insufficient items after LLM refinement.
+2025-02-24 13:15:05,521 - INFO - Skipping group government medical college nagpur due to insufficient items after LLM refinement.
+2025-02-24 13:15:10,876 - INFO - Skipping group nibsc due to insufficient items after LLM refinement.
+2025-02-24 13:15:12,098 - INFO - Skipping group jpal the abdul latif jameel poverty action lab due to insufficient items after LLM refinement.
+2025-02-24 13:15:13,544 - INFO - Skipping group marine minerals limited due to insufficient items after LLM refinement.
+2025-02-24 13:15:19,973 - INFO - Skipping group research and innovation services due to insufficient items after LLM refinement.
+2025-02-24 13:15:44,876 - INFO - Skipping group gan systems due to insufficient items after LLM refinement.
+2025-02-24 13:15:46,071 - INFO - Skipping group agilysis ltd due to insufficient items after LLM refinement.
+2025-02-24 13:15:47,584 - INFO - Skipping group novo nordisk due to insufficient items after LLM refinement.
+2025-02-24 13:15:50,088 - INFO - Skipping group dynamon ltd due to insufficient items after LLM refinement.
+2025-02-24 13:15:53,459 - INFO - Skipping group the andersons centre due to insufficient items after LLM refinement.
+2025-02-24 13:15:55,172 - INFO - Skipping group crypta labs due to insufficient items after LLM refinement.
+2025-02-24 13:15:56,478 - INFO - Skipping group pultrex ltd due to insufficient items after LLM refinement.
+2025-02-24 13:15:59,810 - INFO - Skipping group nkio limited due to insufficient items after LLM refinement.
+2025-02-24 13:16:01,740 - INFO - Skipping group bristol port company due to insufficient items after LLM refinement.
+2025-02-24 13:16:03,116 - INFO - Skipping group aegis trust due to insufficient items after LLM refinement.
+2025-02-24 13:16:09,415 - INFO - Skipping group hssmi due to insufficient items after LLM refinement.
+2025-02-24 13:16:11,975 - INFO - Skipping group produce world group ltd due to insufficient items after LLM refinement.
+2025-02-24 13:16:12,704 - INFO - Skipping group ministry of water resources due to insufficient items after LLM refinement.
+2025-02-24 13:16:13,509 - INFO - Skipping group james jones and sons ltd due to insufficient items after LLM refinement.
+2025-02-24 13:16:24,334 - INFO - Skipping group deep science ventures ltd due to insufficient items after LLM refinement.
+2025-02-24 13:16:26,120 - INFO - Skipping group iotics due to insufficient items after LLM refinement.
+2025-02-24 13:16:29,668 - INFO - Skipping group cotswold archaeology limited due to insufficient items after LLM refinement.
+2025-02-24 13:16:31,227 - INFO - Skipping group royal national institute for deaf people due to insufficient items after LLM refinement.
+2025-02-24 13:16:34,905 - INFO - Skipping group cornwall development company due to insufficient items after LLM refinement.
+2025-02-24 13:16:38,982 - INFO - Skipping group viper rf ltd due to insufficient items after LLM refinement.
+2025-02-24 13:16:43,492 - INFO - Skipping group insurance development forum due to insufficient items after LLM refinement.
+2025-02-24 13:16:46,692 - INFO - Skipping group world organisation for animal health due to insufficient items after LLM refinement.
+2025-02-24 13:16:48,366 - INFO - Skipping group camden and islington public health due to insufficient items after LLM refinement.
+2025-02-24 13:16:50,960 - INFO - Skipping group nihr southampton biomedical research centre due to insufficient items after LLM refinement.
+2025-02-24 13:16:57,531 - INFO - Skipping group steer energy solutions due to insufficient items after LLM refinement.
+2025-02-24 13:17:01,045 - INFO - Skipping group british bobsleigh skeleton association due to insufficient items after LLM refinement.
+2025-02-24 13:17:02,543 - INFO - Skipping group exeter phoenix due to insufficient items after LLM refinement.
+2025-02-24 13:17:03,270 - INFO - Skipping group orange corporate services ltd due to insufficient items after LLM refinement.
+2025-02-24 13:17:08,259 - INFO - Skipping group skanska uk ltd due to insufficient items after LLM refinement.
+2025-02-24 13:17:09,226 - INFO - Skipping group bouygues es uk limited due to insufficient items after LLM refinement.
+2025-02-24 13:17:10,490 - INFO - Skipping group guys hospital due to insufficient items after LLM refinement.
+2025-02-24 13:17:17,223 - INFO - Skipping group northway mushrooms due to insufficient items after LLM refinement.
+2025-02-24 13:17:22,581 - INFO - Skipping group sage publications due to insufficient items after LLM refinement.
+2025-02-24 13:17:28,605 - INFO - Skipping group hydrogen refinery limited due to insufficient items after LLM refinement.
+2025-02-24 13:17:30,713 - INFO - Skipping group feedwater ltd due to insufficient items after LLM refinement.
+2025-02-24 13:17:32,179 - INFO - Skipping group mass spec analytical due to insufficient items after LLM refinement.
+2025-02-24 13:17:32,911 - INFO - Skipping group sustainable business partnership due to insufficient items after LLM refinement.
+2025-02-24 13:17:35,125 - INFO - Skipping group chameleon technology uk limited due to insufficient items after LLM refinement.
+2025-02-24 13:17:38,589 - INFO - Skipping group demeter technology limited due to insufficient items after LLM refinement.
+2025-02-24 13:17:39,829 - INFO - Skipping group revolution software limited due to insufficient items after LLM refinement.
+2025-02-24 13:17:42,276 - INFO - Skipping group scottish agronomy due to insufficient items after LLM refinement.
+2025-02-24 13:17:46,658 - INFO - Skipping group ele advanced technologies limited due to insufficient items after LLM refinement.
+2025-02-24 13:17:51,049 - INFO - Skipping group wandsworth council due to insufficient items after LLM refinement.
+2025-02-24 13:17:53,010 - INFO - Skipping group spanish national research council csic due to insufficient items after LLM refinement.
+2025-02-24 13:17:56,393 - INFO - Skipping group ssbv space ground systems limited due to insufficient items after LLM refinement.
+2025-02-24 13:17:59,392 - INFO - Skipping group edwards lifesciences corporation due to insufficient items after LLM refinement.
+2025-02-24 13:18:02,048 - INFO - Skipping group eva diagnostics ltd due to insufficient items after LLM refinement.
+2025-02-24 13:18:02,862 - INFO - Skipping group united kingdom petroleum industry association due to insufficient items after LLM refinement.
+2025-02-24 13:18:07,303 - INFO - Skipping group northumberland and durham family history society due to insufficient items after LLM refinement.
+2025-02-24 13:18:12,389 - INFO - Skipping group waam3d ltd due to insufficient items after LLM refinement.
+2025-02-24 13:18:15,856 - INFO - Skipping group brain in hand ltd due to insufficient items after LLM refinement.
+2025-02-24 13:18:22,589 - INFO - Skipping group evolutor limited due to insufficient items after LLM refinement.
+2025-02-24 13:18:26,026 - INFO - Skipping group environmental resources management due to insufficient items after LLM refinement.
+2025-02-24 13:18:26,817 - INFO - Skipping group rssl reading scientific services ltd due to insufficient items after LLM refinement.
+2025-02-24 13:18:37,189 - INFO - Skipping group research support governance office due to insufficient items after LLM refinement.
+2025-02-24 13:18:39,624 - INFO - Skipping group eit digital due to insufficient items after LLM refinement.
+2025-02-24 13:18:42,460 - INFO - Skipping group london borough of lambeth due to insufficient items after LLM refinement.
+2025-02-24 13:18:52,967 - INFO - Skipping group institute for health visiting due to insufficient items after LLM refinement.
+2025-02-24 13:18:56,571 - INFO - Skipping group institute for poverty land and agrarian studies due to insufficient items after LLM refinement.
+2025-02-24 13:19:06,584 - INFO - Skipping group clasado biosciences due to insufficient items after LLM refinement.
+2025-02-24 13:19:17,379 - INFO - Skipping group china animal health and epidemiology center due to insufficient items after LLM refinement.
+2025-02-24 13:19:18,103 - INFO - Skipping group amberjac projects limited due to insufficient items after LLM refinement.
+2025-02-24 13:19:25,041 - INFO - Skipping group wates group limited due to insufficient items after LLM refinement.
+2025-02-24 13:19:30,929 - INFO - Skipping group birds eye due to insufficient items after LLM refinement.
+2025-02-24 13:19:31,685 - INFO - Skipping group chase research cryogenics ltd due to insufficient items after LLM refinement.
+2025-02-24 13:19:34,968 - INFO - Skipping group intelisys limited due to insufficient items after LLM refinement.
+2025-02-24 13:19:35,936 - INFO - Skipping group european institute of oncology due to insufficient items after LLM refinement.
+2025-02-24 13:19:49,054 - INFO - Skipping group research and academic engagement due to insufficient items after LLM refinement.
+2025-02-24 13:19:49,789 - INFO - Skipping group rape crisis due to insufficient items after LLM refinement.
+2025-02-24 13:19:55,161 - INFO - Skipping group huawei technologies rd uk ltd due to insufficient items after LLM refinement.
+2025-02-24 13:19:57,148 - INFO - Skipping group tracs international due to insufficient items after LLM refinement.
+2025-02-24 13:20:06,012 - INFO - Skipping group roman baths due to insufficient items after LLM refinement.
+2025-02-24 13:20:08,698 - INFO - Skipping group southern gas networks sgn due to insufficient items after LLM refinement.
+2025-02-24 13:20:18,186 - INFO - Skipping group chemical industries association due to insufficient items after LLM refinement.
+2025-02-24 13:20:20,732 - INFO - Skipping group rhtopham sons limited due to insufficient items after LLM refinement.
+2025-02-24 13:20:21,487 - INFO - Skipping group national grid due to insufficient items after LLM refinement.
+2025-02-24 13:20:23,645 - INFO - Skipping group heart of the south west lep due to insufficient items after LLM refinement.
+2025-02-24 13:20:24,540 - INFO - Skipping group pahar trust nepal due to insufficient items after LLM refinement.
+2025-02-24 13:20:32,568 - INFO - Skipping group impact global emission solutions limited due to insufficient items after LLM refinement.
+2025-02-24 13:20:36,041 - INFO - Skipping group national institute of civil defense due to insufficient items after LLM refinement.
+2025-02-24 13:20:43,914 - INFO - Skipping group john lewis partnership due to insufficient items after LLM refinement.
+2025-02-24 13:20:48,691 - INFO - Skipping group international automotive components due to insufficient items after LLM refinement.
+2025-02-24 13:20:49,525 - INFO - Skipping group duodrive ltd due to insufficient items after LLM refinement.
+2025-02-24 13:20:53,046 - INFO - Skipping group cambris cardiac due to insufficient items after LLM refinement.
+2025-02-24 13:20:54,853 - INFO - Skipping group ballard power systems due to insufficient items after LLM refinement.
+2025-02-24 13:20:59,809 - INFO - Skipping group green estate cic due to insufficient items after LLM refinement.
+2025-02-24 13:21:00,640 - INFO - Skipping group kent and medway nhs partnership trust due to insufficient items after LLM refinement.
+2025-02-24 13:21:01,723 - INFO - Skipping group biobased and biodegradable industries association due to insufficient items after LLM refinement.
+2025-02-24 13:21:08,403 - INFO - Skipping group deutsche telekom due to insufficient items after LLM refinement.
+2025-02-24 13:21:10,056 - INFO - Skipping group royal brompton and harefield nhs foundation trust due to insufficient items after LLM refinement.
+2025-02-24 13:21:14,023 - INFO - Skipping group international consortium for health outcomes measurement due to insufficient items after LLM refinement.
+2025-02-24 13:21:16,479 - INFO - Skipping group tyne housing association due to insufficient items after LLM refinement.
+2025-02-24 13:21:19,556 - INFO - Skipping group cyrenians due to insufficient items after LLM refinement.
+2025-02-24 13:21:20,995 - INFO - Skipping group centre of innovation excellence in livestock due to insufficient items after LLM refinement.
+2025-02-24 13:21:23,591 - INFO - Skipping group cathedral eye clinic due to insufficient items after LLM refinement.
+2025-02-24 13:21:31,699 - INFO - Skipping group film university babelsberg konrad wolf due to insufficient items after LLM refinement.
+2025-02-24 13:21:36,327 - INFO - Skipping group lineat composites due to insufficient items after LLM refinement.
+2025-02-24 13:21:37,341 - INFO - Skipping group cincinnati children's hospital medical center due to insufficient items after LLM refinement.
+2025-02-24 13:21:40,254 - INFO - Skipping group cellucomp due to insufficient items after LLM refinement.
+2025-02-24 13:21:41,099 - INFO - Skipping group birbal sahni institute of palaeosciences due to insufficient items after LLM refinement.
+2025-02-24 13:21:44,903 - INFO - Skipping group tods technology due to insufficient items after LLM refinement.
+2025-02-24 13:21:45,897 - INFO - Skipping group team repair due to insufficient items after LLM refinement.
+2025-02-24 13:21:48,279 - INFO - Skipping group giraffe innovations limited due to insufficient items after LLM refinement.
+2025-02-24 13:21:52,927 - INFO - Skipping group frimley health nhs foundation trust due to insufficient items after LLM refinement.
+2025-02-24 13:21:53,884 - INFO - Skipping group european plate observing system due to insufficient items after LLM refinement.
+2025-02-24 13:21:54,554 - INFO - Skipping group syngensys ltd due to insufficient items after LLM refinement.
+2025-02-24 13:21:57,200 - INFO - Skipping group baxter healthcare ltd due to insufficient items after LLM refinement.
+2025-02-24 13:22:01,123 - INFO - Skipping group yukon river inter tribal watershed council due to insufficient items after LLM refinement.
+2025-02-24 13:22:14,149 - INFO - Skipping group deakin biohybrid materials ltd due to insufficient items after LLM refinement.
+2025-02-24 13:22:14,971 - INFO - Skipping group omron electronics ltd due to insufficient items after LLM refinement.
+2025-02-24 13:22:19,144 - INFO - Skipping group vtg rail uk ltd due to insufficient items after LLM refinement.
+2025-02-24 13:22:22,594 - INFO - Skipping group nokia research centre uk due to insufficient items after LLM refinement.
+2025-02-24 13:22:37,968 - INFO - Skipping group itm power trading ltd due to insufficient items after LLM refinement.
+2025-02-24 13:22:41,763 - INFO - Skipping group the royal college of general practitioners due to insufficient items after LLM refinement.
+2025-02-24 13:22:42,486 - INFO - Skipping group bays consulting limited due to insufficient items after LLM refinement.
+2025-02-24 13:22:43,822 - INFO - Skipping group sonic systems ltd due to insufficient items after LLM refinement.
+2025-02-24 13:22:44,885 - INFO - Skipping group duke university hospital due to insufficient items after LLM refinement.
+2025-02-24 13:22:48,248 - INFO - Skipping group limagrain due to insufficient items after LLM refinement.
+2025-02-24 13:22:51,608 - INFO - Skipping group phoenix chemicals limited due to insufficient items after LLM refinement.
+2025-02-24 13:22:55,445 - INFO - Skipping group london rebuilding society due to insufficient items after LLM refinement.
+2025-02-24 13:22:59,949 - INFO - Skipping group icomos due to insufficient items after LLM refinement.
+2025-02-24 13:23:03,017 - INFO - Skipping group chinese center for disease control and prevention due to insufficient items after LLM refinement.
+2025-02-24 13:23:06,350 - INFO - Skipping group quest meat due to insufficient items after LLM refinement.
+2025-02-24 13:23:15,654 - INFO - Skipping group gkn hybrid power ltd due to insufficient items after LLM refinement.
+2025-02-24 13:23:23,505 - INFO - Skipping group raytheon systems ltd due to insufficient items after LLM refinement.
+2025-02-24 13:23:28,702 - INFO - Skipping group reskinned resources limited due to insufficient items after LLM refinement.
+2025-02-24 13:23:37,609 - INFO - Skipping group h l hutchinson ltd due to insufficient items after LLM refinement.
+2025-02-24 13:23:53,290 - INFO - Skipping group ubipos uk limited due to insufficient items after LLM refinement.
+2025-02-24 13:23:57,042 - INFO - Skipping group hydrosurv unmanned survey uk due to insufficient items after LLM refinement.
+2025-02-24 13:24:01,080 - INFO - Skipping group circa sustainable chemicals ltd due to insufficient items after LLM refinement.
+2025-02-24 13:24:02,415 - INFO - Skipping group king mongkut's institute of technology ladkrabang due to insufficient items after LLM refinement.
+2025-02-24 13:24:04,335 - INFO - Skipping group luffy ai due to insufficient items after LLM refinement.
+2025-02-24 13:24:08,544 - INFO - Skipping group hypertunnel due to insufficient items after LLM refinement.
+2025-02-24 13:24:09,550 - INFO - Skipping group equality for growth due to insufficient items after LLM refinement.
+2025-02-24 13:24:10,774 - INFO - Skipping group national university of la plata due to insufficient items after LLM refinement.
+2025-02-24 13:24:12,393 - INFO - Skipping group korea national university of transportation due to insufficient items after LLM refinement.
+2025-02-24 13:24:25,804 - INFO - Skipping group lindus health due to insufficient items after LLM refinement.
+2025-02-24 13:24:29,737 - INFO - Skipping group biointeractions due to insufficient items after LLM refinement.
+2025-02-24 13:24:34,937 - INFO - Skipping group world vegetable center due to insufficient items after LLM refinement.
+2025-02-24 13:24:39,281 - INFO - Skipping group aeronautical and automotive engineering due to insufficient items after LLM refinement.
+2025-02-24 13:24:44,687 - INFO - Skipping group motilent ltd due to insufficient items after LLM refinement.
+2025-02-24 13:24:45,791 - INFO - Skipping group nhs bradford districts ccg due to insufficient items after LLM refinement.
+2025-02-24 13:24:48,156 - INFO - Skipping group thames water due to insufficient items after LLM refinement.
+2025-02-24 13:25:17,204 - INFO - Skipping group chemlink specialities ltd due to insufficient items after LLM refinement.
+2025-02-24 13:25:18,460 - INFO - Skipping group institute of environmental management and assessment due to insufficient items after LLM refinement.
+2025-02-24 13:25:20,376 - INFO - Skipping group watershed media centre due to insufficient items after LLM refinement.
+2025-02-24 13:25:24,236 - INFO - Skipping group immuone ltd due to insufficient items after LLM refinement.
+2025-02-24 13:25:27,513 - INFO - Skipping group circular textile foundation due to insufficient items after LLM refinement.
+2025-02-24 13:25:33,272 - INFO - Skipping group dupont teijin films due to insufficient items after LLM refinement.
+2025-02-24 13:25:34,886 - INFO - Skipping group egb engineering consultants ltd due to insufficient items after LLM refinement.
+2025-02-24 13:25:35,578 - INFO - Skipping group evergreen life group of companies due to insufficient items after LLM refinement.
+2025-02-24 13:25:37,378 - INFO - Skipping group ge oil gas uk limited due to insufficient items after LLM refinement.
+2025-02-24 13:25:44,132 - INFO - Skipping group kw special projects ltd due to insufficient items after LLM refinement.
+2025-02-24 13:25:45,072 - INFO - Skipping group micreos due to insufficient items after LLM refinement.
+2025-02-24 13:25:50,368 - INFO - Skipping group drumgrange ltd due to insufficient items after LLM refinement.
+2025-02-24 13:25:53,610 - INFO - Skipping group national theatre of scotland due to insufficient items after LLM refinement.
+2025-02-24 13:25:57,464 - INFO - Skipping group streets systems limited due to insufficient items after LLM refinement.
+2025-02-24 13:26:02,094 - INFO - Skipping group ashley community housing due to insufficient items after LLM refinement.
+2025-02-24 13:26:14,571 - INFO - Skipping group expres2ion biotechnologies due to insufficient items after LLM refinement.
+2025-02-24 13:26:16,168 - INFO - Skipping group bron afon community housing due to insufficient items after LLM refinement.
+2025-02-24 13:26:17,551 - INFO - Skipping group human fertilisation and embryology authority due to insufficient items after LLM refinement.
+2025-02-24 13:26:18,504 - INFO - Skipping group health innovation north east and north cumbria due to insufficient items after LLM refinement.
+2025-02-24 13:26:25,330 - INFO - Skipping group novalia ltd due to insufficient items after LLM refinement.
+2025-02-24 13:26:30,832 - INFO - Skipping group ccapture ltd due to insufficient items after LLM refinement.
+2025-02-24 13:26:37,840 - INFO - Skipping group food and drug administration due to insufficient items after LLM refinement.
+2025-02-24 13:26:38,664 - INFO - Skipping group taiwan semiconductor manufacturing company limited due to insufficient items after LLM refinement.
+2025-02-24 13:26:43,970 - INFO - Skipping group hr wallingford ltd due to insufficient items after LLM refinement.
+2025-02-24 13:26:46,558 - INFO - Skipping group mantle labs ltd due to insufficient items after LLM refinement.
+2025-02-24 13:26:47,888 - INFO - Skipping group isardsat due to insufficient items after LLM refinement.
+2025-02-24 13:26:49,585 - INFO - Skipping group ge power due to insufficient items after LLM refinement.
+2025-02-24 13:26:51,893 - INFO - Skipping group british trout association due to insufficient items after LLM refinement.
+2025-02-24 13:26:52,584 - INFO - Skipping group cast metals federation due to insufficient items after LLM refinement.
+2025-02-24 13:27:06,620 - INFO - Skipping group senseai innovations limited due to insufficient items after LLM refinement.
+2025-02-24 13:27:08,111 - INFO - Skipping group kinder energy ltd due to insufficient items after LLM refinement.
+2025-02-24 13:27:09,916 - INFO - Skipping group national film and sound archive of australia due to insufficient items after LLM refinement.
+2025-02-24 13:27:10,508 - INFO - Skipping group sipf due to insufficient items after LLM refinement.
+2025-02-24 13:27:12,108 - INFO - Skipping group centre for process innovation cpi due to insufficient items after LLM refinement.
+2025-02-24 13:27:14,593 - INFO - Skipping group the brilliant club due to insufficient items after LLM refinement.
+2025-02-24 13:27:28,959 - INFO - Skipping group fluorok ltd due to insufficient items after LLM refinement.
+2025-02-24 13:27:32,178 - INFO - Skipping group hospital sant joan de déu barcelona due to insufficient items after LLM refinement.
+2025-02-24 13:27:46,548 - INFO - Skipping group nitech solutions ltd due to insufficient items after LLM refinement.
+2025-02-24 13:27:53,042 - INFO - Skipping group lauriston farm federated hermes due to insufficient items after LLM refinement.
+2025-02-24 13:27:53,695 - INFO - Skipping group wsp due to insufficient items after LLM refinement.
+2025-02-24 13:27:59,298 - INFO - Skipping group rockfort engineering due to insufficient items after LLM refinement.
+2025-02-24 13:28:00,802 - INFO - Skipping group department for energy security and net zero due to insufficient items after LLM refinement.
+2025-02-24 13:28:01,373 - INFO - Skipping group csir due to insufficient items after LLM refinement.
+2025-02-24 13:28:09,528 - INFO - Skipping group domino printing sciences plc due to insufficient items after LLM refinement.
+2025-02-24 13:28:13,573 - INFO - Skipping group indian institute of technology gandhinagar due to insufficient items after LLM refinement.
+2025-02-24 13:28:14,421 - INFO - Skipping group intuitive surgical inc due to insufficient items after LLM refinement.
+2025-02-24 13:28:16,301 - INFO - Skipping group reta lila weston trust for medical research due to insufficient items after LLM refinement.
+2025-02-24 13:28:19,330 - INFO - Skipping group duality quantum photonics due to insufficient items after LLM refinement.
+2025-02-24 13:28:25,070 - INFO - Skipping group islamic development bank due to insufficient items after LLM refinement.
+2025-02-24 13:28:26,262 - INFO - Skipping group intelligent growth solutions ltd due to insufficient items after LLM refinement.
+2025-02-24 13:28:27,080 - INFO - Skipping group rhondda cynon taf due to insufficient items after LLM refinement.
+2025-02-24 13:28:27,919 - INFO - Skipping group sansible wearables ltd due to insufficient items after LLM refinement.
+2025-02-24 13:28:28,887 - INFO - Skipping group the choir with no name due to insufficient items after LLM refinement.
+2025-02-24 13:28:32,546 - INFO - Skipping group ecospray ltd due to insufficient items after LLM refinement.
+2025-02-24 13:28:36,663 - INFO - Skipping group icon lifesaver ltd due to insufficient items after LLM refinement.
+2025-02-24 13:28:42,817 - INFO - Skipping group springboard pro ltd due to insufficient items after LLM refinement.
+2025-02-24 13:28:45,738 - INFO - Skipping group 4basebio discovery limited due to insufficient items after LLM refinement.
+2025-02-24 13:28:52,806 - INFO - Skipping group electric aviation group ltd due to insufficient items after LLM refinement.
+2025-02-24 13:28:55,464 - INFO - Skipping group new york state office of parks recreation and historic preservation due to insufficient items after LLM refinement.
+2025-02-24 13:28:57,920 - INFO - Skipping group palantir technologies uk ltd due to insufficient items after LLM refinement.
+2025-02-24 13:29:00,485 - INFO - Skipping group the wiener library due to insufficient items after LLM refinement.
+2025-02-24 13:29:01,034 - INFO - Skipping group sanofi due to insufficient items after LLM refinement.
+2025-02-24 13:29:01,663 - INFO - Skipping group deepsea biology society due to insufficient items after LLM refinement.
+2025-02-24 13:29:06,510 - INFO - Skipping group cambridge consultants due to insufficient items after LLM refinement.
+2025-02-24 13:29:07,886 - INFO - Skipping group grove nanomaterials ltd due to insufficient items after LLM refinement.
+2025-02-24 13:29:09,510 - INFO - Skipping group jfd limited due to insufficient items after LLM refinement.
+2025-02-24 13:29:16,426 - INFO - Skipping group university hospital cologne due to insufficient items after LLM refinement.
+2025-02-24 13:29:21,523 - INFO - Skipping group agriepi centre ltd due to insufficient items after LLM refinement.
+2025-02-24 13:29:23,152 - INFO - Skipping group nicolaus copernicus university in torun due to insufficient items after LLM refinement.
+2025-02-24 13:29:28,073 - INFO - Skipping group mishipay due to insufficient items after LLM refinement.
+2025-02-24 13:29:36,657 - INFO - Skipping group helpage international due to insufficient items after LLM refinement.
+2025-02-24 13:29:43,450 - INFO - Skipping group tianjin modern innovative traditional chinese medicine technology due to insufficient items after LLM refinement.
+2025-02-24 13:29:44,812 - INFO - Skipping group national institute of rest and care for the elderly due to insufficient items after LLM refinement.
+2025-02-24 13:29:48,916 - INFO - Skipping group rugby football union due to insufficient items after LLM refinement.
+2025-02-24 13:29:50,268 - INFO - Skipping group geopura due to insufficient items after LLM refinement.
+2025-02-24 13:29:51,197 - INFO - Skipping group watercycle technologies ltd due to insufficient items after LLM refinement.
+2025-02-24 13:29:55,505 - INFO - Skipping group mistras group ltd due to insufficient items after LLM refinement.
+2025-02-24 13:29:59,506 - INFO - Skipping group conserv bioscience due to insufficient items after LLM refinement.
+2025-02-24 13:30:03,922 - INFO - Skipping group burkard manufacturing co ltd due to insufficient items after LLM refinement.
+2025-02-24 13:30:06,059 - INFO - Skipping group community energy england due to insufficient items after LLM refinement.
+2025-02-24 13:30:09,593 - INFO - Skipping group oakdene hollins limited due to insufficient items after LLM refinement.
+2025-02-24 13:30:19,728 - INFO - Skipping group atlantic salmon trust due to insufficient items after LLM refinement.
+2025-02-24 13:30:21,708 - INFO - Skipping group recipharm ltd due to insufficient items after LLM refinement.
+2025-02-24 13:30:22,526 - INFO - Skipping group air giants limited due to insufficient items after LLM refinement.
+2025-02-24 13:30:26,814 - INFO - Skipping group mercedes amg high performance powertrains ltd due to insufficient items after LLM refinement.
+2025-02-24 13:30:29,107 - INFO - Skipping group singapore national eye centre due to insufficient items after LLM refinement.
+2025-02-24 13:30:36,958 - INFO - Skipping group ananas anam ltd due to insufficient items after LLM refinement.
+2025-02-24 13:30:37,722 - INFO - Skipping group national rheumatoid arthritis society due to insufficient items after LLM refinement.
+2025-02-24 13:30:39,790 - INFO - Skipping group dnv due to insufficient items after LLM refinement.
+2025-02-24 13:30:40,400 - INFO - Skipping group colorcon due to insufficient items after LLM refinement.
+2025-02-24 13:30:41,867 - INFO - Skipping group seren photonics limited due to insufficient items after LLM refinement.
+2025-02-24 13:30:42,579 - INFO - Skipping group 10x genomics inc due to insufficient items after LLM refinement.
+2025-02-24 13:30:44,667 - INFO - Skipping group fareshare due to insufficient items after LLM refinement.
+2025-02-24 13:30:49,865 - INFO - Skipping group association of scottish shellfish growers due to insufficient items after LLM refinement.
+2025-02-24 13:30:51,265 - INFO - Skipping group united technologies research center due to insufficient items after LLM refinement.
+2025-02-24 13:30:57,694 - INFO - Skipping group mccamley ltd due to insufficient items after LLM refinement.
+2025-02-24 13:30:59,324 - INFO - Skipping group first corporate shipping limited due to insufficient items after LLM refinement.
+2025-02-24 13:31:05,355 - INFO - Skipping group scotland 5g centre due to insufficient items after LLM refinement.
+2025-02-24 13:31:08,013 - INFO - Skipping group purifire labs ltd due to insufficient items after LLM refinement.
+2025-02-24 13:31:09,734 - INFO - Skipping group moa technology ltd due to insufficient items after LLM refinement.
+2025-02-24 13:31:13,819 - INFO - Skipping group trimtabs due to insufficient items after LLM refinement.
+2025-02-24 13:31:14,686 - INFO - Skipping group lichfield cathedral due to insufficient items after LLM refinement.
+2025-02-24 13:31:18,563 - INFO - Skipping group arch uk biocides limited due to insufficient items after LLM refinement.
+2025-02-24 13:31:35,302 - INFO - Skipping group ethical trading initiative due to insufficient items after LLM refinement.
+2025-02-24 13:31:40,270 - INFO - Skipping group zembo motorcycles smc ltd due to insufficient items after LLM refinement.
+2025-02-24 13:31:44,002 - INFO - Skipping group european association of historic towns and regions due to insufficient items after LLM refinement.
+2025-02-24 13:31:55,141 - INFO - Skipping group evelina london childrens hospital due to insufficient items after LLM refinement.
+2025-02-24 13:31:59,804 - INFO - Skipping group wrk design services ltd due to insufficient items after LLM refinement.
+2025-02-24 13:32:01,549 - INFO - Skipping group powercube limited due to insufficient items after LLM refinement.
+2025-02-24 13:32:04,534 - INFO - Skipping group bnc engineering solutions ltd due to insufficient items after LLM refinement.
+2025-02-24 13:32:16,517 - INFO - Skipping group fujifilm diosynth biotechnologies uk due to insufficient items after LLM refinement.
+2025-02-24 13:32:19,047 - INFO - Skipping group helio display materials due to insufficient items after LLM refinement.
+2025-02-24 13:32:19,826 - INFO - Skipping group ricardoaea ltd due to insufficient items after LLM refinement.
+2025-02-24 13:32:27,921 - INFO - Skipping group scottish power energy networks due to insufficient items after LLM refinement.
+2025-02-24 13:32:28,687 - INFO - Skipping group niras lts due to insufficient items after LLM refinement.
+2025-02-24 13:32:29,690 - INFO - Skipping group terumo bct due to insufficient items after LLM refinement.
+2025-02-24 13:32:35,176 - INFO - Skipping group arribada initiative due to insufficient items after LLM refinement.
+2025-02-24 13:32:37,031 - INFO - Skipping group driskai limited due to insufficient items after LLM refinement.
+2025-02-24 13:32:45,269 - INFO - Skipping group university of l'aquila due to insufficient items after LLM refinement.
+2025-02-24 13:32:46,693 - INFO - Skipping group aintree university hospital due to insufficient items after LLM refinement.
+2025-02-24 13:32:59,695 - INFO - Skipping group machine tool technologies ltd due to insufficient items after LLM refinement.
+2025-02-24 13:33:01,054 - INFO - Skipping group encode health due to insufficient items after LLM refinement.
+2025-02-24 13:33:07,079 - INFO - Skipping group potter clarkson llp due to insufficient items after LLM refinement.
+2025-02-24 13:33:13,280 - INFO - Skipping group innovenn limited due to insufficient items after LLM refinement.
+2025-02-24 13:33:14,956 - INFO - Skipping group fives landis ltd due to insufficient items after LLM refinement.
+2025-02-24 13:33:18,012 - INFO - Skipping group solving kids cancer uk due to insufficient items after LLM refinement.
+2025-02-24 13:33:18,711 - INFO - Skipping group fritz haber institute of the max planck society due to insufficient items after LLM refinement.
+2025-02-24 13:33:23,456 - INFO - Skipping group uclan due to insufficient items after LLM refinement.
+2025-02-24 13:33:24,569 - INFO - Skipping group humabs biomed sa due to insufficient items after LLM refinement.
+2025-02-24 13:33:28,736 - INFO - Skipping group heliex power ltd due to insufficient items after LLM refinement.
+2025-02-24 13:33:40,551 - INFO - Skipping group british geriatrics society due to insufficient items after LLM refinement.
+2025-02-24 13:33:41,167 - INFO - Skipping group built environment smarter transformation due to insufficient items after LLM refinement.
+2025-02-24 13:33:42,631 - INFO - Skipping group crystal heart salad company limited due to insufficient items after LLM refinement.
+2025-02-24 13:33:43,722 - INFO - Skipping group woodcock wilson limited due to insufficient items after LLM refinement.
+2025-02-24 13:33:55,715 - INFO - Skipping group alex ekwueme federal university due to insufficient items after LLM refinement.
+2025-02-24 13:33:59,581 - INFO - Skipping group zotefoams plc due to insufficient items after LLM refinement.
+2025-02-24 13:34:00,437 - INFO - Skipping group vcs potatoes due to insufficient items after LLM refinement.
+2025-02-24 13:34:01,347 - INFO - Skipping group fondazione irccs ca granda ospedale maggiore policlinico due to insufficient items after LLM refinement.
+2025-02-24 13:34:08,148 - INFO - Skipping group royal haskoningdhv due to insufficient items after LLM refinement.
+2025-02-24 13:34:17,997 - INFO - Refined groups count: 1458
+2025-02-24 13:34:18,059 - INFO - Stage 10 complete.
+2025-02-24 13:34:18,100 - INFO - Applying capitalisation to group names via LLM...
+2025-02-24 13:56:47,173 - INFO - Capitalisation stage complete.
+2025-02-24 13:56:47,202 - INFO - Stage 11 complete.
+2025-02-24 13:56:47,255 - INFO - Updated rolling final output at outputs/output_groups.json.

@@ -1,0 +1,9 @@
+2024-11-01 13:26:38,335 - INFO - Loaded and preprocessed 36508 names.
+2024-11-01 13:26:38,353 - INFO - Stage 1 complete.
+2024-11-01 13:26:38,387 - INFO - Vectorized 5411 unique combined names.
+2024-11-01 13:26:38,389 - INFO - Stage 2 complete.
+2024-11-01 13:26:38,730 - INFO - Grouped names into 663 groups.
+2024-11-01 13:26:38,731 - INFO - Stage 3 complete.
+2024-11-01 13:26:38,732 - INFO - Performing web search on unique combined names...
+2024-11-01 13:27:55,026 - ERROR - Failed to retrieve search results for 'academic consulting services ltd' after 5 retries.
+2024-11-01 13:28:57,830 - ERROR - Failed to retrieve search results for 'microsharp innovation limited' after 5 retries.

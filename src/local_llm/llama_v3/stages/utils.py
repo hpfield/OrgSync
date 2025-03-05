@@ -6,6 +6,7 @@ import logging
 from pathlib import Path
 import yaml
 
+
 logger = logging.getLogger(__name__)
 
 # Determine the project root based on the location of this file
@@ -78,18 +79,22 @@ def perform_web_search(names, num_results=3, max_retries=5, search_method='duckd
     if search_method == 'duckduckgo' and DDGS is None:
         logger.error("DuckDuckGo search module not available.")
         sys.exit(1)
-    
+
     web_search_results = {}
+    search_count = 0  # Counter to track the number of searches
+
     for name in names:
+        search_count += 1  # Increment the search count
         retries = 0
         success = False
+
         while retries < max_retries and not success:
             try:
                 query = f'"{name}"'
                 search_results = []
                 ddgs = DDGS()
                 results = ddgs.text(query, region='wt-wt', safesearch='Moderate', max_results=num_results)
-                logger.info(f"Raw Results for {query}: {results}")
+                
                 if results:
                     for res in results:
                         search_results.append({
@@ -99,7 +104,7 @@ def perform_web_search(names, num_results=3, max_retries=5, search_method='duckd
                         })
                 
                 success = True
-                
+
             except Exception as e:
                 retries += 1
                 logger.error(f"Error during web search for '{name}': {e}. Retrying ({retries}/{max_retries})...")
@@ -110,5 +115,10 @@ def perform_web_search(names, num_results=3, max_retries=5, search_method='duckd
             web_search_results[name] = []
         else:
             web_search_results[name] = search_results
+
+        # Pause for one minute if the search count is a multiple of 20
+        if (search_count +1) % 20 == 0 and search_method=='duckduckgo':
+            logger.info(f"Pausing for 1 minute after {search_count} searches...")
+            time.sleep(60)
 
     return web_search_results

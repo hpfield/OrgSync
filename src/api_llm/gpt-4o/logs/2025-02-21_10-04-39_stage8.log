@@ -1,0 +1,259 @@
+2025-02-21 10:04:39,754 - INFO - Determining organisation types for groups...
+2025-02-21 10:04:39,754 - INFO - lenght of merged_groups: 3944
+2025-02-21 12:04:13,844 - INFO - Completed organisation type detection for 3944 groups.
+2025-02-21 12:04:13,864 - INFO - Stage 8 complete.
+2025-02-21 12:04:14,022 - INFO - Finalizing groups to produce the formatted groups with group UUIDs...
+2025-02-21 12:04:15,265 - INFO - Skipping group 'durham heritage coast' due to insufficient items (found 1).
+2025-02-21 12:04:17,406 - INFO - Skipping group 'botswana university of agriculture and natural resources' due to insufficient items (found 1).
+2025-02-21 12:04:17,914 - INFO - Skipping group 'idea league' due to insufficient items (found 1).
+2025-02-21 12:04:18,624 - INFO - Skipping group 'third energy onshore' due to insufficient items (found 1).
+2025-02-21 12:04:19,130 - INFO - Skipping group 'seaweed solutions' due to insufficient items (found 1).
+2025-02-21 12:04:20,847 - INFO - Skipping group 'kuka germany' due to insufficient items (found 1).
+2025-02-21 12:04:21,325 - INFO - Skipping group 'react accessibility' due to insufficient items (found 1).
+2025-02-21 12:04:22,261 - INFO - Skipping group 'healthwatch liverpool' due to insufficient items (found 1).
+2025-02-21 12:04:25,750 - INFO - Skipping group 'culture health and wellbeing alliance' due to insufficient items (found 1).
+2025-02-21 12:04:27,266 - INFO - Skipping group 'hydra operations' due to insufficient items (found 1).
+2025-02-21 12:04:27,779 - INFO - Skipping group 'healthy air technology ltd' due to insufficient items (found 1).
+2025-02-21 12:04:28,308 - INFO - Skipping group 'nuspec oil limited' due to insufficient items (found 1).
+2025-02-21 12:04:29,966 - INFO - Skipping group 'sefari gateway' due to insufficient items (found 1).
+2025-02-21 12:04:30,650 - INFO - Skipping group 'swiss fix uk ltd' due to insufficient items (found 1).
+2025-02-21 12:04:31,655 - INFO - Skipping group 'association for learning technology' due to insufficient items (found 1).
+2025-02-21 12:04:33,535 - INFO - Skipping group 'institute of directors' due to insufficient items (found 1).
+2025-02-21 12:04:35,335 - INFO - Skipping group 'national service for industrial training' due to insufficient items (found 1).
+2025-02-21 12:04:36,366 - INFO - Skipping group 'marine zero limited' due to insufficient items (found 1).
+2025-02-21 12:04:37,079 - INFO - Skipping group 'research organization of information and systems' due to insufficient items (found 1).
+2025-02-21 12:04:38,086 - INFO - Skipping group 'frontier technical ltd' due to insufficient items (found 1).
+2025-02-21 12:04:38,866 - INFO - Skipping group 'european union' due to insufficient items (found 1).
+2025-02-21 12:04:39,401 - INFO - Skipping group 'compass group plc' due to insufficient items (found 1).
+2025-02-21 12:04:41,904 - INFO - Skipping group 'southern scientific' due to insufficient items (found 1).
+2025-02-21 12:04:42,604 - INFO - Skipping group 'rm healthtech' due to insufficient items (found 1).
+2025-02-21 12:04:43,797 - INFO - Skipping group 'complete control uk limited' due to insufficient items (found 1).
+2025-02-21 12:04:45,558 - INFO - Skipping group 'acre africa' due to insufficient items (found 1).
+2025-02-21 12:04:47,209 - INFO - Skipping group 'active motif' due to insufficient items (found 1).
+2025-02-21 12:04:47,849 - INFO - Skipping group 'institute of chemical process fundamentals' due to insufficient items (found 1).
+2025-02-21 12:04:48,871 - INFO - Skipping group 'western kentucky university' due to insufficient items (found 1).
+2025-02-21 12:04:50,556 - INFO - Skipping group 'northwest research associates' due to insufficient items (found 1).
+2025-02-21 12:04:52,133 - INFO - Skipping group 'geotek' due to insufficient items (found 1).
+2025-02-21 12:04:52,684 - INFO - Skipping group 'generic ai applications limited' due to insufficient items (found 1).
+2025-02-21 12:04:56,574 - INFO - Skipping group 'midlands engine partnership' due to insufficient items (found 1).
+2025-02-21 12:04:59,416 - INFO - Skipping group 'begbroke directorate' due to insufficient items (found 1).
+2025-02-21 12:05:00,590 - INFO - Skipping group 'google health' due to insufficient items (found 1).
+2025-02-21 12:05:01,154 - INFO - Skipping group 'centre for stem cells and regenerative medicine' due to insufficient items (found 1).
+2025-02-21 12:05:01,795 - INFO - Skipping group 'king saud bin abdulaziz university for health sciences' due to insufficient items (found 1).
+2025-02-21 12:05:02,978 - INFO - Skipping group 'northern health and social care trust' due to insufficient items (found 1).
+2025-02-21 12:05:03,594 - INFO - Skipping group 'i want plants limited' due to insufficient items (found 1).
+2025-02-21 12:05:04,791 - INFO - Skipping group 'pacific sterling limited' due to insufficient items (found 1).
+2025-02-21 12:05:06,050 - INFO - Skipping group 'your climate strategy limited' due to insufficient items (found 1).
+2025-02-21 12:05:09,847 - INFO - Skipping group 'health economics and epidemiology research office' due to insufficient items (found 1).
+2025-02-21 12:05:11,087 - INFO - Skipping group 'marondera university of agricultural sciences and technology' due to insufficient items (found 1).
+2025-02-21 12:05:12,407 - INFO - Skipping group 'coventry college' due to insufficient items (found 1).
+2025-02-21 12:05:13,008 - INFO - Skipping group 'rivelin rail limited' due to insufficient items (found 1).
+2025-02-21 12:05:13,942 - INFO - Skipping group 'children's hospital of fudan university' due to insufficient items (found 1).
+2025-02-21 12:05:14,545 - INFO - Skipping group 'glacier energy services' due to insufficient items (found 1).
+2025-02-21 12:05:16,364 - INFO - Skipping group 'the kelvin institute' due to insufficient items (found 1).
+2025-02-21 12:05:17,178 - INFO - Skipping group 'tianjin normal university' due to insufficient items (found 1).
+2025-02-21 12:05:18,862 - INFO - Skipping group 'live entertainment technologies ltd' due to insufficient items (found 1).
+2025-02-21 12:05:19,915 - INFO - Skipping group 'global and local' due to insufficient items (found 1).
+2025-02-21 12:05:20,733 - INFO - Skipping group 'luing cattle society' due to insufficient items (found 1).
+2025-02-21 12:05:21,386 - INFO - Skipping group 'edinburgh college' due to insufficient items (found 1).
+2025-02-21 12:05:22,712 - INFO - Skipping group 'national agricultural research centre' due to insufficient items (found 1).
+2025-02-21 12:05:23,242 - INFO - Skipping group 'perfectly fresh ltd' due to insufficient items (found 1).
+2025-02-21 12:05:25,381 - INFO - Skipping group 'international university of management' due to insufficient items (found 1).
+2025-02-21 12:05:26,800 - INFO - Skipping group 'autonomy systems' due to insufficient items (found 1).
+2025-02-21 12:05:28,992 - INFO - Skipping group 'stem cafe' due to insufficient items (found 1).
+2025-02-21 12:05:31,541 - INFO - Skipping group 'institute for plasma research' due to insufficient items (found 1).
+2025-02-21 12:05:32,701 - INFO - Skipping group 'leibniz institute for prevention research and epidemiology bips' due to insufficient items (found 1).
+2025-02-21 12:05:33,882 - INFO - Skipping group 'iowa soybean association' due to insufficient items (found 1).
+2025-02-21 12:05:34,716 - INFO - Skipping group 'the alpha group' due to insufficient items (found 1).
+2025-02-21 12:05:36,089 - INFO - Skipping group 'safe regeneration' due to insufficient items (found 1).
+2025-02-21 12:05:41,139 - INFO - Skipping group 'aerospace international services' due to insufficient items (found 1).
+2025-02-21 12:05:45,747 - INFO - Skipping group 'east hertfordshire district council' due to insufficient items (found 1).
+2025-02-21 12:05:47,615 - INFO - Skipping group 'biological molecular sciences' due to insufficient items (found 1).
+2025-02-21 12:05:49,058 - INFO - Skipping group 'proxima' due to insufficient items (found 1).
+2025-02-21 12:05:49,621 - INFO - Skipping group 'azienda ospedaliera universitaria pisana' due to insufficient items (found 1).
+2025-02-21 12:05:52,705 - INFO - Skipping group 'education intelligence' due to insufficient items (found 1).
+2025-02-21 12:05:53,374 - INFO - Skipping group 'murata power solutions milton keynes' due to insufficient items (found 1).
+2025-02-21 12:05:54,637 - INFO - Skipping group 'stirling developments' due to insufficient items (found 1).
+2025-02-21 12:05:55,434 - INFO - Skipping group 'uams translational research institute' due to insufficient items (found 1).
+2025-02-21 12:05:56,397 - INFO - Skipping group 'university of central lancashire' due to insufficient items (found 1).
+2025-02-21 12:05:57,322 - INFO - Skipping group 'graphene innovations' due to insufficient items (found 1).
+2025-02-21 12:06:00,625 - INFO - Skipping group 'ledwood mechanical engineering' due to insufficient items (found 1).
+2025-02-21 12:06:01,283 - INFO - Skipping group 'antrim and newtownabbey borough council' due to insufficient items (found 1).
+2025-02-21 12:06:03,891 - INFO - Skipping group 'crossfield fusion' due to insufficient items (found 1).
+2025-02-21 12:06:07,597 - INFO - Skipping group 'essex anchor network' due to insufficient items (found 1).
+2025-02-21 12:06:10,542 - INFO - Skipping group 'terra further ltd' due to insufficient items (found 1).
+2025-02-21 12:06:16,048 - INFO - Skipping group 'institute of physiology' due to insufficient items (found 1).
+2025-02-21 13:08:08,207 - INFO - Skipping group 'hilltop sustainability' due to insufficient items (found 1).
+2025-02-21 13:08:08,993 - INFO - Skipping group 'iot tribe ltd' due to insufficient items (found 1).
+2025-02-21 13:08:09,654 - INFO - Skipping group 'ife global logistics' due to insufficient items (found 1).
+2025-02-21 13:08:10,903 - INFO - Skipping group 'avid certification services limited' due to insufficient items (found 1).
+2025-02-21 13:08:12,072 - INFO - Skipping group 'pluszero power ltd' due to insufficient items (found 1).
+2025-02-21 13:08:14,444 - INFO - Skipping group 'elements technology platforms' due to insufficient items (found 1).
+2025-02-21 13:08:16,664 - INFO - Skipping group 'signal group limited' due to insufficient items (found 1).
+2025-02-21 13:08:17,238 - INFO - Skipping group 'canterbury archaeological trust' due to insufficient items (found 1).
+2025-02-21 13:08:18,533 - INFO - Skipping group 'national brain research centre' due to insufficient items (found 1).
+2025-02-21 13:08:27,371 - INFO - Skipping group 'cell preservation services inc' due to insufficient items (found 1).
+2025-02-21 13:08:31,467 - INFO - Skipping group 'royal victoria hospital' due to insufficient items (found 1).
+2025-02-21 13:08:32,721 - INFO - Skipping group 'ranela recycling services ltd' due to insufficient items (found 1).
+2025-02-21 13:08:33,423 - INFO - Skipping group 'society of biblical literature' due to insufficient items (found 1).
+2025-02-21 13:08:34,105 - INFO - Skipping group 'pno consultants limited' due to insufficient items (found 1).
+2025-02-21 13:08:35,861 - INFO - Skipping group 'ineos upstream limited' due to insufficient items (found 1).
+2025-02-21 13:08:37,739 - INFO - Skipping group 'heavyweight air express' due to insufficient items (found 1).
+2025-02-21 13:08:39,059 - INFO - Skipping group 'hewlettpackard india' due to insufficient items (found 1).
+2025-02-21 13:08:39,798 - INFO - Skipping group 'jss dental college and hospital' due to insufficient items (found 1).
+2025-02-21 13:08:40,355 - INFO - Skipping group 'isle utilities' due to insufficient items (found 1).
+2025-02-21 13:08:42,153 - INFO - Skipping group 'lead foundation' due to insufficient items (found 1).
+2025-02-21 13:08:43,419 - INFO - Skipping group 'athena sustainable materials institute' due to insufficient items (found 1).
+2025-02-21 13:08:49,274 - INFO - Skipping group 'calderdale museums service' due to insufficient items (found 1).
+2025-02-21 13:08:51,934 - INFO - Skipping group 'blenheim renewables limited' due to insufficient items (found 1).
+2025-02-21 13:08:52,364 - INFO - Skipping group 'cool dynamic' due to insufficient items (found 1).
+2025-02-21 13:08:53,855 - INFO - Skipping group 'developing technologies' due to insufficient items (found 1).
+2025-02-21 13:08:55,060 - INFO - Skipping group 'abbey forged products' due to insufficient items (found 1).
+2025-02-21 13:08:58,831 - INFO - Skipping group 'endress hauser ltd' due to insufficient items (found 1).
+2025-02-21 13:08:59,439 - INFO - Skipping group 'the christie pathology partnership' due to insufficient items (found 1).
+2025-02-21 13:08:59,964 - INFO - Skipping group 'era consulting ltd' due to insufficient items (found 1).
+2025-02-21 13:09:01,733 - INFO - Skipping group 'northumbria local criminal justice board' due to insufficient items (found 1).
+2025-02-21 13:09:02,301 - INFO - Skipping group 'aker norway' due to insufficient items (found 1).
+2025-02-21 13:09:03,377 - INFO - Skipping group 'communication systems' due to insufficient items (found 1).
+2025-02-21 13:09:04,908 - INFO - Skipping group 'chapel street project office' due to insufficient items (found 1).
+2025-02-21 13:09:05,604 - INFO - Skipping group 'unicorn ai limited' due to insufficient items (found 1).
+2025-02-21 13:09:06,289 - INFO - Skipping group 'lux industries ltd' due to insufficient items (found 1).
+2025-02-21 13:09:06,884 - INFO - Skipping group 'metropolitan kings cross' due to insufficient items (found 1).
+2025-02-21 13:09:08,925 - INFO - Skipping group 'the source consultancy ltd' due to insufficient items (found 1).
+2025-02-21 13:09:10,581 - INFO - Skipping group 'watford general hospital' due to insufficient items (found 1).
+2025-02-21 13:09:11,657 - INFO - Skipping group 'south downs planetarium and science centre' due to insufficient items (found 1).
+2025-02-21 13:09:12,590 - INFO - Skipping group 'sichuan university of science and engineering' due to insufficient items (found 1).
+2025-02-21 13:09:15,113 - INFO - Skipping group 'earth champions foundation ltd' due to insufficient items (found 1).
+2025-02-21 13:09:16,061 - INFO - Skipping group 'williams industrial services' due to insufficient items (found 1).
+2025-02-21 13:09:16,893 - INFO - Skipping group 'ethos digital health' due to insufficient items (found 1).
+2025-02-21 13:09:18,089 - INFO - Skipping group 'nigerian institute for trypanosomiasis research' due to insufficient items (found 1).
+2025-02-21 13:09:20,675 - INFO - Skipping group 'basic health international' due to insufficient items (found 1).
+2025-02-21 13:09:22,488 - INFO - Skipping group 'upskill enterprise ltd' due to insufficient items (found 1).
+2025-02-21 13:09:23,489 - INFO - Skipping group 'putrajaya holdings' due to insufficient items (found 1).
+2025-02-21 13:09:24,151 - INFO - Skipping group 'gb thermachem limited' due to insufficient items (found 1).
+2025-02-21 13:09:24,811 - INFO - Skipping group 'bluecube marine ltd' due to insufficient items (found 1).
+2025-02-21 13:09:25,449 - INFO - Skipping group 'open cell' due to insufficient items (found 1).
+2025-02-21 13:09:30,497 - INFO - Skipping group 'chester zoo' due to insufficient items (found 1).
+2025-02-21 13:09:31,630 - INFO - Skipping group 'muti immersive ltd' due to insufficient items (found 1).
+2025-02-21 13:09:33,328 - INFO - Skipping group 'just health mexico' due to insufficient items (found 1).
+2025-02-21 13:09:34,621 - INFO - Skipping group 'academic consulting services ltd' due to insufficient items (found 1).
+2025-02-21 13:09:35,148 - INFO - Skipping group 'ph3 capital ltd' due to insufficient items (found 1).
+2025-02-21 13:09:36,398 - INFO - Skipping group 'da vinci communications' due to insufficient items (found 1).
+2025-02-21 13:09:37,157 - INFO - Skipping group 'sports information services limited' due to insufficient items (found 1).
+2025-02-21 13:09:37,652 - INFO - Skipping group 'centre for precision cell therapy' due to insufficient items (found 1).
+2025-02-21 13:09:39,796 - INFO - Skipping group 'landmark plc' due to insufficient items (found 1).
+2025-02-21 13:09:42,171 - INFO - Skipping group 'a partner in education' due to insufficient items (found 1).
+2025-02-21 13:09:42,886 - INFO - Skipping group 'habitat international coalition' due to insufficient items (found 1).
+2025-02-21 13:09:45,780 - INFO - Skipping group 'enzyme supplies ltd' due to insufficient items (found 1).
+2025-02-21 13:09:47,727 - INFO - Skipping group 'thermal services uk' due to insufficient items (found 1).
+2025-02-21 13:09:48,499 - INFO - Skipping group 'electro medical measurement systems' due to insufficient items (found 1).
+2025-02-21 13:09:49,017 - INFO - Skipping group 'icam engineering ltd' due to insufficient items (found 1).
+2025-02-21 13:09:51,430 - INFO - Skipping group 'school of material' due to insufficient items (found 1).
+2025-02-21 13:09:51,951 - INFO - Skipping group 'marketing manchester' due to insufficient items (found 1).
+2025-02-21 13:09:56,871 - INFO - Skipping group 'elite electronic systems ltd' due to insufficient items (found 1).
+2025-02-21 13:09:57,607 - INFO - Skipping group 'cmc research institutes' due to insufficient items (found 1).
+2025-02-21 13:09:58,255 - INFO - Skipping group 'smithsonian american art museum' due to insufficient items (found 1).
+2025-02-21 13:09:58,775 - INFO - Skipping group 'clarion housing group' due to insufficient items (found 1).
+2025-02-21 13:10:00,968 - INFO - Skipping group 'central alliance' due to insufficient items (found 1).
+2025-02-21 13:10:03,544 - INFO - Skipping group 'the farming community network' due to insufficient items (found 1).
+2025-02-21 13:10:05,024 - INFO - Skipping group 'malvern cyber security cluster' due to insufficient items (found 1).
+2025-02-21 13:10:05,753 - INFO - Skipping group 'red phantom games limited' due to insufficient items (found 1).
+2025-02-21 13:10:07,753 - INFO - Skipping group 'io media group ltd' due to insufficient items (found 1).
+2025-02-21 13:10:12,787 - INFO - Skipping group 'allotrope scientific ltd' due to insufficient items (found 1).
+2025-02-21 13:10:14,005 - INFO - Skipping group 'data science for health equity' due to insufficient items (found 1).
+2025-02-21 13:10:15,128 - INFO - Skipping group 'medical architecture and art projects limited' due to insufficient items (found 1).
+2025-02-21 13:10:15,786 - INFO - Skipping group 'quantum technology sciences' due to insufficient items (found 1).
+2025-02-21 13:10:20,927 - INFO - Skipping group 'university of toronto' due to insufficient items (found 1).
+2025-02-21 13:10:22,411 - INFO - Skipping group 'enchar ltd' due to insufficient items (found 1).
+2025-02-21 13:10:23,905 - INFO - Skipping group 'beautiful voice limited' due to insufficient items (found 1).
+2025-02-21 13:10:24,623 - INFO - Skipping group 'solar sister entrepreneurs nigeria' due to insufficient items (found 1).
+2025-02-21 13:10:25,799 - INFO - Skipping group 'fukushima university' due to insufficient items (found 1).
+2025-02-21 13:10:31,002 - INFO - Skipping group 'know someone limited' due to insufficient items (found 1).
+2025-02-21 13:10:31,652 - INFO - Skipping group 'ancient egypt research associates' due to insufficient items (found 1).
+2025-02-21 13:10:32,513 - INFO - Skipping group 'sichuan academy of natural resource sciences' due to insufficient items (found 1).
+2025-02-21 13:10:33,314 - INFO - Skipping group 'equal measure' due to insufficient items (found 1).
+2025-02-21 13:10:35,663 - INFO - Skipping group 'consortium of european research libraries' due to insufficient items (found 1).
+2025-02-21 13:10:37,355 - INFO - Skipping group 'scotland food and drink' due to insufficient items (found 1).
+2025-02-21 13:10:38,071 - INFO - Skipping group 'british society of plant breeders' due to insufficient items (found 1).
+2025-02-21 13:10:42,320 - INFO - Skipping group 'john r wright limited' due to insufficient items (found 1).
+2025-02-21 13:10:44,702 - INFO - Skipping group 'sports aid trust' due to insufficient items (found 1).
+2025-02-21 13:10:45,984 - INFO - Skipping group 'ian collins' due to insufficient items (found 1).
+2025-02-21 13:10:46,518 - INFO - Skipping group 'ird global' due to insufficient items (found 1).
+2025-02-21 13:10:47,268 - INFO - Skipping group 'time for a new icon ltd' due to insufficient items (found 1).
+2025-02-21 13:10:48,115 - INFO - Skipping group 'round bank engineering ltd' due to insufficient items (found 1).
+2025-02-21 13:10:48,810 - INFO - Skipping group 'bradford children and families trust' due to insufficient items (found 1).
+2025-02-21 13:10:52,160 - INFO - Skipping group 'inclusive innovations ltd' due to insufficient items (found 1).
+2025-02-21 13:10:54,616 - INFO - Skipping group 'mutual shoots limited' due to insufficient items (found 1).
+2025-02-21 13:10:55,266 - INFO - Skipping group 'deliberate impact ltd' due to insufficient items (found 1).
+2025-02-21 13:10:56,049 - INFO - Skipping group 'business support services' due to insufficient items (found 1).
+2025-02-21 13:10:56,656 - INFO - Skipping group 'mount sinai hospital' due to insufficient items (found 1).
+2025-02-21 13:11:00,284 - INFO - Skipping group 'oxford sigma ltd' due to insufficient items (found 1).
+2025-02-21 13:11:01,173 - INFO - Skipping group 'institute for sme research bonn' due to insufficient items (found 1).
+2025-02-21 13:11:01,747 - INFO - Skipping group 'wrexham county borough council' due to insufficient items (found 1).
+2025-02-21 13:11:02,590 - INFO - Skipping group 'grid scientific limited' due to insufficient items (found 1).
+2025-02-21 13:11:03,197 - INFO - Skipping group 'agriculture' due to insufficient items (found 1).
+2025-02-21 13:11:03,743 - INFO - Skipping group 'hawkins brown design limited' due to insufficient items (found 1).
+2025-02-21 13:11:07,602 - INFO - Skipping group 'regen renewables' due to insufficient items (found 1).
+2025-02-21 13:11:08,666 - INFO - Skipping group 'the paper birds theatre company' due to insufficient items (found 1).
+2025-02-21 13:11:09,760 - INFO - Skipping group 'incredible husk international group limited' due to insufficient items (found 1).
+2025-02-21 13:11:14,273 - INFO - Skipping group 'university of la salle' due to insufficient items (found 1).
+2025-02-21 13:11:14,895 - INFO - Skipping group 'the sound agency' due to insufficient items (found 1).
+2025-02-21 13:11:15,570 - INFO - Skipping group 'ev centres uk limited' due to insufficient items (found 1).
+2025-02-21 13:11:17,654 - INFO - Skipping group 'national geographic society' due to insufficient items (found 1).
+2025-02-21 13:11:18,863 - INFO - Skipping group 'think analytics' due to insufficient items (found 1).
+2025-02-21 13:11:20,215 - INFO - Skipping group 'vale window company limited' due to insufficient items (found 1).
+2025-02-21 13:11:20,822 - INFO - Skipping group 'biozeroc ltd' due to insufficient items (found 1).
+2025-02-21 13:11:21,670 - INFO - Skipping group 'red sensors limited' due to insufficient items (found 1).
+2025-02-21 13:11:22,296 - INFO - Skipping group 'bc parks' due to insufficient items (found 1).
+2025-02-21 13:11:24,087 - INFO - Skipping group 'children 1st' due to insufficient items (found 1).
+2025-02-21 13:11:24,605 - INFO - Skipping group 'pattimura university' due to insufficient items (found 1).
+2025-02-21 13:11:25,975 - INFO - Skipping group 'climate emergency uk ltd' due to insufficient items (found 1).
+2025-02-21 13:11:26,633 - INFO - Skipping group 'gamma energy limited' due to insufficient items (found 1).
+2025-02-21 13:11:27,288 - INFO - Skipping group 'vanuatu cultural centre' due to insufficient items (found 1).
+2025-02-21 13:11:31,082 - INFO - Skipping group 'innovision consulting' due to insufficient items (found 1).
+2025-02-21 13:11:32,509 - INFO - Skipping group 'elliott wood partnership' due to insufficient items (found 1).
+2025-02-21 13:11:33,100 - INFO - Skipping group 'uk water partnership' due to insufficient items (found 1).
+2025-02-21 13:11:33,783 - INFO - Skipping group 'bioregional consulting limited' due to insufficient items (found 1).
+2025-02-21 13:11:35,931 - INFO - Skipping group 'scottish land estates' due to insufficient items (found 1).
+2025-02-21 13:11:37,243 - INFO - Skipping group 'pragmatic genomics' due to insufficient items (found 1).
+2025-02-21 13:11:37,995 - INFO - Skipping group 'east midlands chamber of commerce' due to insufficient items (found 1).
+2025-02-21 13:11:42,004 - INFO - Skipping group 'centre for nutrition research, university of navarra' due to insufficient items (found 1).
+2025-02-21 13:11:43,168 - INFO - Skipping group 'flavourfresh salads' due to insufficient items (found 1).
+2025-02-21 13:11:44,486 - INFO - Skipping group 'together for girls' due to insufficient items (found 1).
+2025-02-21 13:11:45,100 - INFO - Skipping group 'evangelical alliance' due to insufficient items (found 1).
+2025-02-21 13:11:46,277 - INFO - Skipping group 'pure marine gen ltd' due to insufficient items (found 1).
+2025-02-21 13:11:47,835 - INFO - Skipping group 'aerospace tooling limited' due to insufficient items (found 1).
+2025-02-21 13:11:49,172 - INFO - Skipping group 'shanghai research institute of building sciences' due to insufficient items (found 1).
+2025-02-21 13:11:49,769 - INFO - Skipping group 'lucy group ltd' due to insufficient items (found 1).
+2025-02-21 13:11:50,487 - INFO - Skipping group 'silicon austria labs' due to insufficient items (found 1).
+2025-02-21 13:11:56,713 - INFO - Skipping group 'commonwealth association of planners' due to insufficient items (found 1).
+2025-02-21 13:11:57,891 - INFO - Skipping group 'westerham brewery company limited' due to insufficient items (found 1).
+2025-02-21 13:12:00,163 - INFO - Skipping group 'runnymede borough council' due to insufficient items (found 1).
+2025-02-21 13:12:03,514 - INFO - Skipping group 'net positive solutions ltd' due to insufficient items (found 1).
+2025-02-21 13:12:06,181 - INFO - Skipping group 'tomorrows medicines limited' due to insufficient items (found 1).
+2025-02-21 13:12:06,814 - INFO - Skipping group 'lmb textile recycling' due to insufficient items (found 1).
+2025-02-21 13:12:07,304 - INFO - Skipping group 'south denbighshire community partnership' due to insufficient items (found 1).
+2025-02-21 13:12:10,391 - INFO - Skipping group 'slingshot effect limited' due to insufficient items (found 1).
+2025-02-21 13:12:11,118 - INFO - Skipping group 'british high commission nairobi' due to insufficient items (found 1).
+2025-02-21 13:12:11,666 - INFO - Skipping group 'cathedral isle of man' due to insufficient items (found 1).
+2025-02-21 13:12:14,730 - INFO - Skipping group 'remote maintenance systems limited' due to insufficient items (found 1).
+2025-02-21 13:12:15,331 - INFO - Skipping group 'molecule 2 medicine' due to insufficient items (found 1).
+2025-02-21 13:12:19,082 - INFO - Skipping group 'united states holocaust memorial museum' due to insufficient items (found 1).
+2025-02-21 13:12:20,455 - INFO - Skipping group 'manufacturing service solutions limited' due to insufficient items (found 1).
+2025-02-21 13:12:22,242 - INFO - Skipping group 'singleton hospital' due to insufficient items (found 1).
+2025-02-21 13:12:24,686 - INFO - Skipping group 'state library of south australia' due to insufficient items (found 1).
+2025-02-21 13:12:25,482 - INFO - Skipping group 'worn again technologies' due to insufficient items (found 1).
+2025-02-21 13:12:27,744 - INFO - Skipping group 'transmission excellence limited' due to insufficient items (found 1).
+2025-02-21 13:12:29,040 - INFO - Skipping group 'education university of hong kong' due to insufficient items (found 1).
+2025-02-21 13:12:32,774 - INFO - Skipping group 'krith kwazulunatal research institute' due to insufficient items (found 1).
+2025-02-21 13:12:35,120 - INFO - Skipping group 'mersey dee energy' due to insufficient items (found 1).
+2025-02-21 13:12:36,642 - INFO - Skipping group 'rajendra institute of medical sciences' due to insufficient items (found 1).
+2025-02-21 13:12:37,347 - INFO - Skipping group 'ostara technologies' due to insufficient items (found 1).
+2025-02-21 13:12:37,957 - INFO - Skipping group 'digital health care innovation centre' due to insufficient items (found 1).
+2025-02-21 13:12:42,245 - INFO - Skipping group 'orthox' due to insufficient items (found 1).
+2025-02-21 13:12:44,231 - INFO - Skipping group 'national university of medical sciences pakistan' due to insufficient items (found 1).
+2025-02-21 13:12:45,407 - INFO - Skipping group 'northumberland archives' due to insufficient items (found 1).
+2025-02-21 13:12:45,963 - INFO - Skipping group 'prime focus technologies uk' due to insufficient items (found 1).
+2025-02-21 13:12:46,593 - INFO - Skipping group 'barbados community college' due to insufficient items (found 1).
+2025-02-21 13:12:47,215 - INFO - Skipping group 'community renewal trust' due to insufficient items (found 1).
+2025-02-21 13:12:48,427 - INFO - Skipping group 'croatian geological survey' due to insufficient items (found 1).

@@ -1,0 +1,13 @@
+2025-02-19 15:00:53,594 - INFO - Repo root: /home/ubuntu/OrgSync
+2025-02-19 15:00:53,759 - INFO - Loaded old database with 105575 entries from /home/ubuntu/OrgSync/data/raw/old_uk_data.json
+2025-02-19 15:00:54,254 - INFO - Merged dataset has 82281 total entries.
+2025-02-19 15:00:54,254 - INFO - Found 7773 new entries not in the old database.
+2025-02-19 15:00:54,641 - INFO - Merged data written to /home/ubuntu/OrgSync/data/raw/merged_uk_data.json
+2025-02-19 15:00:54,666 - INFO - New entries written to /home/ubuntu/OrgSync/data/raw/new_entries.json
+2025-02-19 15:00:54,840 - INFO - Stage 0 complete.
+2025-02-19 15:00:55,051 - INFO - Loaded and preprocessed 82281 entries.
+2025-02-19 15:00:55,128 - INFO - Stage 1 complete.
+2025-02-19 15:00:55,264 - INFO - Found 5591 identical-name groups with more than 1 entry.
+2025-02-19 15:00:55,325 - INFO - Stage 2 complete.
+2025-02-19 15:00:55,934 - INFO - Vectorized 82279 unique entries based on full uniqueness.
+2025-02-19 15:00:56,270 - INFO - Stage 3 complete.

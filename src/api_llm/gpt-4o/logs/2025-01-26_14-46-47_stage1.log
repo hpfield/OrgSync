@@ -1,0 +1,21 @@
+2025-01-26 14:46:47,865 - INFO - Loaded and preprocessed 105575 entries.
+2025-01-26 14:46:47,886 - INFO - Stage 1 complete.
+2025-01-26 14:46:47,887 - INFO - Found 4 identical-name groups with 2+ entries.
+2025-01-26 14:46:47,887 - INFO - Stage 2 complete.
+2025-01-26 14:46:47,890 - INFO - Vectorized 94 unique entries based on full uniqueness.
+2025-01-26 14:46:47,891 - INFO - Stage 3 complete.
+2025-01-26 14:46:47,893 - INFO - Grouped names into 4 groups (size >= 2).
+2025-01-26 14:46:47,893 - INFO - Stage 4 complete.
+2025-01-26 14:46:47,893 - INFO - Extracting unique names from grouped names for web search...
+2025-01-26 14:46:48,020 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 200 19961
+2025-01-26 14:46:48,183 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27926695509603595082423013289024343184&bing_market=wt-WT&ex=-1 202 598
+2025-01-26 14:46:48,184 - ERROR - Error during web search for 'advanced communications  information systems ltd': https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27926695509603595082423013289024343184&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (1/5)...
+2025-01-26 14:46:50,323 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 200 19961
+2025-01-26 14:46:50,513 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27926695509603595082423013289024343184&bing_market=wt-WT&ex=-1 202 594
+2025-01-26 14:46:50,514 - ERROR - Error during web search for 'advanced communications  information systems ltd': https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27926695509603595082423013289024343184&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (2/5)...
+2025-01-26 14:46:54,649 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 200 19961
+2025-01-26 14:46:54,804 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27926695509603595082423013289024343184&bing_market=wt-WT&ex=-1 202 600
+2025-01-26 14:46:54,805 - ERROR - Error during web search for 'advanced communications  information systems ltd': https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27926695509603595082423013289024343184&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (3/5)...
+2025-01-26 14:47:02,944 - INFO - response: https://duckduckgo.com/?q=%22advanced+communications++information+systems+ltd%22 200 19961
+2025-01-26 14:47:03,152 - INFO - response: https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27926695509603595082423013289024343184&bing_market=wt-WT&ex=-1 202 594
+2025-01-26 14:47:03,153 - ERROR - Error during web search for 'advanced communications  information systems ltd': https://links.duckduckgo.com/d.js?q=%22advanced+communications++information+systems+ltd%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-27926695509603595082423013289024343184&bing_market=wt-WT&ex=-1 202 Ratelimit. Retrying (4/5)...

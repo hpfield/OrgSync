@@ -1,0 +1,49 @@
+2025-02-05 16:30:38,625 - INFO - Repo root: /home/ubuntu/OrgSync
+2025-02-05 16:30:38,783 - INFO - Loaded old database with 105575 entries from /home/ubuntu/OrgSync/data/raw/old_uk_data.json
+2025-02-05 16:30:39,289 - INFO - Merged dataset has 82281 total entries.
+2025-02-05 16:30:39,289 - INFO - Found 7773 new entries not in the old database.
+2025-02-05 16:30:39,648 - INFO - Merged data written to /home/ubuntu/OrgSync/data/raw/merged_uk_data.json
+2025-02-05 16:30:39,671 - INFO - New entries written to /home/ubuntu/OrgSync/data/raw/new_entries.json
+2025-02-05 16:30:39,835 - INFO - Stage 0 complete.
+2025-02-05 16:30:40,051 - INFO - Loaded and preprocessed 82281 entries.
+2025-02-05 16:30:40,127 - INFO - Stage 1 complete.
+2025-02-05 16:30:40,283 - INFO - Found 5591 identical-name groups with more than 1 entry.
+2025-02-05 16:30:40,347 - INFO - Stage 2 complete.
+2025-02-05 16:30:40,993 - INFO - Vectorized 82279 unique entries based on full uniqueness.
+2025-02-05 16:30:41,325 - INFO - Stage 3 complete.
+2025-02-05 16:31:41,279 - INFO - Grouped names into 15714 groups (size >= 2).
+2025-02-05 16:31:41,711 - INFO - Stage 4 complete.
+2025-02-05 16:31:41,729 - INFO - Created/added to 3942 groups with new data.
+2025-02-05 16:31:41,899 - INFO - Loaded existing web search DB from outputs/all_web_search_results.json
+2025-02-05 16:31:41,904 - INFO - 13065 out of 13426 names need new web searches.
+2025-02-05 16:31:42,033 - INFO - response: https://duckduckgo.com/?q=%22mutual+energy+limited%22 200 20521
+2025-02-05 16:31:42,709 - INFO - response: https://links.duckduckgo.com/d.js?q=%22mutual+energy+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-43667595123892489928686910941195279046&bing_market=wt-WT&ex=-1 200 43087
+2025-02-05 16:31:42,710 - ERROR - Error during web search for 'mutual energy limited': _text_extract_json() keywords='"mutual energy limited"' ValueError: subsection not found. Retrying (1/5)...
+2025-02-05 16:31:44,848 - INFO - response: https://duckduckgo.com/?q=%22mutual+energy+limited%22 200 20537
+2025-02-05 16:31:45,600 - INFO - response: https://links.duckduckgo.com/d.js?q=%22mutual+energy+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-43667595123892489928686910941195279046&bing_market=wt-WT&ex=-1 200 41836
+2025-02-05 16:31:45,601 - ERROR - Error during web search for 'mutual energy limited': _text_extract_json() keywords='"mutual energy limited"' ValueError: subsection not found. Retrying (2/5)...
+2025-02-05 16:31:49,710 - INFO - response: https://duckduckgo.com/?q=%22mutual+energy+limited%22 200 20537
+2025-02-05 16:31:50,409 - INFO - response: https://links.duckduckgo.com/d.js?q=%22mutual+energy+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-43667595123892489928686910941195279046&bing_market=wt-WT&ex=-1 200 37671
+2025-02-05 16:31:50,410 - ERROR - Error during web search for 'mutual energy limited': _text_extract_json() keywords='"mutual energy limited"' ValueError: subsection not found. Retrying (3/5)...
+2025-02-05 16:31:58,557 - INFO - response: https://duckduckgo.com/?q=%22mutual+energy+limited%22 200 20521
+2025-02-05 16:31:59,209 - INFO - response: https://links.duckduckgo.com/d.js?q=%22mutual+energy+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-43667595123892489928686910941195279046&bing_market=wt-WT&ex=-1 200 39885
+2025-02-05 16:31:59,210 - ERROR - Error during web search for 'mutual energy limited': _text_extract_json() keywords='"mutual energy limited"' ValueError: subsection not found. Retrying (4/5)...
+2025-02-05 16:32:15,355 - INFO - response: https://duckduckgo.com/?q=%22mutual+energy+limited%22 200 20543
+2025-02-05 16:32:16,065 - INFO - response: https://links.duckduckgo.com/d.js?q=%22mutual+energy+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-43667595123892489928686910941195279046&bing_market=wt-WT&ex=-1 200 38363
+2025-02-05 16:32:16,066 - ERROR - Error during web search for 'mutual energy limited': _text_extract_json() keywords='"mutual energy limited"' ValueError: subsection not found. Retrying (5/5)...
+2025-02-05 16:32:48,098 - ERROR - Failed to retrieve search results for 'mutual energy limited' after 5 retries.
+2025-02-05 16:32:48,236 - INFO - response: https://duckduckgo.com/?q=%22global+instrumentation+limited%22 200 20735
+2025-02-05 16:32:48,876 - INFO - response: https://links.duckduckgo.com/d.js?q=%22global+instrumentation+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-9301884586970723324961784455981650963&bing_market=wt-WT&ex=-1 200 10655
+2025-02-05 16:32:48,878 - ERROR - Error during web search for 'global instrumentation limited': _text_extract_json() keywords='"global instrumentation limited"' ValueError: subsection not found. Retrying (1/5)...
+2025-02-05 16:32:51,003 - INFO - response: https://duckduckgo.com/?q=%22global+instrumentation+limited%22 200 20713
+2025-02-05 16:32:51,616 - INFO - response: https://links.duckduckgo.com/d.js?q=%22global+instrumentation+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-9301884586970723324961784455981650963&bing_market=wt-WT&ex=-1 200 10573
+2025-02-05 16:32:51,617 - ERROR - Error during web search for 'global instrumentation limited': _text_extract_json() keywords='"global instrumentation limited"' ValueError: subsection not found. Retrying (2/5)...
+2025-02-05 16:32:55,774 - INFO - response: https://duckduckgo.com/?q=%22global+instrumentation+limited%22 200 20713
+2025-02-05 16:32:56,381 - INFO - response: https://links.duckduckgo.com/d.js?q=%22global+instrumentation+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-9301884586970723324961784455981650963&bing_market=wt-WT&ex=-1 200 10500
+2025-02-05 16:32:56,382 - ERROR - Error during web search for 'global instrumentation limited': _text_extract_json() keywords='"global instrumentation limited"' ValueError: subsection not found. Retrying (3/5)...
+2025-02-05 16:33:04,550 - INFO - response: https://duckduckgo.com/?q=%22global+instrumentation+limited%22 200 20713
+2025-02-05 16:33:05,162 - INFO - response: https://links.duckduckgo.com/d.js?q=%22global+instrumentation+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-9301884586970723324961784455981650963&bing_market=wt-WT&ex=-1 200 10694
+2025-02-05 16:33:05,163 - ERROR - Error during web search for 'global instrumentation limited': _text_extract_json() keywords='"global instrumentation limited"' ValueError: subsection not found. Retrying (4/5)...
+2025-02-05 16:33:21,318 - INFO - response: https://duckduckgo.com/?q=%22global+instrumentation+limited%22 200 20730
+2025-02-05 16:33:21,875 - INFO - response: https://links.duckduckgo.com/d.js?q=%22global+instrumentation+limited%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-9301884586970723324961784455981650963&bing_market=wt-WT&ex=-1 200 10500
+2025-02-05 16:33:21,876 - ERROR - Error during web search for 'global instrumentation limited': _text_extract_json() keywords='"global instrumentation limited"' ValueError: subsection not found. Retrying (5/5)...

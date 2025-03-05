@@ -1,0 +1,28 @@
+2025-02-05 13:53:12,277 - INFO - Repo root: /home/ubuntu/OrgSync
+2025-02-05 13:53:12,432 - INFO - Loaded old database with 105575 entries from /home/ubuntu/OrgSync/data/raw/old_uk_data.json
+2025-02-05 13:53:12,928 - INFO - Merged dataset has 74508 total entries.
+2025-02-05 13:53:12,929 - INFO - Found 0 new entries not in the old database.
+2025-02-05 13:53:13,219 - INFO - Merged data written to /home/ubuntu/OrgSync/data/raw/merged_uk_data.json
+2025-02-05 13:53:13,219 - INFO - New entries written to /home/ubuntu/OrgSync/data/raw/new_entries.json
+2025-02-05 13:53:13,369 - INFO - Stage 0 complete.
+2025-02-05 13:53:13,563 - INFO - Loaded and preprocessed 74508 entries.
+2025-02-05 13:53:13,574 - INFO - Stage 1 complete.
+2025-02-05 13:53:13,574 - INFO - Found 0 identical-name groups with more than 1 entry.
+2025-02-05 13:53:13,574 - INFO - Stage 2 complete.
+2025-02-05 13:53:13,577 - INFO - Vectorized 100 unique entries based on full uniqueness.
+2025-02-05 13:53:13,578 - INFO - Stage 3 complete.
+2025-02-05 13:53:13,580 - INFO - Grouped names into 1 groups (size >= 2).
+2025-02-05 13:53:13,580 - INFO - Stage 4 complete.
+2025-02-05 13:53:13,580 - INFO - No groups contain new data; subsequent expensive stages can be skipped.
+2025-02-05 13:53:13,580 - INFO - No new data groups found; skipping Stage 5.
+2025-02-05 13:53:13,580 - INFO - No new data groups found; skipping Stage 6.
+2025-02-05 13:53:13,580 - INFO - Combining overlapping groups...
+2025-02-05 13:53:13,580 - INFO - Number of combined groups: 4
+2025-02-05 13:53:13,580 - INFO - Stage 7 complete.
+2025-02-05 13:53:13,580 - INFO - Determining organisation types for groups...
+2025-02-05 13:53:14,418 - INFO - Completed organisation type detection for 4 groups.
+2025-02-05 13:53:14,418 - INFO - Stage 8 complete.
+2025-02-05 13:53:14,418 - INFO - Finalizing groups to produce the final JSON with group UUIDs...
+2025-02-05 13:53:14,763 - INFO - Produced final results with 4 groups.
+2025-02-05 13:53:14,763 - INFO - Stage 9 complete.
+2025-02-05 13:53:14,763 - INFO - Updated rolling final output at outputs/output_groups.json.

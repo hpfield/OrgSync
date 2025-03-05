@@ -1,9 +1,9 @@
 # OrgSync
 
-In a database of academic publications, we must resolve situations where the same organisation has been referred to by different names. To do this, we apply a multi-stage technique outlined in the following diagram:
+In a database of academic publications, we must resolve situations where the same organisation has been referred to by different names. To do this, we apply a multi-stage techniqueoutlined in the following diagram:
 
 
-![orgsync drawio](https://github.com/user-attachments/assets/3d5346e4-ceb1-4c27-9b60-0c0b37317f29)
+![orgsync drawio](https://github.com/user-attachments/assets/14e55f07-2c33-4c86-bfbd-8d623611db94)
 
 
 We conduct micro-labelling sessions as we progress to account for the absence of labelled data. We do this to obtain some metric of success beyond anecdotal experiences reading model outputs.

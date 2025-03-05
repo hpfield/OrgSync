@@ -1,0 +1,6 @@
+2025-02-20 11:47:10,735 - INFO - Processing groups with LLM...
+2025-02-20 11:47:11,475 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-02-20 11:47:11,476 - INFO - Retrying request to /chat/completions in 0.427285 seconds
+2025-02-20 11:47:12,023 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-02-20 11:47:12,024 - INFO - Retrying request to /chat/completions in 0.881691 seconds
+2025-02-20 11:47:13,023 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"

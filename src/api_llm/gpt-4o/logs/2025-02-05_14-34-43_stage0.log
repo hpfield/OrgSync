@@ -1,0 +1,83 @@
+2025-02-05 14:34:43,265 - INFO - Repo root: /home/ubuntu/OrgSync
+2025-02-05 14:34:43,427 - INFO - Loaded old database with 105575 entries from /home/ubuntu/OrgSync/data/raw/old_uk_data.json
+2025-02-05 14:34:44,186 - INFO - Merged dataset has 82281 total entries.
+2025-02-05 14:34:44,186 - INFO - Found 7773 new entries not in the old database.
+2025-02-05 14:34:44,722 - INFO - Merged data written to /home/ubuntu/OrgSync/data/raw/merged_uk_data.json
+2025-02-05 14:34:44,751 - INFO - New entries written to /home/ubuntu/OrgSync/data/raw/new_entries.json
+2025-02-05 14:34:44,991 - INFO - Stage 0 complete.
+2025-02-05 14:34:45,204 - INFO - Loaded and preprocessed 82281 entries.
+2025-02-05 14:34:45,267 - INFO - Stage 1 complete.
+2025-02-05 14:34:45,401 - INFO - Found 5591 identical-name groups with more than 1 entry.
+2025-02-05 14:34:45,461 - INFO - Stage 2 complete.
+2025-02-05 14:34:46,083 - INFO - Vectorized 82279 unique entries based on full uniqueness.
+2025-02-05 14:34:46,403 - INFO - Stage 3 complete.
+2025-02-05 14:35:45,624 - INFO - Grouped names into 15721 groups (size >= 2).
+2025-02-05 14:35:46,055 - INFO - Stage 4 complete.
+2025-02-05 14:35:46,219 - INFO - Loaded existing web search DB from outputs/all_web_search_results.json
+2025-02-05 14:35:46,223 - INFO - 13434 out of 13434 names need new web searches.
+2025-02-05 14:35:46,386 - INFO - response: https://duckduckgo.com/?q=%22international+relations%22 200 30306
+2025-02-05 14:35:47,369 - INFO - response: https://links.duckduckgo.com/d.js?q=%22international+relations%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-31656869581008673849318505697226812350&bing_market=wt-WT&ex=-1 200 47579
+2025-02-05 14:35:47,370 - ERROR - Error during web search for 'international relations': _text_extract_json() keywords='"international relations"' ValueError: subsection not found. Retrying (1/5)...
+2025-02-05 14:35:49,679 - INFO - response: https://duckduckgo.com/?q=%22international+relations%22 200 30307
+2025-02-05 14:35:50,467 - INFO - response: https://links.duckduckgo.com/d.js?q=%22international+relations%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-31656869581008673849318505697226812350&bing_market=wt-WT&ex=-1 200 49129
+2025-02-05 14:35:50,468 - ERROR - Error during web search for 'international relations': _text_extract_json() keywords='"international relations"' ValueError: subsection not found. Retrying (2/5)...
+2025-02-05 14:35:54,635 - INFO - response: https://duckduckgo.com/?q=%22international+relations%22 200 30307
+2025-02-05 14:35:55,644 - INFO - response: https://links.duckduckgo.com/d.js?q=%22international+relations%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-31656869581008673849318505697226812350&bing_market=wt-WT&ex=-1 200 48173
+2025-02-05 14:35:55,645 - ERROR - Error during web search for 'international relations': _text_extract_json() keywords='"international relations"' ValueError: subsection not found. Retrying (3/5)...
+2025-02-05 14:36:03,798 - INFO - response: https://duckduckgo.com/?q=%22international+relations%22 200 30307
+2025-02-05 14:36:04,710 - INFO - response: https://links.duckduckgo.com/d.js?q=%22international+relations%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-31656869581008673849318505697226812350&bing_market=wt-WT&ex=-1 200 48729
+2025-02-05 14:36:04,711 - ERROR - Error during web search for 'international relations': _text_extract_json() keywords='"international relations"' ValueError: subsection not found. Retrying (4/5)...
+2025-02-05 14:36:20,868 - INFO - response: https://duckduckgo.com/?q=%22international+relations%22 200 30308
+2025-02-05 14:36:21,745 - INFO - response: https://links.duckduckgo.com/d.js?q=%22international+relations%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-31656869581008673849318505697226812350&bing_market=wt-WT&ex=-1 200 49414
+2025-02-05 14:36:21,746 - ERROR - Error during web search for 'international relations': _text_extract_json() keywords='"international relations"' ValueError: subsection not found. Retrying (5/5)...
+2025-02-05 14:36:53,778 - ERROR - Failed to retrieve search results for 'international relations' after 5 retries.
+2025-02-05 14:36:53,924 - INFO - response: https://duckduckgo.com/?q=%22eastern+washington+university%22 200 29227
+2025-02-05 14:36:54,675 - INFO - response: https://links.duckduckgo.com/d.js?q=%22eastern+washington+university%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-119903969056080359538408897587531112763&bing_market=wt-WT&ex=-1 200 33177
+2025-02-05 14:36:54,676 - ERROR - Error during web search for 'eastern washington university': _text_extract_json() keywords='"eastern washington university"' ValueError: subsection not found. Retrying (1/5)...
+2025-02-05 14:36:56,821 - INFO - response: https://duckduckgo.com/?q=%22eastern+washington+university%22 200 29227
+2025-02-05 14:36:57,538 - INFO - response: https://links.duckduckgo.com/d.js?q=%22eastern+washington+university%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-119903969056080359538408897587531112763&bing_market=wt-WT&ex=-1 200 18796
+2025-02-05 14:36:57,539 - ERROR - Error during web search for 'eastern washington university': _text_extract_json() keywords='"eastern washington university"' ValueError: subsection not found. Retrying (2/5)...
+2025-02-05 14:37:01,672 - INFO - response: https://duckduckgo.com/?q=%22eastern+washington+university%22 200 29227
+2025-02-05 14:37:02,466 - INFO - response: https://links.duckduckgo.com/d.js?q=%22eastern+washington+university%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-119903969056080359538408897587531112763&bing_market=wt-WT&ex=-1 200 19014
+2025-02-05 14:37:02,467 - ERROR - Error during web search for 'eastern washington university': _text_extract_json() keywords='"eastern washington university"' ValueError: subsection not found. Retrying (3/5)...
+2025-02-05 14:37:10,626 - INFO - response: https://duckduckgo.com/?q=%22eastern+washington+university%22 200 29227
+2025-02-05 14:37:11,331 - INFO - response: https://links.duckduckgo.com/d.js?q=%22eastern+washington+university%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-119903969056080359538408897587531112763&bing_market=wt-WT&ex=-1 200 18914
+2025-02-05 14:37:11,331 - ERROR - Error during web search for 'eastern washington university': _text_extract_json() keywords='"eastern washington university"' ValueError: subsection not found. Retrying (4/5)...
+2025-02-05 14:37:27,481 - INFO - response: https://duckduckgo.com/?q=%22eastern+washington+university%22 200 29227
+2025-02-05 14:37:28,211 - INFO - response: https://links.duckduckgo.com/d.js?q=%22eastern+washington+university%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-119903969056080359538408897587531112763&bing_market=wt-WT&ex=-1 200 17848
+2025-02-05 14:37:28,212 - ERROR - Error during web search for 'eastern washington university': _text_extract_json() keywords='"eastern washington university"' ValueError: subsection not found. Retrying (5/5)...
+2025-02-05 14:38:00,245 - ERROR - Failed to retrieve search results for 'eastern washington university' after 5 retries.
+2025-02-05 14:38:00,369 - INFO - response: https://duckduckgo.com/?q=%22small+world+consulting%22 200 20538
+2025-02-05 14:38:01,091 - INFO - response: https://links.duckduckgo.com/d.js?q=%22small+world+consulting%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-187480078535212866480060078907190915907&bing_market=wt-WT&ex=-1 200 43235
+2025-02-05 14:38:01,092 - ERROR - Error during web search for 'small world consulting': _text_extract_json() keywords='"small world consulting"' ValueError: subsection not found. Retrying (1/5)...
+2025-02-05 14:38:03,240 - INFO - response: https://duckduckgo.com/?q=%22small+world+consulting%22 200 20537
+2025-02-05 14:38:03,911 - INFO - response: https://links.duckduckgo.com/d.js?q=%22small+world+consulting%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-187480078535212866480060078907190915907&bing_market=wt-WT&ex=-1 200 37816
+2025-02-05 14:38:03,912 - ERROR - Error during web search for 'small world consulting': _text_extract_json() keywords='"small world consulting"' ValueError: subsection not found. Retrying (2/5)...
+2025-02-05 14:38:08,011 - INFO - response: https://duckduckgo.com/?q=%22small+world+consulting%22 200 20538
+2025-02-05 14:38:08,704 - INFO - response: https://links.duckduckgo.com/d.js?q=%22small+world+consulting%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-187480078535212866480060078907190915907&bing_market=wt-WT&ex=-1 200 21467
+2025-02-05 14:38:08,705 - ERROR - Error during web search for 'small world consulting': _text_extract_json() keywords='"small world consulting"' ValueError: subsection not found. Retrying (3/5)...
+2025-02-05 14:38:16,815 - INFO - response: https://duckduckgo.com/?q=%22small+world+consulting%22 200 20538
+2025-02-05 14:38:17,552 - INFO - response: https://links.duckduckgo.com/d.js?q=%22small+world+consulting%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-187480078535212866480060078907190915907&bing_market=wt-WT&ex=-1 200 24314
+2025-02-05 14:38:17,553 - ERROR - Error during web search for 'small world consulting': _text_extract_json() keywords='"small world consulting"' ValueError: subsection not found. Retrying (4/5)...
+2025-02-05 14:38:33,693 - INFO - response: https://duckduckgo.com/?q=%22small+world+consulting%22 200 20536
+2025-02-05 14:38:34,386 - INFO - response: https://links.duckduckgo.com/d.js?q=%22small+world+consulting%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-187480078535212866480060078907190915907&bing_market=wt-WT&ex=-1 200 23853
+2025-02-05 14:38:34,387 - ERROR - Error during web search for 'small world consulting': _text_extract_json() keywords='"small world consulting"' ValueError: subsection not found. Retrying (5/5)...
+2025-02-05 14:39:06,419 - ERROR - Failed to retrieve search results for 'small world consulting' after 5 retries.
+2025-02-05 14:39:06,563 - INFO - response: https://duckduckgo.com/?q=%22haleon+plc%22 200 29842
+2025-02-05 14:39:07,297 - INFO - response: https://links.duckduckgo.com/d.js?q=%22haleon+plc%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-295308990591093907141449143830654523342&bing_market=wt-WT&ex=-1 200 19797
+2025-02-05 14:39:07,298 - INFO - Raw Results for "haleon plc": [{'title': 'Haleon - Wikipedia', 'href': 'https://en.wikipedia.org/wiki/Haleon', 'body': 'Haleon plc is a British multinational consumer healthcare company with headquarters in Weybridge, England. [3] It is one of the largest consumer healthcare businesses in the world, with brands including Sensodyne toothpaste, Panadol and Advil painkillers, and Centrum vitamins. [4] The company was projected to be a global leader in over the counter medicines with a 7.3 percent market share in 2022.'}, {'title': 'Haleon plc (HLN) Stock Price, News, Quote & History - Yahoo Finance', 'href': 'https://finance.yahoo.com/quote/HLN/', 'body': 'The company was formerly known as DRVW 2022 plc and changed its name to Haleon plc in February 2022. Haleon plc was founded in 1715 and is headquartered in Weybridge, the United Kingdom. www ...'}, {'title': 'HALEON PLC - London Stock Exchange', 'href': 'https://www.londonstockexchange.com/stock/HLN/haleon-plc/company-page', 'body': 'HALEON PLC. Share . 286k Views . Company page; Our story; Webcasts; Trade recap; Fundamentals; Analysis; From: BEACON RISE HOLDINGS PLC. Beacon Rise Holdings plc (LSE: BRS) intends to acquire an education technology company or business or asset with operations in the education technology sector in the UK, EU and/or North America with strong ...'}]
+2025-02-05 14:39:07,424 - INFO - response: https://duckduckgo.com/?q=%22bae+systems+united+kingdom%22 200 20680
+2025-02-05 14:39:08,132 - INFO - response: https://links.duckduckgo.com/d.js?q=%22bae+systems+united+kingdom%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-2247962529544378029283451921773731829&bing_market=wt-WT&ex=-1 200 18854
+2025-02-05 14:39:08,133 - ERROR - Error during web search for 'bae systems united kingdom': _text_extract_json() keywords='"bae systems united kingdom"' ValueError: subsection not found. Retrying (1/5)...
+2025-02-05 14:39:10,260 - INFO - response: https://duckduckgo.com/?q=%22bae+systems+united+kingdom%22 200 20679
+2025-02-05 14:39:11,159 - INFO - response: https://links.duckduckgo.com/d.js?q=%22bae+systems+united+kingdom%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-2247962529544378029283451921773731829&bing_market=wt-WT&ex=-1 200 20119
+2025-02-05 14:39:11,160 - ERROR - Error during web search for 'bae systems united kingdom': _text_extract_json() keywords='"bae systems united kingdom"' ValueError: subsection not found. Retrying (2/5)...
+2025-02-05 14:39:15,296 - INFO - response: https://duckduckgo.com/?q=%22bae+systems+united+kingdom%22 200 20679
+2025-02-05 14:39:15,884 - INFO - response: https://links.duckduckgo.com/d.js?q=%22bae+systems+united+kingdom%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-2247962529544378029283451921773731829&bing_market=wt-WT&ex=-1 200 16157
+2025-02-05 14:39:15,885 - ERROR - Error during web search for 'bae systems united kingdom': _text_extract_json() keywords='"bae systems united kingdom"' ValueError: subsection not found. Retrying (3/5)...
+2025-02-05 14:39:24,020 - INFO - response: https://duckduckgo.com/?q=%22bae+systems+united+kingdom%22 200 20679
+2025-02-05 14:39:24,906 - INFO - response: https://links.duckduckgo.com/d.js?q=%22bae+systems+united+kingdom%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-2247962529544378029283451921773731829&bing_market=wt-WT&ex=-1 200 19372
+2025-02-05 14:39:24,907 - ERROR - Error during web search for 'bae systems united kingdom': _text_extract_json() keywords='"bae systems united kingdom"' ValueError: subsection not found. Retrying (4/5)...
+2025-02-05 14:39:41,023 - INFO - response: https://duckduckgo.com/?q=%22bae+systems+united+kingdom%22 200 20679
+2025-02-05 14:39:41,918 - INFO - response: https://links.duckduckgo.com/d.js?q=%22bae+systems+united+kingdom%22&kl=wt-wt&l=wt-wt&p=&s=0&df=&vqd=4-2247962529544378029283451921773731829&bing_market=wt-WT&ex=-1 200 14769
+2025-02-05 14:39:41,918 - ERROR - Error during web search for 'bae systems united kingdom': _text_extract_json() keywords='"bae systems united kingdom"' ValueError: subsection not found. Retrying (5/5)...

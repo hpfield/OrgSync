@@ -1,0 +1,14 @@
+2025-02-20 16:32:41,017 - INFO - Determining organisation types for groups...
+2025-02-20 16:32:41,017 - INFO - lenght of merged_groups: 0
+2025-02-20 16:32:41,018 - INFO - Completed organisation type detection for 0 groups.
+2025-02-20 16:32:41,018 - INFO - Stage 8 complete.
+2025-02-20 16:32:41,115 - INFO - Finalizing groups to produce the formatted groups with group UUIDs...
+2025-02-20 16:32:41,259 - INFO - Produced formatted groups with 0 groups.
+2025-02-20 16:32:41,267 - INFO - Stage 9 complete (formatted groups saved).
+2025-02-20 16:32:41,480 - INFO - Refining formatted groups with LLM...
+2025-02-20 16:32:41,481 - INFO - Refined groups count: 0
+2025-02-20 16:32:41,489 - INFO - Stage 10 complete.
+2025-02-20 16:32:41,509 - INFO - Applying capitalisation to group names via LLM...
+2025-02-20 16:32:41,509 - INFO - Capitalisation stage complete.
+2025-02-20 16:32:41,509 - INFO - Stage 11 complete.
+2025-02-20 16:32:41,528 - INFO - Updated rolling final output at outputs/output_groups.json.

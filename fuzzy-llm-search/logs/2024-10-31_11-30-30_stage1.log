@@ -1,0 +1,17 @@
+2024-10-31 11:30:30,233 - INFO - Loaded and preprocessed 36508 names.
+2024-10-31 11:30:30,249 - INFO - Stage 1 complete.
+2024-10-31 11:30:30,281 - INFO - Vectorized 5411 unique combined names.
+2024-10-31 11:30:30,283 - INFO - Stage 2 complete.
+2024-10-31 11:30:30,609 - INFO - Grouped names into 680 groups.
+2024-10-31 11:30:30,610 - INFO - Stage 3 complete.
+2024-10-31 11:30:30,610 - INFO - Processing groups with LLM...
+2024-10-31 11:31:52,928 - INFO - Refined groups to 680 groups after LLM processing.
+2024-10-31 11:31:52,930 - INFO - Stage 4 complete.
+2024-10-31 11:31:52,930 - INFO - Combining overlapping groups...
+2024-10-31 11:31:52,963 - INFO - Number of combined groups: 575
+2024-10-31 11:31:52,963 - INFO - Stage 5 complete.
+2024-10-31 11:31:52,963 - INFO - Processing combined groups with LLM...
+2024-10-31 11:37:32,328 - INFO - Number of final groups: 166
+2024-10-31 11:37:32,329 - INFO - Number of unsure groups: 409
+2024-10-31 11:37:32,332 - INFO - Stage 6 complete.
+2024-10-31 11:37:32,332 - INFO - Processing unsure groups with LLM using duckduckgo search...
