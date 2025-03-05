@@ -1933,3 +1933,28 @@
 2025-03-05 11:29:39,096 - INFO - response: https://html.duckduckgo.com/html 202 14221
 2025-03-05 11:29:39,096 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
 2025-03-05 11:29:39,096 - ERROR - Error during web search for 'the lancashire archives': https://html.duckduckgo.com/html 202 Ratelimit. Retrying (1/5)...
+2025-03-05 11:30:44,074 - INFO - response: https://lite.duckduckgo.com/lite/ 200 17458
+2025-03-05 11:30:45,249 - INFO - response: https://lite.duckduckgo.com/lite/ 200 18621
+2025-03-05 11:30:46,090 - INFO - response: https://html.duckduckgo.com/html 200 15368
+2025-03-05 11:30:46,641 - INFO - response: https://html.duckduckgo.com/html 200 9518
+2025-03-05 11:30:47,252 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6217
+2025-03-05 11:30:47,793 - INFO - response: https://html.duckduckgo.com/html 200 9571
+2025-03-05 11:30:48,573 - INFO - response: https://html.duckduckgo.com/html 200 9381
+2025-03-05 11:30:49,157 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6247
+2025-03-05 11:30:49,703 - INFO - response: https://html.duckduckgo.com/html 200 9386
+2025-03-05 11:30:50,364 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6313
+2025-03-05 11:30:51,029 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6263
+2025-03-05 11:30:51,637 - INFO - response: https://html.duckduckgo.com/html 200 9517
+2025-03-05 11:30:52,197 - INFO - response: https://html.duckduckgo.com/html 200 9433
+2025-03-05 11:30:52,777 - INFO - response: https://html.duckduckgo.com/html 200 9371
+2025-03-05 11:30:53,426 - INFO - response: https://html.duckduckgo.com/html 200 9391
+2025-03-05 11:30:54,117 - INFO - response: https://html.duckduckgo.com/html 200 24350
+2025-03-05 11:30:54,705 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6259
+2025-03-05 11:30:55,405 - INFO - response: https://html.duckduckgo.com/html 200 9477
+2025-03-05 11:30:56,164 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6229
+2025-03-05 11:30:57,202 - INFO - response: https://html.duckduckgo.com/html 200 9461
+2025-03-05 11:30:57,321 - INFO - response: https://html.duckduckgo.com/html 202 14232
+2025-03-05 11:30:57,321 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-03-05 11:30:58,188 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14220
+2025-03-05 11:30:58,188 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-03-05 11:30:58,188 - ERROR - Error during web search for 'birds eye view bev E8 4DN': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (1/5)...
