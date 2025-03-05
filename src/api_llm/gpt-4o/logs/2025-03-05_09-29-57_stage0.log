@@ -5354,3 +5354,78 @@
 2025-03-05 14:39:47,642 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14217
 2025-03-05 14:39:47,643 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
 2025-03-05 14:39:47,643 - ERROR - Error during web search for 'lumora ltd CB7 4ET': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (1/5)...
+2025-03-05 14:40:52,105 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6197
+2025-03-05 14:40:52,786 - INFO - response: https://html.duckduckgo.com/html 200 44637
+2025-03-05 14:40:53,382 - INFO - response: https://html.duckduckgo.com/html 200 9499
+2025-03-05 14:40:53,939 - INFO - response: https://html.duckduckgo.com/html 200 19626
+2025-03-05 14:40:54,548 - INFO - response: https://html.duckduckgo.com/html 200 9620
+2025-03-05 14:40:55,288 - INFO - response: https://html.duckduckgo.com/html 200 41161
+2025-03-05 14:40:55,801 - INFO - response: https://html.duckduckgo.com/html 200 9406
+2025-03-05 14:40:56,302 - INFO - response: https://html.duckduckgo.com/html 200 9355
+2025-03-05 14:40:57,235 - INFO - response: https://html.duckduckgo.com/html 200 9391
+2025-03-05 14:40:57,855 - INFO - response: https://html.duckduckgo.com/html 200 20100
+2025-03-05 14:40:58,327 - INFO - response: https://html.duckduckgo.com/html 200 9436
+2025-03-05 14:40:58,815 - INFO - response: https://html.duckduckgo.com/html 200 9462
+2025-03-05 14:40:59,451 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6259
+2025-03-05 14:40:59,963 - INFO - response: https://html.duckduckgo.com/html 200 9381
+2025-03-05 14:41:00,883 - INFO - response: https://html.duckduckgo.com/html 200 23563
+2025-03-05 14:41:01,368 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6305
+2025-03-05 14:41:02,117 - INFO - response: https://html.duckduckgo.com/html 200 9465
+2025-03-05 14:41:02,707 - INFO - response: https://html.duckduckgo.com/html 200 9478
+2025-03-05 14:41:03,178 - INFO - response: https://html.duckduckgo.com/html 200 9432
+2025-03-05 14:41:03,928 - INFO - response: https://html.duckduckgo.com/html 200 9370
+2025-03-05 14:41:04,044 - INFO - response: https://html.duckduckgo.com/html 202 14260
+2025-03-05 14:41:04,044 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-03-05 14:41:04,917 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14260
+2025-03-05 14:41:04,917 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-03-05 14:41:04,918 - ERROR - Error during web search for 'sch of computing maths and digital tech': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (1/5)...
+2025-03-05 14:42:09,647 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6287
+2025-03-05 14:42:10,313 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6243
+2025-03-05 14:42:11,074 - INFO - response: https://html.duckduckgo.com/html 200 24984
+2025-03-05 14:42:11,699 - INFO - response: https://html.duckduckgo.com/html 200 9452
+2025-03-05 14:42:12,586 - INFO - response: https://lite.duckduckgo.com/lite/ 200 16440
+2025-03-05 14:42:13,750 - INFO - response: https://lite.duckduckgo.com/lite/ 200 11901
+2025-03-05 14:42:14,955 - INFO - response: https://lite.duckduckgo.com/lite/ 200 5820
+2025-03-05 14:42:15,439 - INFO - response: https://html.duckduckgo.com/html 200 9304
+2025-03-05 14:42:16,042 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6309
+2025-03-05 14:42:16,698 - INFO - response: https://html.duckduckgo.com/html 200 9390
+2025-03-05 14:42:17,244 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6271
+2025-03-05 14:42:17,832 - INFO - response: https://lite.duckduckgo.com/lite/ 200 8768
+2025-03-05 14:42:18,413 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6271
+2025-03-05 14:42:18,958 - INFO - response: https://html.duckduckgo.com/html 200 9437
+2025-03-05 14:42:19,871 - INFO - response: https://lite.duckduckgo.com/lite/ 200 19290
+2025-03-05 14:42:21,141 - INFO - response: https://lite.duckduckgo.com/lite/ 200 11925
+2025-03-05 14:42:21,629 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6265
+2025-03-05 14:42:22,119 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6229
+2025-03-05 14:42:22,724 - INFO - response: https://html.duckduckgo.com/html 200 9361
+2025-03-05 14:42:23,610 - INFO - response: https://html.duckduckgo.com/html 200 24803
+2025-03-05 14:42:23,733 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14382
+2025-03-05 14:42:23,734 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-03-05 14:42:24,598 - INFO - response: https://html.duckduckgo.com/html 202 14376
+2025-03-05 14:42:24,599 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-03-05 14:42:24,599 - ERROR - Error during web search for 'institute of molecular genetics of montpellier institut de génétique moléculaire de montpellier igmm': https://html.duckduckgo.com/html 202 Ratelimit. Retrying (1/5)...
+2025-03-05 14:43:29,408 - INFO - response: https://html.duckduckgo.com/html 200 9850
+2025-03-05 14:43:30,286 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6285
+2025-03-05 14:43:31,206 - INFO - response: https://lite.duckduckgo.com/lite/ 200 10616
+2025-03-05 14:43:31,885 - INFO - response: https://lite.duckduckgo.com/lite/ 200 16673
+2025-03-05 14:43:32,497 - INFO - response: https://lite.duckduckgo.com/lite/ 200 13107
+2025-03-05 14:43:33,494 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6307
+2025-03-05 14:43:34,222 - INFO - response: https://html.duckduckgo.com/html 200 17139
+2025-03-05 14:43:34,777 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6247
+2025-03-05 14:43:35,315 - INFO - response: https://html.duckduckgo.com/html 200 9401
+2025-03-05 14:43:36,098 - INFO - response: https://html.duckduckgo.com/html 200 44356
+2025-03-05 14:43:36,698 - INFO - response: https://html.duckduckgo.com/html 200 9370
+2025-03-05 14:43:37,210 - INFO - response: https://html.duckduckgo.com/html 200 9441
+2025-03-05 14:43:37,965 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6261
+2025-03-05 14:43:38,503 - INFO - response: https://html.duckduckgo.com/html 200 9431
+2025-03-05 14:43:38,996 - INFO - response: https://html.duckduckgo.com/html 200 9386
+2025-03-05 14:43:39,539 - INFO - response: https://html.duckduckgo.com/html 200 9472
+2025-03-05 14:43:40,131 - INFO - response: https://html.duckduckgo.com/html 200 9430
+2025-03-05 14:43:40,604 - INFO - response: https://html.duckduckgo.com/html 200 9430
+2025-03-05 14:43:41,113 - INFO - response: https://html.duckduckgo.com/html 200 9361
+2025-03-05 14:43:41,616 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6281
+2025-03-05 14:43:41,743 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14266
+2025-03-05 14:43:41,743 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-03-05 14:43:42,617 - INFO - response: https://html.duckduckgo.com/html 202 14271
+2025-03-05 14:43:42,617 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-03-05 14:43:42,617 - ERROR - Error during web search for 'southern electric power distribution plc RG1 3JH': https://html.duckduckgo.com/html 202 Ratelimit. Retrying (1/5)...
