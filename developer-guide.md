@@ -275,30 +275,51 @@ By the end of Stage 11, the **final** data is stored in a dictionary of group UU
 
 ```
 {
-  "bf5cba29-2dd1-4433-9ec1-b2fc5a6feeb2": {
-    "name": "Durham University",
+  "<group_uuid>": {
+    "name": <string: the LLM-chosen, capitalized representative name>,
     "items": [
       {
-        "org_name": "durham university",
-        "unique_id": "CB6DB8A7-3191-4B03-B37A-1FC98C252089",
-        "dataset": "gtr",
-        "postcode": "DH1 3LE"
+        "org_name": <string: the lowercase or normalized organization name>,
+        "unique_id": <string: unique ID from the source dataset>,
+        "dataset": <string: identifying which dataset this entry came from>,
+        "postcode": <string: the known or "Unknown" postcode>
+        ...other optional fields...
       },
-      {
-        "org_name": "durham university",
-        "unique_id": "50EEF0BC-3753-464C-85B9-A24293AF091F",
-        "dataset": "gtr",
-        "postcode": "DH1 3LE"
-      },
-      {
-        "org_name": "durham university",
-        "unique_id": "80345FE1-52E7-4194-B9BA-95C482D409A3",
-        "dataset": "gtr",
-        "postcode": "Unknown"
-      }
-    ]
+      ...
+    ],
+    "organisation_type": <string: e.g., "university", "company", etc.>
+  },
+  "<group_uuid_2>": {
+    ...
   }
 }
-```
 
-Each “items” list contains all the deduplicated entries determined to be the **same** organization, along with any relevant metadata (IDs, postcodes, etc.). The `"organisation_type"` (e.g., `"university"`) can also appear under the main group object if it was assigned in Stage 8–10.
+```
+- **`<group_uuid>`** is a UUID (e.g., `"bf5cba29-2dd1-4433-9ec1-b2fc5a6feeb2"`).
+- **`name`** is the final, capitalized name determined for the group (e.g., `"Durham University"`).
+- **`items`** is a list of individual entries that all correspond to the same organization, each with fields like `org_name`, `unique_id`, etc.
+- **`organisation_type`** may not always be present (depending on pipeline configuration) but usually denotes something like `"university"` or `"company"` if Stage 8–10 classification was performed.
+
+## `utils.py` File
+
+**`stages/utils.py`** is where shared functionality (LLM calls, search methods, environment config, Pydantic response parsing) is consolidated so that the stage scripts (e.g., `stage5.py` or `stage6.py`) do not need to re-implement or import them piecemeal.
+
+- **Configuration and Paths**
+    
+    - It calculates a `PROJECT_ROOT` by going up several directory levels relative to `utils.py`.
+    - Loads a YAML config file (`config.yaml`) which may specify the default model checkpoint directory, tokenizer path, etc.
+    - Appends these directories to `sys.path` or sets environment variables necessary for distributed model loading.
+- **LLM and Search Setup**
+    
+    - **`get_client()`**: Returns a client object for the LLM (in the code shown, an `OpenAI` client).
+    - **`GroupResponse`**, **`RepresentativeNameResponse`**, etc.: Pydantic data models that parse the LLM’s JSON responses.
+    - Imports or defines methods for local (or remote) LLM usage (though the code sample references a local “Llama” model structure, it also includes stubs for an OpenAI client).
+- **Web Search Utilities**
+    
+    - **`perform_web_search()`**:
+        - Uses DuckDuckGo (or Google when implemented) to search for a given list of queries.
+        - Handles retry logic, rate-limiting, and storing results in a dictionary for further usage.
+- **Misc. Helpers**
+    
+    - Logging and system environment configuration.
+    - Data classes like `UserMessage`, `SystemMessage` (some references from local Llama model code), though usage is minimal in the pipeline shown.
