@@ -104,4 +104,7 @@ python main.py
 
 Optionally, you can specify the stage at which to start with `--stage=NUM` where `NUM` can be 1 - 8. This is useful if you've had to stop the process part way through and wish to pick up where you left off.
 
+## Further Information
+We have drafted a developer guide to help new users familiarise themselves with the codebase should furhter deveopments or edits be required. This can be found [here](developer-guide.md).
+
 

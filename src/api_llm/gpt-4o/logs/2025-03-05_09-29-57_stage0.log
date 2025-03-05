@@ -5204,3 +5204,53 @@
 2025-03-05 14:31:57,173 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14261
 2025-03-05 14:31:57,173 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
 2025-03-05 14:31:57,173 - ERROR - Error during web search for 'sainsbury family charitable trusts SW1V 1AP': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (1/5)...
+2025-03-05 14:33:01,740 - INFO - response: https://html.duckduckgo.com/html 200 9472
+2025-03-05 14:33:02,317 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6199
+2025-03-05 14:33:03,842 - INFO - response: https://lite.duckduckgo.com/lite/ 200 16717
+2025-03-05 14:33:04,399 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6221
+2025-03-05 14:33:04,894 - INFO - response: https://html.duckduckgo.com/html 200 9377
+2025-03-05 14:33:05,434 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6243
+2025-03-05 14:33:05,933 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6231
+2025-03-05 14:33:06,749 - INFO - response: https://lite.duckduckgo.com/lite/ 200 8501
+2025-03-05 14:33:07,429 - INFO - response: https://html.duckduckgo.com/html 200 20980
+2025-03-05 14:33:08,045 - INFO - response: https://html.duckduckgo.com/html 200 18046
+2025-03-05 14:33:08,645 - INFO - response: https://html.duckduckgo.com/html 200 9483
+2025-03-05 14:33:09,199 - INFO - response: https://html.duckduckgo.com/html 200 9457
+2025-03-05 14:33:09,906 - INFO - response: https://lite.duckduckgo.com/lite/ 200 12625
+2025-03-05 14:33:10,556 - INFO - response: https://html.duckduckgo.com/html 200 28451
+2025-03-05 14:33:11,016 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6215
+2025-03-05 14:33:11,682 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6305
+2025-03-05 14:33:12,239 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6211
+2025-03-05 14:33:12,712 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6207
+2025-03-05 14:33:13,293 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6247
+2025-03-05 14:33:13,955 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6251
+2025-03-05 14:33:14,077 - INFO - response: https://html.duckduckgo.com/html 202 14241
+2025-03-05 14:33:14,077 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-03-05 14:33:14,944 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14230
+2025-03-05 14:33:14,945 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-03-05 14:33:14,945 - ERROR - Error during web search for 'unpackaged systems ltd PR2 2YP': https://lite.duckduckgo.com/lite/ 202 Ratelimit. Retrying (1/5)...
+2025-03-05 14:34:19,506 - INFO - response: https://html.duckduckgo.com/html 200 9401
+2025-03-05 14:34:20,289 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6221
+2025-03-05 14:34:21,249 - INFO - response: https://lite.duckduckgo.com/lite/ 200 15390
+2025-03-05 14:34:21,930 - INFO - response: https://lite.duckduckgo.com/lite/ 200 13652
+2025-03-05 14:34:22,456 - INFO - response: https://html.duckduckgo.com/html 200 16311
+2025-03-05 14:34:22,997 - INFO - response: https://html.duckduckgo.com/html 200 9401
+2025-03-05 14:34:23,921 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6221
+2025-03-05 14:34:24,459 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6339
+2025-03-05 14:34:25,562 - INFO - response: https://lite.duckduckgo.com/lite/ 200 13520
+2025-03-05 14:34:26,211 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6215
+2025-03-05 14:34:26,749 - INFO - response: https://html.duckduckgo.com/html 200 9499
+2025-03-05 14:34:27,274 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6197
+2025-03-05 14:34:28,127 - INFO - response: https://html.duckduckgo.com/html 200 9371
+2025-03-05 14:34:28,596 - INFO - response: https://html.duckduckgo.com/html 200 9503
+2025-03-05 14:34:29,112 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6205
+2025-03-05 14:34:29,914 - INFO - response: https://html.duckduckgo.com/html 200 11340
+2025-03-05 14:34:31,023 - INFO - response: https://html.duckduckgo.com/html 200 8144
+2025-03-05 14:34:31,629 - INFO - response: https://html.duckduckgo.com/html 200 9347
+2025-03-05 14:34:32,321 - INFO - response: https://html.duckduckgo.com/html 200 32518
+2025-03-05 14:34:33,050 - INFO - response: https://lite.duckduckgo.com/lite/ 200 6221
+2025-03-05 14:34:33,182 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14251
+2025-03-05 14:34:33,183 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-03-05 14:34:34,058 - INFO - response: https://html.duckduckgo.com/html 202 14234
+2025-03-05 14:34:34,059 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-03-05 14:34:34,059 - ERROR - Error during web search for 'tropical starch co ltd BOX 75': https://html.duckduckgo.com/html 202 Ratelimit. Retrying (1/5)...
