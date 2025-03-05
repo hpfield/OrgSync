@@ -19,11 +19,9 @@ Because identifying new entries is important, you can optionally run in a “new
 
 Invoke the pipeline via:
 
-bash
-
-CopyEdit
-
-`python main.py [--stage N] [other arguments]`
+```
+python main.py [--stage N] [other arguments]
+```
 
 - **`--stage N`** (0–11) sets the stage to start from. If unspecified, defaults to 0 (runs all stages in order).
 - You can provide additional arguments such as `--threshold`, `--search-method`, `--data-mode`, etc. (see below).
