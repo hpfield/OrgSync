@@ -7,7 +7,7 @@ In a database of academic publications, we must resolve situations where the sam
 ![orgsync drawio](https://github.com/user-attachments/assets/14e55f07-2c33-4c86-bfbd-8d623611db94)
 
 ## Performance
-We manually label the pipeline output groups (multiple database entries that refer to the same organisation) to obtain a Precision score. Our final implementation uses OpenAI's GPT-4o and obtains a precision of 0.94. With this score, we generate a complete set of labels over the entire dataset for integration with UKTIN's research discovery tool.
+We manually label the pipeline output groups (multiple database entries that refer to the same organisation) to obtain a Precision score. Our final implementation uses OpenAI's GPT-4o and obtains a **precision of 0.94**. With this score, we generate a complete set of labels over the entire dataset for integration with UKTIN's research discovery tool.
 
 ## Limitations of Current Approach & Proposed Improvements
 
