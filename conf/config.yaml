@@ -1,0 +1,6 @@
+defaults:
+  - _self_
+  - paths: paths
+  - fields: fields
+
+datasets: ["cordis", "gtr"]  # Default datasets, "uktin" not included

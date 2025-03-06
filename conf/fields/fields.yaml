@@ -1,0 +1,20 @@
+gtr_fields_to_keep:
+  - "dataset"
+  - "name"
+  - "id"
+  - "address.postCode"
+
+cordis_fields_to_keep:
+  - "dataset"
+  - "name"
+  - "shortName"
+  - "organisationID"
+  - "postCode"
+
+map_names_gtr:
+  id: "unique_id"
+  address.postCode: "postcode"
+
+map_names_cordis:
+  organisationID: "unique_id"
+  postCode: "postcode"

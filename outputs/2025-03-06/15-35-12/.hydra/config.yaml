@@ -1,0 +1,30 @@
+datasets:
+- cordis
+- gtr
+paths:
+  input_path: data/raw/all_scraped
+  output_file: data/raw/uk_data.json
+  cordis_files:
+  - cordis/FP7/organization.json
+  - cordis/Horizon 2020/organization.json
+  - cordis/Horizon Europe/organization.json
+  gtr_file: gtr/organisations.json
+  uktin_file: uktin/projects.json
+fields:
+  gtr_fields_to_keep:
+  - dataset
+  - name
+  - id
+  - address.postCode
+  cordis_fields_to_keep:
+  - dataset
+  - name
+  - shortName
+  - organisationID
+  - postCode
+  map_names_gtr:
+    id: unique_id
+    address.postCode: postcode
+  map_names_cordis:
+    organisationID: unique_id
+    postCode: postcode

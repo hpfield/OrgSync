@@ -1,0 +1,16 @@
+input_path: "data/raw/all_scraped" # modify to "data/raw" if "all_scraped" no longer used. 
+output_file: "data/raw/uk_data.json"
+
+cordis_files:
+  - "cordis/FP7/organization.json"
+  - "cordis/Horizon 2020/organization.json"
+  - "cordis/Horizon Europe/organization.json"
+gtr_file: "gtr/organisations.json"
+uktin_file: "uktin/projects.json"
+
+## old data paths
+# cordis_files:
+#   - "cordis/2024_07/FP7/organization.json"
+#   - "cordis/2024_07/Horizon 2020/organization.json"
+#   - "cordis/2024_07/Horizon Europe/organization.json"
+# gtr_file: "gtr/scraped/2024_07/organisations.json"
