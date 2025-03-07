@@ -2,5 +2,6 @@ defaults:
   - _self_
   - paths: paths
   - fields: fields
+  - llm_utils: llm_utils
 
 datasets: ["cordis", "gtr"]  # Default datasets, "uktin" not included

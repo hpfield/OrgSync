@@ -1,5 +1,5 @@
 core_data_file: data/raw/from_tom/gtr/scraped/2024_07/organisations.json
 default_ckpt_dir: /home/ubuntu/OrgSync/.llama/checkpoints/Meta-Llama3.1-8B-Instruct
 models_dir: /home/ubuntu/OrgSync/llama-models/models
-project_root: /home/ubuntu/OrgSync
+project_root: /home/ubuntu/repocopies/OrgSync
 tokenizer_subpath: llama3/api/tokenizer.model

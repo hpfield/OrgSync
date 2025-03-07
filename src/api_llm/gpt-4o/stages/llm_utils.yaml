@@ -1,0 +1,9 @@
+# llm_utils_local.yaml (Overrides for this specific script)
+
+llm:
+  max_seq_len: 4096  # Override max sequence length for this LLM
+  max_batch_size: 8   # Increase batch size
+
+search:
+  default_method: "google"  # Use Google search instead of DuckDuckGo
+  num_results: 10  # Retrieve more search results

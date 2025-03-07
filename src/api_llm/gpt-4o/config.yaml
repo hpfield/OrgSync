@@ -1,0 +1,8 @@
+# gpt-4o pipeline configuration file
+stage: 0  # Stage to start from (0-11)
+threshold: 0.5  # Threshold for grouping similar names
+search_method: "duckduckgo"  # Method for web searching in Stage 5, "google" or "duckduckgo"
+input: [] # input file(s) for the starting stage
+output_dir: "outputs" # Output directory to save results
+num_search_results: 5 # Number of web search results to retrieve for each org name
+data_mode: "all"  # Options: "all", "new" - Run pipeline over all data or only new data
